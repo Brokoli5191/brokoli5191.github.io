@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Brokoli5191/brokoli5191.github.io">
+  <a href="https://github.com/Brokoli5191/Website">
     <img src="https://avatars.githubusercontent.com/u/119419930?s=400&u=bd4c915bf1894522db67b6779105a2459354623c&v=4" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,14 +38,14 @@
   <p align="center">
     An awesome website
     <br />
-    <a href="https://github.com/Brokoli5191/brokoli5191.github.io"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Brokoli5191/Website"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://brokoli5191.github.io">View Demo</a>
+    <a href="https://brokoli5191.github.io">View old Demo</a>
     ·
-    <a href="https://github.com/Brokoli5191/brokoli5191.github.io/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/Brokoli5191/Website/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/Brokoli5191/brokoli5191.github.io/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/Brokoli5191/Website/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -81,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I created this Website just for fun :smile:
+I created this Website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,8 +102,8 @@ The website is build with:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Visit the [site](https://brokoli5191.github.io/)
-2. Or download the files
+1. Visit the old [site](https://brokoli5191.github.io/)
+2. Or download the files for the new site
 
 ### Prerequisites for downloading the files
 
@@ -114,7 +114,7 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Brokoli5191/brokoli5191.github.io.git
+   git clone https://github.com/Brokoli5191/Website.git
    ```
 2. Open the index.html file in your browser of choice
 
@@ -129,12 +129,11 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 
 - [ ] Copy all text from old website
 - [ ] Setup links
-- [ ] Setup jump to
 - [ ] Different pages
-- [ ] Design changes
-    - [ ] Add bar on the right side
+- [ ] Create example website
+- [ ] Optimize the css file
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Brokoli5191/Website/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,8 +155,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/Brokoli5191/brokoli5191.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Brokoli5191/brokoli5191.github.io" alt="contrib.rocks image" />
+<a href="https://github.com/Brokoli5191/Website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Brokoli5191/Website" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -178,17 +177,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Brokoli5191 - Brokoli5191@gmx.de
 
-Project Link: [https://github.com/Brokoli5191/brokoli5191.github.io](https://github.com/Brokoli5191/brokoli5191.github.io)
+Project Link: [https://github.com/Brokoli5191/Website](https://github.com/Brokoli5191/Website)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Star History
 
-<a align="center" href="https://star-history.com/#Brokoli5191/brokoli5191.github.io&Date">
+<a align="center" href="https://star-history.com/#Brokoli5191/Website&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Brokoli5191/brokoli5191.github.io&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Brokoli5191/brokoli5191.github.io&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Brokoli5191/brokoli5191.github.io&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Brokoli5191/Website&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Brokoli5191/Website&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Brokoli5191/Website&type=Date" />
  </picture>
 </a>
 
@@ -212,16 +211,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Brokoli5191/brokoli5191.github.io.svg?style=for-the-badge
-[contributors-url]: https://github.com/Brokoli5191/brokoli5191.github.io/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Brokoli5191/brokoli5191.github.io.svg?style=for-the-badge
-[forks-url]: https://github.com/Brokoli5191/brokoli5191.github.io/network/members
-[stars-shield]: https://img.shields.io/github/stars/Brokoli5191/brokoli5191.github.io.svg?style=for-the-badge
-[stars-url]: https://github.com/Brokoli5191/brokoli5191.github.io/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Brokoli5191/brokoli5191.github.io.svg?style=for-the-badge
-[issues-url]: https://github.com/Brokoli5191/brokoli5191.github.io/issues
-[license-shield]: https://img.shields.io/github/license/Brokoli5191/brokoli5191.github.io.svg?style=for-the-badge
-[license-url]: https://github.com/Brokoli5191/brokoli5191.github.io/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Brokoli5191/Website.svg?style=for-the-badge
+[contributors-url]: https://github.com/Brokoli5191/Website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Brokoli5191/Website.svg?style=for-the-badge
+[forks-url]: https://github.com/Brokoli5191/Website/network/members
+[stars-shield]: https://img.shields.io/github/stars/Brokoli5191/Website.svg?style=for-the-badge
+[stars-url]: https://github.com/Brokoli5191/Website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Brokoli5191/Website.svg?style=for-the-badge
+[issues-url]: https://github.com/Brokoli5191/Website/issues
+[license-shield]: https://img.shields.io/github/license/Brokoli5191/Website.svg?style=for-the-badge
+[license-url]: https://github.com/Brokoli5191/Website/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 [Html.js]: https://img.shields.io/badge/Html-000000?style=for-the-badge&logo=html&logoColor=white
 [Html-url]: https://en.wikipedia.org/wiki/HTML
