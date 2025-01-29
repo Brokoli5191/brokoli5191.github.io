@@ -179,6 +179,9 @@ footer {
   color: var(--jet);
   margin-top: -50px;
 }
+a{
+  display: inline;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
