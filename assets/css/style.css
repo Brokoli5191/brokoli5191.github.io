@@ -17,8 +17,10 @@
   --light-gray-70: #d6d6d6b3;
   --bittersweet-shimmer: #b84c4c;
   --background-navbar: #2b2b2cbf;
+  --hover: #fa8e00;
   --text-gradient-yellow: #ffdb70;
   --icon-color: #ffffff;
+  --link: #ffdb70;
 }
 
 .dark-mode {
@@ -35,9 +37,10 @@
   --light-gray-70: #d6d6d6b3;
   --bittersweet-shimmer: #b84c4c;
   --background-navbar: #2b2b2cbf;
-  --hover: #ceb15a;
+  --hover: #fa8e00;
   --text-gradient-yellow: #ffdb70;
   --icon-color: #ffffff;
+  --link: #ffdb70;
 }
 
 .light-mode {
@@ -54,9 +57,10 @@
   --light-gray-70: #797979b3;
   --bittersweet-shimmer: #d69999;
   --background-navbar: #ffffff;
-  --hover: #4867ccc7;
+  --hover: #291986;
   --text-gradient-yellow: #496bd9a1;
   --icon-color: #000000;
+  --link: #4867ccc7;
 }
 
 :root{
@@ -126,11 +130,11 @@
 }
 
 a {
-   text-decoration: none;
-   color: var(--hover);
-   display: inline;
-  }
-
+  display: inline; 
+  text-decoration: none;
+  color: var(--link);
+}
+a { display: inline; }
 a:hover{
   color: var(--hover);
 }
@@ -179,10 +183,10 @@ footer {
   color: var(--jet);
   margin-top: -50px;
 }
-a{
+
+a {
   display: inline;
 }
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
