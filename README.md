@@ -1,23 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -81,9 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I created this Website just for fun :smile:
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+We are having a <b>massive</b> skill issue :skull:
 
 
 
@@ -92,10 +72,11 @@ I created this Website just for fun :smile:
 The website is build with:
 
 * [![Html][Html.js]][Html-url]
+
 * [![Css][Css.js]][Css-url]
+
 * [![Javascript][Javascript.js]][Javascript-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -120,23 +101,18 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 
 3. Or edit the index.html
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Copy all text from old website
+- [1/2] Copy all text from old website
 - [ ] Setup links
-- [ ] Setup jump to
-- [ ] Different pages
-- [ ] Design changes
-    - [ ] Add bar on the right side
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+See the [open issues](https://github.com/Brokoli5191/brokoli5191.github.io/issues) for a full list of proposed features (and known issues).
+
 
 
 
@@ -160,7 +136,6 @@ Don't forget to give the project a star! Thanks again!
   <img src="https://contrib.rocks/image?repo=Brokoli5191/brokoli5191.github.io" alt="contrib.rocks image" />
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -169,7 +144,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -180,7 +154,6 @@ Brokoli5191 - Brokoli5191@gmx.de
 
 Project Link: [https://github.com/Brokoli5191/brokoli5191.github.io](https://github.com/Brokoli5191/brokoli5191.github.io)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Star History
 
@@ -206,7 +179,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
