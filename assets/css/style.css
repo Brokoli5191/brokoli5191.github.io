@@ -367,6 +367,7 @@ main {
   margin-bottom: 15px;
   max-height: 112px;
   overflow: hidden;
+  animation: fade 0.5s ease backwards;
 }
 
 .sidebar.active { max-height: 405px; }
@@ -517,6 +518,7 @@ main {
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
+  animation: fade 0.5s ease backwards;
 }
 
 .navbar-list {
