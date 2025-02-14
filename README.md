@@ -108,6 +108,14 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 ## Roadmap
 
 - [1/2] Copy all text from old website
+*RESEARCH INTERESTS
+  - diana
+*TOPICS
+  - James vickers
+  - Michael Grosser
+  - Eberhard Mayerhofer
+  - James Grant
+  - Clemens Hanel
 - [ ] Setup links
 
 
