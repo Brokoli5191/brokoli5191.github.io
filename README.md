@@ -42,8 +42,6 @@ this Website is a rework of <b>[this](https://www.mat.univie.ac.at/~stein/)</b> 
 
 ### Built With
 
-The website is build with:
-
 * [![Html][Html.js]][Html-url]
 
 * [![Css][Css.js]][Css-url]
