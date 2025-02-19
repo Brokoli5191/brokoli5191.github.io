@@ -84,6 +84,7 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 - [ ] Teaching documents (pdfs + sites)
 
 
+
 See the [open issues](https://github.com/Brokoli5191/brokoli5191.github.io/issues) for a full list of proposed features (and known issues).
 
 
