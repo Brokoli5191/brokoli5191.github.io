@@ -1,0 +1,6 @@
+{
+  "editor.defaultFormatter": "adrianwilczynski.format-selection-as-html",
+  "editor.formatOnSave": true,
+  "search.useIgnoreFiles": false,
+  "search.useParentIgnoreFiles": false
+}
