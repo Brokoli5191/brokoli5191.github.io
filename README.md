@@ -33,37 +33,10 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites-for-downloading-the-files">Prerequisites for downloading the files</a></li>
-        <li><a href="#downloading-the-files">Downloading the files</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We are having a <b>massive</b> skill issue :skull:
+this Website is a rework of <b>[this](https://www.mat.univie.ac.at/~stein/)</b> page
 
 
 
@@ -107,8 +80,8 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 <!-- ROADMAP -->
 ## Roadmap
 
-- [1/2] Copy all text from old website
-- [ ] Setup links
+- [ ] fix links
+- [ ] Teaching documents (pdfs + sites)
 
 
 See the [open issues](https://github.com/Brokoli5191/brokoli5191.github.io/issues) for a full list of proposed features (and known issues).
@@ -164,22 +137,6 @@ Project Link: [https://github.com/Brokoli5191/brokoli5191.github.io](https://git
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Brokoli5191/brokoli5191.github.io&type=Date" />
  </picture>
 </a>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-
 
 
 
