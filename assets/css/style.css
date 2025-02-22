@@ -42,8 +42,8 @@
     --on-hover: #061d34;
     --deko-accent-color: #496bd9a1;
     --link: #496bd9a1;
-    --border-gradient-onyx: linear-gradient(to bottom right, #b6deff 0%, #dfe7f2 50%);
-    --avatar-box: linear-gradient(to bottom right, #64b5f6 3%, #bbdefb 97%);
+    --border-gradient-onyx: linear-gradient(to bottom right, #a9d0f0c7 0%, #dfe7f2 50%);
+    --avatar-box: linear-gradient(to bottom right, #b6d5ee 3%, #bbdefb 97%);
 }
 
 :root{
