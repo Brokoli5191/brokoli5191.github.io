@@ -1887,6 +1887,8 @@ input:checked + .slider .stars {
 
   .blog-content { padding: 15px; }
 
+  .service-item-text { margin-left: 0px; }
+
   /**
    * #CONTACT
    */
