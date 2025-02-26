@@ -2038,6 +2038,10 @@ input:checked + .slider .stars {
   .form-btn ion-icon {
     font-size: 14px;
   }
+
+  footer {
+    margin-bottom: 160px;
+  }
 }
 
 /**
