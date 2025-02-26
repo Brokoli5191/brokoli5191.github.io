@@ -24,9 +24,12 @@
  *    - Main layout
  *    - Sidebar
  *    - Navigation bar
- *    - Research section
  *    - About section
+ *    - Service section
+ *    - Testimonials section
+ *    - Resume section
  *    - Portfolio section
+ *    - Research section
  *    - Blog section
  *    - Contact section
  * 
@@ -42,19 +45,20 @@
  * 
  * Dependencies:
  * - Requires Poppins font family
- * - Uses Ion icons
+ * - Uses Ion icons and Phosphor icons
  * 
- * Author: Brokoli5191
- * Version: 1.0
- * Last Updated: 23.02.2025
+ * Author: Florian Hartmann & Joe Wang
+ * Version: 0.0.1
+ * Last Updated: 26.02.2025
  */
 
 /*-----------------------------------*\
-  #style.css
+  #1. CUSTOM PROPERTIES
 \*-----------------------------------*/
 
 :root,
 .dark-mode {
+  /* Colors */
   --border-color: #383838;
   --gray: #2b2c2b;
   --icon-box: #222020;
@@ -76,6 +80,7 @@
 }
 
 .light-mode {
+  /* Colors - Light mode */
   --border-color: #b0bec5;
   --gray: #e3eaf3;
   --icon-box: #dfe7f2;
@@ -97,12 +102,7 @@
 }
 
 :root {
-  /* solid */
-
-  /**
-   * typography
-   */
-
+  /* Typography */
   /* font-family */
   --ff-poppins: "Poppins", sans-serif;
 
@@ -122,35 +122,36 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
-
+  /* Shadows */
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
-
+  /* Transitions */
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 }
 
 /*-----------------------------------*\
-  #RESET
+  #2. RESET STYLES
 \*-----------------------------------*/
 
 *,
 *::before,
 *::after {
-  /*margin: 0;*/
   padding: 0;
   box-sizing: border-box;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+html {
+  font-family: var(--ff-poppins);
+}
+
+body {
+  background: var(--bg-body);
 }
 
 a {
@@ -158,9 +159,7 @@ a {
   text-decoration: none;
   color: var(--link);
 }
-a {
-  display: inline;
-}
+
 a:hover {
   color: var(--on-hover);
 }
@@ -208,25 +207,17 @@ textarea {
   outline-color: var(--accent-color);
 }
 
-html {
-  font-family: var(--ff-poppins);
-}
-
-body {
-  background: var(--bg-body);
-}
-
 footer {
   text-align: center;
   color: var(--border-color);
-  margin-top: -50px;
+  position: relative;
+  width: 100%;
+  padding-top: 15px;
+  margin-top: -60px;
 }
 
-a {
-  display: inline;
-}
 /*-----------------------------------*\
-  #REUSED STYLE
+  #3. REUSED STYLES
 \*-----------------------------------*/
 
 a.contact-link:hover {
@@ -242,6 +233,20 @@ article {
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
+}
+
+article {
+  display: block;
+  animation: fade 0.5s ease backwards;
+}
+
+.article {
+  display: block;
+  padding-bottom: 0px;
+}
+
+.article-second {
+  margin-top: 0px;
 }
 
 .section-divider {
@@ -266,10 +271,6 @@ article {
   z-index: 1;
 }
 
-.material-symbols-rounded {
-  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
-}
-
 .icon-box::before {
   content: "";
   position: absolute;
@@ -283,24 +284,12 @@ article {
   --ionicon-stroke-width: 35px;
 }
 
-article {
-  display: block;
-  animation: fade 0.5s ease backwards;
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
+/* Typography Classes */
 .h2,
 .h3 {
   color: var(--accent-color);
 }
+
 .h4,
 .h5 {
   color: var(--title-2);
@@ -325,18 +314,10 @@ article {
   font-weight: var(--fw-500);
 }
 
-.article {
-  display: block;
-  padding-bottom: 0px;
-}
-
-.article-second {
-  margin-top: 0px;
-}
-
 .article-title {
   position: relative;
   padding-bottom: 7px;
+  margin-bottom: 30px;
 }
 
 .article-title::after {
@@ -350,6 +331,7 @@ article {
   border-radius: 3px;
 }
 
+/* Scrollbar Styles */
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
   height: 5px; /* for horizontal scrollbar */
@@ -369,6 +351,7 @@ article {
   width: 20px;
 }
 
+/* Content Card */
 .content-card {
   position: relative;
   background: var(--border-gradient-onyx);
@@ -393,10 +376,21 @@ article {
   font-size: 32px;
 }
 
+/* Animations */
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*-----------------------------------*\
-  #MAIN
+  #4. LAYOUT COMPONENTS
 \*-----------------------------------*/
 
+/* Main Layout */
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
@@ -407,10 +401,7 @@ main {
   filter: invert(100%);
 }
 
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
-
+/* Sidebar */
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
@@ -560,10 +551,7 @@ main {
   color: var(--light-gray);
 }
 
-/*-----------------------------------*\
-  #NAVBAR
-\*-----------------------------------*/
-
+/* Navbar */
 .navbar {
   position: fixed;
   bottom: 0;
@@ -606,14 +594,7 @@ main {
   font-weight: var(--fw-500);
 }
 
-/*-----------------------------------*\
-  #RESEARCH
-\*-----------------------------------*/
-
-.padding-left-ph {
-  padding-left: -5px;
-}
-
+/* Filter Research List */
 .filter-list-research {
   position: fixed;
   margin: 0;
@@ -633,70 +614,7 @@ main {
   animation: fade 0.5s ease backwards;
 }
 
-.research-article-title {
-  color: var(--title-2);
-  font-size: var(--fs-2);
-  position: relative;
-  padding-bottom: 7px;
-}
-.research-article-title:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 30px;
-  height: 3px;
-  background: var(--deko-accent-color);
-  border-radius: 3px;
-}
-
-.research1 {
-  color: var(--light-gray);
-  font-size: var(--fs-6);
-  transition: color var(--transition-1);
-}
-
-.research1:hover,
-.research1:focus {
-  color: var(--light-gray-70);
-}
-
-.research1.active {
-  color: var(--accent-color);
-}
-
-.research-paragraph-container {
-  color: var(--light-gray);
-  margin-left: 10px;
-  padding-bottom: 25px;
-}
-
-.list-research {
-  padding-left: 20px;
-  color: var(--light-gray);
-}
-
-.research-list-padding {
-  padding-left: 20px;
-}
-
-.research-projects-time {
-  color: var(--timeline);
-  font-weight: var(--fw-400);
-  line-height: 1.6;
-  padding-left: 20px;
-}
-
-.research-projects-title {
-  font-size: var(--fs-6);
-  line-height: 1.3;
-  margin-bottom: 7px;
-}
-
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
-
+/* About Section */
 .about .article-title {
   margin-bottom: 15px;
 }
@@ -721,10 +639,7 @@ main {
   color: var(--title);
 }
 
-/**
- * #service 
- */
-
+/* Service Section */
 .service {
   margin-bottom: 35px;
 }
@@ -787,10 +702,7 @@ main {
   text-align: justify;
 }
 
-/**
- * #testimonials 
- */
-
+/* Testimonials Section */
 .testimonials {
   margin-bottom: 30px;
 }
@@ -847,10 +759,7 @@ main {
   overflow: hidden;
 }
 
-/**
- * #testimonials-modal
- */
-
+/* Modal */
 .modal-container {
   position: fixed;
   top: 0;
@@ -970,18 +879,7 @@ main {
   line-height: 1.6;
 }
 
-/*-----------------------------------*\
-  #RESUME
-\*-----------------------------------*/
-
-.article-title {
-  margin-bottom: 30px;
-}
-
-/**
- * education and experience 
- */
-
+/* Resume Section */
 .timeline {
   margin-bottom: 30px;
 }
@@ -1049,10 +947,13 @@ main {
   padding-bottom: 10px;
 }
 
-/**
- * skills 
- */
+.timeline-text a {
+  display: inline;
+  white-space: normal;
+  word-break: normal;
+}
 
+/* Skills */
 .skills-title {
   margin-bottom: 20px;
 }
@@ -1091,10 +992,7 @@ main {
   border-radius: inherit;
 }
 
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
-
+/* Portfolio Section */
 .filter-list {
   display: none;
 }
@@ -1214,7 +1112,6 @@ main {
 
 .project-item-icon-box {
   --scale: 0.8;
-
   background: var(--border-color);
   color: var(--accent-color);
   position: absolute;
@@ -1268,9 +1165,71 @@ main {
   font-weight: var(--fw-300);
 }
 
-/*-----------------------------------*\
-  #RESEARCH
-\*-----------------------------------*/
+/* Research Section */
+.padding-left-ph {
+  padding-left: -5px;
+}
+
+.research-article-title {
+  color: var(--title-2);
+  font-size: var(--fs-2);
+  position: relative;
+  padding-bottom: 7px;
+}
+.research-article-title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background: var(--deko-accent-color);
+  border-radius: 3px;
+}
+
+.research1 {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  transition: color var(--transition-1);
+}
+
+.research1:hover,
+.research1:focus {
+  color: var(--light-gray-70);
+}
+
+.research1.active {
+  color: var(--accent-color);
+}
+
+.research-paragraph-container {
+  color: var(--light-gray);
+  margin-left: 10px;
+  padding-bottom: 25px;
+}
+
+.list-research {
+  padding-left: 20px;
+  color: var(--light-gray);
+}
+
+.research-list-padding {
+  padding-left: 20px;
+}
+
+.research-projects-time {
+  color: var(--timeline);
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.research-projects-title {
+  font-size: var(--fs-6);
+  line-height: 1.3;
+  margin-bottom: 7px;
+}
+
 .filter-item:a {
   color: hsl(0, 0%, 84%);
   font-size: 15px;
@@ -1286,10 +1245,7 @@ main {
   color: hsl(45, 100%, 72%);
 }
 
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
-
+/* Blog Section */
 .blog-posts {
   margin-bottom: 10px;
 }
@@ -1378,10 +1334,7 @@ main {
   line-height: 1.6;
 }
 
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
-
+/* Contact Section */
 .mapbox {
   position: relative;
   height: 250px;
@@ -1513,7 +1466,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 /*-----------------------------------*\
-  #Toggle Switch
+  #5. THEME TOGGLE
 \*-----------------------------------*/
 
 .switch {
@@ -1706,15 +1659,12 @@ input:checked + .slider .sun-moon .moon-dot {
   0% {
     transform: translateX(0px);
   }
-
   40% {
     transform: translateX(4px);
   }
-
   80% {
     transform: translateX(-4px);
   }
-
   100% {
     transform: translateX(0px);
   }
@@ -1774,22 +1724,19 @@ input:checked + .slider .stars {
   0% {
     transform: scale(1);
   }
-
   40% {
     transform: scale(1.2);
   }
-
   80% {
     transform: scale(0.8);
   }
-
   100% {
     transform: scale(1);
   }
 }
 
 /*-----------------------------------*\
-  #RESPONSIVE
+  #6. RESPONSIVE DESIGN
 \*-----------------------------------*/
 
 /**
@@ -1926,9 +1873,33 @@ input:checked + .slider .stars {
   }
 
   /* service */
+  /* Fix for service item on mobile */
+  .service-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .service-icon-box {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .service-content-box {
+    text-align: left;
+    width: calc(100% - 50px);
+  }
+
+  .service-item-title {
+    margin-left: 0;
+    margin-top: 7;
+    margin-bottom: 0px;
+    text-align: left;
+  }
 
   .service-item-text {
-    margin-left: 0px;
+    padding-left: 0;
   }
 
   /* testimonials */
@@ -2066,11 +2037,6 @@ input:checked + .slider .stars {
 
   .form-btn ion-icon {
     font-size: 14px;
-  }
-
-  footer {
-    margin-top: -55px;
-    padding-bottom: auto;
   }
 }
 
@@ -2358,15 +2324,6 @@ input:checked + .slider .stars {
   .form-btn ion-icon {
     font-size: 16px;
   }
-
-  footer {
-    margin-top: -75px;
-  }
-
-  footer {
-    margin-top: -55px;
-    padding-bottom: 180px;
-  }
 }
 
 /**
@@ -2374,15 +2331,10 @@ input:checked + .slider .stars {
  */
 
 @media (min-width: 580px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
   :root {
     /**
      * typography
      */
-
     --fs-1: 32px;
     --fs-2: 24px;
     --fs-3: 26px;
@@ -2688,6 +2640,10 @@ input:checked + .slider .stars {
   .form-btn ion-icon {
     font-size: 18px;
   }
+
+  footer {
+    margin-top: -100px;
+  }
 }
 
 /**
@@ -2905,7 +2861,7 @@ input:checked + .slider .stars {
   }
 
   footer {
-    padding-bottom: 0px;
+    margin-top: -60px;
   }
 }
 
@@ -3039,9 +2995,5 @@ input:checked + .slider .stars {
 
   .timeline-text {
     max-width: 700px;
-  }
-
-  footer {
-    margin-top: -55px;
   }
 }

@@ -133,3 +133,30 @@ if (select) {
     elementToggleFunc(this);
   });
 }
+
+function adjustFooterPadding() {
+  const navbar = document.querySelector(".navbar");
+  const footer = document.querySelector("footer");
+  const windowWidth = window.innerWidth;
+
+  if (navbar && footer) {
+    // Only apply dynamic padding for screens smaller than 1024px
+    if (windowWidth < 1024) {
+      // Get the actual height of the navbar
+      const navbarHeight = navbar.offsetHeight;
+      // Add a bit of extra padding (e.g., 20px) for visual spacing
+      const paddingBottom = navbarHeight + 20;
+      // Apply the padding to the footer
+      footer.style.paddingBottom = `${paddingBottom}px`;
+    } else {
+      // For desktop (≥1024px), reset to a smaller fixed padding
+      footer.style.paddingBottom = "20px";
+    }
+  }
+}
+
+// Run once when the page loads
+document.addEventListener("DOMContentLoaded", adjustFooterPadding);
+
+// Also run when the window is resized
+window.addEventListener("resize", adjustFooterPadding);
