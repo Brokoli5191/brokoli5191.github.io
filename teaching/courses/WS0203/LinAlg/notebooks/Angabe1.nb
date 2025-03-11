@@ -1,0 +1,203 @@
+(************** Content-type: application/mathematica **************
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      4852,        140]*)
+(*NotebookOutlinePosition[      5578,        165]*)
+(*  CellTagsIndexPosition[      5534,        161]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+  "Angaben f\[UDoubleDot]r den 13.12.02\n",
+  StyleBox["(Roland Steinbauer)",
+    FontSize->12]
+}], "Title"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Vorbemerkung",
+  FontWeight->"Bold"]], "Section"],
+
+Cell[TextData[{
+  "Verwende dieses Angabe-Notebook, um darin deine Berechnungen auszuf\
+\[UDoubleDot]hren. \[CapitalADoubleDot]ndere den Titel auf \"Abgabe f\
+\[UDoubleDot]r den 13.12.02\" und trage deinen (statt meines) Namen(s) ein. \
+Benenne die Datei auf folgenden Namen um: \"vorname.nachname.nb\"  (nicht w\
+\[ODoubleDot]rlich, sondern z.B. arabella.mueller.nb oder francesco.huber.nb) \
+und speichere sie zun\[ADoubleDot]chst in deinem Heimatverzeichnis (Men\
+\[UDoubleDot]: File -> Save As; im Feld \"Speichern in:\" \"student0xxx auf \
+Miranda (S:)\" (erscheint durch Klicken auf den Pfeil) ausw\[ADoubleDot]hlen; \
+im Feld Dateiname \"vorname.nachmane\" eintragen).\nDein Notebook muss bis \
+zum 13.12. um 8:30 (bzw. um 10:15 f\[UDoubleDot]r die 10:15er Gruppe) \
+elektronisch abgegeben werden. Genauer: bis zu diesem Zeitpunkt muss es in \
+folgendes Verzeichnis des PC-Labor Servers kopiert werden: Arbeitsplatz\\UE \
+auf Golch\\Steinbauer-LinAlg\\Abgabe_8.30 (bzw Abgabe_10.15 f\[UDoubleDot]r \
+die 10:15er Gruppe). (Vorgehen analog zu oben, lediglich im Feld \"Speichern \
+in:\" \"Abgabe_xx.xx\" ausw\[ADoubleDot]hlen (erscheint durch Anklicken des \
+Pfeils und sukzessive Auswahl von \"UE auf Golch\", \"Steinbauer-LinAlg\", \
+\"Abgabe_xx.xx\") )\nIn der Proseminareinheit werden die Beispiele am Beamer \
+und an der Tafel pr\[ADoubleDot]sentiert. (Es gibt eine Kreuzerlliste!) \nF\
+\[UDoubleDot]r Fragen mathematischer, organisatorischer, (EDV)-technischer \
+Natur oder zu ",
+  StyleBox["Mathematica: roland.steinbauer@univie.ac.at ",
+    FontSlant->"Italic"],
+  StyleBox["oder (einfacher!) in meinem B\[UDoubleDot]ro vorbeischauen...\n\n\
+Viel Spass, Roland",
+    FontVariations->{"CompatibilityType"->0}]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Angaben", "Section"],
+
+Cell["\<\
+
+1) Bring die Koeffizientenmatrizen der Gleichungssysteme in Bsp. 4 \
+(Angabezettel Kowol) auf zeilenreduzierte Form.\
+\>", "Subsubsection"],
+
+Cell["\<\
+2) L\[ODoubleDot]se die linearen Gleichungssysteme aus Bsp. 5 und \
+mache die Probe.\
+\>", "Subsubsection"],
+
+Cell["3) L\[ODoubleDot]se Bsp. 14 und 16a). Was f\[ADoubleDot]llt dir auf?", \
+"Subsubsection"],
+
+Cell["4) L\[ODoubleDot]se Bsp. 22.", "Subsubsection"],
+
+Cell["5) L\[ODoubleDot]se Bsp. 24.", "Subsubsection"],
+
+Cell["6) L\[ODoubleDot]se Bsp. 25.", "Subsubsection"],
+
+Cell["7) L\[ODoubleDot]se Bsp. 30.", "Subsubsection"],
+
+Cell["8) L\[ODoubleDot]se Bsp. 31.", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Schwierigere Bsp. (ohne Kreuzerlliste)", "Subsection"],
+
+Cell["\<\
+9) L\[ODoubleDot]se Bsp. 13. 
+Hinweis: Lies die Online-Hilfe zu Solve (Modulus->Mode)\
+\>", "Subsubsection"],
+
+Cell["\<\
+10) L\[ODoubleDot]se Bsp. 23.
+Hinweis: Finde eine geeignete Basis des Vektorraumes der Polynome vom Grad \
+kleiner gleich 3.\
+\>", "Subsubsection"]
+}, Closed]]
+}, Closed]]
+}, Open  ]]
+},
+FrontEndVersion->"4.1 for Microsoft Windows",
+ScreenRectangle->{{0, 1024}, {0, 680}},
+WindowToolbars->"EditBar",
+WindowSize->{1016, 648},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification->1.5,
+StyleDefinitions -> "Textbook.nb"
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1727, 52, 124, 4, 143, "Title"],
+
+Cell[CellGroupData[{
+Cell[1876, 60, 73, 1, 127, "Section"],
+Cell[1952, 63, 1780, 28, 382, "Text"]
+}, Closed]],
+
+Cell[CellGroupData[{
+Cell[3769, 96, 26, 0, 70, "Section"],
+Cell[3798, 98, 150, 4, 99, "Subsubsection"],
+Cell[3951, 104, 117, 3, 53, "Subsubsection"],
+Cell[4071, 109, 95, 1, 53, "Subsubsection"],
+Cell[4169, 112, 53, 0, 53, "Subsubsection"],
+Cell[4225, 114, 53, 0, 53, "Subsubsection"],
+Cell[4281, 116, 53, 0, 53, "Subsubsection"],
+Cell[4337, 118, 53, 0, 53, "Subsubsection"],
+Cell[4393, 120, 53, 0, 53, "Subsubsection"],
+
+Cell[CellGroupData[{
+Cell[4471, 124, 60, 0, 65, "Subsection"],
+Cell[4534, 126, 118, 3, 76, "Subsubsection"],
+Cell[4655, 131, 157, 4, 76, "Subsubsection"]
+}, Closed]]
+}, Closed]]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

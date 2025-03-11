@@ -1,0 +1,229 @@
+(***********************************************************************
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used on any computer system with Mathematica 4.0,
+MathReader 4.0, or any compatible application. The data for the notebook 
+starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do one of 
+the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing the 
+word CacheID, otherwise Mathematica-compatible applications may try to 
+use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+***********************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      3674,        141]*)
+(*NotebookOutlinePosition[      4815,        175]*)
+(*  CellTagsIndexPosition[      4771,        171]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+  StyleBox["Letzte Warnung:",
+    FontColor->RGBColor[1, 0, 0]],
+  " \nBei der Berechnung von Grenzwerten IMMER das entsprechende Zusatzpaket \
+laden"
+}], "Title"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Hier noch ein Beispiel, das zeigt, was schiefgehen kann...am \
+Quizbeispiel 2a)\
+\>", "Section"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+  "Konvergieren die folgenden unendlichen Reihen:\n\na)  ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Sum]\(k(\(2  k + 1\)\/\(3  k + 1\))\)\^k\)]],
+  "\n"
+}], "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(\(a[k_] := 
+        k*\((\((2*k + 1)\)/\((3*k + 1)\))\)^k;\)\), "\[IndentingNewLine]", 
+    \(a[k]\)}], "Input"],
+
+Cell[BoxData[
+    \(k\ \((\(1 + 2\ k\)\/\(1 + 3\ k\))\)\^k\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Sum[a[k], {k, 1, Infinity}]\)], "Input"],
+
+Cell[BoxData[
+    \(\[Sum]\+\(k = 1\)\%\[Infinity] a[k]\)], "Output"]
+}, Open  ]],
+
+Cell["Quotientenkrit.", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Limit[a[k + 1]/a[k], k \[Rule] Infinity]\)], "Input"],
+
+Cell[BoxData[
+    \(2\/3\)], "Output"]
+}, Open  ]],
+
+Cell[TextData[StyleBox["Das ist aber FALSCH !!!",
+  FontColor->RGBColor[1, 0, 0]]], "Text"],
+
+Cell[BoxData[
+    \(Needs["\<Calculus`Limit`\>"]\)], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Limit[a[k + 1]/a[k], k \[Rule] Infinity]\)], "Input"],
+
+Cell[BoxData[
+    \(0\)], "Output"]
+}, Open  ]],
+
+Cell["\<\
+Macht zwar f\[UDoubleDot]rs Quitientenkriterium nichts aus, aber \
+man k\[ODoubleDot]nnte ja nach dem grenzwert von \
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(FullSimplify[Expand[a[k + 1]/a[k]]]\)], "Input"],
+
+Cell[BoxData[
+    \(\(\((\(-4\) - 3\ k)\)\^\(\(-1\) - k\)\ \((\(-1\) - 3\ k)\)\^k\ \
+\((\(-3\) - 2\ k)\)\^\(1 + k\)\ \((\(-1\) - 2\ k)\)\^\(-k\)\ \((1 + k)\)\)\/k\
+\)], "Output"]
+}, Open  ]],
+
+Cell["gefragt werden....", "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+FrontEndVersion->"4.0 for X",
+ScreenRectangle->{{0, 1024}, {0, 768}},
+WindowSize->{1016, 645},
+WindowMargins->{{0, Automatic}, {45, Automatic}},
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"PrintingMargins"->{{54, 54}, {72, 72}},
+"PaperSize"->{597.562, 842.375},
+"PaperOrientation"->"Portrait",
+"PrintCellBrackets"->True,
+"PrintRegistrationMarks"->True,
+"PrintMultipleHorizontalPages"->False,
+"PostScriptOutputFile":>FrontEnd`FileName[{$RootDirectory, "users", "roland", \
+"STEIN", "LEHRE", "Analyis", "A3_00-01", "notebooks", "roland"}, "Quiz1_l\
+\[ODoubleDot]sung.nb.ps", CharacterEncoding -> "ISO8859-1"],
+"Magnification"->1}
+]
+
+
+(***********************************************************************
+Cached data follows.  If you edit this Notebook file directly, not using
+Mathematica, you must remove the line containing CacheID at the top of 
+the file.  The cache data will then be recreated when you save this file 
+from within Mathematica.
+***********************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1739, 51, 179, 5, 192, "Title"],
+
+Cell[CellGroupData[{
+Cell[1943, 60, 106, 3, 54, "Section"],
+
+Cell[CellGroupData[{
+Cell[2074, 67, 189, 5, 101, "Subsection"],
+
+Cell[CellGroupData[{
+Cell[2288, 76, 133, 3, 43, "Input"],
+Cell[2424, 81, 72, 1, 45, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2533, 87, 60, 1, 27, "Input"],
+Cell[2596, 90, 69, 1, 50, "Output"]
+}, Open  ]],
+Cell[2680, 94, 31, 0, 32, "Text"],
+
+Cell[CellGroupData[{
+Cell[2736, 98, 73, 1, 27, "Input"],
+Cell[2812, 101, 38, 1, 44, "Output"]
+}, Open  ]],
+Cell[2865, 105, 91, 1, 32, "Text"],
+Cell[2959, 108, 61, 1, 27, "Input"],
+
+Cell[CellGroupData[{
+Cell[3045, 113, 73, 1, 27, "Input"],
+Cell[3121, 116, 35, 1, 27, "Output"]
+}, Open  ]],
+Cell[3171, 120, 140, 3, 32, "Text"],
+
+Cell[CellGroupData[{
+Cell[3336, 127, 68, 1, 27, "Input"],
+Cell[3407, 130, 178, 3, 46, "Output"]
+}, Open  ]],
+Cell[3600, 136, 34, 0, 32, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+
+
+
+(***********************************************************************
+End of Mathematica Notebook file.
+***********************************************************************)
+

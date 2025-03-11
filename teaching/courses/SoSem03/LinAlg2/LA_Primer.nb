@@ -1,0 +1,1402 @@
+(************** Content-type: application/mathematica **************
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[     32578,       1145]*)
+(*NotebookOutlinePosition[     33393,       1176]*)
+(*  CellTagsIndexPosition[     33323,       1170]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+  "Basic Linear Algebra with ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  "\n",
+  StyleBox["Version 0.97",
+    FontSize->10],
+  "\n",
+  StyleBox["\[Copyright]1999 by Gerald Teschl  <",
+    FontSize->10],
+  StyleBox[ButtonBox["gerald@mat.univie.ac.at",
+    ButtonData:>{
+      URL[ "mailto:gerald@mat.univie.ac.at"], None},
+    ButtonStyle->"Hyperlink"],
+    FontSize->10],
+  StyleBox[">, <",
+    FontSize->10],
+  StyleBox[ButtonBox["http://www.mat.univie.ac.at/~gerald/>",
+    ButtonData:>{
+      URL[ "http://www.mat.univie.ac.at/~gerald/"], None},
+    ButtonStyle->"Hyperlink"],
+    FontSize->10],
+  StyleBox["\n\[Copyright]2000, \[Copyright]2002 by Roland Steinbauer <",
+    FontSize->10],
+  StyleBox[ButtonBox["roland.steinbauer@univie.ac.at",
+    ButtonData:>{
+      URL[ "mailto:roland.steinbauer@univie.ac.at"], None},
+    ButtonStyle->"Hyperlink"],
+    FontSize->10],
+  StyleBox[">, <",
+    FontSize->10],
+  StyleBox[ButtonBox["http://www.mat.univie.ac.at/~stein/>",
+    ButtonData:>{
+      URL[ "http://www.mat.univie.ac.at/~stein/"], None},
+    ButtonStyle->"Hyperlink"],
+    FontSize->10]
+}], "Title"],
+
+Cell[CellGroupData[{
+
+Cell["Basics: Input, calculations and variables", "Section"],
+
+Cell[TextData[{
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " is a powerful tool for doing mathematics. It can handle both symbolic and \
+numeric expressions. You can use it just like a calculator: you type in \
+questions, and ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " prints back answers."
+}], "Text",
+  CellTags->"T.1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(27 + 7\)], "Input",
+  CellLabel->"In[1]:="],
+
+Cell[BoxData[
+    \(34\)], "Output",
+  CellLabel->"Out[1]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "The file you are reading is a so-called ",
+  StyleBox["Mathematica notebook",
+    FontSlant->"Italic"],
+  ". It contains text as well as mathematical input and output. To actually \
+do calculations you have to go to the input line and mark it active by moving \
+the mouse to it and clicking the left button. Go and try to do so with the \
+line reading \"27+5\" above. You should see the cursor blinking in this very \
+line. Next you have to enter the input to the ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " ",
+  StyleBox["kerne",
+    FontSlant->"Italic"],
+  "l (the part of ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " that actually does the calculations for you) by pressing either \
+SHIFT+ENTER or the ENTER key at the right hand side of the keyboard. Now go \
+and try to evaluate the input line above. Do you agree with the anser? Feel \
+free to change the input and evaluate it!  "
+}], "Text"],
+
+Cell[TextData[{
+  "To go on we introduce ",
+  StyleBox["powers, multiplication and division",
+    FontSlant->"Italic"],
+  ". A ^ marks powers, a space between two expressions is interpreted as \
+multiplication (you can, however also use a *) and division is marked by a \
+slash /. Go and evaluate the expressions below."
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(27 + 5^3\)], "Input",
+  CellLabel->"In[2]:="],
+
+Cell[BoxData[
+    \(152\)], "Output",
+  CellLabel->"Out[2]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(4\ 12\)], "Input",
+  CellLabel->"In[3]:="],
+
+Cell[BoxData[
+    \(48\)], "Output",
+  CellLabel->"Out[3]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(3*13\)], "Input",
+  CellLabel->"In[4]:="],
+
+Cell[BoxData[
+    \(39\)], "Output",
+  CellLabel->"Out[4]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(6/3\)], "Input",
+  CellLabel->"In[5]:="],
+
+Cell[BoxData[
+    \(2\)], "Output",
+  CellLabel->"Out[5]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "A ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " notebook is divided into so-called ",
+  StyleBox["cells ",
+    FontSlant->"Italic"],
+  "which are marked by the blue square brackets to the right. As you might \
+have guessed by looking to the right border cells can be grouped together to \
+structure a notebook. The most important cell types are",
+  StyleBox[" input cells, output cells and text cells.",
+    FontSlant->"Italic"],
+  "\nThe cell you are reading right now is a text cell. New cells are input \
+cells by default. To create a new cell just move the mouse between two cells \
+already present: the courser becomes a horizontal bar. Next click the left \
+button of your mouse: a horzontal line appears. Now you just can enter new \
+input.  Alternatively you can just move through the notebook using the \
+arrow-keys. A horizontal line will appear whenever you cross the border of a \
+cell allowing you to enter new input. \nTry to do some more basic \
+calcualtions below this cell!"
+}], "Text"],
+
+Cell[TextData[{
+  "By now your should have entered something like \"2/3\" to ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  ". Were you surprised by the answer?  Mathematica tries to be as precise as \
+possible. To get numerical results use:"
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(2/3\)], "Input",
+  CellLabel->"In[6]:="],
+
+Cell[BoxData[
+    \(2\/3\)], "Output",
+  CellLabel->"Out[6]="]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(N[%]\)], "Input",
+  CellLabel->"In[7]:="],
+
+Cell[BoxData[
+    \(0.6666666666666666`\)], "Output",
+  CellLabel->"Out[7]="]
+}, Open  ]],
+
+Cell["\<\
+As you might have guessed % is substituted by the last output. To \
+get back the last but one output use %%. 
+To reach even higher precision you can tell Mathematica how many digits you \
+like.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(N[%%, 20]\)], "Input",
+  CellLabel->"In[8]:="],
+
+Cell[BoxData[
+    \(0.666666666666666666666666666670874`20\)], "Output",
+  CellLabel->"Out[8]="]
+}, Open  ]],
+
+Cell["\<\
+You can also use variables or put several commands into one cell. \
+To do so just hit the ENTER button \
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(x = 5\), "\[IndentingNewLine]", 
+    \(27\  + x\^3\)}], "Input",
+  CellLabel->"In[9]:="],
+
+Cell[BoxData[
+    \(5\)], "Output",
+  CellLabel->"Out[9]="],
+
+Cell[BoxData[
+    \(152\)], "Output",
+  CellLabel->"Out[10]="]
+}, Open  ]],
+
+Cell["\<\
+If you wonder how I could input the power as a superscript, go to \
+the File menu and select Palettes->BasicInput. If you put a semicolon at the \
+end of an input sequence the respective output is suppressed. So in real life \
+you might want to use the following.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(\(x = 5;\)\), "\[IndentingNewLine]", 
+    \(27\  + x^3\)}], "Input",
+  CellLabel->"In[11]:="],
+
+Cell[BoxData[
+    \(152\)], "Output",
+  CellLabel->"Out[12]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "You might have noticed that Mathematica assigns  numbers to every command \
+you input and to the corresponding  output. This makes it more comfortable to \
+use the output of the previuos calculations. Moreover ",
+  StyleBox["all", "Input",
+    FontSize->14],
+  StyleBox[" ",
+    FontSize->14],
+  "results are stored and you can use them in any following calculations as \
+long as you do not quit ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " (more precisely the kernel)."
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Out[8] 3\)], "Input",
+  CellLabel->"In[13]:="],
+
+Cell[BoxData[
+    \(15\)], "Output",
+  CellLabel->"Out[13]="]
+}, Open  ]],
+
+Cell["\<\
+Can you explain this result? Note that Out[8] was suppressed and \
+remember that a space between two expressions is interpreted as \
+multiplication. Be warned that if you omit this space, you will get \
+unexpected results!\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(xy\  + \ x\ y\)], "Input",
+  CellLabel->"In[14]:="],
+
+Cell[BoxData[
+    \(xy + 5\ y\)], "Output",
+  CellLabel->"Out[14]="]
+}, Open  ]],
+
+Cell["\<\
+Mathematica also knows a lot of basic constants and \
+operations.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(\(Pi\)\(\[IndentingNewLine]\)
+    \)\)], "Input",
+  CellLabel->"In[15]:="],
+
+Cell[BoxData[
+    \(\[Pi]\)], "Output",
+  CellLabel->"Out[15]="]
+}, Open  ]],
+
+Cell["\<\
+To get numerical values you can use the N-operator as above or the \
+following.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(N[Pi]\), "\[IndentingNewLine]", 
+    \(\[Pi] // N\), "\[IndentingNewLine]", 
+    \(E // N\)}], "Input",
+  CellLabel->"In[16]:="],
+
+Cell[BoxData[
+    \(3.141592653589793`\)], "Output",
+  CellLabel->"Out[16]="],
+
+Cell[BoxData[
+    \(3.141592653589793`\)], "Output",
+  CellLabel->"Out[17]="],
+
+Cell[BoxData[
+    \(2.718281828459045`\)], "Output",
+  CellLabel->"Out[18]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "Note that the Euler number is referred to as E in ",
+  StyleBox["Mathematica,",
+    FontSlant->"Italic"],
+  StyleBox[" i.e., using the capital letter. It is a general rule in ",
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox["Mathematica",
+    FontSlant->"Italic",
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox[" ",
+    FontVariations->{"CompatibilityType"->0}],
+  "to label all operators by a fist capital letter. "
+}], "Text"],
+
+Cell[TextData[{
+  "To avoid complications in the following we erase the assignments done in \
+this section. To this end we use the ",
+  StyleBox["Clear",
+    FontWeight->"Bold"],
+  " operator."
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(x\), "\[IndentingNewLine]", 
+    \(Clear[x]\), "\[IndentingNewLine]", 
+    \(x\)}], "Input",
+  CellLabel->"In[19]:="],
+
+Cell[BoxData[
+    \(5\)], "Output",
+  CellLabel->"Out[19]="],
+
+Cell[BoxData[
+    \(x\)], "Output",
+  CellLabel->"Out[21]="]
+}, Open  ]],
+
+Cell["You can also use the following syntax.", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(x = 7\), "\[IndentingNewLine]", 
+    \(x\), "\[IndentingNewLine]", 
+    \(x =. \), "\[IndentingNewLine]", 
+    \(x\)}], "Input",
+  CellLabel->"In[22]:="],
+
+Cell[BoxData[
+    \(7\)], "Output",
+  CellLabel->"Out[22]="],
+
+Cell[BoxData[
+    \(7\)], "Output",
+  CellLabel->"Out[23]="],
+
+Cell[BoxData[
+    \(x\)], "Output",
+  CellLabel->"Out[25]="]
+}, Open  ]],
+
+Cell[TextData[{
+  "The output provided by ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " comes in one or more output cells. In and output cells are grouped \
+together by default. What happens if you double click the bracket joining an \
+input and an output cell?"
+}], "Text"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Solving Equations", "Section",
+  TextAlignment->Left,
+  TextJustification->1],
+
+Cell[TextData[{
+  StyleBox["Note ",
+    FontWeight->"Bold",
+    FontSlant->"Italic"],
+  StyleBox["that from now on the input cells have not been evaluated before \
+---you have to do so by yourself! ",
+    FontWeight->"Bold"],
+  "\n",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " can solve various kinds of equations. To do so we use the Equal operator \
+(==) and the ",
+  StyleBox["Solve",
+    FontWeight->"Bold"],
+  " command, e.g:"
+}], "Text"],
+
+Cell[BoxData[
+    \(Solve[x^2 + 2\ a\ x + b \[Equal] 0, x]\)], "Input",
+  CellLabel->"In[26]:="],
+
+Cell[TextData[{
+  "So the syntax of the Solve operator is the following: ",
+  StyleBox["Solve[equation,variable]",
+    FontWeight->"Bold"],
+  ", where ",
+  StyleBox["equation",
+    FontWeight->"Bold"],
+  " is an expression of the ",
+  StyleBox["form left hand side==right hand",
+    FontWeight->"Bold"],
+  " side  and ",
+  StyleBox["variable",
+    FontWeight->"Bold"],
+  " stands for the variable we are solving for. \nGo on and solve the \
+equation y^2-7y+5=0!"
+}], "Text"],
+
+Cell["\<\
+Now we are using a slightly more elegant notation to solve the \
+first equation above.\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(eqn := x^2 + 2\ a\ x + \ b \[Equal] 0\), "\[IndentingNewLine]", 
+    \(sol = Solve[eqn, x]\)}], "Input",
+  CellLabel->"In[6]:="],
+
+Cell[TextData[{
+  "Note that the ",
+  StyleBox["Set", "Input"],
+  " operator (=) has lower precedence than the ",
+  StyleBox["Equal", "Input"],
+  " operator (==).\n",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " gives the result as a so-called ",
+  StyleBox["list of rules",
+    FontSlant->"Italic"],
+  ". To verify this solution we can substitute the solution back into the \
+equation. This is done using the following syntax (the list of rules, i.e., \
+{{x-> -a+",
+  Cell[BoxData[
+      \(TraditionalForm\`\(\(\@\(a^2 - b\)\)\(}\)\), {\(x\)\(->\)\)]],
+  " -a-",
+  Cell[BoxData[
+      \(TraditionalForm\`\@\(a^2 - b\)\)]],
+  "}} is substituted into the expression eqn, that is ",
+  Cell[BoxData[
+      \(TraditionalForm\`x\^2\)]],
+  "+ax+b)."
+}], "Text"],
+
+Cell[BoxData[
+    \(eqn\  /. sol\)], "Input",
+  CellLabel->"In[12]:="],
+
+Cell[TextData[{
+  "This is not exactly what we wanted to do. To get the right thing we have \
+to simplify the above expression. This is done using the ",
+  StyleBox["Simplify",
+    FontWeight->"Bold"],
+  " command."
+}], "Text"],
+
+Cell[BoxData[
+    \(Simplify[%]\)], "Input",
+  CellLabel->"In[11]:="],
+
+Cell["\<\
+This answer is now more satisfying!
+In summary we have:\
+\>", "Text"],
+
+Cell[TextData[Cell[BoxData[
+    FormBox[GridBox[{
+          {"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"Solve[\\\\\\\"\\\", \\\"MR\\\"]\
+\\)\\!\\(\\*StyleBox[\\\"\\\\\\\"lhs\\\\\\\"\\\", \\\"TI\\\"]\\) \
+\\!\\(\\*StyleBox[\\\"\\\\\\\"==\\\\\\\"\\\", \\\"MR\\\"]\\) \
+\\!\\(\\*StyleBox[\\\"\\\\\\\"rhs\\\\\\\"\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*StyleBox[\\\"\\\\\\\",\\\\\\\"\\\", \\\"MR\\\"]\\) \\!\
+\\(\\*StyleBox[\\\"\\\\\\\"x\\\\\\\"\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*StyleBox[\\\"\\\\\\\"]\\\\\\\"\\\", \\\"MR\\\"]\\) \
+\"\>", "\<\"solve an equation, giving a list of rules for \
+\\!\\(\\*StyleBox[\\\"\\\\\\\"x\\\\\\\"\\\", \\\"TI\\\"]\\) \"\>"},
+          {"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"x\\\\\\\"\\\", \\\"TI\\\"]\\) \
+\\!\\(\\*StyleBox[\\\"\\\\\\\"/.\\\\\\\"\\\", \\\"MR\\\"]\\) \
+\\!\\(\\*StyleBox[\\\"\\\\\\\"solution\\\\\\\"\\\", \\\"TI\\\"]\\) \"\>", "\<\
+\"use the list of rules to get values for \\!\\(\\*StyleBox[\\\"\\\\\\\"x\\\\\
+\\\"\\\", \\\"TI\\\"]\\) \"\>"},
+          {"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"expr\\\\\\\"\\\", \
+\\\"TI\\\"]\\) \\!\\(\\*StyleBox[\\\"\\\\\\\"/.\\\\\\\"\\\", \\\"MR\\\"]\\) \
+\\!\\(\\*StyleBox[\\\"\\\\\\\"solution\\\\\\\"\\\", \\\"TI\\\"]\\) \"\>", "\<\
+\"use the list of rules to get values for an expression \"\>"}
+          },
+        ColumnAlignments->{Right, Left}], TraditionalForm]]]], "DefinitionBox",\
+
+  CellFrame->True,
+  Background->GrayLevel[0.666667]],
+
+Cell[TextData[{
+  "To get more information on any ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " command you can use the Online-Help. Just click on the Help menue at the \
+upper right corner of the ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " window. Do so now and choose the item called Help Browser and enter \
+\"Solve\" into the line beginning with \"Go to:\" to find out the details of \
+the ",
+  StyleBox["Solve",
+    FontWeight->"Bold"],
+  " command. At the very bottom of the respective page you can find a lot of \
+useful examples! Try to find out how to solve a system of two equtions in two \
+varaibles!  \nTry to solve x+y=a, x-y=0 for y and y. Check that your solution \
+is correct!"
+}], "Text"],
+
+Cell["\<\
+If you couldn't find out the answer by yourself; well here's one \
+more hint:\
+\>", "Text"],
+
+Cell[TextData[Cell[BoxData[
+    FormBox[GridBox[{
+          {
+            
+            RowBox[{"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"Solve[\\\\\\\"\\\", \\\
+\"MR\\\"]\\)\"\>", 
+              RowBox[{"{", 
+                RowBox[{
+                  StyleBox[
+                    
+                    SubscriptBox["\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"lhs\\\\\\\
+\"\\\", \\\"TI\\\"]\\)\"\>", "1"],
+                    
+                    "InlineFormula"], "\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"==\\\
+\\\\\"\\\", \\\"MR\\\"]\\)\"\>", 
+                  StyleBox[
+                    
+                    SubscriptBox["\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"rhs\\\\\\\
+\"\\\", \\\"TI\\\"]\\)\"\>", "1"],
+                    
+                    "InlineFormula"], \
+"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\",\\\\\\\"\\\", \\\"MR\\\"]\\) \"\>", 
+                  StyleBox[
+                    
+                    SubscriptBox["\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"lhs\\\\\\\
+\"\\\", \\\"TI\\\"]\\)\"\>", "2"],
+                    
+                    "InlineFormula"], "\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"==\\\
+\\\\\"\\\", \\\"MR\\\"]\\)\"\>", 
+                  StyleBox[
+                    
+                    SubscriptBox["\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"rhs\\\\\\\
+\"\\\", \\\"TI\\\"]\\)\"\>", "2"],
+                    
+                    "InlineFormula"], \
+"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\",\\\\\\\"\\\", \\\"MR\\\"]\\) \[Ellipsis] \
+\"\>"}], 
+                StyleBox["}",
+                  
+                  "InlineFormula"]}], \
+"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\",\\\\\\\"\\\", \\\"MR\\\"]\\) \"\>", 
+              RowBox[{
+                StyleBox["{",
+                  
+                  "InlineFormula"], \
+"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"x\\\\\\\"\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*StyleBox[\\\"\\\\\\\",\\\\\\\"\\\", \\\"MR\\\"]\\) \\!\
+\\(\\*StyleBox[\\\"\\\\\\\"y\\\\\\\"\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*StyleBox[\\\"\\\\\\\",\\\\\\\"\\\", \\\"MR\\\"]\\) \
+\[Ellipsis] \"\>", 
+                StyleBox["}",
+                  
+                  "InlineFormula"]}], \
+"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"]\\\\\\\"\\\", \\\"MR\\\"]\\) \"\>"}], "\<\
+\"solve a set of simultaneous equations for \\!\\(\\*StyleBox[\\\"\\\\\\\"x\\\
+\\\\\"\\\", \\\"TI\\\"]\\), \\!\\(\\*StyleBox[\\\"\\\\\\\"y\\\\\\\"\\\", \
+\\\"TI\\\"]\\), \[Ellipsis]  \"\>"}
+          },
+        ColumnAlignments->{Right, Left}], TraditionalForm]]]], "DefinitionBox",\
+
+  CellFrame->True,
+  Background->GrayLevel[0.666667]],
+
+Cell["To avoid complicatins in what follows we have to enter:", "Text"],
+
+Cell[BoxData[
+    \(Clear[eqn, sol]\)], "Input",
+  CellLabel->"In[27]:="],
+
+Cell["\<\
+Note that in case you encounter unexpected results this might come \
+from using definitions of certain variables you have long forgotten. The best \
+way to proceed in such a situation is to quit the Mathematcia kernel. This is \
+done using the menu Kernel; Quit kernel; Local.\
+\>", "Text"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Lists, Vectors, Matrices", "Section"],
+
+Cell[TextData[{
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " stores vectors and matrices als ",
+  StyleBox["Lists. ",
+    FontSlant->"Italic"],
+  StyleBox["We have already encontered a list above in the context of the \
+solutions to an equation. Lists are effective tools to group several objects \
+together. Lists are entered in curly brackets and elements are separated by a \
+comma. ",
+    FontVariations->{"CompatibilityType"->0}]
+}], "Text"],
+
+Cell[BoxData[
+    \(mylist = {1, 2, 3}\)], "Input",
+  CellLabel->"In[1]:="],
+
+Cell["\<\
+We can now perform operations on a list as a whole. For \
+example:\
+\>", "Text"],
+
+Cell[BoxData[
+    \(mylist + 4\)], "Input",
+  CellLabel->"In[2]:="],
+
+Cell[BoxData[
+    \(2*mylist\)], "Input",
+  CellLabel->"In[3]:="],
+
+Cell[BoxData[
+    \(x^mylist\)], "Input",
+  CellLabel->"In[4]:="],
+
+Cell[TextData[{
+  "In ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " vectors are simply lists; let us now define two vectors in R^4 and play \
+with them."
+}], "Text"],
+
+Cell[BoxData[{
+    \(v = {1, 2, 4, 0}\), "\[IndentingNewLine]", 
+    \(w = {3, 5, 1, 5}\), "\[IndentingNewLine]", 
+    \(v + w\), "\[IndentingNewLine]", 
+    \(3*\ v\)}], "Input",
+  CellLabel->"In[5]:="],
+
+Cell["We can even have variables as entries in vectors.", "Text"],
+
+Cell[BoxData[
+    \({1, a, b} + {2, c, d}\)], "Input",
+  CellLabel->"In[9]:="],
+
+Cell[TextData[{
+  StyleBox["Hoever,",
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox[" Mathematica",
+    FontSlant->"Italic"],
+  " will also perform some list operations which are not Linear Algebra \
+operations.  For instance"
+}], "Text"],
+
+Cell[BoxData[
+    \(v*w\)], "Input",
+  CellLabel->"In[10]:="],
+
+Cell[TextData[{
+  "simply multiplies the vectors v and w term-by-term, but this is not a \
+Linear Algebra operation. On the other hand ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " does not allow to do you obvious nonsene."
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(\(z = {x\_1, x\_2, x\_3};\)\), "\[IndentingNewLine]", 
+    \(v + z\)}], "Input",
+  CellLabel->"In[11]:="],
+
+Cell[BoxData[
+    \(Thread::"tdlen" \(\(:\)\(\ \)\) 
+      "Objects of unequal length in \!\(\(\({1, 2, 4, 0}\)\) + \(\({x\_1, \
+x\_2, x\_3}\)\)\) cannot be combined."\)], "Message",
+  CellLabel->"From In[11]:="]
+}, Open  ]],
+
+Cell[TextData[{
+  "To ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  ", a",
+  StyleBox[" matrix",
+    FontSlant->"Italic"],
+  " is a list of lists: each row is a list of its own and the matrix is a \
+list of rows."
+}], "Text"],
+
+Cell[BoxData[
+    \(M = {{1, 2, 3, 4}, {4, 5, 6, 7}, {7, 8, 9, 0}}\)], "Input",
+  CellLabel->"In[13]:="],
+
+Cell[TextData[{
+  "To get ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " to display A in usual matrix form, we need the ",
+  StyleBox["MatrixForm",
+    FontWeight->"Bold"],
+  " command which can be used in the following two ways."
+}], "Text"],
+
+Cell[BoxData[{
+    \(MatrixForm[M]\), "\[IndentingNewLine]", 
+    \(M\  // MatrixForm\)}], "Input",
+  CellLabel->"In[14]:="],
+
+Cell[TextData[{
+  "You can use the ",
+  StyleBox["MatrixForm",
+    FontWeight->"Bold"],
+  " command also to display a vector as a column vector. "
+}], "Text"],
+
+Cell[BoxData[
+    \(MatrixForm[z]\)], "Input",
+  CellLabel->"In[17]:="],
+
+Cell["\<\
+Note that this is somehow inconsistent since v is a 1 by 4 matrix \
+and not 4 by 1. \
+\>", "Text"],
+
+Cell["\<\
+To multiply a matrix and a vector resp. two matrices the following \
+syntax is necessary.\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(\(A = {{a\_11, a\_12, a\_13, a\_14}, {a\_21, a\_22, a\_23, 
+            a\_24}, {a\_31, a\_32, a\_33, 
+            a\_34}};\)\), "\[IndentingNewLine]", 
+    \(MatrixForm[A]\), "\[IndentingNewLine]", 
+    \(\(B = {{b\_11, b\_12, b\_13, b\_14}, {b\_21, b\_22, b\_23, 
+            b\_24}, {b\_31, b\_32, b\_33, b\_34}, {b\_41, b\_42, b\_43, 
+            b\_44}};\)\), "\[IndentingNewLine]", 
+    \(MatrixForm[B]\), "\[IndentingNewLine]", 
+    \(z = {x\_1, x\_2, x\_3, x\_4}; MatrixForm[x]\), "\[IndentingNewLine]", 
+    \(A . B // MatrixForm\), "\[IndentingNewLine]", 
+    \(A . z // MatrixForm\)}], "Input",
+  CellLabel->"In[18]:="],
+
+Cell["\<\
+Is is possible to calculate the product BA and Bz? Go and try it!\
+\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(B . A // MatrixForm\), "\[IndentingNewLine]", 
+    \(B . z // MatrixForm\)}], "Input",
+  CellLabel->"In[33]:="],
+
+Cell[TextData[{
+  "An alternative way to enter a matrix into Mathematica is to use the ",
+  StyleBox["Input...Create Table/Matrix/Palette",
+    FontWeight->"Bold"],
+  " menu item.You choose whether you are creating a table, matrix, or \
+palette, and the number of rows and columns.You then fill in the boxes \
+(either pressing theTabkey or using the mouse to move to empty boxes). I used \
+this menu item to create the matrix in the next cell. Use this method to \
+input 2*A."
+}], "Text"],
+
+Cell[BoxData[
+    RowBox[{"M", "=", 
+      RowBox[{"(", GridBox[{
+            {"2", "4", "6"},
+            {"8", "10", "12"},
+            {"14", "16", "18"}
+            }], ")"}]}]], "Input",
+  CellLabel->"In[26]:="],
+
+Cell[TextData[{
+  "The n by n identity matrix is given by ",
+  StyleBox["IdentityMatrix[n]",
+    FontWeight->"Bold"],
+  ".  Here's the 3 by 3 one."
+}], "Text"],
+
+Cell[BoxData[
+    \(MatrixForm[IdentityMatrix[3]]\)], "Input",
+  CellLabel->"In[20]:="],
+
+Cell[TextData[{
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " has a built-in command to row-reduce a matrix to Gauss form. "
+}], "Text"],
+
+Cell[BoxData[
+    \(RowReduce[M]\)], "Input",
+  CellLabel->"In[27]:="],
+
+Cell["\<\
+To make the output more pleasing again use the MatrixForm command\
+\
+\>", "Text"],
+
+Cell[BoxData[
+    \(MatrixForm[%]\)], "Input",
+  CellLabel->"In[28]:="],
+
+Cell[TextData[{
+  "One word of warning - if you row reduce a matrix which contains symbols, \
+",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " will assume that any expression containing a symbol is non-zero.  This \
+can sometimes lead to misleading answers.  For instance, the following row \
+reduces to the identity matrix, even though it should not if ad-bc = 0.  (Why \
+should it not in this case?)"
+}], "Text"],
+
+Cell[BoxData[
+    RowBox[{"MatrixForm", "[", 
+      RowBox[{"RowReduce", "[", 
+        RowBox[{"(", GridBox[{
+              {"a", "b"},
+              {"c", "d"}
+              }], ")"}], "]"}], "]"}]], "Input",
+  CellLabel->"In[29]:="],
+
+Cell["Be sure to evaluate the next cell. (Why?)", "Text"],
+
+Cell[BoxData[
+    \(Clear[M, A, B, v, w, z]\)], "Input",
+  CellLabel->"In[36]:="]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Solving Systems of Linear Equations", "Section"],
+
+Cell[TextData[{
+  "Now we have collected enough knowledge to solve systems of linear \
+equations with ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  ". First we enter our equations:"
+}], "Text"],
+
+Cell[BoxData[
+    \(eqs = {x + y + z \[Equal] 2, x - 2*y + z \[Equal] 0, 
+        2*y - \ 2*z \[Equal] 0}\)], "Input",
+  CellLabel->"In[37]:="],
+
+Cell[TextData[{
+  "We can now go and simply solve te equations using the ",
+  StyleBox["Solve",
+    FontWeight->"Bold"],
+  " command."
+}], "Text"],
+
+Cell[BoxData[
+    \(Solve[eqs, {x, y, z}]\)], "Input",
+  CellLabel->"In[38]:="],
+
+Cell[TextData[{
+  "Of course one can alternatively enter the coefficient matrix of a system \
+by hand---which in many cases will be the faster way\nand use the ",
+  StyleBox["RowReduce",
+    FontWeight->"Bold"],
+  " command."
+}], "Text"],
+
+Cell[BoxData[{
+    \(\(A = {{1, 1, 1, 2}, {1, \(-2\), 1, 0}, {0, 2, \(-2\), 
+            0}};\)\), "\[IndentingNewLine]", 
+    \(MatrixForm[A]\)}], "Input",
+  CellLabel->"In[39]:="],
+
+Cell[BoxData[
+    \(RowReduce[A] // MatrixForm\)], "Input",
+  CellLabel->"In[41]:="],
+
+Cell[TextData[{
+  "You now can directly read off the solution form the reduced form of the \
+matrix.\nLet's now see how ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " works if a system does not have a unique solution."
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(\(eqs1 = {x + y + z \[Equal] 0, 2\ x + 2\ y + 2\ z \[Equal] 0, 
+          x + y - z \[Equal] 0};\)\), "\[IndentingNewLine]", 
+    \(Solve[eqs1, {x, y, z}]\)}], "Input",
+  CellLabel->"In[42]:="],
+
+Cell[BoxData[
+    \(Solve::"svars" \(\(:\)\(\ \)\) 
+      "Equations may not give solutions for all \"solve\" variables."\)], \
+"Message",
+  CellLabel->"From In[42]:="]
+}, Open  ]],
+
+Cell["Alternatively we may use the following:", "Text"],
+
+Cell[BoxData[{
+    RowBox[{
+      RowBox[{"B", ":=", 
+        RowBox[{"(", GridBox[{
+              {"1", "1", "1", "0"},
+              {"2", "2", "2", "0"},
+              {"1", "1", \(-1\), "0"}
+              }], ")"}]}], ";"}], "\[IndentingNewLine]", \(RowReduce[B] // 
+      MatrixForm\)}], "Input",
+  CellLabel->"In[44]:="],
+
+Cell[TextData[{
+  "So we may read off the solution which in parameter form is given by:  y=t, \
+z=0, x=-t with t an arbitrary real number. Copare this with the result the ",
+  StyleBox["Solve",
+    FontWeight->"Bold"],
+  " operator returned above. Is it the same?\nSo the vector space of \
+solutions of the system is one-dimensional. There is also an Operator which \
+gives the basis of the nullspace of a matrix A, i.e., the space of solutions \
+to Ax=0. To check our above result we may use:"
+}], "Text"],
+
+Cell[BoxData[
+    RowBox[{"NullSpace", "[", 
+      RowBox[{"(", GridBox[{
+            {"1", "1", "1"},
+            {"2", "2", "2"},
+            {"1", "1", \(-1\)}
+            }], ")"}], "]"}]], "Input",
+  CellLabel->"In[46]:="],
+
+Cell[TextData[{
+  "Returning to ",
+  StyleBox["inhomogeneuous equations",
+    FontSlant->"Italic"],
+  " (i.e., equations with non-vanishing right hand side) we pick a new \
+example. We want to solve Ax=b where:"
+}], "Text"],
+
+Cell[BoxData[{
+    \(A = {{3, 1, 2}, {2, \(-1\), \(-1\)}, {1, 2, 3}}; 
+    MatrixForm[A]\), "\[IndentingNewLine]", 
+    \(b = {{4}, {2}, {2}}; MatrixForm[b]\)}], "Input",
+  CellLabel->"In[60]:="],
+
+Cell[TextData[{
+  "Note that I have entered the vector b ",
+  StyleBox["explizitly",
+    FontSlant->"Italic"],
+  " as a 3 by 1 matrix since we will need that below.\nThere is a command \
+which directly solves the system called ",
+  StyleBox["LinearSolve",
+    FontWeight->"Bold"],
+  ". Well to be precise: ",
+  StyleBox["LinearSolve",
+    FontWeight->"Bold"],
+  " just gives one solution to the system (compare the help page!)."
+}], "Text"],
+
+Cell[BoxData[
+    \(LinearSolve[A, b]\)], "Input",
+  CellLabel->"In[73]:="],
+
+Cell["Let's check whether this is really a solution.", "Text"],
+
+Cell[BoxData[{
+    \(A . % // MatrixForm\), "\[IndentingNewLine]", 
+    \(A . %% \[Equal] b\)}], "Input",
+  CellLabel->"In[74]:="],
+
+Cell[TextData[{
+  "To check wheter the is more than one solution we use ",
+  StyleBox["RowReduce.",
+    FontWeight->"Bold"],
+  StyleBox[" To this end we have to join the vector b as last column to the \
+matrix A. This can be done as follows using the ",
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox["AppendRows",
+    FontWeight->"Bold",
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox[" command, which, however is not included into the standard ",
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox["Mathematica",
+    FontSlant->"Italic",
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox[" kernel but has to be loaded as an additional package which we do \
+here.",
+    FontVariations->{"CompatibilityType"->0}]
+}], "Text"],
+
+Cell[BoxData[
+    \(<< \ LinearAlgebra`MatrixManipulation`\)], "Input",
+  CellLabel->"In[51]:="],
+
+Cell[BoxData[{
+    \(M := AppendRows[A, b]\), "\[IndentingNewLine]", 
+    \(MatrixForm[M]\)}], "Input",
+  CellLabel->"In[76]:="],
+
+Cell["\<\
+Note that this would not have worked if b had been entered as a 1 \
+by 3 matrix.\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(\(c = {4, 2, 2};\)\), "\[IndentingNewLine]", 
+    \(AppendRows[A, c]\)}], "Input",
+  CellLabel->"In[65]:="],
+
+Cell["Finally we may reduce the matrix.", "Text"],
+
+Cell[BoxData[
+    \(RowReduce[M] // MatrixForm\)], "Input",
+  CellLabel->"In[78]:="],
+
+Cell["\<\
+So the solution is of the form z=t,y=(1/5)*(2-7*t), x=(1/5)*(6-t), \
+with t a real number. Let's finally check this.\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(v = {\((1/5)\)*\((6 - t)\), \((1/5)\)*\((2 - 7*t)\), 
+        t}\), "\[IndentingNewLine]", 
+    \(MatrixForm[A . v]\)}], "Input",
+  CellLabel->"In[79]:="],
+
+Cell["\<\
+Now is this what you have expected?
+If not you have to simplify the result to see whether is coincides with the \
+vector b.\
+\>", "Text"],
+
+Cell[BoxData[
+    \(Simplify[%] // MatrixForm\)], "Input",
+  CellLabel->"In[83]:="]
+}, Closed]]
+}, Open  ]]
+},
+FrontEndVersion->"4.1 for X",
+ScreenRectangle->{{0, 1280}, {0, 1024}},
+WindowToolbars->"EditBar",
+WindowSize->{1115, 710},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification->1.5,
+StyleDefinitions -> "Textbook.nb"
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{
+  "T.1"->{
+    Cell[2955, 94, 348, 10, 54, "Text",
+      CellTags->"T.1"]}
+  }
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{
+  {"T.1", 33233, 1163}
+  }
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1727, 52, 1140, 36, 224, "Title"],
+
+Cell[CellGroupData[{
+Cell[2892, 92, 60, 0, 131, "Section"],
+Cell[2955, 94, 348, 10, 54, "Text",
+  CellTags->"T.1"],
+
+Cell[CellGroupData[{
+Cell[3328, 108, 63, 2, 39, "Input"],
+Cell[3394, 112, 60, 2, 31, "Output"]
+}, Open  ]],
+Cell[3469, 117, 946, 21, 138, "Text"],
+Cell[4418, 140, 332, 7, 54, "Text"],
+
+Cell[CellGroupData[{
+Cell[4775, 151, 65, 2, 39, "Input"],
+Cell[4843, 155, 61, 2, 31, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4941, 162, 62, 2, 39, "Input"],
+Cell[5006, 166, 60, 2, 31, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5103, 173, 61, 2, 39, "Input"],
+Cell[5167, 177, 60, 2, 31, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5264, 184, 60, 2, 39, "Input"],
+Cell[5327, 188, 59, 2, 31, "Output"]
+}, Open  ]],
+Cell[5401, 193, 1035, 20, 196, "Text"],
+Cell[6439, 215, 264, 6, 54, "Text"],
+
+Cell[CellGroupData[{
+Cell[6728, 225, 60, 2, 39, "Input"],
+Cell[6791, 229, 62, 2, 52, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6890, 236, 61, 2, 39, "Input"],
+Cell[6954, 240, 77, 2, 31, "Output"]
+}, Open  ]],
+Cell[7046, 245, 217, 5, 62, "Text"],
+
+Cell[CellGroupData[{
+Cell[7288, 254, 66, 2, 39, "Input"],
+Cell[7357, 258, 96, 2, 31, "Output"]
+}, Open  ]],
+Cell[7468, 263, 127, 3, 33, "Text"],
+
+Cell[CellGroupData[{
+Cell[7620, 270, 109, 3, 66, "Input"],
+Cell[7732, 275, 59, 2, 31, "Output"],
+Cell[7794, 279, 62, 2, 31, "Output"]
+}, Open  ]],
+Cell[7871, 284, 287, 5, 54, "Text"],
+
+Cell[CellGroupData[{
+Cell[8183, 293, 114, 3, 62, "Input"],
+Cell[8300, 298, 62, 2, 31, "Output"]
+}, Open  ]],
+Cell[8377, 303, 515, 13, 84, "Text"],
+
+Cell[CellGroupData[{
+Cell[8917, 320, 66, 2, 39, "Input"],
+Cell[8986, 324, 61, 2, 31, "Output"]
+}, Open  ]],
+Cell[9062, 329, 246, 5, 54, "Text"],
+
+Cell[CellGroupData[{
+Cell[9333, 338, 71, 2, 39, "Input"],
+Cell[9407, 342, 68, 2, 31, "Output"]
+}, Open  ]],
+Cell[9490, 347, 89, 3, 33, "Text"],
+
+Cell[CellGroupData[{
+Cell[9604, 354, 96, 3, 62, "Input"],
+Cell[9703, 359, 64, 2, 31, "Output"]
+}, Open  ]],
+Cell[9782, 364, 103, 3, 33, "Text"],
+
+Cell[CellGroupData[{
+Cell[9910, 371, 149, 4, 85, "Input"],
+Cell[10062, 377, 77, 2, 31, "Output"],
+Cell[10142, 381, 77, 2, 31, "Output"],
+Cell[10222, 385, 77, 2, 31, "Output"]
+}, Open  ]],
+Cell[10314, 390, 470, 12, 54, "Text"],
+Cell[10787, 404, 205, 6, 33, "Text"],
+
+Cell[CellGroupData[{
+Cell[11017, 414, 138, 4, 85, "Input"],
+Cell[11158, 420, 60, 2, 31, "Output"],
+Cell[11221, 424, 60, 2, 31, "Output"]
+}, Open  ]],
+Cell[11296, 429, 54, 0, 33, "Text"],
+
+Cell[CellGroupData[{
+Cell[11375, 433, 174, 5, 108, "Input"],
+Cell[11552, 440, 60, 2, 31, "Output"],
+Cell[11615, 444, 60, 2, 31, "Output"],
+Cell[11678, 448, 60, 2, 31, "Output"]
+}, Open  ]],
+Cell[11753, 453, 287, 7, 54, "Text"]
+}, Closed]],
+
+Cell[CellGroupData[{
+Cell[12077, 465, 83, 2, 74, "Section"],
+Cell[12163, 469, 456, 15, 62, "Text"],
+Cell[12622, 486, 96, 2, 39, "Input"],
+Cell[12721, 490, 474, 15, 83, "Text"],
+Cell[13198, 507, 110, 3, 33, "Text"],
+Cell[13311, 512, 149, 3, 62, "Input"],
+Cell[13463, 517, 766, 23, 113, "Text"],
+Cell[14232, 542, 70, 2, 39, "Input"],
+Cell[14305, 546, 227, 6, 54, "Text"],
+Cell[14535, 554, 69, 2, 39, "Input"],
+Cell[14607, 558, 79, 3, 62, "Text"],
+Cell[14689, 563, 1401, 24, 105, "DefinitionBox"],
+Cell[16093, 589, 733, 17, 125, "Text"],
+Cell[16829, 608, 101, 3, 33, "Text"],
+Cell[16933, 613, 2480, 61, 55, "DefinitionBox"],
+Cell[19416, 676, 71, 0, 33, "Text"],
+Cell[19490, 678, 73, 2, 39, "Input"],
+Cell[19566, 682, 300, 5, 54, "Text"]
+}, Closed]],
+
+Cell[CellGroupData[{
+Cell[19903, 692, 43, 0, 74, "Section"],
+Cell[19949, 694, 457, 11, 54, "Text"],
+Cell[20409, 707, 75, 2, 39, "Input"],
+Cell[20487, 711, 90, 3, 33, "Text"],
+Cell[20580, 716, 67, 2, 39, "Input"],
+Cell[20650, 720, 65, 2, 39, "Input"],
+Cell[20718, 724, 65, 2, 39, "Input"],
+Cell[20786, 728, 178, 6, 33, "Text"],
+Cell[20967, 736, 203, 5, 108, "Input"],
+Cell[21173, 743, 65, 0, 33, "Text"],
+Cell[21241, 745, 78, 2, 39, "Input"],
+Cell[21322, 749, 250, 7, 33, "Text"],
+Cell[21575, 758, 61, 2, 39, "Input"],
+Cell[21639, 762, 248, 6, 54, "Text"],
+
+Cell[CellGroupData[{
+Cell[21912, 772, 126, 3, 62, "Input"],
+Cell[22041, 777, 212, 4, 60, "Message"]
+}, Open  ]],
+Cell[22268, 784, 236, 9, 33, "Text"],
+Cell[22507, 795, 104, 2, 39, "Input"],
+Cell[22614, 799, 254, 8, 33, "Text"],
+Cell[22871, 809, 124, 3, 62, "Input"],
+Cell[22998, 814, 158, 5, 33, "Text"],
+Cell[23159, 821, 71, 2, 39, "Input"],
+Cell[23233, 825, 108, 3, 33, "Text"],
+Cell[23344, 830, 113, 3, 33, "Text"],
+Cell[23460, 835, 651, 12, 177, "Input"],
+Cell[24114, 849, 91, 3, 33, "Text"],
+Cell[24208, 854, 132, 3, 62, "Input"],
+Cell[24343, 859, 488, 9, 75, "Text"],
+Cell[24834, 870, 216, 7, 87, "Input"],
+Cell[25053, 879, 159, 5, 33, "Text"],
+Cell[25215, 886, 87, 2, 39, "Input"],
+Cell[25305, 890, 146, 4, 33, "Text"],
+Cell[25454, 896, 70, 2, 39, "Input"],
+Cell[25527, 900, 91, 3, 33, "Text"],
+Cell[25621, 905, 71, 2, 39, "Input"],
+Cell[25695, 909, 424, 9, 75, "Text"],
+Cell[26122, 920, 234, 7, 63, "Input"],
+Cell[26359, 929, 57, 0, 33, "Text"],
+Cell[26419, 931, 81, 2, 39, "Input"]
+}, Closed]],
+
+Cell[CellGroupData[{
+Cell[26537, 938, 54, 0, 74, "Section"],
+Cell[26594, 940, 204, 6, 33, "Text"],
+Cell[26801, 948, 143, 3, 39, "Input"],
+Cell[26947, 953, 146, 5, 33, "Text"],
+Cell[27096, 960, 79, 2, 39, "Input"],
+Cell[27178, 964, 237, 6, 62, "Text"],
+Cell[27418, 972, 181, 4, 62, "Input"],
+Cell[27602, 978, 84, 2, 39, "Input"],
+Cell[27689, 982, 242, 6, 62, "Text"],
+
+Cell[CellGroupData[{
+Cell[27956, 992, 214, 4, 62, "Input"],
+Cell[28173, 998, 168, 4, 37, "Message"]
+}, Open  ]],
+Cell[28356, 1005, 55, 0, 33, "Text"],
+Cell[28414, 1007, 326, 9, 116, "Input"],
+Cell[28743, 1018, 506, 9, 104, "Text"],
+Cell[29252, 1029, 227, 7, 87, "Input"],
+Cell[29482, 1038, 223, 6, 54, "Text"],
+Cell[29708, 1046, 195, 4, 85, "Input"],
+Cell[29906, 1052, 440, 12, 83, "Text"],
+Cell[30349, 1066, 75, 2, 39, "Input"],
+Cell[30427, 1070, 62, 0, 33, "Text"],
+Cell[30492, 1072, 130, 3, 62, "Input"],
+Cell[30625, 1077, 761, 18, 75, "Text"],
+Cell[31389, 1097, 96, 2, 39, "Input"],
+Cell[31488, 1101, 128, 3, 62, "Input"],
+Cell[31619, 1106, 104, 3, 33, "Text"],
+Cell[31726, 1111, 128, 3, 62, "Input"],
+Cell[31857, 1116, 49, 0, 33, "Text"],
+Cell[31909, 1118, 84, 2, 39, "Input"],
+Cell[31996, 1122, 140, 3, 33, "Text"],
+Cell[32139, 1127, 175, 4, 62, "Input"],
+Cell[32317, 1133, 147, 4, 62, "Text"],
+Cell[32467, 1139, 83, 2, 39, "Input"]
+}, Closed]]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

@@ -1,0 +1,10 @@
+A:link { color: #0099CC; text-decoration
+         : none; }
+A:visited { color: #3399FF;
+            text-decoration : none; }
+A:active { color: #3399FF;
+           text-decoration : none; }
+
+body {background-color:#FFFFFF; color:#000000;}
+
+

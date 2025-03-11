@@ -1,0 +1,434 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     16190,        425]
+NotebookOptionsPosition[     14447,        362]
+NotebookOutlinePosition[     15207,        390]
+CellTagsIndexPosition[     15081,        384]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["zu 2.11 Veranschaulichung und Grenzwerte von Folgen", "Subtitle",
+ CellChangeTimes->{{3.544420367900166*^9, 3.544420389638952*^9}}],
+
+Cell["Zun\[ADoubleDot]chst die Befehlssyntax:", "Text",
+ CellChangeTimes->{{3.544420401702531*^9, 3.544420413685697*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "DiscretePlot"}]], "Input",
+ CellChangeTimes->{{3.544420105354832*^9, 3.544420109096256*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox["\<\"\\!\\(\\*RowBox[{\\\"DiscretePlot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"n\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) generates a plot of the values \
+of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\) when \
+\\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\"]\\) runs from 1 to \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"DiscretePlot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"n\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) generates \
+a plot of the values of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\) when \
+\\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\"]\\) runs from \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]]\\) to \\!\\(\\*SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"DiscretePlot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"n\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]], \\\",\\\", StyleBox[\\\"dn\\\", \
+\\\"TI\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) uses steps \
+\\!\\(\\*StyleBox[\\\"dn\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"DiscretePlot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"n\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) uses the successive \
+values \\!\\(\\*SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]]\\), \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \\\
+\"TR\\\"]]\\), \[Ellipsis].\\n\\!\\(\\*RowBox[{\\\"DiscretePlot\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"expr\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"expr\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"]}], \\\"]\\\"}]\\) plots the values of all the \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"expr\\\", \\\"TI\\\"], StyleBox[\\\"i\\\", \
+\\\"TI\\\"]]\\).\"\>", "MSG"], "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:ref/DiscretePlot"]}]], "Print", "PrintUsage",
+ CellChangeTimes->{3.544420110276262*^9},
+ CellTags->"Info3544427309-4342741"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Limit"}]], "Input",
+ CellChangeTimes->{{3.544420112129667*^9, 3.544420115384585*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Limit\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{StyleBox[\\\"x\
+\\\", \\\"TI\\\"], \\\"->\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"0\\\", \\\"TR\\\"]]}]}], \\\"]\\\"}]\\) finds the limiting value \
+of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\) when \
+\\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\\) approaches \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"0\\\", \\\
+\"TR\\\"]]\\). \"\>", "MSG"], "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:ref/Limit"]}]], "Print", "PrintUsage",
+ CellChangeTimes->{3.544420116126096*^9},
+ CellTags->"Info3544427315-4342741"]
+}, Open  ]],
+
+Cell["Die Folgen aus 2.11 (ii) - (v)", "Text",
+ CellChangeTimes->{{3.54442043250217*^9, 3.544420470446385*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DiscretePlot", "[", 
+  RowBox[{
+   RowBox[{"1", "/", "n"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "30"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.544420126127*^9, 3.544420143128268*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {
+     {Opacity[0.2], LineBox[{},
+       VertexColors->None]}, 
+     {Opacity[0.2], 
+      LineBox[{{{1., 1.}, {1., 0}}, {{2., 0.5}, {2., 0}}, {{3., 
+         0.3333333333333333}, {3., 0}}, {{4., 0.25}, {4., 0}}, {{5., 0.2}, {
+         5., 0}}, {{6., 0.16666666666666666`}, {6., 0}}, {{7., 
+         0.14285714285714285`}, {7., 0}}, {{8., 0.125}, {8., 0}}, {{9., 
+         0.1111111111111111}, {9., 0}}, {{10., 0.1}, {10., 0}}, {{11., 
+         0.09090909090909091}, {11., 0}}, {{12., 0.08333333333333333}, {
+         12., 0}}, {{13., 0.07692307692307693}, {13., 0}}, {{14., 
+         0.07142857142857142}, {14., 0}}, {{15., 0.06666666666666667}, {
+         15., 0}}, {{16., 0.0625}, {16., 0}}, {{17., 0.058823529411764705`}, {
+         17., 0}}, {{18., 0.05555555555555555}, {18., 0}}, {{19., 
+         0.05263157894736842}, {19., 0}}, {{20., 0.05}, {20., 0}}, {{21., 
+         0.047619047619047616`}, {21., 0}}, {{22., 0.045454545454545456`}, {
+         22., 0}}, {{23., 0.043478260869565216`}, {23., 0}}, {{24., 
+         0.041666666666666664`}, {24., 0}}, {{25., 0.04}, {25., 0}}, {{26., 
+         0.038461538461538464`}, {26., 0}}, {{27., 0.037037037037037035`}, {
+         27., 0}}, {{28., 0.03571428571428571}, {28., 0}}, {{29., 
+         0.034482758620689655`}, {29., 0}}, {{30., 0.03333333333333333}, {
+         30., 0}}},
+       VertexColors->None]}}}, 
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {}, PointBox[CompressedData["
+1:eJxTTMoPSmViYGCQA2IQDQEf7FFpBgcI9QDK53AIBYOrUL4AVP4ClC/iMGsm
+CJyE8iWg6o9C+TIOk1Q8gegQlK8A1X8AyldykDleCER7oHwVqHk7oXw1Bzfx
+2JKLrtuhfA2o+VuhfC0HEeuNwtYbN0P5OlD7NkH5eg6CYLARyjeA2r8Byjd0
+kAODdVC+EdQ9a6B8YweN9Qv3tH1aBeWbQN23Eso3dZBoSwSiFVC+GdS9y6F8
+c4cURe7IE07LoHwLqPuXQvmWDtUi69wfVi2B8q2g/lkM5Vs7ZOgv3NvybRGU
+bwP1H4xv6zCtWipx5/KFUL4d1L8L7QEbFWSS
+     "]], {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{1, 0},
+  Method->{"MessagesHead" -> DiscretePlot},
+  PlotRange->{{1, 30}, {0, 0.35666666666666663`}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.02]}}]], "Output",
+ CellChangeTimes->{{3.544420139300184*^9, 3.544420144092694*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"1", "/", "n"}], ",", 
+   RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.544420146985559*^9, 3.544420153162748*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.544420155295242*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"DiscretePlot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"-", "1"}], ")"}], "^", "n"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "20"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"-", "1"}], ")"}], "^", "n"}], ",", 
+   RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.544420168715013*^9, 3.544420197442076*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {
+     {Opacity[0.2], 
+      LineBox[{{{1., -1.}, {1., 0}}, {{3., -1.}, {3., 0}}, {{5., -1.}, {
+         5., 0}}, {{7., -1.}, {7., 0}}, {{9., -1.}, {9., 0}}, {{11., -1.}, {
+         11., 0}}, {{13., -1.}, {13., 0}}, {{15., -1.}, {15., 0}}, {{
+         17., -1.}, {17., 0}}, {{19., -1.}, {19., 0}}},
+       VertexColors->None]}, 
+     {Opacity[0.2], 
+      LineBox[{{{2., 1.}, {2., 0}}, {{4., 1.}, {4., 0}}, {{6., 1.}, {
+         6., 0}}, {{8., 1.}, {8., 0}}, {{10., 1.}, {10., 0}}, {{12., 1.}, {
+         12., 0}}, {{14., 1.}, {14., 0}}, {{16., 1.}, {16., 0}}, {{18., 1.}, {
+         18., 0}}, {{20., 1.}, {20., 0}}},
+       VertexColors->None]}}}, 
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {}, PointBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQEf7KH0fqiAA6o4hwOqvACavAiavASavAyavAKa
+vBKavAqavBqavAaavBaavA6avB6avAGavCGavBGavDGavAlcHgAkvibv
+     "]], {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{1, 0},
+  Method->{"MessagesHead" -> DiscretePlot},
+  PlotRange->{{1, 20}, {-1., 1.}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.02]}}]], "Output",
+ CellChangeTimes->{3.544420198536544*^9}],
+
+Cell[BoxData[
+ SuperscriptBox["\[ExponentialE]", 
+  RowBox[{"2", " ", "\[ImaginaryI]", " ", 
+   RowBox[{"Interval", "[", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "\[Pi]"}], "}"}], "]"}]}]]], "Output",
+ CellChangeTimes->{3.544420198916741*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", "[", "n_", "]"}], ":=", 
+  RowBox[{"n", "/", 
+   RowBox[{"(", 
+    RowBox[{"n", "+", "1"}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"DiscretePlot", "[", 
+  RowBox[{
+   RowBox[{"a", "[", "n", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "20"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"a", "[", "n", "]"}], ",", 
+   RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.544420203337243*^9, 3.544420274645158*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {
+     {Opacity[0.2], LineBox[{{{1., 0.5}, {1., 0.5}}},
+       VertexColors->None]}, 
+     {Opacity[0.2], LineBox[CompressedData["
+1:eJxTTMoPSmVmYGAQBmImKIYCh1AweGoP40OoB1A+B5T/Ao0PkxdwmDUTBF7C
++ajyIg6rV4HAKzgfVV7C4fa2XCB6DeejystA+W/Q+DB5BQeZ44VA9AbOR5VX
+cjh7BgTewPmo8ioO4rElF13F38L5qPJq0PB5C+ejyms4zLvROfdG51s4H1Ve
+yyEP7MG3cD6qvI7Dvbsg8BbOR5XXg/LfofFh8gYOcmDwDs5HlTd06HtsAUTv
+4HxUeSMH3qemU64HvIPzUeWNHdLA4B2cjypv4jDveSUQvYPzYfIAt41vaQ==
+
+       "],
+       VertexColors->None]}}}, 
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {}, PointBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQEf7CH0AyjN4BAKBk+hfA4HCP0CyhdwmDUTBF5C
++SIOq1eBwCsoX8Lh9rZcIHoN5ctA9b+B8hUcZI4XAhGMr+Rw9gwIwPgqDuKx
+JRddxd9C+WpQ98D4Gg7zbnTOvdEJ42s55IEthPF1HO7dBQEYXw9q/zso38BB
+DgxgfEOHvscWQATjGznwPjWdcj0Axjd2SAMDGN/EYd7zSiB6Zw8AkN5VFg==
+
+     "]], {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{1, 0.5},
+  Method->{"MessagesHead" -> DiscretePlot},
+  PlotRange->{{1, 20}, {0.5, 0.9523809523809523}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.02]}}]], "Output",
+ CellChangeTimes->{3.544420275248944*^9}],
+
+Cell[BoxData["1"], "Output",
+ CellChangeTimes->{3.544420275258526*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"b", "[", "n_", "]"}], ":=", 
+  RowBox[{"n", "/", 
+   RowBox[{"2", "^", "n"}]}]}], "\n", 
+ RowBox[{"DiscretePlot", "[", 
+  RowBox[{
+   RowBox[{"b", "[", "n", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "1", ",", "20"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"a", "[", "b", "]"}], ",", 
+   RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.544420279665526*^9, 3.544420304426044*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {
+     {Opacity[0.2], LineBox[{},
+       VertexColors->None]}, 
+     {Opacity[0.2], 
+      LineBox[{{{1., 0.5}, {1., 0}}, {{2., 0.5}, {2., 0}}, {{3., 0.375}, {
+         3., 0}}, {{4., 0.25}, {4., 0}}, {{5., 0.15625}, {5., 0}}, {{6., 
+         0.09375}, {6., 0}}, {{7., 0.0546875}, {7., 0}}, {{8., 0.03125}, {
+         8., 0}}, {{9., 0.017578125}, {9., 0}}, {{10., 0.009765625}, {
+         10., 0}}, {{11., 0.00537109375}, {11., 0}}, {{12., 0.0029296875}, {
+         12., 0}}, {{13., 0.0015869140625}, {13., 0}}, {{14., 
+         0.0008544921875}, {14., 0}}, {{15., 0.000457763671875}, {15., 0}}, {{
+         16., 0.000244140625}, {16., 0}}, {{17., 0.00012969970703125}, {
+         17., 0}}, {{18., 0.00006866455078125}, {18., 0}}, {{19., 
+         0.0000362396240234375}, {19., 0}}, {{20., 0.000019073486328125}, {
+         20., 0}}},
+       VertexColors->None]}}}, 
+   {RGBColor[0.24720000000000017`, 0.24, 0.6], {}, PointBox[CompressedData["
+1:eJxVxzEOwWAAhuE/LEaRDgaDioiISFvmcgCT0SiRdLM5QU/QEziAA/QADmA0
+OoLBAZA+iy/58uaJD6fdsRVCiL7/tdlr3fSpYfPvDj+4y3eO+MZ9rnnAVx7y
+hUdc8ZhLnvCZp1zwjPc85y0vOOeEE0455ox7vOQ2r/idfwB9uBmQ
+     "]], {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{1, 0},
+  Method->{"MessagesHead" -> DiscretePlot},
+  PlotRange->{{1, 20}, {0, 0.5}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.02]}}]], "Output",
+ CellChangeTimes->{3.544420305015851*^9}],
+
+Cell[BoxData[
+ FractionBox["b", 
+  RowBox[{"1", "+", "b"}]]], "Output",
+ CellChangeTimes->{3.544420305029882*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1366, 876},
+WindowMargins->{{0, Automatic}, {Automatic, 29}},
+ShowSelection->True,
+Magnification:>FEPrivate`If[
+  FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 1.5, 1.5 Inherited],
+FrontEndVersion->"8.0 for Linux x86 (32-bit) (February 23, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info3544427309-4342741"->{
+  Cell[989, 34, 3366, 54, 172, "Print",
+   CellTags->"Info3544427309-4342741"]},
+ "Info3544427315-4342741"->{
+  Cell[4509, 97, 801, 16, 64, "Print",
+   CellTags->"Info3544427315-4342741"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info3544427309-4342741", 14868, 375},
+ {"Info3544427315-4342741", 14978, 378}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 137, 1, 81, "Subtitle"],
+Cell[719, 25, 121, 1, 45, "Text"],
+Cell[CellGroupData[{
+Cell[865, 30, 121, 2, 43, "Input"],
+Cell[989, 34, 3366, 54, 172, "Print",
+ CellTags->"Info3544427309-4342741"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4392, 93, 114, 2, 43, "Input"],
+Cell[4509, 97, 801, 16, 64, "Print",
+ CellTags->"Info3544427315-4342741"]
+}, Open  ]],
+Cell[5325, 116, 111, 1, 42, "Text"],
+Cell[CellGroupData[{
+Cell[5461, 121, 235, 6, 43, "Input"],
+Cell[5699, 129, 2252, 43, 359, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7988, 177, 208, 5, 43, "Input"],
+Cell[8199, 184, 70, 1, 43, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8306, 190, 475, 14, 71, "Input"],
+Cell[8784, 206, 1274, 29, 346, "Output"],
+Cell[10061, 237, 243, 6, 48, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10341, 248, 545, 15, 103, "Input"],
+Cell[10889, 265, 1251, 31, 363, "Output"],
+Cell[12143, 298, 70, 1, 45, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12250, 304, 503, 14, 103, "Input"],
+Cell[12756, 320, 1547, 33, 364, "Output"],
+Cell[14306, 355, 113, 3, 70, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

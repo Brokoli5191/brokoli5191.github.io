@@ -1,0 +1,977 @@
+(************** Content-type: application/mathematica **************
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[     26310,        829]*)
+(*NotebookOutlinePosition[     27036,        854]*)
+(*  CellTagsIndexPosition[     26992,        850]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+  "Basic Linear Algebra with ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  "\nPart 2\n",
+  StyleBox["Version 0.89\nRoland Steinbauer",
+    FontSize->12]
+}], "Title"],
+
+Cell[TextData[{
+  "This short notebook provides an introduction into using Mathematica in the \
+context of some more advanced concepts of a first year's university course on \
+linear algebra. It is designed as a second part to the notebook: Basic Linear \
+Algebra with ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  "."
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Operations on Matrices", "Section"],
+
+Cell[TextData[{
+  "Recall that a matrix in Mathematica is a list of lists, where each \
+individual list represents a row and the matrix is represented as a list of \
+these rows. Alternatively you may use the",
+  StyleBox[" Input...Create Table/Matrix/Palette",
+    FontWeight->"Bold"],
+  " menu item to enter a matrix into the program. To start with let us \
+define"
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(A := {{1, 0}, {1, 1}}\), "\n", 
+    \(MatrixForm[A]\)}], "Input",
+  CellLabel->"In[1]:="],
+
+Cell[BoxData[
+    TagBox[
+      RowBox[{"(", "\[NoBreak]", GridBox[{
+            {"1", "0"},
+            {"1", "1"}
+            }], "\[NoBreak]", ")"}],
+      Function[ BoxForm`e$, 
+        MatrixForm[ BoxForm`e$]]]], "Output",
+  CellLabel->"Out[2]//MatrixForm="]
+}, Open  ]],
+
+Cell[BoxData[
+    RowBox[{"B", ":=", 
+      RowBox[{"(", GridBox[{
+            {"1", "2", "3"},
+            {"1", "3", "2"},
+            {"2", "2", "4"}
+            }], ")"}]}]], "Input",
+  CellLabel->"In[4]:="],
+
+Cell["\<\
+The basic matrix operations can be performed using the obvious \
+commands given in the box below. \
+\>", "Text"],
+
+Cell[BoxData[
+    FormBox[
+      StyleBox[
+        FrameBox[
+          StyleBox[GridBox[{
+                {"\<\"\!\(\*
+StyleBox[\\\"\\\\\\\"Transpose[M]\\\\\\\"\\\",\\n\\\"MR\\\"]\)\!\(\* \
+StyleBox[\\\"\\\\\\\"\\\\\\\"\\\",\\n\\\"TI\\\"]\)\!\(\* \
+StyleBox[\\\"\\\\\\\"\\\\\\\"\\\",\\n\\\"MR\\\"]\)\"\>", "\<\"transpose \
+\"\>"},
+                {"\<\"\!\(\*
+StyleBox[\\\"\\\\\\\"Inverse[\\\\\\\"\\\",\\n\\\"MR\\\"]\)\!\(\* \
+StyleBox[\\\"M\\\",\\n\\\"MR\\\"]\)\!\(\* StyleBox[\\\"]\\\",\\n\\\"TI\\\"]\) \
+\"\>", \(matrix\ inverse\)},
+                {"\<\"\!\(\*
+StyleBox[\\\"\\\\\\\"Det[\\\\\\\"\\\",\\n\\\"MR\\\"]\)\!\(\* StyleBox[\\\"M\\\
+\",\\n\\\"MR\\\"]\)\!\(\* StyleBox[\\\"]\\\",\\n\\\"MR\\\"]\)\"\>", \
+"\<\"determinant \"\>"},
+                {
+                  StyleBox[\(Tr[M]\),
+                    "MR"], "\<\"trace \"\>"}
+                },
+              ColumnAlignments->{Right, Left}],
+            GridBoxOptions->{RowLines->False}]],
+        "2ColumnBox"], TraditionalForm]], "Text"],
+
+Cell["\<\
+Observe, that the commands for calculating the determinat and the \
+trace are not consistent with the \"overall convention\" to completely spell \
+out mathematical expressions!
+Now let's play a little with these commands\
+\>", "Text"],
+
+Cell[BoxData[
+    \(Transpose[A] // MatrixForm\)], "Input",
+  CellLabel->"In[5]:="],
+
+Cell[BoxData[
+    \(Inverse[B] // MatrixForm\)], "Input",
+  CellLabel->"In[6]:="],
+
+Cell["To check this we may use", "Text"],
+
+Cell[BoxData[
+    \(B . % // MatrixForm\)], "Input",
+  CellLabel->"In[7]:="],
+
+Cell[TextData[{
+  "Now let's see how ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " reacts to obviously stupid things."
+}], "Text"],
+
+Cell[BoxData[{
+    RowBox[{"M", ":=", 
+      RowBox[{"(", GridBox[{
+            {"1", "0", "1", "2"},
+            {"3", "4", "5", "7"},
+            {"1", "2", "0", "0"}
+            }], ")"}]}], "\n", \(Inverse[M]\)}], "Input",
+  CellLabel->"In[19]:="],
+
+Cell[BoxData[{
+    \(Det[A]\), "\[IndentingNewLine]", 
+    \(Det[B]\)}], "Input",
+  CellLabel->"In[8]:="],
+
+Cell["\<\
+So both of our matrices are nonsingular---so if we rowreduce them \
+we should end up with the unity matrix, right?\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(RowReduce[A] // MatrixForm\), "\[IndentingNewLine]", 
+    \(RowReduce[B] // MatrixForm\)}], "Input",
+  CellLabel->"In[13]:="],
+
+Cell["Now let's try this one", "Text"],
+
+Cell[BoxData[
+    RowBox[{"Det", "[", 
+      RowBox[{"(", GridBox[{
+            {"1", "1", "2"},
+            {"2", "1", "2"},
+            {"3", "2", "4"}
+            }], ")"}], "]"}]], "Input",
+  CellLabel->"In[10]:="],
+
+Cell["\<\
+Clearly the  the third row is the sum of the first and second ones. \
+So the nullspace should be one-dimensional, right?\
+\>", "Text"],
+
+Cell[BoxData[
+    RowBox[{"\[IndentingNewLine]", 
+      RowBox[{"NullSpace", "[", 
+        RowBox[{"(", GridBox[{
+              {"1", "1", "2"},
+              {"2", "1", "2"},
+              {"3", "2", "4"}
+              }], ")"}], "]"}]}]], "Input",
+  CellLabel->"In[15]:="],
+
+Cell["What about its inverse?", "Text"],
+
+Cell[BoxData[
+    RowBox[{"Inverse", "[", 
+      RowBox[{"(", GridBox[{
+            {"1", "1", "2"},
+            {"2", "1", "2"},
+            {"3", "2", "4"}
+            }], ")"}], "]"}]], "Input",
+  CellLabel->"In[21]:="],
+
+Cell["Finally we try the trace command", "Text"],
+
+Cell[BoxData[
+    RowBox[{"Tr", "[", 
+      RowBox[{"(", GridBox[{
+            {"1", "1", "2"},
+            {"2", "1", "2"},
+            {"3", "2", "4"}
+            }], ")"}], "]"}]], "Input",
+  CellLabel->"In[22]:="],
+
+Cell["Can you explain what is happening here?", "Text"],
+
+Cell[BoxData[{
+    RowBox[{"A", ":=", 
+      RowBox[{\(1\/\@2\), 
+        RowBox[{"(", GridBox[{
+              {"1", "0", "1"},
+              {"0", \(\@2\), "0"},
+              {\(-1\), "0", "1"}
+              }], ")"}]}]}], "\n", \(A . Transpose[A] // 
+      MatrixForm\)}], "Input",
+  CellLabel->"In[37]:="],
+
+Cell["Does this aid to your understanding?", "Text"],
+
+Cell[BoxData[
+    \(Inverse[A] // MatrixForm\)], "Input",
+  CellLabel->"In[39]:="],
+
+Cell[TextData[{
+  "To finish this section we return to the",
+  StyleBox[" Inverse",
+    FontWeight->"Bold"],
+  " command"
+}], "Text"],
+
+Cell[BoxData[{
+    \(A := {{a, b}, {c, d}}\), "\[IndentingNewLine]", 
+    \(MatrixForm[A]\)}], "Input",
+  CellLabel->"In[41]:="],
+
+Cell[BoxData[{
+    \(B := Inverse[A]\), "\[IndentingNewLine]", 
+    \(MatrixForm[B]\)}], "Input",
+  CellLabel->"In[45]:="],
+
+Cell[BoxData[
+    \(A . B\)], "Input",
+  CellLabel->"In[50]:="],
+
+Cell[TextData[{
+  "This doesn't look too nice. To simplify the above matrix we use the ",
+  StyleBox["Together",
+    FontWeight->"Bold"],
+  " command which puts terms in a sum over a common denominator, and cancels \
+factors in the result."
+}], "Text"],
+
+Cell[BoxData[
+    \(Together[%] // MatrixForm\)], "Input",
+  CellLabel->"In[52]:="],
+
+Cell[BoxData[
+    \(Clear[A, B, M]\)], "Input",
+  CellLabel->"In[36]:="]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Eigenvalues, Eigenvectors", "Section"],
+
+Cell[TextData[{
+  "The basic ",
+  StyleBox["Mathematica-",
+    FontSlant->"Italic"],
+  "commands to calculate eigenvalues and eigenvectors of a matrix M are (what \
+a surprise) ",
+  StyleBox["Eigenvalues[M]",
+    FontWeight->"Bold"],
+  " and ",
+  StyleBox["Eigenvectors[M]",
+    FontWeight->"Bold"],
+  " . More precisely\n",
+  Cell[BoxData[
+      FormBox[
+        StyleBox[
+          FrameBox[
+            StyleBox[GridBox[{
+                  {"\<\"\\!\\(\\*StyleBox[\\\"\\\\\\\"Eigenvalues[\\\\\\\"\\\"\
+, \\\"MR\\\"]\\)\\!\\(\\*StyleBox[\\\"\\\\\\\"m\\\\\\\"\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*StyleBox[\\\"\\\\\\\"]\\\\\\\"\\\", \\\"MR\\\"]\\) \
+\"\>", "\<\"a list of the eigenvalues of \
+\\!\\(\\*StyleBox[\\\"\\\\\\\"m\\\\\\\"\\\", \\\"TI\\\"]\\) \"\>"},
+                  {"\<\"\\!\\(\\* \
+StyleBox[\\\"\\\\\\\"Eigenvectors[\\\\\\\"\\\",\\n\\\"MR\\\"]\\)\\!\\(\\* \
+StyleBox[\\\"\\\\\\\"m\\\\\\\"\\\",\\n\\\"TI\\\"]\\)\\!\\(\\* StyleBox[\\\"\\\
+\\\\\"]\\\\\\\"\\\",\\n\\\"MR\\\"]\\) \"\>", "\<\"a list of the eigenvectors \
+of \\!\\(\\*StyleBox[\\\"\\\\\\\"m\\\\\\\"\\\", \\\"TI\\\"]\\) \"\>"}
+                  },
+                ColumnAlignments->{Right, Left}],
+              GridBoxOptions->{RowLines->False}]],
+          "2ColumnBox"], TraditionalForm]], "Text"],
+  "\nWe start out with the first one of these commands. "
+}], "Text"],
+
+Cell[BoxData[{\(A := {{1, 0}, {1, 1}}\), "\n", \(MatrixForm[A]\), "\n", 
+    RowBox[{"B", ":=", 
+      RowBox[{"(", GridBox[{
+            {"1", "2", "3"},
+            {"0", "3", "2"},
+            {"2", "0", "4"}
+            }], ")"}]}]}], "Input",
+  CellLabel->"In[1]:="],
+
+Cell[BoxData[{
+    \(Eigenvalues[A]\), "\[IndentingNewLine]", 
+    \(Eigenvalues[B]\)}], "Input",
+  CellLabel->"In[6]:="],
+
+Cell[TextData[{
+  "As you can see ",
+  StyleBox["Eigenvalues[M]",
+    FontWeight->"Bold"],
+  " returns the eigenvalues in form of a list. If some eigenvalue is a \
+multiple zero of the characteristic polynomial (i.e., if its algebraic \
+multiplicity is bigger than one) it appears multiple in the list. Of course \
+the numer of its appearences equals its algebraic multiplicity. \nThere is of \
+course ",
+  StyleBox["Mathematica-",
+    FontSlant->"Italic"],
+  "command which gives you the charcteristic polynomial of a matrix, i.e.,\n\
+",
+  Cell[BoxData[
+      FormBox[
+        StyleBox[
+          FrameBox[
+            StyleBox[GridBox[{
+                  {
+                    RowBox[{
+                      StyleBox["CharacteristicPolynomial",
+                        "MR"], "\!\(\*
+StyleBox[\\\"\\\"\\\",\\n\\\"\\\\n\\\\\\\"MR\\\\\\\"\\\"]\)[\!\(\*
+StyleBox[\\\"M\\\",\\n\\\"\\\\n\\\\\\\"TI\\\\\\\"\\\"]\)\!\(\*
+StyleBox[\\\"\\\"\\\",\\n\\\"\\\\n\\\\\\\"TI\\\\\\\"\\\"]\)", "\!\(\*
+StyleBox[\\\"\\\"\\\",\\n\\\"\\\\n\\\\\\\"TI\\\\\\\"\\\"]\)\!\(\*
+StyleBox[\\\",\\\",\\n\\\"\\\\n\\\\\\\"TI\\\\\\\"\\\"]\)\!\(\*
+StyleBox[\\\"t\\\",\\n\\\"\\\\n\\\\\\\"TI\\\\\\\"\\\"]\)\!\(\*
+StyleBox[\\\"]\\\",\\n\\\"\\\\n\\\\\\\"TI\\\\\\\"\\\"]\)\!\(\*
+StyleBox[\\\"\\\"\\\",\\n\\\"MR\\\",\\nFontWeight->\\\"Bold\\\"]\)", 
+                      StyleBox["\"\<\>",
+                        
+                        "\n\"MR\""]}], \(computes\ the\ characteristic\ \
+polynomial\ of\ the\ matrix\ M\ in\ the\ variable\ t\)}
+                  },
+                ColumnAlignments->{Right, Left}],
+              GridBoxOptions->{RowLines->False}]],
+          "2ColumnBox"], TraditionalForm]], "Text"],
+  "\nBut you can also easily put things together using the commands of the \
+previous chapter and the",
+  StyleBox[" IdentityMatrix",
+    FontWeight->"Bold"],
+  " command, which does the obvious thing."
+}], "Text"],
+
+Cell[BoxData[
+    \(IdentityMatrix[4] // MatrixForm\)], "Input",
+  CellLabel->"In[76]:="],
+
+Cell[BoxData[{
+    \(pA[\[Lambda]_] := 
+      Det[A - \[Lambda]\ IdentityMatrix[2]]\), "\[IndentingNewLine]", 
+    \(pA[\[Lambda]]\), "\[IndentingNewLine]", 
+    \(pB[\[Lambda]_] := 
+      CharacteristicPolynomial[B, \[Lambda]]\), "\[IndentingNewLine]", 
+    \(pB[t]\)}], "Input",
+  CellLabel->"In[8]:="],
+
+Cell[TextData[{
+  "You can of course solve for the zeroes of these polynomials using the ",
+  StyleBox["Solve",
+    FontWeight->"Bold"],
+  " command or factor the ploynomial using the ",
+  StyleBox["Factor",
+    FontWeight->"Bold"],
+  " command."
+}], "Text"],
+
+Cell[BoxData[{
+    \(Solve[pA[\[Lambda]] \[Equal] 0, \[Lambda]]\), "\[IndentingNewLine]", 
+    \(Factor[pA[\[Lambda]]]\), "\[IndentingNewLine]", 
+    \(Solve[pB[\[Lambda]] \[Equal] 0, \[Lambda]]\), "\[IndentingNewLine]", 
+    \(Factor[pB[\[Lambda]]]\)}], "Input",
+  CellLabel->"In[116]:="],
+
+Cell[TextData[{
+  "By default the ",
+  StyleBox["Factor",
+    FontWeight->"Bold"],
+  " command assumes that all coefficients in the polynomials they produce \
+must involve only rational numbers. But by setting the option ",
+  StyleBox["Extension", "MR",
+    FontWeight->"Bold"],
+  " you can extend the domain of coefficients that will be allowed; in this \
+case you have to use (for more information see the ",
+  StyleBox["Helpbrowser...Factor",
+    FontWeight->"Bold"],
+  ")."
+}], "Text"],
+
+Cell[BoxData[
+    \(Factor[pB[\[Lambda]], Extension \[Rule] Sqrt[2]]\)], "Input",
+  CellLabel->"In[12]:="],
+
+Cell["What about complex eigenvalues?", "Text"],
+
+Cell[BoxData[{
+    \(A1 := {{1, 1}, {\(-3\)/2, 0}}\), "\[IndentingNewLine]", 
+    \(Eigenvalues[A1]\)}], "Input",
+  CellLabel->"In[55]:="],
+
+Cell["\<\
+If you want to know how I did choose this matrix A1 then consult \
+Exercise 141!  To factor A1's characteristic polynomial you can use the \
+following rather clumsy command.\
+\>", "Text"],
+
+Cell[BoxData[
+    \(Factor[CharacteristicPolynomial[A1, t], GaussianIntegers \[Rule] True, 
+      Extension \[Rule] Sqrt[11]]\)], "Input",
+  CellLabel->"In[19]:="],
+
+Cell[TextData[{
+  "To calculate the eigenvectors of a matrix you can use the",
+  StyleBox[" Eigenvectors",
+    FontWeight->"Bold"],
+  " command mentiones above. However, in many cases it will be more \
+convenient to use the following command which computes eigenvalues and \
+eigenvectors in one step.\n",
+  Cell[BoxData[
+      FormBox[
+        StyleBox[
+          FrameBox[
+            StyleBox[GridBox[{
+                  {"\<\"\\!\\(\\* StyleBox[\\\"\\\\\\\"Eigensystem[\\\\\\\"\\\
+\",\\n\\\"MR\\\"]\\)\\!\\(\\* \
+StyleBox[\\\"\\\\\\\"M\\\\\\\"\\\",\\n\\\"TI\\\"]\\)\\!\\(\\* StyleBox[\\\"\\\
+\\\\\"]\\\\\\\"\\\",\\n\\\"MR\\\"]\\) \"\>", 
+                    RowBox[{
+                      
+                      RowBox[{"\<\"\"\>", "gives", " ", "a", " ", "list", " ",
+                         "of", " ", "the", " ", "form", " ", "\<\"\!\(\*
+StyleBox[\\\"{\\\",\\n\\\"InlineFormula\\\"]\)\"\>", 
+                        StyleBox["\<\"eigenvalues\"\>",
+                          "TI"]}], 
+                      StyleBox[",",
+                        "MR"], 
+                      RowBox[{
+                        StyleBox["\"\<eigenvectors\>\"",
+                          "TI"], "\"\<\!\(\*
+StyleBox[\\\"}\\\",\\n\\\"InlineFormula\\\"]\)\>\"", "   ", "for", " ", "the",
+                         " ", "matrix", "  ", "M"}]}]}
+                  },
+                ColumnAlignments->{Right, Left}],
+              GridBoxOptions->{RowLines->False}]],
+          "2ColumnBox"], TraditionalForm]], "Text"]
+}], "Text"],
+
+Cell[BoxData[{
+    \(Eigenvalues[A1]\), "\[IndentingNewLine]", 
+    \(Eigenvectors[A1]\), "\[IndentingNewLine]", 
+    \(Eigensystem[A1]\)}], "Input",
+  CellLabel->"In[31]:="],
+
+Cell[TextData[{
+  "In the last line, i.e. the output of the",
+  StyleBox[" Eigensystem",
+    FontWeight->"Bold"],
+  " command, the first list gives the two (distinct) eigenvalues, the second \
+list gives the eigenvectors. Since the eigenvalues are distinct there are two \
+one-dimensional eigenspaces and hence the geometrical multiplicity of both \
+eigenvalues matches their algebaric multiplicity (which is one). (Is A1 \
+diagonizable?). \nLet's check that these results are indeed correct."
+}], "Text"],
+
+Cell[BoxData[{
+    \(v = \(Eigenvectors[A1]\)[\([1]\)]\), "\[IndentingNewLine]", 
+    \(\[Lambda]\  = \(Eigenvalues[A1]\)[\([1]\)]\)}], "Input",
+  CellLabel->"In[57]:="],
+
+Cell[BoxData[
+    \(A1 . v \[Equal] \[Lambda]\ v\)], "Input",
+  CellLabel->"In[71]:="],
+
+Cell["Hmm...That doesn't look too good. So we try it this way", "Text"],
+
+Cell[BoxData[
+    \(Simplify[A1 . v] == Simplify[\[Lambda]\ v]\)], "Input",
+  CellLabel->"In[70]:="],
+
+Cell["Let's see what happens if things get more involved.", "Text"],
+
+Cell[BoxData[{
+    \(A := {{1, 1, 0}, {0, 1, 0}, {0, 0, 2}}\), "\[IndentingNewLine]", 
+    \(MatrixForm[A]\), "\[IndentingNewLine]", 
+    \(Eigensystem[A]\)}], "Input",
+  CellLabel->"In[48]:="],
+
+Cell[TextData[{
+  "Here we have a double eigenvalue \[Lambda]",
+  Cell[BoxData[
+      \(TraditionalForm\`\(\(\_1\)\(=\)\)\)]],
+  "1 (i.e., algebraic multiplicity 2) and an eigenvalue ",
+  Cell[BoxData[
+      \(TraditionalForm\`\(\(\[Lambda]\_2\)\(=\)\)\)]],
+  "2 with algebraic multiplicity 1. In the list of eigenvectors, i.e. the \
+second list in the output, the first entry is the eigenvector (1,0,0) to the \
+eigenvalue ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_1\)]],
+  ". The next entry is the zero-vector! This is how ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " tells you that there is no eigenvector to",
+  Cell[BoxData[
+      \(TraditionalForm\`\(\(\ \)\(\[Lambda]\_1\)\)\)]],
+  " which is linearly independent of (1,0,0), i.e., that the eigenspace of ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_1\)]],
+  "is one-dimensional, i.e. that the geometric multiplicity of ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_1\)]],
+  "is one. The third entry (0,0,1) then is a basis of the eigensapce of ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_1. \)]],
+  "\nLets check this by direct calculation. We first calculate the eigenspace \
+of ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_1\)]],
+  "by solving the respective system of linear equations."
+}], "Text"],
+
+Cell[BoxData[
+    \(RowReduce[A - 1*IdentityMatrix[3]] // MatrixForm\)], "Input",
+  CellLabel->"In[55]:="],
+
+Cell[TextData[{
+  "This now tells us that the space of solutions of the linear system, i.e. \
+the eigenspace to ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_1\)]],
+  "is one-dimensional (just one free parameter for ",
+  Cell[BoxData[
+      \(TraditionalForm\`x\_1\)]],
+  "for which we miss a leading one) generated by the vector (1,0,0). We of \
+course can solved this problem directly by using the",
+  StyleBox[" NullSpace",
+    FontWeight->"Bold"],
+  " command."
+}], "Text"],
+
+Cell[TextData[{
+  Cell[BoxData[
+      \(TraditionalForm\`Now\ for\)]],
+  " ",
+  Cell[BoxData[
+      \(TraditionalForm\`\(\(\[Lambda]\_2\)\(.\)\)\)]]
+}], "Text"],
+
+Cell[BoxData[
+    \(NullSpace[A - 2*IdentityMatrix[3]]\)], "Input",
+  CellLabel->"In[57]:="],
+
+Cell["\<\
+To sum up the Eigensystem command returns (as the first list) the \
+eigenvalues of the respective matrix. Then a basis of the eigensapce of the \
+frist eigenvalue. If the geometric multplicity of this eigenvector is less \
+than its algebaric one there is a zero- vector added for each missing \
+dimesion of the eigenspace.   
+Let's do some more examples.\
+\>", "Text"],
+
+Cell[BoxData[{
+    RowBox[{"A", ":=", 
+      RowBox[{"(", GridBox[{
+            {"0", "3", "0", "0", "0"},
+            {"0", "0", "0", "0", "0"},
+            {"0", "0", "1", "0", "0"},
+            {"0", "0", "0", "1", "0"},
+            {"0", "0", "0", "0", "5"}
+            }], ")"}]}], "\[IndentingNewLine]", \(Eigensystem[A]\)}], "Input",\
+
+  CellLabel->"In[58]:="],
+
+Cell[TextData[{
+  "Here the eigenspace of the eigenvalue ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_1 = 0\)]],
+  " is generated by the vector (1,0,0,0,0) hence has algebraic multiplicity 2 \
+and geometric multiplicity 1. Next a basis of the eigenspace of ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_2 = 1\)]],
+  " is given by (0,0,0,1,0), (0,0,1,0,0). Hence the algebaric multiplicity of \
+",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_2\)]],
+  "coincides with its geometric one which is 2. Finally the eigenspace for \
+the single eigenvalue ",
+  Cell[BoxData[
+      \(TraditionalForm\`\[Lambda]\_3 = 5\)]],
+  " is spanned by (0,0,0,0,1).\nIn general the calculation of the einegvalues \
+and eigenvectors can be pretty messy as the next example shows."
+}], "Text"],
+
+Cell[BoxData[{
+    RowBox[{"B", ":=", 
+      RowBox[{"(", GridBox[{
+            {"1", "0", "1"},
+            {"2", "4", \(-9\)},
+            {"0", \(-6\), "0"}
+            }], ")"}]}], "\[IndentingNewLine]", \(Eigensystem[B]\)}], "Input",\
+
+  CellLabel->"In[5]:="],
+
+Cell["\<\
+In such cases might be advisable to calculate the eigensystem \
+numerically as follows...\
+\>", "Text"],
+
+Cell[BoxData[
+    \(Eigensystem[N[B]]\)], "Input",
+  CellLabel->"In[7]:="],
+
+Cell[BoxData[
+    \(Clear[A, B, A1]\)], "Input",
+  CellLabel->"In[8]:="]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Diagonalization, Jordan-Decomposition", "Section"],
+
+Cell["\<\
+To decide wheter a given square matrix is diagonalizable or not and \
+to calculate its diagonalization we can use the tools introduced above. Let's \
+do an example.\
+\>", "Text"],
+
+Cell[BoxData[{
+    RowBox[{"A1", ":=", 
+      RowBox[{"(", GridBox[{
+            {"1", "2", "3"},
+            {"0", "2", "0"},
+            {"4", "1", "2"}
+            }], ")"}]}], "\[IndentingNewLine]", \(Eigensystem[A1]\)}], "Input",\
+
+  CellLabel->"In[52]:="],
+
+Cell[TextData[{
+  "So we have three distinct eigenvalues hence the matrix is diagonalizable, \
+i.e., we may find an invertible matrix C such that A=T\[CapitalDelta]T",
+  Cell[BoxData[
+      \(TraditionalForm\`\^\(-1\)\)]],
+  ",  where the columns of T are given by the eigenvectors of A and \
+\[CapitalDelta] is a diagonal matrix built form the eigenvalues of A.\nLet's \
+now calculate C and check that everything has been done correctly. We hereby \
+use the command ",
+  StyleBox["DiagonalMatrix",
+    FontWeight->"Bold"],
+  " which does the obvious thing."
+}], "Text"],
+
+Cell[BoxData[{
+    \(T1 := Transpose[Eigenvectors[A1]]\), "\[IndentingNewLine]", 
+    \(MatrixForm[T1]\), "\[IndentingNewLine]", 
+    \(\[CapitalDelta]1 := 
+      DiagonalMatrix[Eigenvalues[A1]]\), "\[IndentingNewLine]", 
+    \(MatrixForm[\[CapitalDelta]1]\), "\[IndentingNewLine]", 
+    \(\)}], "Input",
+  CellLabel->"In[54]:="],
+
+Cell[BoxData[
+    \(MatrixForm[T1 . \[CapitalDelta]1 . Inverse[T1]]\)], "Input",
+  CellLabel->"In[58]:="],
+
+Cell["\<\
+yep! 
+Let's do another example\
+\>", "Text"],
+
+Cell[BoxData[{
+    RowBox[{"A2", ":=", 
+      RowBox[{"(", GridBox[{
+            {\(-1\), \(-1\), "4"},
+            {\(-3\), "0", "4"},
+            {\(-3\), "3", "1"}
+            }], ")"}]}], "\[IndentingNewLine]", \(Eigensystem[A2]\)}], "Input",\
+
+  CellLabel->"In[59]:="],
+
+Cell["\<\
+Again we have three distinct complex eigenvalues and the matrix can \
+be diagonalized over the complex numbers.\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(T2 := Transpose[Eigenvectors[A2]]\), "\[IndentingNewLine]", 
+    \(MatrixForm[Simplify[Inverse[T2] . A2 . T2]]\), "\[IndentingNewLine]", 
+    \(\)}], "Input",
+  CellLabel->"In[61]:="],
+
+Cell["Yet another try", "Text"],
+
+Cell[BoxData[{
+    RowBox[{"A", ":=", 
+      RowBox[{"(", GridBox[{
+            {"1", "0", "1"},
+            {\(-1\), "2", "1"},
+            {\(-1\), "0", "3"}
+            }], ")"}]}], "\[IndentingNewLine]", \(Eigensystem[A]\)}], "Input",\
+
+  CellLabel->"In[72]:="],
+
+Cell[TextData[{
+  "Ups! This matrix cannot be diagonalized! Why?\nHowever, it still can be \
+triangulized over the reals. Why?\nTo do so we have to complete the system \
+consisting of the two (linearly independent!) eigenvectors of A to a Basis of \
+R",
+  Cell[BoxData[
+      \(TraditionalForm\`\^3\)]],
+  ". Watchout this gets a little clumsy..."
+}], "Text"],
+
+Cell[BoxData[{
+    \(<< LinearAlgebra`MatrixManipulation`\), "\[IndentingNewLine]", 
+    \(T := Transpose[
+        AppendColumns[
+          Table[\(Eigenvectors[A]\)[\([j]\)], {j, 1, 2}], {{0, 0, 
+              1}}]]\), "\[IndentingNewLine]", 
+    \(MatrixForm[T]\)}], "Input",
+  CellLabel->"In[74]:="],
+
+Cell[BoxData[
+    \(MatrixForm[Simplify[Inverse[T] . A . T]]\)], "Input",
+  CellLabel->"In[77]:="],
+
+Cell[TextData[{
+  "This is, however, not as good as it can bee. We can transform A to \
+Jordan-form (over the reals, why?). We can either read the Jordan-form off \
+from the result of the ",
+  StyleBox["Eigensystem",
+    FontWeight->"Bold"],
+  " command or calculate it using the ",
+  StyleBox["JordanDecomposition",
+    FontWeight->"Bold"],
+  " command."
+}], "Text"],
+
+Cell[BoxData[
+    \(JordanDecomposition[A]\)], "Input",
+  CellLabel->"In[78]:="],
+
+Cell[TextData[{
+  "The command returns two matrices. The second one is the actual Jordan-form \
+J of the matrix A while the first one is the according matrix of the basis \
+change R, i.e., we have A=RJR",
+  Cell[BoxData[
+      \(TraditionalForm\`\^\(-1\)\)]],
+  ". Let's check this."
+}], "Text"],
+
+Cell[BoxData[{
+    \(J := \(JordanDecomposition[A]\)[\([2]\)]\), "\[IndentingNewLine]", 
+    \(R := \(JordanDecomposition[A]\)[\([1]\)]\), "\[IndentingNewLine]", 
+    \(MatrixForm[J]\), "\[IndentingNewLine]", 
+    \(MatrixForm[R]\)}], "Input",
+  CellLabel->"In[83]:="],
+
+Cell[BoxData[
+    \(MatrixForm[R . J . Inverse[R]]\)], "Input",
+  CellLabel->"In[88]:="],
+
+Cell["\<\
+Of course we can use the JordanDecomposition command also to \
+calculate the diagonal form of a matrix---if the latter is achievable (!) \
+since in this case the Jordan-form of the matrix is diagonal.\
+\>", "Text"],
+
+Cell[BoxData[{
+    \(JordanDecomposition[A1]\), "\[IndentingNewLine]", 
+    \(JordanDecomposition[A2]\)}], "Input",
+  CellLabel->"In[91]:="],
+
+Cell["Now go ahead and try some examples by yourself!", "Text"]
+}, Closed]]
+}, Open  ]]
+},
+FrontEndVersion->"4.1 for Microsoft Windows",
+ScreenRectangle->{{0, 1024}, {0, 690}},
+WindowToolbars->"EditBar",
+WindowSize->{1010, 663},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification->1.5,
+StyleDefinitions -> "Textbook.nb"
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1727, 52, 192, 7, 253, "Title"],
+Cell[1922, 61, 341, 8, 56, "Text"],
+
+Cell[CellGroupData[{
+Cell[2288, 73, 47, 0, 127, "Section"],
+Cell[2338, 75, 378, 8, 78, "Text"],
+
+Cell[CellGroupData[{
+Cell[2741, 87, 110, 3, 68, "Input"],
+Cell[2854, 92, 263, 8, 68, "Output"]
+}, Open  ]],
+Cell[3132, 103, 211, 7, 83, "Input"],
+Cell[3346, 112, 122, 3, 34, "Text"],
+Cell[3471, 117, 1005, 24, 134, "Text"],
+Cell[4479, 143, 244, 5, 86, "Text"],
+Cell[4726, 150, 83, 2, 42, "Input"],
+Cell[4812, 154, 81, 2, 42, "Input"],
+Cell[4896, 158, 40, 0, 34, "Text"],
+Cell[4939, 160, 76, 2, 42, "Input"],
+Cell[5018, 164, 143, 5, 34, "Text"],
+Cell[5164, 171, 251, 7, 114, "Input"],
+Cell[5418, 180, 105, 3, 68, "Input"],
+Cell[5526, 185, 138, 3, 34, "Text"],
+Cell[5667, 190, 146, 3, 68, "Input"],
+Cell[5816, 195, 38, 0, 34, "Text"],
+Cell[5857, 197, 218, 7, 83, "Input"],
+Cell[6078, 206, 144, 3, 34, "Text"],
+Cell[6225, 211, 274, 8, 114, "Input"],
+Cell[6502, 221, 39, 0, 34, "Text"],
+Cell[6544, 223, 222, 7, 83, "Input"],
+Cell[6769, 232, 48, 0, 34, "Text"],
+Cell[6820, 234, 217, 7, 83, "Input"],
+Cell[7040, 243, 55, 0, 34, "Text"],
+Cell[7098, 245, 309, 9, 123, "Input"],
+Cell[7410, 256, 52, 0, 34, "Text"],
+Cell[7465, 258, 82, 2, 42, "Input"],
+Cell[7550, 262, 133, 5, 34, "Text"],
+Cell[7686, 269, 128, 3, 68, "Input"],
+Cell[7817, 274, 122, 3, 68, "Input"],
+Cell[7942, 279, 63, 2, 42, "Input"],
+Cell[8008, 283, 252, 6, 56, "Text"],
+Cell[8263, 291, 83, 2, 42, "Input"],
+Cell[8349, 295, 72, 2, 42, "Input"]
+}, Closed]],
+
+Cell[CellGroupData[{
+Cell[8458, 302, 44, 0, 70, "Section"],
+Cell[8505, 304, 1339, 32, 163, "Text"],
+Cell[9847, 338, 271, 7, 140, "Input"],
+Cell[10121, 347, 121, 3, 68, "Input"],
+Cell[10245, 352, 1896, 43, 211, "Text"],
+Cell[12144, 397, 89, 2, 42, "Input"],
+Cell[12236, 401, 304, 7, 120, "Input"],
+Cell[12543, 410, 258, 8, 56, "Text"],
+Cell[12804, 420, 289, 5, 120, "Input"],
+Cell[13096, 427, 489, 13, 79, "Text"],
+Cell[13588, 442, 106, 2, 42, "Input"],
+Cell[13697, 446, 47, 0, 34, "Text"],
+Cell[13747, 448, 138, 3, 68, "Input"],
+Cell[13888, 453, 197, 4, 56, "Text"],
+Cell[14088, 459, 163, 3, 68, "Input"],
+Cell[14254, 464, 1511, 34, 107, "Text"],
+Cell[15768, 500, 174, 4, 94, "Input"],
+Cell[15945, 506, 505, 9, 108, "Text"],
+Cell[16453, 517, 169, 3, 68, "Input"],
+Cell[16625, 522, 86, 2, 42, "Input"],
+Cell[16714, 526, 71, 0, 34, "Text"],
+Cell[16788, 528, 100, 2, 42, "Input"],
+Cell[16891, 532, 67, 0, 34, "Text"],
+Cell[16961, 534, 193, 4, 94, "Input"],
+Cell[17157, 540, 1326, 32, 152, "Text"],
+Cell[18486, 574, 106, 2, 42, "Input"],
+Cell[18595, 578, 486, 13, 78, "Text"],
+Cell[19084, 593, 160, 6, 34, "Text"],
+Cell[19247, 601, 92, 2, 42, "Input"],
+Cell[19342, 605, 378, 7, 108, "Text"],
+Cell[19723, 614, 367, 10, 166, "Input"],
+Cell[20093, 626, 796, 18, 130, "Text"],
+Cell[20892, 646, 264, 8, 114, "Input"],
+Cell[21159, 656, 113, 3, 34, "Text"],
+Cell[21275, 661, 74, 2, 42, "Input"],
+Cell[21352, 665, 72, 2, 42, "Input"]
+}, Closed]],
+
+Cell[CellGroupData[{
+Cell[21461, 672, 56, 0, 70, "Section"],
+Cell[21520, 674, 188, 4, 56, "Text"],
+Cell[21711, 680, 261, 8, 114, "Input"],
+Cell[21975, 690, 570, 12, 108, "Text"],
+Cell[22548, 704, 329, 7, 146, "Input"],
+Cell[22880, 713, 105, 2, 42, "Input"],
+Cell[22988, 717, 54, 3, 64, "Text"],
+Cell[23045, 722, 273, 8, 114, "Input"],
+Cell[23321, 732, 135, 3, 34, "Text"],
+Cell[23459, 737, 204, 4, 94, "Input"],
+Cell[23666, 743, 31, 0, 34, "Text"],
+Cell[23700, 745, 265, 8, 114, "Input"],
+Cell[23968, 755, 359, 8, 116, "Text"],
+Cell[24330, 765, 302, 7, 120, "Input"],
+Cell[24635, 774, 98, 2, 42, "Input"],
+Cell[24736, 778, 367, 10, 56, "Text"],
+Cell[25106, 790, 80, 2, 42, "Input"],
+Cell[25189, 794, 295, 7, 56, "Text"],
+Cell[25487, 803, 268, 5, 120, "Input"],
+Cell[25758, 810, 88, 2, 42, "Input"],
+Cell[25849, 814, 224, 4, 56, "Text"],
+Cell[26076, 820, 140, 3, 68, "Input"],
+Cell[26219, 825, 63, 0, 34, "Text"]
+}, Closed]]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

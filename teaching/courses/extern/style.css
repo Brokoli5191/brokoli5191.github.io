@@ -1,0 +1,7 @@
+a:link {color: red; text-decoration:none;} 
+a:visited {color: red; text-decoration:none;} 
+a:active {color: blue; text-decoration:none;}
+a:hover {color:blue; text-decoration:none;}
+body {background-color:#FFFFFF; color:#000000;}
+
+

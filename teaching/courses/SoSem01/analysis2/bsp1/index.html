@@ -1,0 +1,367 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.48)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>bsp1</TITLE>
+<META NAME="description" CONTENT="bsp1">
+<META NAME="keywords" CONTENT="bsp1">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="bsp1.css">
+
+<LINK REL="next" HREF="node1.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html1"
+  HREF="node1.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up_g.png"> 
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev_g.png">   
+<BR>
+<B> N&auml;chste Seite:</B> <A NAME="tex2html2"
+  HREF="node1.html">&Uuml;ber dieses Dokument ...</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+Roland Steinbauer, tel: 4277/506 82, mail: <TT>roland.steinbauer@univie.ac.at</TT>
+<DIV ALIGN="CENTER"><B><FONT SIZE="+1">Proseminar zur Analysis II</FONT>
+<BR>
+Sommersemester 2001
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<BR><FONT SIZE="+1">Übungsbeispiele Mathematica</FONT>
+</B></DIV>
+
+<P>
+
+<OL>
+<LI>Differenziere die folgenden Funktionen und zeichne die Funktion und ihre Ableitung in einem
+,,vernünftigen'' Bereich.
+  
+<OL>
+<LI><!-- MATH
+ $f(x)=\sqrt{1+x^2}$
+ -->
+<IMG
+ WIDTH="133" HEIGHT="42" ALIGN="MIDDLE" BORDER="0"
+ SRC="img1.png"
+ ALT="$f(x)=\sqrt{1+x^2}$">
+</LI>
+<LI><!-- MATH
+ $f(x)=\sqrt{\frac{1+x}{1-x}}$
+ -->
+<IMG
+ WIDTH="114" HEIGHT="53" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.png"
+ ALT="$f(x)=\sqrt{\frac{1+x}{1-x}}$">
+</LI>
+<LI><!-- MATH
+ $f(x)=\sqrt{x+\sqrt{x+\sqrt{x}}}$
+ -->
+<IMG
+ WIDTH="198" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.png"
+ ALT="$f(x)=\sqrt{x+\sqrt{x+\sqrt{x}}}$">
+</LI>
+<LI><!-- MATH
+ $f(x)=\log(1+x^2)$
+ -->
+<IMG
+ WIDTH="156" HEIGHT="38" ALIGN="MIDDLE" BORDER="0"
+ SRC="img4.png"
+ ALT="$f(x)=\log(1+x^2)$">
+</LI>
+<LI><!-- MATH
+ $f(x)=(1+e^x)^2$
+ -->
+<IMG
+ WIDTH="138" HEIGHT="38" ALIGN="MIDDLE" BORDER="0"
+ SRC="img5.png"
+ ALT="$f(x)=(1+e^x)^2$">
+</LI>
+<LI><!-- MATH
+ $f(x)=\log\frac{1+x}{1-x}$
+ -->
+<IMG
+ WIDTH="122" HEIGHT="39" ALIGN="MIDDLE" BORDER="0"
+ SRC="img6.png"
+ ALT="$f(x)=\log\frac{1+x}{1-x}$">
+</LI>
+<LI><IMG
+ WIDTH="93" HEIGHT="39" ALIGN="MIDDLE" BORDER="0"
+ SRC="img7.png"
+ ALT="$f(x)=x^{x^x}$">
+</LI>
+<LI><IMG
+ WIDTH="108" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img8.png"
+ ALT="$f(x)=(x^x)^x$">
+</LI>
+<LI><!-- MATH
+ $f(x)=\frac{(x^3-2x+5)^7}{\sqrt{1+x^4}}$
+ -->
+<IMG
+ WIDTH="144" HEIGHT="47" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.png"
+ ALT="$f(x)=\frac{(x^3-2x+5)^7}{\sqrt{1+x^4}}$">
+</LI>
+<LI>Für eine Automatisierung (d.h. wenn dir das Eingeben zu fad wird...) bieten sich folgende 
+        zwei Vorgangsweisen an:
+        
+<UL>
+<LI>Interaktive Eingabe der Funktion mittels <TT>Input</TT>-Kommandos und Ausgabe mittels
+              <TT>Print</TT>.
+</LI>
+<LI>Angabe aller Funktionen in einer Liste (d.h. in der Form <TT>functions[x_]:<!-- MATH
+ $=\{
+              \sqrt{1+x^2},\sqrt{\frac{1+x}{1-x}},\dots\}$
+ -->
+<IMG
+ WIDTH="197" HEIGHT="53" ALIGN="MIDDLE" BORDER="0"
+ SRC="img10.png"
+ ALT="$=\{
+\sqrt{1+x^2},\sqrt{\frac{1+x}{1-x}},\dots\}$"></TT>), dann Berechnungen und Ausgabe innerhalb
+              einer <TT>For</TT>-Schleife.
+        
+</LI>
+</UL>
+        Benutze die Onlinehilfe, um eine der beiden Varianten zu realisieren.
+  
+</LI>
+</OL>
+
+</LI>
+<LI>Berechne und zeichne (in <EM>einer</EM> Grafik) die ersten 5 Ableitungen der folgenden Funktionen.
+      Achte darauf ,,vernünftige'' <IMG
+ WIDTH="30" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img11.png"
+ ALT="$x-$"> und <IMG
+ WIDTH="15" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img12.png"
+ ALT="$y$">-Bereiche zu verwenden. Hinweis: Um eine Liste
+      mit den Ableitungen als Eintragungen zu erzeugen verwende das <TT>Table</TT>-Kommando, um diese
+      dem <TT>Plot</TT>-Befehl sinnvoll übergeben zu können verwende <TT>Evaluate</TT>.
+  
+<OL>
+<LI><!-- MATH
+ $f(x)=8x^5 + 5x^4 + 5x^3 - x^2 - x + 3$
+ -->
+<IMG
+ WIDTH="303" HEIGHT="38" ALIGN="MIDDLE" BORDER="0"
+ SRC="img13.png"
+ ALT="$f(x)=8x^5 + 5x^4 + 5x^3 - x^2 - x + 3$">
+</LI>
+<LI><IMG
+ WIDTH="41" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img14.png"
+ ALT="$f(x)$"> wie in Übungsbeispiel 116.
+  
+</LI>
+</OL>
+</LI>
+<LI>Bestimme die Grenzwerte (für <IMG
+ WIDTH="65" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img15.png"
+ ALT="$n\to\infty$">) der folgenden Folgen.
+  
+<OL>
+<LI><!-- MATH
+ $a_n=\frac{n^k}{a^n}$
+ -->
+<IMG
+ WIDTH="68" HEIGHT="45" ALIGN="MIDDLE" BORDER="0"
+ SRC="img16.png"
+ ALT="$a_n=\frac{n^k}{a^n}$"> für <!-- MATH
+ $k\in{\mathbb{N}}$
+ -->
+<IMG
+ WIDTH="52" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img17.png"
+ ALT="$k\in{\mathbb{N}}$">, <IMG
+ WIDTH="49" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img18.png"
+ ALT="$a&gt; 1$">.
+</LI>
+<LI><!-- MATH
+ $a_n=\frac{n!}{a^n}$
+ -->
+<IMG
+ WIDTH="68" HEIGHT="41" ALIGN="MIDDLE" BORDER="0"
+ SRC="img19.png"
+ ALT="$a_n=\frac{n!}{a^n}$"> für <IMG
+ WIDTH="49" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img18.png"
+ ALT="$a&gt; 1$">.
+</LI>
+<LI><!-- MATH
+ $a_n=\frac{n!}{n^n}$
+ -->
+<IMG
+ WIDTH="69" HEIGHT="41" ALIGN="MIDDLE" BORDER="0"
+ SRC="img20.png"
+ ALT="$a_n=\frac{n!}{n^n}$">
+</LI>
+</OL>
+</LI>
+<LI>Berechne die Grenzwerte der Reihen falls er existiert. Sonst zeige die Divergenz (wenn nötig
+      etwa mittels geiegneter Tests).
+  
+<OL>
+<LI><!-- MATH
+ $\frac{1}{1\cdot 2\cdot 3}+\frac{1}{2 \cdot 3\cdot 4}+\dots$
+ -->
+<IMG
+ WIDTH="136" HEIGHT="39" ALIGN="MIDDLE" BORDER="0"
+ SRC="img21.png"
+ ALT="$\frac{1}{1\cdot 2\cdot 3}+\frac{1}{2 \cdot 3\cdot 4}+\dots$">
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{n=1}^\infty\frac{n}{2^n}$
+ -->
+<IMG
+ WIDTH="52" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img22.png"
+ ALT="$\sum\limits_{n=1}^\infty\frac{n}{2^n}$">
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{n=1}^\infty\frac{i^n}{n}$
+ -->
+<IMG
+ WIDTH="50" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img23.png"
+ ALT="$\sum\limits_{n=1}^\infty\frac{i^n}{n}$">
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{n=0}^\infty\frac{a^n}{n!}$
+ -->
+<IMG
+ WIDTH="53" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img24.png"
+ ALT="$\sum\limits_{n=0}^\infty\frac{a^n}{n!}$"> für <!-- MATH
+ $a\in{\mathbb{R}}$
+ -->
+<IMG
+ WIDTH="52" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img25.png"
+ ALT="$a\in{\mathbb{R}}$">.
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{n=2}^\infty\frac{1}{n\log n}$
+ -->
+<IMG
+ WIDTH="76" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img26.png"
+ ALT="$\sum\limits_{n=2}^\infty\frac{1}{n\log n}$">
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{n=1}^\infty\frac{n!}{n^n}$
+ -->
+<IMG
+ WIDTH="53" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img27.png"
+ ALT="$\sum\limits_{n=1}^\infty\frac{n!}{n^n}$">
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{n=0}^\infty\frac{(n!)^2}{(2n)!}$
+ -->
+<IMG
+ WIDTH="67" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img28.png"
+ ALT="$\sum\limits_{n=0}^\infty\frac{(n!)^2}{(2n)!}$">
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{k=2}^\infty\frac{k}{(\log k)^k}$
+ -->
+<IMG
+ WIDTH="81" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img29.png"
+ ALT="$\sum\limits_{k=2}^\infty\frac{k}{(\log k)^k}$">
+</LI>
+<LI><!-- MATH
+ $\sum\limits_{k=0}^\infty(\sqrt[k]{a}-1)$
+ -->
+<IMG
+ WIDTH="104" HEIGHT="59" ALIGN="MIDDLE" BORDER="0"
+ SRC="img30.png"
+ ALT="$\sum\limits_{k=0}^\infty(\sqrt[k]{a}-1)$">
+</LI>
+</OL>
+</LI>
+<LI>Entwickle die folgenden Funktionen in eine Potenzreihe um <IMG
+ WIDTH="14" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img31.png"
+ ALT="$0$">. Der entsprechende
+Befehl heißt <TT>Series</TT>; entwickle bis zu einer ,,vernünftigen'' Ordnung.
+
+<OL>
+<LI><IMG
+ WIDTH="83" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img32.png"
+ ALT="$f(x)=e^x$">
+</LI>
+<LI><IMG
+ WIDTH="101" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img33.png"
+ ALT="$g(x)=\sin x$">
+</LI>
+<LI><IMG
+ WIDTH="105" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img34.png"
+ ALT="$h(x)=\cos x$">
+</LI>
+<LI>Überprüfe mittles der Potenzreihendarstellung von <IMG
+ WIDTH="33" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img35.png"
+ ALT="$f,g$"> und <IMG
+ WIDTH="16" HEIGHT="18" ALIGN="BOTTOM" BORDER="0"
+ SRC="img36.png"
+ ALT="$h$"> die Eulersche Formel.
+</LI>
+</OL>
+</LI>
+</OL>
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"></A>
+
+<UL>
+<LI><A NAME="tex2html3"
+  HREF="node1.html">&Uuml;ber dieses Dokument ...</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html1"
+  HREF="node1.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="/usr/share/latex2html/icons/next.png"></A> 
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="/usr/share/latex2html/icons/up_g.png"> 
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="/usr/share/latex2html/icons/prev_g.png">   
+<BR>
+<B> N&auml;chste Seite:</B> <A NAME="tex2html2"
+  HREF="node1.html">&Uuml;ber dieses Dokument ...</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Roland Steinbauer
+2001-05-11
+</ADDRESS>
+</BODY>
+</HTML>

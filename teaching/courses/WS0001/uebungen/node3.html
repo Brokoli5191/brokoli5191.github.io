@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//DE">
+<!--Converted with LaTeX2HTML 98.1p1 release (March 2nd, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Arbeiten von den NT-Labors aus</TITLE>
+<META NAME="description" CONTENT="Arbeiten von den NT-Labors aus">
+<META NAME="keywords" CONTENT="Uebungen">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK REL="STYLESHEET" HREF="Uebungen.css">
+<LINK REL="next" HREF="node4.html">
+<LINK REL="previous" HREF="node2.html">
+<LINK REL="up" HREF="node2.html">
+<LINK REL="next" HREF="node4.html">
+</HEAD>
+<BODY >
+<H3><A NAME="SECTION00020100000000000000">
+Arbeiten von den NT-Labors aus</A>
+</H3>
+<DL COMPACT>
+<DT>1.
+<DD>Anmelden unter Windows NT
+<BR>
+Zunächst mußt du dich unter Windows NT anmelden. Wenn du einen
+persönlichen Account fürs PC-Labor besitzt, so verwende diesen.
+Falls nicht, wende dich an deinen Übungsleiter; er wird dir
+ein Benutzername/Paßwort-Paar zum Login bekanntgeben.
+<P>
+<DT>2.
+<DD>Secure Shell Verbindung zum Linux-Rechner
+<BR>
+Bist du unter Windows NT angemeldet, so mußt du dich über das
+Netzwerk mit dem Linux-Server verbinden.
+Öffne dazu das telnet Icon (rechts oben am Desktop); 
+eigentlich ist das ein umbenannter <EM>secure shell Client</EM> (ssh),
+der im Gegensatz zu telnet Paßwörter nur verschlüsselt
+über das Netzwerk sendet! telnet hingegen versendet
+(so wie übrigens ftp auch) Klartextpaßwörter über das
+Netzwerk, was ein großes und unnotwendiges Risiko darstellt. 
+
+<P>
+Klicke auf ,,Connect'' und fülle die Karteikarte aus. 
+Stelle den ,,Cypher-Typ'' aud ,,blowfish''.
+Angaben zu Servernamen, Login und Paßwort erhältst du von deinem 
+Übungsleiter.
+
+<P>
+<DT>3.
+<DD>Exportieren graphischer Anwendungen
+<BR>
+Nach dem Login auf dem Linux-Rechner gelangst du in eine
+Linux Shell (deine Login-Shell). Diese bietet nur 
+sehr eingeschränkten Komfort (Problem des ssh-Clients), weshalb
+es für unsere Zwecke günstiger ist, eine graphische Terminal-Emulation, z.B.
+(konsole) (d.h. eine Shell in einem weiteren Fenster übers Netzwerk
+schicken lassen) aufzurufen. 
+Dies erfolgt in zwei Schritten:
+<DL COMPACT>
+<DT>(a)
+<DD>Der lokale NT-Rechner (in dieser Konstellation jetzt Server für
+die graphische Oberfläche, X-Server) muß X-Fenster, die vom Linux-Rechner
+gesendet werden, akzeptieren. Zu diesem Zweck starte Exceed.
+<DT>(b)
+<DD>Der Linux-Rechner muß wissen, wohin er dir die graphischen Anwendungen, die
+du aus deiner Login-Shell aufrufst, ,,nachschicken'' soll. Dies wird
+ihm durch Setzen der <EM>DISPLAY</EM> Variablen mitgeteilt. Die meisten
+ssh-Clients erledigen dies automatisch, wenn nicht, gib folgendes am Shell-Prompt
+ein: export DISPLAY=my_machine:0
+,,my_machine'' steht für den IN-Namen deines NT-Rechners, also <TT>zri</TT> + Nr. der 
+Workstation, also etwa <TT>zri16</TT>
+<BR>
+</DL>Jetzt kannst du beliebige graphische Anwendungen aus deiner Shell am
+Linux-Rechner starten und die Fenster erscheinen auf dem Display
+deines lokalen NT-Rechners.
+<DT>4.
+<DD>Starten eines konsole-Fensters
+<BR>
+Um nun die Terminal Emulation zu starten, gib am Shell-Prompt ein:
+konsole &amp; (das &amp; bewirkt, daß die Shell aktiv bleibt!).
+Um eine größere Schrift zu erhalten, kannst du im Menü von <TT>konsole</TT>
+unter <TT>Optionen-&gt;Schriftart</TT> etwa <TT>Groß</TT> auswählen.
+</DL> 
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html55"
+ HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next_motif.gif"></A> 
+<A NAME="tex2html52"
+ HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up_motif.gif"></A> 
+<A NAME="tex2html46"
+ HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="previous_motif.gif"></A> 
+<A NAME="tex2html54"
+ HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents_motif.gif"></A>  
+<BR>
+<B> Next:</B> <A NAME="tex2html56"
+ HREF="node4.html">Arbeiten vom Linux-Labor aus</A>
+<B> Up:</B> <A NAME="tex2html53"
+ HREF="node2.html">Arbeiten im PC-Labor</A>
+<B> Previous:</B> <A NAME="tex2html47"
+ HREF="node2.html">Arbeiten im PC-Labor</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+<I>Martin Piskernig</I>
+<BR><I>2000-11-10</I>
+</ADDRESS>
+</BODY>
+</HTML>
