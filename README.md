@@ -80,6 +80,7 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 
 - [ ] fix links
 - [ ] Teaching documents (pdfs + sites)
+- [ ] minor changes
 
 
 
