@@ -125,7 +125,7 @@ function initModernMobileMenu() {
 
   const menuAvatar = document.createElement("img");
   menuAvatar.className = "mobile-menu-avatar";
-  menuAvatar.src = "../assets/images/rs.jpg";
+  menuAvatar.src = "../../../assets/images/rs.jpg";
   menuAvatar.alt = "Roland Steinbauer";
   menuHeader.appendChild(menuAvatar);
 
@@ -149,32 +149,32 @@ function initModernMobileMenu() {
 
   // Define navigation items with icons and submenus
   const navItems = [
-    { name: "About", path: "../about/about.php", icon: "person-outline" },
-    { name: "Pinboard", path: "../pinboard/pinboard.php", icon: "clipboard-outline" },
+    { name: "About", path: "../../../about/about.php", icon: "person-outline" },
+    { name: "Pinboard", path: "../../../pinboard/pinboard.php", icon: "clipboard-outline" },
     {
       name: "Research",
-      path: "../research/research.php",
+      path: "../../../research/research.php",
       icon: "flask-outline",
       submenu: [
-        { name: "Research Interests", path: "../research/research-topics.php" },
-        { name: "Publications", path: "../research/research-publications.php" },
-        { name: "Projects", path: "../research/research-projects.php" },
-        { name: "Talks", path: "../research/research-talks.php" },
+        { name: "Research Interests", path: "../../../research/research-topics.php" },
+        { name: "Publications", path: "../../../research/research-publications.php" },
+        { name: "Projects", path: "../../../research/research-projects.php" },
+        { name: "Talks", path: "../../../research/research-talks.php" },
       ],
     },
     {
       name: "Teaching",
-      path: "../teaching/teaching.php",
+      path: "../../../teaching/teaching.php",
       icon: "school-outline",
       submenu: [
-        { name: "Teaching activities", path: "../teaching/teaching.php" },
-        { name: "Courses", path: "../teaching/teaching-courses.php" },
-        { name: "Lecture Notes", path: "../teaching/teaching-lecturenotes.php" },
-        { name: "Students", path: "../teaching/teaching-students.php" },
+        { name: "Teaching activities", path: "../../../teaching/teaching.php" },
+        { name: "Courses", path: "../../../teaching/teaching-courses.php" },
+        { name: "Lecture Notes", path: "../../../teaching/teaching-lecturenotes.php" },
+        { name: "Students", path: "../../../teaching/teaching-students.php" },
       ],
     },
-    { name: "Vita", path: "../vita/vita.php", icon: "document-text-outline" },
-    { name: "Contact", path: "../contact/contact.php", icon: "mail-outline" },
+    { name: "Vita", path: "../../../vita/vita.php", icon: "document-text-outline" },
+    { name: "Contact", path: "../../../contact/contact.php", icon: "mail-outline" },
   ];
 
   // Create list items for the navigation menu

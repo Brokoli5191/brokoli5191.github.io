@@ -681,6 +681,7 @@ main {
 .about-title {
   font-size: var(--fs-6);
   color: var(--title);
+  margin-bottom: 10px;
 }
 
 /* Service Section */
@@ -1141,7 +1142,7 @@ main {
 .research-paragraph-container {
   color: var(--light-gray);
   margin-left: 10px;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
 }
 
 .list-research {
