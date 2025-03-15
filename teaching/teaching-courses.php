@@ -1320,7 +1320,7 @@ include('../includes/header-teaching.php');
                 <br />
 
                 <li>
-                  <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2003" target="_blank">Sommersemester 2003</a> (<a href="courses/SoSem03/eval_sosem03.html" target="_blank"
+                  <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2003" target="_blank">Sommersemester 2003</a> (<a href="courses/SoSem03/eval-sosem03.pdf" target="_blank"
                     >Ergebnisse der LVA Evaluation</a
                   >)
                 </li>
@@ -1345,7 +1345,7 @@ include('../includes/header-teaching.php');
                 </ul>
                 <br />
 
-                <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2002">Wintersemester 2002/03</a> (<a href="courses/WS0203/eval" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
+                <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2002">Wintersemester 2002/03</a> (<a href="courses/WS0203/eval/eval-ws0203.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                 <ul>
                   <a href="http://www.mat.univie.ac.at/~mike/teaching/ws0203/distvoundsem.html#vo" target="_blank">801139 VO Distributionentheorie 2</a>
                   (gemeinsam mit
@@ -1380,7 +1380,7 @@ include('../includes/header-teaching.php');
 
                 <li>
                   <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2002">Sommersemester 2002</a>
-                  (<a href="courses/SoSem02/eval" target="_blank">Ergebnisse der LVA Evaluation</a>)
+                  (<a href="courses/SoSem02/eval/eval-sosem-02.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
                 </li>
                 <!--
                   (im Vorlesungsverzeichnis der Uni Wien, <B>ACHTUNG: weder vollst&auml;ndig noch richtig!</B>)
@@ -1408,7 +1408,7 @@ include('../includes/header-teaching.php');
 
                 <li>
                   <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2001">Wintersemester 2001/02</a>
-                  (<a href="courses/WS0102/eval" target="_blank">Ergebnisse der LVA Evaluation</a>)
+                  (<a href="courses/WS0102/eval/eval-ws0102.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
                 </li>
                 <ul>
                   <li>822010 PS Proseminar zur Analysis III, Fr. 10-11:30, Hs. 6</li>
@@ -1422,7 +1422,7 @@ include('../includes/header-teaching.php');
                 <ul>
                   <li>
                     802985 UE Proseminar zur Analysis II
-                    <a href="courses/SoSem01/eval/a2.php" target="_blank">(Ergebnisse der LVA Evaluation)</a>
+                    <a href="courses/SoSem01/eval/eval-sosem01.pdf" target="_blank">(Ergebnisse der LVA Evaluation)</a>
                   </li>
                   <li>802398 SE Seminar (Analysis): Verallgemeinerte Funktionen (gemeinsam mit <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)</li>
                   <li>
@@ -1443,7 +1443,7 @@ include('../includes/header-teaching.php');
                 <ul>
                   <li>
                     802471 UE Proseminar zur Analysis I
-                    <a href="courses/WS0001/eval/a1.php" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
+                    <a href="courses/WS0001/eval/eval-ws0001.pdf" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                   </li>
                   <li>
                     802615 UE Proseminar zur Analysis III
@@ -1460,7 +1460,7 @@ include('../includes/header-teaching.php');
                 <ul>
                   <li>
                     802378 UE Proseminar zu Analysis II
-                    <a href="courses/SS00/a2ue.php3" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
+                    <a href="courses/SS00/eval-sosem00" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                   </li>
                   <li>802398 SE Seminar (Analysis): Verallgemeinerte Funktionen (gemeinsam mit <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)</li>
                   <li>
