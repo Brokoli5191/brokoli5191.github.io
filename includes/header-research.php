@@ -241,16 +241,31 @@
               <button class="<?php echo ($currentSubPage === 'research-topics') ? 'navbar-active' : 'navbar-link'; ?>">Research Topics</button>
             </a>
 
-            <a href="research-publications.php" class="navbar-item">
-              <button class="<?php echo ($currentSubPage === 'research-publications') ? 'navbar-active' : 'navbar-link'; ?>">Publications</button>
-            </a>
+            <div class="dropdown navbar-item">
+              <button onclick="window.location.href='research-publications.php';" class="<?php echo ($currentSubPage === 'research-publications') ? 'navbar-active' : 'navbar-link'; ?>">Publications</button>
+              <div class="dropdown-content">
+                <a href="research-publications.php#Monographs">Research Monographs</a>
+                <a href="research-publications.php#Textbook">Textbook</a>
+                <a href="research-publications.php#Preprints">Preprints</a>
+                <a href="research-publications.php#articles">Research Articles</a>
+                <a href="research-publications.php#Misc">Miscellaneous</a>
+                <a href="research-publications.php#Didactics">Mathematics Education Research</a>
+                <a href="research-publications.php#Theses">Theses</a>
+                <a href="research-publications.php#editor">Editorial Activities</a>
+                <a href="research-publications.php#extern">ArXiv, MathSciNet & ZMAT</a>
+              </div>
+            </div>
 
             <a href="research-projects.php" class="navbar-item">
               <button class="<?php echo ($currentSubPage === 'research-projects') ? 'navbar-active' : 'navbar-link'; ?>">Projects</button>
             </a>
 
-            <a href="research-talks.php" class="navbar-item">
-              <button class="<?php echo ($currentSubPage === 'research-talks') ? 'navbar-active' : 'navbar-link'; ?>">Talks</button>
-            </a>
+            <div class="dropdown navbar-item">
+              <button onclick="window.location.href='research-talks.php';" class="<?php echo ($currentSubPage === 'research-talks') ? 'navbar-active' : 'navbar-link'; ?>">Talks</button>
+              <div class="dropdown-content">
+                <a href="research-talks.php">Mathematics</a>
+                <a href="research-talks.php#me">Maths Education</a>
+              </div>
+            </div>
           </ul>
         </nav>
