@@ -39,18 +39,6 @@
 this Website is a rework of <b>[this](https://www.mat.univie.ac.at/~stein/)</b> page
 
 
-
-### Built With
-
-* [![Php][Php.js]][Php-url]
-
-* [![Css][Css.js]][Css-url]
-
-* [![Javascript][Javascript.js]][Javascript-url]
-
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -68,7 +56,7 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
    ```sh
    git clone https://github.com/Brokoli5191/brokoli5191.github.io.git
    ```
-2. Open the index.html file in your browser of choice
+2. Open the index.php file in your browser of choice
 
 3. Or edit the index.html
 
@@ -79,7 +67,6 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 ## Roadmap
 
 - [ ] fix links
-- [ ] Teaching documents (pdfs + sites)
 - [ ] minor changes
 
 
