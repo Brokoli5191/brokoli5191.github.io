@@ -356,7 +356,7 @@ $currentPage = "about";
            </article>
            </div>
       </main>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script-index.js"></script>
     <footer>&copy; 2025 Roland Steinbauer | Designed by Florian Hartmann & Joe Wang</footer>
   </body>
 </html>
