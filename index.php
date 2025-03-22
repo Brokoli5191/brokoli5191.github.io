@@ -330,8 +330,9 @@ $currentPage = "about";
                     <p class="service-item-text">
                       I am a PhD-supervisor in the <a href="https://www.vsmath.at/" target="_blank">Vienna School of Mathematics (VSM)</a> which is a new joint enterprise of U Vienna with the 
 		                  <a href="https://www.tuwien.at/en" target="_blank">Technical University Vienna</a> and a supervisor in the 
-		                  <a href="https://mcmp.univie.ac.at/" target="_blank">Vienna Master Class Mathematical Physics (MCMP)</a> which is run jointly with the <a href="https://physik.univie.ac.at/en/" target="_blank">Faculty of Physics</a> of U Vienna.
-		                  </p>
+		                  <a href="https://mcmp.univie.ac.at/" target="_blank">Vienna Master Class Mathematical Physics (MCMP)</a> which is run jointly by the Faculties of 
+		                  <a href="https://mathematik.univie.ac.at/" target="_blank">Mathematics</a> and <a href="https://physik.univie.ac.at/en/" target="_blank">Physics</a> of U Vienna.
+      	           </p>
                   </div>
                 </li>
 
@@ -343,8 +344,9 @@ $currentPage = "about";
                   <div class="service-content-box">
                     <h4 class="h4 service-item-title">Professional Memberships</h4>
                     <p class="service-item-text">
-                      I am member of the <a href="https://iagf.pmf.uns.ac.rs/" target="_blank">IAGF</a> (The International Association for Generalized Functions), a life-time member of <a href="https://isaacmath.org/" target="_blank">ISAAC</a> 
-		                  (The International Society for Analysis, its Applications and Computation), the <a href="https://didaktik-der-mathematik.de/" target="_blank">GDM</a> (The German Society of Didactics of Mathematics) and its
+                      I am a lifetime-member of <a href="https://isaacmath.org/" target="_blank">ISAAC</a> (The International Society for Analysis, its Applications and Computation), a member and former treasurer of 
+		                  the <a href="https://iagf.pmf.uns.ac.rs/" target="_blank">IAGF</a> (The International Association for Generalized Functions), and a member of the 
+		                  <a href="https://didaktik-der-mathematik.de/" target="_blank">GDM</a> (The German Society of Didactics of Mathematics) and its
 		                  <a href="https://mathematik.univie.ac.at/forschung/fachdidaktikschulmathematik/gdm-arbeitskreis-mathematikunterricht-und-mathematikdidaktik-in-oesterreich/" target="_blank">Austria working group</a>. 
 		                </p>
                   </div>

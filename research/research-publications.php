@@ -97,22 +97,36 @@ include('../includes/header-research.php');
         <br />
       </p>
 
-      <p id="conj-pts">
-        <b>[Pre1] Marginally outer trapped tubes in de Sitter spacetime</b>
-        <br />
-        <i>Authors:</i> Marc Mars, Carl Rossdeutscher, Walter Simon, Roland Steinbauer
-        <br />
-        <i>ArXiv:</i>
-        <a href="https://arxiv.org/abs/2407.10602" target="_blank">arXiv:2407.10602 [gr-qc]</a>
-        <br />
-        <i>Status:</i> to appear in LMP.
-
-        <br />
-        <br />
+      
+      <p id="h-lip">
+        <b>[Pre1] Hawking's singularity theorem for Lipschitz Lorentzian metrics</b>
+	<br />
+	<i>Authors:</i> Matteo Calisti, Melaini Graf,  Eduardo Hafemann, Michael Kunzinger, Roland Steinbauer
+	<br />
+	<i>MSC-class:</i> 83C75, 53C50, 46T30
+	<br />
+	ArXiv:</i> <a href="https://arxiv.org/abs/2501.18450" target="_blank"> arXiv:2501.18450 [math.dg]</a>
+	<br />
       </p>
 
+     
       <h4 id="articles">Peer-reviewed Research Articles</h4>
       <p id="lls"></p>
+
+      <p id="deS">
+       <b>
+        [58] <a href="https://doi.org/10.1007/s11005-024-01884-y" target="_blank">Marginally outer trapped tubes in de Sitter spacetime</a>
+       </b>
+       <br />
+	<i>Authors:</i> Marc Mars, Carl Rossdeutscher, Walter Simon, Roland Steinbauer
+	<br />
+	<i>MSC-class:</i> 53C42, 58J60, 58J70, 83C20
+	<br />
+	<i>Ref:</i>  Lett. Math. Phys. <b>114</b>, 141, 17pp. (2024)
+	<br />
+	ArXiv:</i> <a href="https://arxiv.org/abs/2407.10602" target="_blank">arXiv:2407.10602 [gr-qc]</a>
+	<br />
+       </p>	
 
       <p id="discont2">
         <b>
