@@ -46,7 +46,7 @@
           </figure>
 
           <div class="info-content">
-            <h3 class="name" title="Roland Steinbauer" href="../about/about.php">Roland Steinbauer</h3>
+            <h3 class="name" title="Roland Steinbauer"><a href="../about/about.php">Roland Steinbauer</a></h3>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
