@@ -9,7 +9,7 @@
     <meta name="description" content="Roland Steinbauer - Mathematician at the University of Vienna. Research in mathematics, differential geometry, and more." />
     <meta name="keywords" content="Roland Steinbauer, Universität Wien, Mathematik, University of Vienna, Mathematics, Differential Geometry" />
     <meta name="author" content="Roland Steinbauer, Florian Hartmann, Joe Wang" />
-    <title>Roland Steinbauer | Mathematics</title>
+    <title>Roland Steinbauer | <?php echo $pageTitle; ?></title>
 
     <script>
       function getCookie(name) {
@@ -27,30 +27,31 @@
 
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
-    <link rel="shortcut icon" href="../../../assets/images/logo.png" type="image/x-icon" />
-
-    <link rel="stylesheet" href="../../../assets/css/style.css" />
-
+    <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <?php if (isset($customCss)): ?>
+    <link rel="stylesheet" href="<?php echo $customCss; ?>" />
+    <?php endif; ?>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=planet" />
   </head>
-
   <body>
     <main>
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img src="../../../assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" />
+            <img src="../assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="../about/about.php" />
           </figure>
 
           <div class="info-content">
-            <h3 class="name" title="Roland Steinbauer">Roland Steinbauer</h3>
+            <h3 class="name" title="Roland Steinbauer" href="../about/about.php">Roland Steinbauer</h3>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
+            <span>Show Links</span>
+
             <ion-icon name="chevron-down"></ion-icon>
           </button>
         </div>
@@ -63,8 +64,9 @@
               <div class="icon-box">
                 <i class="ph ph-planet"></i>
               </div>
+
               <div class="contact-info">
-                <a href="https://ef-geometry.univie.ac.at/" class="contact-link">A New Geometry</a>
+                <a target="_blank" href="https://ef-geometry.univie.ac.at/" class="contact-link">A New Geometry</a>
               </div>
             </li>
 
@@ -72,8 +74,9 @@
               <div class="icon-box">
                 <i class="ph ph-microscope"></i>
               </div>
+
               <div class="contact-info">
-                <a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" class="contact-link">Research Seminar</a>
+                <a target="_blank" href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" class="contact-link">Research Seminar</a>
               </div>
             </li>
           </ul>
@@ -81,39 +84,42 @@
           <hr class="section-divider" />
 
           <ul class="contacts-list">
+             <li class="contact-item">
+              <div class="icon-box">
+                <i class="ph ph-math-operations"></i>
+              </div>
+
+              <div class="contact-info">
+                <a target="_blank" href="http://mathematik.univie.ac.at/" class="contact-link">Math Faculty</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <i class="ph ph-student"></i>
+              </div>
+
+              <div class="contact-info">
+                <a target="_blank" href="http://www.univie.ac.at/" class="contact-link">Vienna University</a>
+              </div>
+            </li>
+	    <li class="contact-item">
+             <div class="icon-box">
+               <i class="ph ph-atom"></i>
+             </div>
+
+             <div class="contact-info">
+               <a target="_blank" href=" https://gravity.univie.ac.at/" class="contact-link">Gravity @ U Vienna</a>
+             </div>
+            </li>
+
             <li class="contact-item">
               <div class="icon-box">
                 <i class="ph ph-bank"></i>
               </div>
-              <div class="contact-info">
-                <a href="https://www.vsmath.at/" class="contact-link">VSM</a>
-              </div>
-            </li>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-atom"></i>
-              </div>
               <div class="contact-info">
-                <a href="https://mcmp.univie.ac.at/" class="contact-link">MCMP</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-function"></i>
-              </div>
-              <div class="contact-info">
-                <a href="https://iagf.pmf.uns.ac.rs/" class="contact-link">IAGF</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-apple-logo"></i>
-              </div>
-              <div class="contact-info">
-                <a href="http://mathisaac.org/c/serverisaac/" class="contact-link">ISAAC</a>
+                <a target="_blank" href="https://www.vsmath.at/" class="contact-link">VSM</a><a class="contact-link"> / </a><a target="_blank" href="https://mcmp.univie.ac.at/" class="contact-link">MCMP</a>
               </div>
             </li>
           </ul>
@@ -125,8 +131,9 @@
               <div class="icon-box">
                 <i class="ph ph-pi"></i>
               </div>
+
               <div class="contact-info">
-                <a href="https://mathx.univie.ac.at/" class="contact-link">MaThx</a>
+                <a target="_blank" href="https://mathx.univie.ac.at/" class="contact-link">MaThx</a>
               </div>
             </li>
 
@@ -134,30 +141,9 @@
               <div class="icon-box">
                 <i class="ph ph-book"></i>
               </div>
-              <div class="contact-info">
-                <a href="https://www.springer.com/de/book/9783662568057" class="contact-link">Book</a>
-              </div>
-            </li>
-          </ul>
 
-          <hr class="section-divider" />
-
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-math-operations"></i>
-              </div>
               <div class="contact-info">
-                <a href="http://mathematik.univie.ac.at/" class="contact-link">Math Faculty</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-student"></i>
-              </div>
-              <div class="contact-info">
-                <a href="http://www.univie.ac.at/" class="contact-link">Vienna University</a>
+                <a target="_blank" href="https://www.springer.com/de/book/9783662568057" class="contact-link">Textbook</a>
               </div>
             </li>
           </ul>
@@ -167,28 +153,28 @@
       <div class="main-content">
         <nav class="navbar">
           <ul class="navbar-list">
-            <a href="../../../about/about.php" class="navbar-item">
-              <button class="navbar-link">About</button>
+            <a href="../about/about.php" class="navbar-item">
+              <button class="<?php echo ($currentPage === 'about') ? 'navbar-active' : 'navbar-link'; ?>">About</button>
             </a>
 
-            <a href="../../../pinboard/pinboard.php" class="navbar-item">
-              <button class="navbar-link">Pinboard</button>
+            <a href="../pinboard/pinboard.php" class="navbar-item">
+              <button class="<?php echo ($currentPage === 'pinboard') ? 'navbar-active' : 'navbar-link'; ?>">Pinboard</button>
             </a>
 
-            <a href="../../../research/research.php" class="navbar-item">
-              <button class="navbar-link">Research</button>
+            <a href="../research/research-topics.php" class="navbar-item">
+              <button class="<?php echo ($currentPage === 'research') ? 'navbar-active' : 'navbar-link'; ?>">Research</button>
             </a>
 
-            <a href="../../../teaching/teaching.php" class="navbar-item">
-              <button class="navbar-active">Teaching</button>
+            <a href="../teaching/teaching.php" class="navbar-item">
+              <button class="<?php echo ($currentPage === 'teaching') ? 'navbar-active' : 'navbar-link'; ?>">Teaching</button>
             </a>
 
-            <a href="../../../vita/vita.php" class="navbar-item">
-              <button class="navbar-link">Vita</button>
+            <a href="../vita/vita.php" class="navbar-item">
+              <button class="<?php echo ($currentPage === 'vita') ? 'navbar-active' : 'navbar-link'; ?>">Vita</button>
             </a>
 
-            <a href="../../../contact/contact.php" class="navbar-item">
-              <button class="navbar-link">Contact</button>
+            <a href="../contact/contact.php" class="navbar-item">
+              <button class="<?php echo ($currentPage === 'contact') ? 'navbar-active' : 'navbar-link'; ?>">Contact</button>
             </a>
 
             <label class="switch">
@@ -250,7 +236,6 @@
               </div>
             </label>
           </ul>
-
           <ul class="filter-list-research">
             <a href="../../teaching.php" class="navbar-item">
               <button class="navbar-link">Teaching Activities</button>

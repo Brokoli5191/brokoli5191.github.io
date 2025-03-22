@@ -164,6 +164,17 @@ a:hover {
   color: var(--on-hover);
 }
 
+i {
+  color: inherit;
+}
+
+.slash-separator {
+  color: var(--light-gray);
+  margin: 0 4px;
+  font-style: normal;
+  display: inline;
+}
+
 li {
   list-style: none;
 }

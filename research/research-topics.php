@@ -12,7 +12,7 @@ include('../includes/header-research.php');
     </header>
 
     <article class="article-second">
-      <h2 class="h3 article-title">Research Interests</h2>
+      <h2 class="h3 article-title">Research Topics</h2>
       <p class="research-paragraph-container">
         I was originally trained as a mathematical physicist specializing in general relativity. Over the years I have developed a broad interest in several topics in analysis, geometry and
         mathematical physics, as well as in mathematics education. My current research interests include but are not confined to the following list
@@ -28,7 +28,7 @@ include('../includes/header-research.php');
          <li class="list-dot">the theory of PDEs, in particular kinetic theory, and</li>
          <li class="list-dot">time frequency analysis & modulation spaces.</li>
         
-        <h4 class="about-title">Mathematics Education Reserach</h4>
+        <h4 class="about-title">Mathematics Education Research</h4>
          <li class="list-dot">professional knowledge of teachers</li>
          <li class="list-dot">beliefs on teaching and learning mathematics</li>
          <li class="list-dot">didactic of analysis</li>
@@ -54,15 +54,10 @@ include('../includes/header-research.php');
         <a href="http://www.soton.ac.uk" target="_blank">University of Southampton</a>
         and the <a href="https://www.lboro.ac.uk/" target="_blank">University of Loughborough</a> in the UK.
       </p>
-      <br />
-      <br />
-
+  
+  
       <h4 class="about-title">For more details on my research you can have a look at</h4>
       <ul class="list-research">
-        <li>
-          a brief description of my (mathematical)
-          <a href="research-topics.php">research topics</a>
-        </li>
         <li class="list-dot">
           my
           <a href="research-publications.php">list of publications and preprints</a>

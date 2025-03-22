@@ -42,7 +42,7 @@
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img src="../assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" />
+            <img src="../assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="../about/about.php" />
           </figure>
 
           <div class="info-content">
@@ -84,43 +84,42 @@
           <hr class="section-divider" />
 
           <ul class="contacts-list">
+             <li class="contact-item">
+              <div class="icon-box">
+                <i class="ph ph-math-operations"></i>
+              </div>
+
+              <div class="contact-info">
+                <a target="_blank" href="http://mathematik.univie.ac.at/" class="contact-link">Math Faculty</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <i class="ph ph-student"></i>
+              </div>
+
+              <div class="contact-info">
+                <a target="_blank" href="http://www.univie.ac.at/" class="contact-link">Vienna University</a>
+              </div>
+            </li>
+	    <li class="contact-item">
+             <div class="icon-box">
+               <i class="ph ph-atom"></i>
+             </div>
+
+             <div class="contact-info">
+               <a target="_blank" href=" https://gravity.univie.ac.at/" class="contact-link">Gravity @ U Vienna</a>
+             </div>
+            </li>
+
             <li class="contact-item">
               <div class="icon-box">
                 <i class="ph ph-bank"></i>
               </div>
 
               <div class="contact-info">
-                <a target="_blank" href="https://www.vsmath.at/" class="contact-link">VSM</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-atom"></i>
-              </div>
-
-              <div class="contact-info">
-                <a target="_blank" href="https://mcmp.univie.ac.at/" class="contact-link">MCMP</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-function"></i>
-              </div>
-
-              <div class="contact-info">
-                <a target="_blank" href="https://iagf.pmf.uns.ac.rs/" class="contact-link">IAGF</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-apple-logo"></i>
-              </div>
-
-              <div class="contact-info">
-                <a target="_blank" href="http://mathisaac.org/c/serverisaac/" class="contact-link">ISAAC</a>
+                <a target="_blank" href="https://www.vsmath.at/" class="contact-link">VSM</a><a class="contact-link"> / </a><a target="_blank" href="https://mcmp.univie.ac.at/" class="contact-link">MCMP</a>
               </div>
             </li>
           </ul>
@@ -144,31 +143,7 @@
               </div>
 
               <div class="contact-info">
-                <a target="_blank" href="https://www.springer.com/de/book/9783662568057" class="contact-link">Book</a>
-              </div>
-            </li>
-          </ul>
-
-          <hr class="section-divider" />
-
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-math-operations"></i>
-              </div>
-
-              <div class="contact-info">
-                <a target="_blank" href="http://mathematik.univie.ac.at/" class="contact-link">Math Faculty</a>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <i class="ph ph-student"></i>
-              </div>
-
-              <div class="contact-info">
-                <a target="_blank" href="http://www.univie.ac.at/" class="contact-link">Vienna University</a>
+                <a target="_blank" href="https://www.springer.com/de/book/9783662568057" class="contact-link">Textbook</a>
               </div>
             </li>
           </ul>

@@ -12,7 +12,7 @@ include('../includes/header-teaching.php');
             </header>
 
             <article class="article-second">
-              <h2 class="h3 article-title">Lehrveranstaltungen an der Universit&auml;t Wien (Lectures at Vienna University)</h2>
+              <h2 class="h3 article-title">Lehrveranstaltungen an der Uni Wien/Lectures at U Vienna</h2>
 
               <h4 id="lehruni_aktuell">Aktuelle Lehrveranstaltungen (Recent courses)</h4>
               <ul>

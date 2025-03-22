@@ -1417,7 +1417,7 @@ include('../includes/header-research.php');
       <h4 id="extern">Publications listed at arXiv, MathSciNet and ZMAT</h4>
 
       You can have a
-      <a href="http://arxiv.org/find/grp_math,grp_physics/1/au:+Steinbauer_R*/0/1/0/all/0/1" target="_blank">look</a> at my preprints and publications listed at
+      <a href="https://arxiv.org/search/?query=Steinbauer+roland&searchtype=all&abstracts=hide&order=-announced_date_first&size=100" target="_blank">look</a> at my preprints and publications listed at
       <a href="http://arxiv.org" target="_blank">arXiv.org</a> .
       <br />
       <br />
