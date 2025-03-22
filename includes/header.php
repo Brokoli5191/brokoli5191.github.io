@@ -25,7 +25,7 @@
       }
     </script>
 
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type="text/css" href="../assets/icons/style.css" />
 
     <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../assets/css/style.css" />

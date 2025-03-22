@@ -28,7 +28,7 @@ $currentPage = "about";
       }
     </script>
 
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type="text/css" href="assets/icons/style.css" />
 
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -45,7 +45,7 @@ $currentPage = "about";
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img src="assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="../about/about.php" />
+            <img src="assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="about/about.php" />
           </figure>
 
           <div class="info-content">
@@ -352,7 +352,9 @@ $currentPage = "about";
               </ul>
             </section>
            </article>
-
-<?php
-include('includes/footer.php');
-?>
+           </div>
+      </main>
+    <script src="assets/js/script.js"></script>
+    <footer>&copy; 2025 Roland Steinbauer | Designed by Florian Hartmann & Joe Wang</footer>
+  </body>
+</html>

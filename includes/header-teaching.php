@@ -25,7 +25,7 @@
       }
     </script>
 
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type="text/css" href="../assets/icons/style.css" />
 
     <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../assets/css/style.css" />
@@ -241,9 +241,16 @@
                 <button class="<?php echo ($currentSubPage === 'teaching') ? 'navbar-active' : 'navbar-link'; ?>">Teaching Activities</button>
             </a>
 
-            <a href="teaching-courses.php" class="navbar-item">
-                <button class="<?php echo ($currentSubPage === 'teaching-courses') ? 'navbar-active' : 'navbar-link'; ?>">Courses</button>
-            </a>
+            <div class="dropdown navbar-item">
+              <button onclick="window.location.href='teaching-courses.php';" class="<?php echo ($currentSubPage === 'teaching-courses') ? 'navbar-active' : 'navbar-link'; ?>">Courses</button>
+              <div class="dropdown-content">
+                <a href="teaching-courses.php#lehruni">UniVie</a>
+                <a href="teaching-courses.php#lehruni_aktuell">Recent Courses</a>
+                <a href="teaching-courses.php#lehruni_alt">Past Courses</a>
+                <a href="teaching-courses.php#lehruni_geplant">Future Courses</a>
+                <a href="teaching-courses.php#extern">External</a>
+              </div>
+            </div>
 
             <a href="teaching-lecturenotes.php" class="navbar-item">
                 <button class="<?php echo ($currentSubPage === 'teaching-lecturenotes') ? 'navbar-active' : 'navbar-link'; ?>">Lecture Notes</button>

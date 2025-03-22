@@ -13,7 +13,7 @@ include('../includes/header.php');
     <section class="timeline">
       <div class="title-wrapper">
         <div class="icon-box">
-          <ion-icon name="book-outline"></ion-icon>
+          <i class="ph ph-book-open"></i>
         </div>
 
         <!--<h3 class="h3">Everything that has happened</h3>-->
