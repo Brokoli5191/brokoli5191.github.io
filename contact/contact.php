@@ -13,7 +13,7 @@ include('../includes/header.php');
   <section class="timeline">
     <div class="title-wrapper">
       <div class="icon-box">
-        <ion-icon name="mail-outline"></ion-icon>
+        <i class="ph ph-at"></i>
       </div>
 
       <h3 class="h3"></h3>
@@ -60,7 +60,7 @@ include('../includes/header.php');
         <h4 class="h4 timeline-item-title">Website</h4>
 
         <span>
-          <a href="about.php">Personal page</a>,
+          <a href="../about/about.php">Personal page</a>,
           <a href="https://ufind.univie.ac.at/de/person.html?id=5458" target="_blank">official university page</a>
         </span>
       </li>

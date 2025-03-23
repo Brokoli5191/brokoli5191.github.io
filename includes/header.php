@@ -52,7 +52,7 @@
           <button class="info_more-btn" data-sidebar-btn>
             <span>Show Links</span>
 
-            <ion-icon name="chevron-down"></ion-icon>
+            <i class="ph ph-caret-down"></i>
           </button>
         </div>
 
