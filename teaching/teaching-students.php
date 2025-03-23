@@ -17,6 +17,18 @@ include('../includes/header-teaching.php');
               <h4>Current students</h4>
 
               <ul>
+
+		 <li>
+                  <b>Ines Vega Gaonzalez</b>
+                  <br />
+                  Analytic and synthetic extensions of the singularity theorems
+                  <br />
+                  Ph.D. (co-supervisor Michael Kunzinger)
+                  <br />
+                  <br />
+                </li>
+
+
                 <li>
                   <b>Sebastian Gieger</b>
                   <br />
@@ -76,6 +88,17 @@ include('../includes/header-teaching.php');
                   <br />
                   <br />
                 </li>
+
+		<li>
+                  <b>Tatjana Punz</b>
+                  <br />
+                  Der Effekt von Vorlesungsaufzeichnungen
+                  <br />
+                  M.Ed.
+                  <br />
+                  <br />
+                </li>
+
 
                 <li>
                   <b>Paul-Aaron Haberger</b>
