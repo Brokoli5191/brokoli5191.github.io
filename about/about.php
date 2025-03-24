@@ -87,7 +87,7 @@ include('../includes/header.php');
                     <p class="service-item-text">
                       I have co-authored the general introductory textbook <a href="https://link.springer.com/book/10.1007/978-3-662-56806-4" target="_blank">Einführung in das Mathematische Arbeiten</a> (German, Introduction into mathematical methodology) with <a href="https://www.mat.univie.ac.at/~herman" target="_blank">Hermann Schichl</a>. Together we
                       are running a <a href="https://www.mat.univie.ac.at/~einfbuch/" target="_blank">service web page</a> accompanying the book which offers a number of <a href="http://www.mat.univie.ac.at/~einfbuch/Videos" target="_blank">explanatory videos</a> which we have produced for its 3rd edition. We have been awarded the <a href="https://ctl.univie.ac.at/angebote-fuer-lehrende/teaching-awards/archiv-univie-teaching-award/univie-teaching-award-2013/" target="_blank">UNIVIE Teaching Award 2013</a> of Vienna University 
-                      and the <a href="https://gutelehre.at/neuigkeiten/detailseite/ars-docendi-2016-preisverleihung" target="_blank">ARS DOCENDI</a>, the Austrian National Award in University Teaching in 2016.
+                      and the <a href="https://gutelehre.at/neuigkeiten/detailseite/ars-docendi-2016-preisverleihung" target="_blank">ARS DOCENDI</a>, the Austrian National Award in University Teaching in 2016.  
                     </p>
                   </div>
                 </li>                            
