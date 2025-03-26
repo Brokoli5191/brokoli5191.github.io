@@ -28,17 +28,13 @@ $currentPage = "about";
       }
     </script>
 
+    <link rel="stylesheet" href="assets/css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="assets/icons/style.css" />
-
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
     <?php if (isset($customCss)): ?>
     <link rel="stylesheet" href="<?php echo $customCss; ?>" />
-    <?php endif; ?>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=planet" />
+    <?php endif; ?>>
   </head>
   <body>
     <main>
