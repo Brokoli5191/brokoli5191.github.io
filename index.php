@@ -34,7 +34,7 @@ $currentPage = "about";
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
     <?php if (isset($customCss)): ?>
     <link rel="stylesheet" href="<?php echo $customCss; ?>" />
-    <?php endif; ?>>
+    <?php endif; ?>
   </head>
   <body>
     <main>
@@ -160,7 +160,7 @@ $currentPage = "about";
               <button class="<?php echo ($currentPage === 'pinboard') ? 'navbar-active' : 'navbar-link'; ?>">Pinboard</button>
             </a>
 
-            <a href=research/research-topics.php" class="navbar-item">
+            <a href="research/research-topics.php" class="navbar-item">
               <button class="<?php echo ($currentPage === 'research') ? 'navbar-active' : 'navbar-link'; ?>">Research</button>
             </a>
 
