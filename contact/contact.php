@@ -1,5 +1,4 @@
 <?php
-// Definiere die seitenspezifischen Variablen
 $pageTitle = "Contact";
 $currentPage = "contact";
 include('../includes/header.php');
