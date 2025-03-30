@@ -1,64 +1,5 @@
-/**
- * This CSS file contains styles for a personal portfolio website
- * 
- * Table of Contents:
- * 1. Custom Properties
- *    - Color variables (dark & light mode)
- *    - Typography (font families, sizes, weights)
- *    - Shadows
- *    - Transitions
- * 
- * 2. Reset Styles
- *    - Basic resets and default styles
- *    - Link styles
- *    - List styles
- * 
- * 3. Reused Styles
- *    - Common components (sidebar, articles)
- *    - Icons and decorative elements
- *    - Typography classes
- *    - Scrollbars
- *    - Content cards
- * 
- * 4. Layout Components
- *    - Main layout
- *    - Sidebar
- *    - Navigation bar
- *    - About section
- *    - Service section
- *    - Testimonials section
- *    - Resume section
- *    - Portfolio section
- *    - Research section
- *    - Blog section
- *    - Contact section
- * 
- * 5. Theme Toggle
- *    - Dark/Light mode switch
- *    - Animation effects
- * 
- * 6. Responsive Design
- *    - Mobile (<450px)
- *    - Tablet (450px - 768px)
- *    - Desktop (768px - 1024px)
- *    - Large Desktop (>1024px)
- * 
- * Dependencies:
- * - Requires Poppins font family
- * - Uses Ion icons and Phosphor icons
- * 
- * Author: Florian Hartmann & Joe Wang
- * Version: 0.0.1
- * Last Updated: 26.02.2025
- */
-
-/*-----------------------------------*\
-  #1. CUSTOM PROPERTIES
-\*-----------------------------------*/
-
 :root,
 .dark-mode {
-  /* Colors */
   --border-color: #383838;
   --gray: #2b2c2b;
   --icon-box: #222020;
@@ -80,7 +21,6 @@
 }
 
 .light-mode {
-  /* Colors - Light mode */
   --border-color: #b0bec5;
   --gray: #e3eaf3;
   --icon-box: #dfe7f2;
@@ -102,11 +42,8 @@
 }
 
 :root {
-  /* Typography */
-  /* font-family */
   --ff-poppins: "Poppins", sans-serif;
 
-  /* font-size */
   --fs-1: 24px;
   --fs-2: 18px;
   --fs-3: 17px;
@@ -116,27 +53,21 @@
   --fs-7: 13px;
   --fs-8: 11px;
 
-  /* font-weight */
   --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
 
-  /* Shadows */
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /* Transitions */
   --transition-1: 0.25s ease;
   --transition-2: 1s ease-in-out;
 }
 
-/*-----------------------------------*\
-  #2. RESET STYLES
-\*-----------------------------------*/
 *,
 *::before,
 *::after {
@@ -224,10 +155,6 @@ footer {
   margin-top: -60px;
 }
 
-/*-----------------------------------*\
-  #3. REUSED STYLES
-\*-----------------------------------*/
-
 a.contact-link:hover {
   color: var(--on-hover);
 }
@@ -288,7 +215,6 @@ article {
   z-index: -1;
 }
 
-/* Typography Classes */
 .h2,
 .h3 {
   color: var(--accent-color);
@@ -334,10 +260,9 @@ article {
   border-radius: 3px;
 }
 
-/* Scrollbar Styles */
 .has-scrollbar::-webkit-scrollbar {
-  width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  width: 5px;
+  height: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
@@ -354,7 +279,6 @@ article {
   width: 20px;
 }
 
-/* Content Card */
 .content-card {
   position: relative;
   background: var(--border-gradient-onyx);
@@ -379,7 +303,6 @@ article {
   font-size: 32px;
 }
 
-/* Animations */
 @keyframes fade {
   0% {
     opacity: 0;
@@ -389,11 +312,6 @@ article {
   }
 }
 
-/*-----------------------------------*\
-  #4. LAYOUT COMPONENTS
-\*-----------------------------------*/
-
-/* Main Layout */
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
@@ -450,7 +368,6 @@ main {
   animation-delay: 0.3s;
 }
 
-/* Add the fadeInUp animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -627,7 +544,6 @@ main {
   color: var(--light-gray);
 }
 
-/* Navbar */
 .navbar {
   position: fixed;
   bottom: 0;
@@ -671,7 +587,6 @@ main {
   font-weight: var(--fw-500);
 }
 
-/* Filter Research List */
 .filter-list-research {
   position: fixed;
   margin: 0;
@@ -691,7 +606,6 @@ main {
   animation: fade 0.8s ease backwards;
 }
 
-/* About Section */
 .about .article-title {
   margin-bottom: 15px;
 }
@@ -717,7 +631,6 @@ main {
   margin-bottom: 10px;
 }
 
-/* Service Section */
 .service {
   margin-bottom: 35px;
 }
@@ -856,7 +769,6 @@ main {
   overflow: hidden;
 }
 
-/* Resume Section */
 .timeline {
   margin-bottom: 30px;
 }
@@ -931,7 +843,6 @@ main {
   word-break: normal;
 }
 
-/* Skills */
 .skills-title {
   margin-bottom: 20px;
 }
@@ -970,7 +881,6 @@ main {
   border-radius: inherit;
 }
 
-/* Portfolio Section */
 .filter-list {
   display: none;
 }
@@ -1139,7 +1049,6 @@ main {
   font-weight: var(--fw-300);
 }
 
-/* Research Section */
 .padding-left-ph {
   padding-left: -5px;
 }
@@ -1219,7 +1128,6 @@ main {
   color: hsl(45, 100%, 72%);
 }
 
-/* Blog Section */
 .blog-posts {
   margin-bottom: 10px;
 }
@@ -1308,7 +1216,6 @@ main {
   line-height: 1.6;
 }
 
-/* Contact Section */
 .mapbox {
   position: relative;
   height: 350px;
@@ -1325,7 +1232,6 @@ main {
   z-index: 1;
 }
 
-/* Consent banner styles */
 #map-consent-banner {
   position: absolute;
   top: 0;
@@ -1364,7 +1270,6 @@ main {
   background-color: var(--on-hover);
 }
 
-/* Dark mode map styles */
 :root.dark-mode #map-container {
   filter: grayscale(1) invert(1);
 }
@@ -1485,10 +1390,6 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
-/*-----------------------------------*\
-  #5. THEME TOGGLE
-\*-----------------------------------*/
-
 .switch {
   position: relative;
   display: inline-block;
@@ -1553,7 +1454,6 @@ input:checked + .slider .sun-moon .moon-dot {
   opacity: 1;
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
@@ -1762,7 +1662,7 @@ input:checked + .slider .stars {
   bottom: 30px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  display: none; /* Hidden by default, shown via media query */
+  display: none;
   height: 56px;
   justify-content: center;
   position: fixed;
@@ -1772,7 +1672,6 @@ input:checked + .slider .stars {
   z-index: 100;
 }
 
-/* Add pulsing effect to the button */
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 rgba(255, 219, 112, 0.7);
@@ -1785,7 +1684,6 @@ input:checked + .slider .stars {
   }
 }
 
-/* Hover and active states for toggle button */
 .mobile-menu-toggle:hover {
   background-color: var(--on-hover);
   transform: scale(1.05) rotate(90deg);
@@ -1796,7 +1694,6 @@ body.menu-open .mobile-menu-toggle {
   transform: rotate(225deg);
 }
 
-/* Improved plus icon with animation */
 .mobile-menu-toggle::before,
 .mobile-menu-toggle::after {
   background-color: var(--bg-body);
@@ -1822,7 +1719,6 @@ body.menu-open .mobile-menu-toggle {
   width: 20px;
 }
 
-/* Transform plus into X when menu is open */
 body.menu-open .mobile-menu-toggle::before {
   transform: translate(-50%, -50%) rotate(90deg);
 }
@@ -1831,29 +1727,27 @@ body.menu-open .mobile-menu-toggle::after {
   transform: translate(-50%, -50%) rotate(180deg);
 }
 
-/* Mobile Menu Panel */
 .mobile-menu {
   background-color: var(--bg-gray);
   border-radius: 24px 0 0 24px;
   bottom: 0;
   box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
-  display: block; /* Always create it in the DOM but position off-screen */
+  display: block;
   height: 100vh;
   max-width: 320px;
   min-width: 280px;
   opacity: 0;
   overflow-y: auto;
-  padding: 60px 24px 40px; /* Increased top padding for more space */
+  padding: 60px 24px 40px;
   pointer-events: none;
   position: fixed;
   right: -100%;
   top: 0;
   transition: right 0.4s cubic-bezier(0.17, 0.67, 0.24, 0.99), opacity 0.3s ease, background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   width: 85%;
-  z-index: 1001; /* Higher than overlay */
+  z-index: 1001;
 }
 
-/* Light mode adjustments */
 .light-mode .mobile-menu {
   box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
 }
@@ -1864,7 +1758,6 @@ body.menu-open .mobile-menu-toggle::after {
   right: 0;
 }
 
-/* Menu Close Button */
 .mobile-menu-close {
   align-items: center;
   background-color: var(--bg-body);
@@ -1890,12 +1783,11 @@ body.menu-open .mobile-menu-toggle::after {
   transform: rotate(90deg);
 }
 
-/* Menu Header */
 .mobile-menu-header {
   align-items: center;
   display: flex;
   margin-bottom: 40px;
-  margin-top: 20px; /* Added space above the header */
+  margin-top: 20px;
 }
 
 .mobile-menu-avatar {
@@ -1912,7 +1804,6 @@ body.menu-open .mobile-menu-toggle::after {
   font-weight: 500;
 }
 
-/* Navigation */
 .mobile-nav-list {
   display: flex;
   flex-direction: column;
@@ -2022,7 +1913,6 @@ body.menu-open .mobile-menu-toggle::after {
   padding: 10px 16px;
 }
 
-/* Overlay */
 .mobile-menu-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
@@ -2048,7 +1938,6 @@ body.menu-open .mobile-menu-toggle::after {
   pointer-events: auto;
 }
 
-/* Theme Toggle */
 .mobile-theme-toggle {
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -2067,7 +1956,6 @@ body.menu-open .mobile-menu-toggle::after {
   font-size: var(--fs-5);
 }
 
-/* Animations */
 @keyframes fadeInRight {
   from {
     opacity: 0;
@@ -2103,7 +1991,6 @@ body.menu-open .mobile-menu-toggle::after {
   animation-delay: 0.35s;
 }
 
-/* Pulse animation for toggle button when first loaded */
 .mobile-menu-toggle.pulse-once {
   animation: pulse 1.5s ease-out 1;
 }
@@ -2177,7 +2064,6 @@ body.menu-open .mobile-menu-toggle::after {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* Gemeinsamer Basis-Stil für beide Buttons */
 .mobile-menu-toggle,
 .scroll-to-top {
   align-items: center;
@@ -2202,9 +2088,8 @@ body.menu-open .mobile-menu-toggle::after {
   color: var(--bg-body);
 }
 
-/* Positionierung für Scroll-to-Top Button */
 .scroll-to-top {
-  bottom: 100px; /* Über dem mobile-menu-toggle */
+  bottom: 100px;
   opacity: 0;
   visibility: hidden;
 }
@@ -2214,26 +2099,21 @@ body.menu-open .mobile-menu-toggle::after {
   visibility: visible;
 }
 
-/* Hover-Effekt für beide Buttons */
-.mobile-menu-toggle:hover,
 .scroll-to-top:hover {
   background-color: var(--on-hover);
   transform: scale(1.05);
 }
 
-/* Spezifischer Hover-Effekt für Scroll-to-Top */
 .scroll-to-top:hover i {
   transform: rotate(360deg);
 }
 
-/* Icon im Scroll-to-Top Button */
 .scroll-to-top i {
   font-size: 28px;
   font-weight: bold;
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* Gemeinsame Pulse-Animation für beide Buttons */
 @keyframes pulse-accent-color {
   0% {
     box-shadow: 0 0 0 0 var(--accent-color-transparent);
@@ -2246,7 +2126,6 @@ body.menu-open .mobile-menu-toggle::after {
   }
 }
 
-/* Hilfsvariablen für transparente Versionen der Akzentfarben */
 .dark-mode {
   --accent-color-transparent: rgba(255, 219, 112, 0.7);
 }
@@ -2255,7 +2134,6 @@ body.menu-open .mobile-menu-toggle::after {
   --accent-color-transparent: rgba(73, 107, 217, 0.7);
 }
 
-/* Anwendung der Pulse-Animation auf beide Buttons */
 .mobile-menu-toggle.pulse-once {
   animation: pulse-accent-color 1.5s ease-out;
 }
@@ -2265,7 +2143,6 @@ body.menu-open .mobile-menu-toggle::after {
   animation-iteration-count: 1;
 }
 
-/* Spezifische Stile für mobile-menu-toggle */
 .mobile-menu-toggle::before,
 .mobile-menu-toggle::after {
   background-color: var(--bg-body);
@@ -2304,7 +2181,6 @@ body.menu-open .mobile-menu-toggle::after {
   transform: translate(-50%, -50%) rotate(180deg);
 }
 
-/* Media query für Desktop-Layout */
 @media (min-width: 1024px) {
   .mobile-menu-toggle {
     display: none;
@@ -2315,19 +2191,9 @@ body.menu-open .mobile-menu-toggle::after {
   }
 }
 
-/*-----------------------------------*\
-  #6. RESPONSIVE DESIGN
-\*-----------------------------------*/
-
-/**
- * responsive smaller than 450px
- */
-
 @media (max-width: 449px) {
+
   :root {
-    /**
-     * typography
-     */
     --fs-1: 24px;
     --fs-2: 20px;
     --fs-3: 20px;
@@ -2337,10 +2203,6 @@ body.menu-open .mobile-menu-toggle::after {
     --fs-7: 13px;
     --fs-8: 10px;
   }
-
-  /**
-   * #REUSED STYLE
-   */
 
   .sidebar,
   article {
@@ -2366,18 +2228,10 @@ body.menu-open .mobile-menu-toggle::after {
     font-size: 14px;
   }
 
-  /**
-   * #MAIN
-   */
-
   main {
     margin-top: 40px;
     margin-bottom: 60px;
   }
-
-  /**
-   * #SIDEBAR
-   */
 
   .sidebar {
     max-height: 150px;
@@ -2450,10 +2304,6 @@ body.menu-open .mobile-menu-toggle::after {
     width: calc(100% - 45px);
   }
 
-  /**
-   * #NAVBAR
-   */
-
   .navbar {
     border-radius: 12px 12px 0 0;
     display: none;
@@ -2467,10 +2317,6 @@ body.menu-open .mobile-menu-toggle::after {
     --fs-8: 12px;
   }
 
-  /**
-   * #ABOUT
-   */
-
   .about .article-title {
     margin-bottom: 12px;
   }
@@ -2478,8 +2324,6 @@ body.menu-open .mobile-menu-toggle::after {
   .about-text {
     margin-bottom: 0px;
   }
-
-  /* service */
 
   .service-item {
     display: flex;
@@ -2521,23 +2365,6 @@ body.menu-open .mobile-menu-toggle::after {
     padding-top: 15px;
   }
 
-  /* clients */
-
-  .clients-list {
-    gap: 30px;
-    margin: 0 -20px;
-    padding: 25px;
-    scroll-padding-inline: 25px;
-  }
-
-  .clients-item {
-    min-width: calc(50% - 20px);
-  }
-
-  /**
-   * #RESUME
-   */
-
   .timeline-list {
     margin-left: 45px;
   }
@@ -2556,10 +2383,6 @@ body.menu-open .mobile-menu-toggle::after {
     margin-bottom: 15px;
   }
 
-  /**
-   * #PORTFOLIO, BLOG
-   */
-
   .project-img,
   .blog-banner-box {
     border-radius: 10px;
@@ -2572,10 +2395,6 @@ body.menu-open .mobile-menu-toggle::after {
   .blog-content {
     padding: 15px;
   }
-
-  /**
-   * #CONTACT
-   */
 
   .mapbox {
     height: 300px;
@@ -2610,15 +2429,8 @@ body.menu-open .mobile-menu-toggle::after {
   }
 }
 
-/**
- * responsive larger than 450px 
- */
-
 @media (min-width: 450px) {
   :root {
-    /**
-     * typography
-     */
     --fs-1: 28px;
     --fs-2: 22px;
     --fs-3: 24px;
@@ -2627,10 +2439,6 @@ body.menu-open .mobile-menu-toggle::after {
     --fs-7: 14px;
     --fs-8: 11px;
   }
-
-  /**
-   * #REUSED STYLE
-   */
 
   .sidebar,
   article {
@@ -2656,18 +2464,10 @@ body.menu-open .mobile-menu-toggle::after {
     font-size: 16px;
   }
 
-  /**
-   * #MAIN
-   */
-
   main {
     margin-top: 50px;
     margin-bottom: 80px;
   }
-
-  /**
-   * #SIDEBAR
-   */
 
   .sidebar {
     max-height: 170px;
@@ -2716,9 +2516,6 @@ body.menu-open .mobile-menu-toggle::after {
     width: calc(100% - 55px);
   }
 
-  /**
-   * #NAVBAR
-   */
 
   .navbar {
     border-radius: 16px 16px 0 0;
@@ -2733,15 +2530,9 @@ body.menu-open .mobile-menu-toggle::after {
     --fs-8: 13px;
   }
 
-  /**
-   * #ABOUT
-   */
-
   .about .article-title {
     margin-bottom: 15px;
   }
-
-  /* service */
 
   .service-item {
     display: flex;
@@ -2759,8 +2550,6 @@ body.menu-open .mobile-menu-toggle::after {
   .service-content-box {
     text-align: left;
   }
-
-  /* testimonials */
 
   .testimonials-title {
     margin-bottom: 20px;
@@ -2792,8 +2581,6 @@ body.menu-open .mobile-menu-toggle::after {
     margin-left: 85px;
   }
 
-  /* testimonials modal */
-
   .modal-container {
     padding: 15px;
   }
@@ -2816,23 +2603,6 @@ body.menu-open .mobile-menu-toggle::after {
     width: 30px;
   }
 
-  /* clients */
-
-  .clients-list {
-    gap: 40px;
-    margin: 0 -25px;
-    padding: 35px;
-    scroll-padding-inline: 35px;
-  }
-
-  .clients-item {
-    min-width: calc(33.33% - 30px);
-  }
-
-  /**
-   * #RESUME
-   */
-
   .timeline-list {
     margin-left: 55px;
   }
@@ -2851,10 +2621,6 @@ body.menu-open .mobile-menu-toggle::after {
     margin-bottom: 20px;
   }
 
-  /**
-   * #PORTFOLIO, BLOG
-   */
-
   .project-img,
   .blog-banner-box {
     border-radius: 14px;
@@ -2867,10 +2633,6 @@ body.menu-open .mobile-menu-toggle::after {
   .blog-content {
     padding: 20px;
   }
-
-  /**
-   * #CONTACT
-   */
 
   .mapbox {
     height: 350px;
@@ -2904,15 +2666,8 @@ body.menu-open .mobile-menu-toggle::after {
   }
 }
 
-/**
- * responsive larger than 580px screen
- */
-
 @media (min-width: 580px) {
   :root {
-    /**
-     * typography
-     */
     --fs-1: 32px;
     --fs-2: 24px;
     --fs-3: 26px;
@@ -2921,10 +2676,6 @@ body.menu-open .mobile-menu-toggle::after {
     --fs-7: 15px;
     --fs-8: 12px;
   }
-
-  /**
-   * #REUSED STYLE
-   */
 
   .sidebar,
   article {
@@ -2950,18 +2701,10 @@ body.menu-open .mobile-menu-toggle::after {
     font-size: 18px;
   }
 
-  /**
-   * #MAIN
-   */
-
   main {
     margin-top: 60px;
     margin-bottom: 100px;
   }
-
-  /**
-   * #SIDEBAR
-   */
 
   .sidebar {
     max-height: 180px;
@@ -3030,10 +2773,6 @@ body.menu-open .mobile-menu-toggle::after {
     width: calc(100% - 64px);
   }
 
-  /**
-   * #NAVBAR
-   */
-
   .navbar {
     border-radius: 20px 20px 0 0;
   }
@@ -3046,10 +2785,6 @@ body.menu-open .mobile-menu-toggle::after {
     --fs-8: 14px;
   }
 
-  /**
-   * #ABOUT
-   */
-
   .about .article-title {
     margin-bottom: 20px;
   }
@@ -3057,8 +2792,6 @@ body.menu-open .mobile-menu-toggle::after {
   .about-text {
     margin-bottom: 0px;
   }
-
-  /* service */
 
   .service-item {
     display: flex;
@@ -3076,8 +2809,6 @@ body.menu-open .mobile-menu-toggle::after {
   .service-content-box {
     text-align: left;
   }
-
-  /* testimonials */
 
   .testimonials-title {
     margin-bottom: 25px;
@@ -3114,8 +2845,6 @@ body.menu-open .mobile-menu-toggle::after {
     -webkit-line-clamp: 2;
   }
 
-  /* testimonials modal */
-
   .modal-container {
     padding: 20px;
   }
@@ -3150,23 +2879,6 @@ body.menu-open .mobile-menu-toggle::after {
     width: 35px;
   }
 
-  /* clients */
-
-  .clients-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
-  }
-
-  .clients-item {
-    min-width: calc(33.33% - 35px);
-  }
-
-  /**
-   * #RESUME
-   */
-
   .timeline-list {
     margin-left: 65px;
   }
@@ -3185,10 +2897,6 @@ body.menu-open .mobile-menu-toggle::after {
     margin-bottom: 25px;
   }
 
-  /**
-   * #PORTFOLIO, BLOG
-   */
-
   .project-img,
   .blog-banner-box {
     border-radius: 16px;
@@ -3201,10 +2909,6 @@ body.menu-open .mobile-menu-toggle::after {
   .blog-content {
     padding: 25px;
   }
-
-  /**
-   * #CONTACT
-   */
 
   .mapbox {
     height: 380px;
@@ -3239,7 +2943,7 @@ body.menu-open .mobile-menu-toggle::after {
 }
 
 @media (max-width: 768px) {
-  /* Make tables responsive on mobile */
+
   table {
     display: block;
     max-width: 100%;
@@ -3249,20 +2953,17 @@ body.menu-open .mobile-menu-toggle::after {
     border-collapse: collapse;
   }
 
-  /* Adjust table cell padding for mobile */
   td,
   th {
     padding: 6px 8px;
     font-size: var(--fs-6);
   }
 
-  /* Ensure nested tables also follow responsive rules */
   table table {
     width: auto;
     margin: 0;
   }
 
-  /* Optional: Add visual indicator for scrollable tables */
   .table-container {
     position: relative;
     overflow-x: auto;
@@ -3281,41 +2982,21 @@ body.menu-open .mobile-menu-toggle::after {
   }
 }
 
-/**
- * responsive larger than 768px screen
- */
 
 @media (min-width: 768px) {
-  /**
-   * REUSED STYLE
-   */
 
   .has-scrollbar::-webkit-scrollbar-button {
     width: 100px;
   }
-
-  /**
-   * SIDEBAR
-   */
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
 
-  /**
-   * NAVBAR
-   */
-
   .navbar-link {
     --fs-8: 15px;
   }
-
-  /**
-   * ABOUT
-   */
-
-  /* testimonials modal */
 
   .team-list {
     grid-template-columns: 1fr 1fr;
@@ -3324,10 +3005,6 @@ body.menu-open .mobile-menu-toggle::after {
   .team-member-image {
     width: 120px;
   }
-
-  /**
-   * PORTFOLIO
-   */
 
   .article-title {
     padding-bottom: 20px;
@@ -3360,16 +3037,10 @@ body.menu-open .mobile-menu-toggle::after {
     color: var(--accent-color);
   }
 
-  /* portfolio and blog grid */
-
   .project-list,
   .blog-posts-list {
     grid-template-columns: 1fr 1fr;
   }
-
-  /**
-   * CONTACT
-   */
 
   .input-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -3386,38 +3057,19 @@ body.menu-open .mobile-menu-toggle::after {
   }
 }
 
-/**
- * responsive larger than 1024px screen
- */
-
 @media (min-width: 1024px) {
-  /**
-   * CUSTOM PROPERTY
-   */
 
   :root {
-    /**
-    * shadow
-    */
-
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
   }
-
-  /**
-   * REUSED STYLE
-   */
 
   .sidebar,
   article {
     width: 1000px;
     box-shadow: var(--shadow-5);
   }
-
-  /**
-   * MAIN 
-   */
 
   main {
     margin-bottom: 60px;
@@ -3434,10 +3086,6 @@ body.menu-open .mobile-menu-toggle::after {
     margin: auto;
     margin-top: 80px;
   }
-
-  /**
-   * NAVBAR
-   */
 
   .navbar {
     display: block;
@@ -3485,40 +3133,19 @@ body.menu-open .mobile-menu-toggle::after {
     margin-left: 100px;
   }
 
-  /**
-   * ABOUT
-   */
-
-  /* service */
-
   .service-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }
 
-  /* testimonials */
-
   .testimonials-item {
     min-width: calc(50% - 15px);
   }
 
-  /* clients */
-
-  .clients-item {
-    min-width: calc(25% - 38px);
-  }
-
-  /**
-   * PORTFOLIO
-   */
 
   .project-list {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  /**
-   * BLOG
-   */
 
   .blog-banner-box {
     height: 230px;
@@ -3541,14 +3168,7 @@ body.menu-open .mobile-menu-toggle::after {
   }
 }
 
-/**
- * responsive larger than 1250px screen
- */
-
 @media (min-width: 1250px) {
-  /**
-   * RESET
-   */
 
   body::-webkit-scrollbar {
     width: 20px;
@@ -3573,18 +3193,10 @@ body.menu-open .mobile-menu-toggle::after {
     height: 60px;
   }
 
-  /**
-   * REUSED STYLE
-   */
-
   .sidebar,
   article {
     width: 100%;
   }
-
-  /**
-   * MAIN
-   */
 
   main {
     max-width: 1300px;
@@ -3600,10 +3212,6 @@ body.menu-open .mobile-menu-toggle::after {
     width: 75%;
     margin: 0;
   }
-
-  /**
-   * SIDEBAR
-   */
 
   .sidebar {
     position: sticky;
@@ -3672,10 +3280,6 @@ body.menu-open .mobile-menu-toggle::after {
   .team-card {
     height: 100%;
   }
-
-  /**
-	 * RESUME
-	 */
 
   .timeline-text {
     max-width: 700px;

@@ -1,6 +1,47 @@
 "use strict";
 
-// Cookie-Hilfsfunktionen
+/**
+ * Universelles JavaScript für die Website
+ * Einfache Version mit harten Pfaden
+ */
+
+// ============================
+// PFADE - HART CODIERT
+// ============================
+
+// Prüfen, ob wir auf der Root-Seite sind
+const isRootPage = window.location.pathname.endsWith('/index.php') || 
+                   window.location.pathname === '/' || 
+                   window.location.pathname.endsWith('/');
+
+// Pfade entsprechend setzen
+const avatarPath = isRootPage ? 'assets/images/rs.jpg' : '../assets/images/rs.jpg';
+const aboutPath = isRootPage ? 'about/about.php' : '../about/about.php';
+const pinboardPath = isRootPage ? 'pinboard/pinboard.php' : '../pinboard/pinboard.php';
+const researchPath = isRootPage ? 'research/research-topics.php' : '../research/research-topics.php';
+const teachingPath = isRootPage ? 'teaching/teaching.php' : '../teaching/teaching.php';
+const vitaPath = isRootPage ? 'vita/vita.php' : '../vita/vita.php';
+const contactPath = isRootPage ? 'contact/contact.php' : '../contact/contact.php';
+
+// Untermenüs für Research
+const researchTopicsPath = isRootPage ? 'research/research-topics.php' : '../research/research-topics.php';
+const researchPublicationsPath = isRootPage ? 'research/research-publications.php' : '../research/research-publications.php';
+const researchProjectsPath = isRootPage ? 'research/research-projects.php' : '../research/research-projects.php';
+const researchTalksPath = isRootPage ? 'research/research-talks.php' : '../research/research-talks.php';
+
+// Untermenüs für Teaching
+const teachingActivitiesPath = isRootPage ? 'teaching/teaching.php' : '../teaching/teaching.php';
+const teachingCoursesPath = isRootPage ? 'teaching/teaching-courses.php' : '../teaching/teaching-courses.php';
+const teachingLecturenotesPath = isRootPage ? 'teaching/teaching-lecturenotes.php' : '../teaching/teaching-lecturenotes.php';
+const teachingStudentsPath = isRootPage ? 'teaching/teaching-students.php' : '../teaching/teaching-students.php';
+
+// ============================
+// COOKIE-FUNKTIONEN
+// ============================
+
+/**
+ * Setzt ein Cookie mit dem angegebenen Namen, Wert und Gültigkeitsdauer
+ */
 function setCookie(name, value, days) {
   let expires = "";
   if (days) {
@@ -11,13 +52,22 @@ function setCookie(name, value, days) {
   document.cookie = name + "=" + value + expires + "; path=/";
 }
 
+/**
+ * Liest den Wert eines Cookies mit dem angegebenen Namen
+ */
 function getCookie(name) {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
   if (parts.length === 2) return parts.pop().split(";").shift();
 }
 
-// Theme management function
+// ============================
+// THEME-MANAGEMENT
+// ============================
+
+/**
+ * Initialisiert das Theme-Management (Dark/Light Mode)
+ */
 function initializeTheme() {
   const toggleSwitch = document.getElementById("theme-toggle");
   if (!toggleSwitch) return;
@@ -47,45 +97,60 @@ function initializeTheme() {
   });
 }
 
-// Beim Laden der Seite initialisieren
-document.addEventListener("DOMContentLoaded", initializeTheme);
+// ============================
+// HELPER-FUNKTIONEN
+// ============================
 
-// Bei Navigation zwischen Seiten (für Single Page Applications)
-if (window.navigation) {
-  navigation.addEventListener("navigate", () => {
-    initializeTheme();
-  });
-}
-
-// element toggle function
-const elementToggleFunc = function (elem) {
+/**
+ * Toggled die "active" Klasse eines Elements
+ */
+function elementToggleFunc(elem) {
+  if (!elem) return;
   elem.classList.toggle("active");
-};
-
-// sidebar variables
-const sidebar = document.querySelector("[data-sidebar]");
-const sidebarBtn = document.querySelector("[data-sidebar-btn]");
-
-// sidebar toggle functionality for mobile
-if (sidebarBtn) {
-  sidebarBtn.addEventListener("click", function () {
-    elementToggleFunc(sidebar);
-  });
 }
 
-// custom select variables
-const select = document.querySelector("[data-select]");
-const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
-const filterBtn = document.querySelectorAll("[data-filter-btn]");
+// ============================
+// SIDEBAR-FUNKTIONALITÄT
+// ============================
 
-if (select) {
-  select.addEventListener("click", function () {
-    elementToggleFunc(this);
-  });
+/**
+ * Initialisiert die Sidebar-Funktionalität
+ */
+function initSidebar() {
+  const sidebar = document.querySelector("[data-sidebar]");
+  const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+  if (sidebarBtn && sidebar) {
+    sidebarBtn.addEventListener("click", function () {
+      elementToggleFunc(sidebar);
+    });
+  }
 }
 
-// Scroll-to-Top Button Funktionalität
+// ============================
+// SELEKT-FUNKTIONALITÄT
+// ============================
+
+/**
+ * Initialisiert die Select-Funktionalität
+ */
+function initSelect() {
+  const select = document.querySelector("[data-select]");
+  
+  if (select) {
+    select.addEventListener("click", function () {
+      elementToggleFunc(this);
+    });
+  }
+}
+
+// ============================
+// SCROLL-TO-TOP BUTTON
+// ============================
+
+/**
+ * Initialisiert den Scroll-to-Top Button
+ */
 function initScrollToTopButton() {
   // Nur initialisieren, wenn der Button noch nicht existiert
   if (document.getElementById('scroll-to-top')) return;
@@ -96,7 +161,7 @@ function initScrollToTopButton() {
   scrollToTopButton.className = 'scroll-to-top';
   scrollToTopButton.setAttribute('aria-label', 'Nach oben scrollen');
   
-  // Pfeil-Icon hinzufügen mit phosphor-icon
+  // Pfeil-Icon hinzufügen
   const icon = document.createElement('i');
   icon.className = 'ph ph-arrow-up';
   scrollToTopButton.appendChild(icon);
@@ -113,7 +178,6 @@ function initScrollToTopButton() {
         scrollToTopButton.classList.add('visible');
         
         // Pulse-Animation jedes Mal, wenn der Button sichtbar wird
-        // Zuerst sicherstellen, dass keine alte Animation läuft
         scrollToTopButton.classList.remove('pulse');
         
         // Animation im nächsten Frame starten (für Reset-Effekt)
@@ -143,48 +207,51 @@ function initScrollToTopButton() {
   toggleScrollButton();
 }
 
+// ============================
+// MOBILES MENÜ
+// ============================
+
+/**
+ * Initialisiert das mobile Menü
+ */
 function initModernMobileMenu() {
-  // Only initialize on devices below 1024px
+  // Nur auf Geräten unter 1024px initialisieren
   if (window.innerWidth >= 1024) return;
 
-  // Check if mobile menu already exists
+  // Prüfen, ob das mobile Menü bereits existiert
   if (document.querySelector(".mobile-menu-toggle")) return;
 
-  // Create mobile menu toggle button
+  // Mobile Menu Toggle Button erstellen
   const toggleBtn = document.createElement("div");
   toggleBtn.className = "mobile-menu-toggle";
   toggleBtn.setAttribute("aria-label", "Open menu");
   document.body.appendChild(toggleBtn);
 
-  // Add pulse animation after a small delay
+  // Pulse-Animation hinzufügen
   setTimeout(() => {
     toggleBtn.classList.add("pulse-once");
   }, 500);
 
-  // Create overlay
+  // Overlay erstellen
   const overlay = document.createElement("div");
   overlay.className = "mobile-menu-overlay";
   document.body.appendChild(overlay);
 
-  // Create mobile menu container
+  // Mobile Menü Container erstellen
   const mobileMenu = document.createElement("div");
   mobileMenu.className = "mobile-menu";
 
-  // Create close button
+  // Schließen-Button erstellen
   const closeBtn = document.createElement("div");
   closeBtn.className = "mobile-menu-close";
   closeBtn.innerHTML = "×";
   closeBtn.setAttribute("aria-label", "Close menu");
   mobileMenu.appendChild(closeBtn);
 
-  // Create header with avatar
+  // Header mit Avatar erstellen
   const menuHeader = document.createElement("div");
   menuHeader.className = "mobile-menu-header";
 
-  // Pfad zum Avatar-Bild abhängig vom aktuellen Pfad bestimmen
-  const isInRoot = !window.location.pathname.includes('/');
-  const avatarPath = isInRoot ? "assets/images/rs.jpg" : "../assets/images/rs.jpg";
-  
   const menuAvatar = document.createElement("img");
   menuAvatar.className = "mobile-menu-avatar";
   menuAvatar.src = avatarPath;
@@ -198,51 +265,48 @@ function initModernMobileMenu() {
 
   mobileMenu.appendChild(menuHeader);
 
-  // Create navigation
+  // Navigation erstellen
   const mobileNav = document.createElement("nav");
   mobileNav.className = "mobile-nav";
 
-  // Get the current page path to mark active link
+  // Aktuellen Pfad für aktive Links ermitteln
   const currentPath = window.location.pathname;
 
-  // Create navigation list
+  // Navigationsliste erstellen
   const navList = document.createElement("ul");
   navList.className = "mobile-nav-list";
 
-  // Pfadprefix basierend auf aktuellem Pfad
-  const prefix = isInRoot ? "" : "../";
-
-  // Define navigation items with icons and submenus
+  // Navigationselemente mit festen Pfaden definieren
   const navItems = [
-    { name: "About", path: `${prefix}about/about.php`, icon: "person-outline" },
-    { name: "Pinboard", path: `${prefix}pinboard/pinboard.php`, icon: "clipboard-outline" },
+    { name: "About", path: aboutPath, icon: "person-outline" },
+    { name: "Pinboard", path: pinboardPath, icon: "clipboard-outline" },
     {
       name: "Research",
-      path: `${prefix}research/research.php`,
+      path: researchPath,
       icon: "flask-outline",
       submenu: [
-        { name: "Research Interests", path: `${prefix}research/research-topics.php` },
-        { name: "Publications", path: `${prefix}research/research-publications.php` },
-        { name: "Projects", path: `${prefix}research/research-projects.php` },
-        { name: "Talks", path: `${prefix}research/research-talks.php` },
+        { name: "Research Interests", path: researchTopicsPath },
+        { name: "Publications", path: researchPublicationsPath },
+        { name: "Projects", path: researchProjectsPath },
+        { name: "Talks", path: researchTalksPath },
       ],
     },
     {
       name: "Teaching",
-      path: `${prefix}teaching/teaching.php`,
+      path: teachingPath,
       icon: "school-outline",
       submenu: [
-        { name: "Teaching activities", path: `${prefix}teaching/teaching.php` },
-        { name: "Courses", path: `${prefix}teaching/teaching-courses.php` },
-        { name: "Lecture Notes", path: `${prefix}teaching/teaching-lecturenotes.php` },
-        { name: "Students", path: `${prefix}teaching/teaching-students.php` },
+        { name: "Teaching activities", path: teachingActivitiesPath },
+        { name: "Courses", path: teachingCoursesPath },
+        { name: "Lecture Notes", path: teachingLecturenotesPath },
+        { name: "Students", path: teachingStudentsPath },
       ],
     },
-    { name: "Vita", path: `${prefix}vita/vita.php`, icon: "document-text-outline" },
-    { name: "Contact", path: `${prefix}contact/contact.php`, icon: "mail-outline" },
+    { name: "Vita", path: vitaPath, icon: "document-text-outline" },
+    { name: "Contact", path: contactPath, icon: "mail-outline" },
   ];
 
-  // Create list items for the navigation menu
+  // Listenelemente für das Menü erstellen
   navItems.forEach((item) => {
     const li = document.createElement("li");
     li.className = "mobile-nav-item";
@@ -251,13 +315,13 @@ function initModernMobileMenu() {
     a.className = "mobile-nav-link";
     if (item.submenu) {
       a.classList.add("has-submenu");
-      // Make it a div instead of a link if it has submenu to prevent navigation
+      // Verhindern, dass der Link navigiert, wenn er ein Untermenü hat
       a.href = "javascript:void(0)";
     } else {
       a.href = item.path;
     }
 
-    // Add icon if available
+    // Icon hinzufügen, wenn verfügbar
     if (item.icon) {
       const iconSpan = document.createElement("span");
       iconSpan.className = "mobile-nav-icon";
@@ -269,19 +333,19 @@ function initModernMobileMenu() {
     textSpan.textContent = item.name;
     a.appendChild(textSpan);
 
-    // Check if this is the active page (only for items without submenu)
+    // Prüfen, ob dies die aktive Seite ist (nur für Elemente ohne Untermenü)
     if (!item.submenu && currentPath.includes(item.path.split("/").pop())) {
       a.classList.add("mobile-nav-active");
     }
 
     li.appendChild(a);
 
-    // Add submenu if it exists
+    // Untermenü hinzufügen, wenn vorhanden
     if (item.submenu) {
       const subUl = document.createElement("ul");
       subUl.className = "mobile-submenu";
 
-      // Variable to track if any submenu item is active
+      // Variable, um zu verfolgen, ob ein Unterelement aktiv ist
       let hasActiveChild = false;
 
       item.submenu.forEach((subItem) => {
@@ -293,7 +357,7 @@ function initModernMobileMenu() {
         subA.href = subItem.path;
         subA.textContent = subItem.name;
 
-        // Check if this is the active page
+        // Prüfen, ob dies die aktive Seite ist
         const isActive = currentPath.includes(subItem.path.split("/").pop());
         if (isActive) {
           subA.classList.add("mobile-nav-active");
@@ -304,7 +368,7 @@ function initModernMobileMenu() {
         subUl.appendChild(subLi);
       });
 
-      // If any child is active, expand the submenu and mark parent as having active child
+      // Wenn ein Kind aktiv ist, Untermenü expandieren und Elternelement als "hat aktives Kind" markieren
       if (hasActiveChild) {
         subUl.classList.add("expanded");
         a.classList.add("expanded");
@@ -313,13 +377,13 @@ function initModernMobileMenu() {
 
       li.appendChild(subUl);
 
-      // Add click event to toggle submenu
+      // Klick-Event zum Umschalten des Untermenüs hinzufügen
       a.addEventListener("click", (e) => {
         e.preventDefault();
         const submenu = a.nextElementSibling;
         const isExpanded = submenu.classList.contains("expanded");
 
-        // Close all other submenus first
+        // Zuerst alle anderen Untermenüs schließen
         document.querySelectorAll(".mobile-submenu.expanded").forEach((menu) => {
           if (menu !== submenu) {
             // Sanfte Animation beim Schließen
@@ -334,7 +398,7 @@ function initModernMobileMenu() {
           }
         });
 
-        // Toggle current submenu
+        // Aktuelles Untermenü umschalten
         if (isExpanded) {
           // Sanfte Animation beim Schließen
           submenu.style.opacity = '0';
@@ -350,7 +414,7 @@ function initModernMobileMenu() {
           submenu.classList.add("expanded");
           a.classList.add("expanded");
           
-          // Zurücksetzen der Stil-Eigenschaften für die Einblendanimation
+          // Stil-Eigenschaften für die Einblendanimation zurücksetzen
           setTimeout(() => {
             submenu.style.opacity = '';
             submenu.style.transform = '';
@@ -362,11 +426,11 @@ function initModernMobileMenu() {
     navList.appendChild(li);
   });
 
-  // Add the navigation list to the menu
+  // Navigationsliste zum Menü hinzufügen
   mobileNav.appendChild(navList);
   mobileMenu.appendChild(mobileNav);
 
-  // Add theme toggle switch to mobile menu if it exists in navbar
+  // Theme-Toggle-Switch zum mobilen Menü hinzufügen, wenn er existiert
   const themeToggle = document.querySelector(".switch");
   if (themeToggle) {
     const themeContainer = document.createElement("div");
@@ -374,6 +438,7 @@ function initModernMobileMenu() {
 
     const themeLabel = document.createElement("div");
     themeLabel.className = "mobile-theme-label";
+    themeLabel.style.paddingLeft = '44px'; // Einrückung anpassen
     themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
     themeContainer.appendChild(themeLabel);
 
@@ -381,62 +446,64 @@ function initModernMobileMenu() {
     themeContainer.appendChild(mobileThemeToggle);
     mobileMenu.appendChild(themeContainer);
 
-    // Sync the state with the original toggle
+    // Status mit dem Original-Toggle synchronisieren
     const originalInput = themeToggle.querySelector("input");
     const mobileInput = mobileThemeToggle.querySelector("input");
 
     if (originalInput && mobileInput) {
       mobileInput.checked = originalInput.checked;
 
-      // Keep toggles in sync and update label
+      // Toggles synchron halten und Label aktualisieren
       mobileInput.addEventListener("change", () => {
         originalInput.checked = mobileInput.checked;
         originalInput.dispatchEvent(new Event("change"));
 
-        // Update label text based on mode
+        // Label-Text basierend auf Modus aktualisieren
         setTimeout(() => {
           themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
         }, 50);
       });
     }
 
-    // Listen for theme changes from the main toggle
-    originalInput.addEventListener("change", () => {
-      if (mobileInput) {
-        mobileInput.checked = originalInput.checked;
-
-        // Update label text based on mode
-        setTimeout(() => {
-          themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
-        }, 50);
-      }
-    });
+    // Auf Theme-Änderungen vom Haupt-Toggle hören
+    if (originalInput) {
+      originalInput.addEventListener("change", () => {
+        if (mobileInput) {
+          mobileInput.checked = originalInput.checked;
+  
+          // Label-Text basierend auf Modus aktualisieren
+          setTimeout(() => {
+            themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
+          }, 50);
+        }
+      });
+    }
   }
 
   document.body.appendChild(mobileMenu);
 
-  // Open menu when toggle button is clicked
+  // Menü öffnen, wenn auf den Toggle-Button geklickt wird
   toggleBtn.addEventListener("click", () => {
     mobileMenu.classList.add("active");
     overlay.classList.add("active");
     document.body.classList.add("menu-open");
   });
 
-  // Close menu when X button is clicked
+  // Menü schließen, wenn auf den X-Button geklickt wird
   closeBtn.addEventListener("click", () => {
     mobileMenu.classList.remove("active");
     overlay.classList.remove("active");
     document.body.classList.remove("menu-open");
   });
 
-  // Close when clicking overlay
+  // Schließen, wenn auf das Overlay geklickt wird
   overlay.addEventListener("click", () => {
     mobileMenu.classList.remove("active");
     overlay.classList.remove("active");
     document.body.classList.remove("menu-open");
   });
 
-  // Handle ESC key to close menu
+  // ESC-Taste behandeln, um das Menü zu schließen
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && mobileMenu.classList.contains("active")) {
       mobileMenu.classList.remove("active");
@@ -446,41 +513,31 @@ function initModernMobileMenu() {
   });
 }
 
-// Verbesserte Untermenu-Animation für das mobile Menü
-function enhanceMobileMenu() {
-  // Warte, bis das mobile Menü existiert
-  const mobileMenu = document.querySelector('.mobile-menu');
-  if (!mobileMenu) return;
-  
-  // Light Mode Text korrekt einrücken
-  const themeLabel = document.querySelector('.mobile-theme-label');
-  if (themeLabel) {
-    themeLabel.style.paddingLeft = '44px';
-  }
-}
+// ============================
+// INITIALISIERUNG
+// ============================
 
-// Initialize on document load
+// Beim Laden des Dokuments initialisieren
 document.addEventListener("DOMContentLoaded", function () {
-  // Initialize modern mobile menu with a slight delay to ensure DOM is fully ready
-  setTimeout(function () {
+  // Theme initialisieren
+  initializeTheme();
+  
+  // Sidebar initialisieren
+  initSidebar();
+  
+  // Select initialisieren
+  initSelect();
+  
+  // Modernes mobiles Menü mit einer kleinen Verzögerung initialisieren
+  setTimeout(() => {
     initModernMobileMenu();
     initScrollToTopButton();
-    enhanceMobileMenu();
   }, 200);
-
-  // Initialize other functions if they exist
-  if (typeof initializeTheme === "function") {
-    initializeTheme();
-  }
-
-  if (typeof adjustFooterPadding === "function") {
-    adjustFooterPadding();
-  }
 });
 
-// Also check on window resize
+// Bei Fenstergrößenänderung prüfen
 window.addEventListener("resize", function () {
-  // Remove existing mobile menu elements if we're on desktop (1024px or larger)
+  // Mobile Menü-Elemente entfernen, wenn wir auf dem Desktop sind (1024px oder größer)
   if (window.innerWidth >= 1024) {
     const mobileToggle = document.querySelector(".mobile-menu-toggle");
     const mobileMenu = document.querySelector(".mobile-menu");
@@ -492,10 +549,9 @@ window.addEventListener("resize", function () {
 
     document.body.classList.remove("menu-open");
   } else {
-    // Initialize on mobile (below 1024px) if not already present
+    // Auf Mobilgeräten (unter 1024px) initialisieren, wenn noch nicht vorhanden
     if (!document.querySelector(".mobile-menu-toggle")) {
       initModernMobileMenu();
-      enhanceMobileMenu();
     }
   }
   
