@@ -1,108 +1,39 @@
 <?php
-include('sidebar.php');
+if (!isset($rootPath)) {
+    include(__DIR__ . '/path-helper.php');
+}
+
+$backToTeachingPath = $rootPath . 'teaching/';
+
+include($includesPath . 'header.php');
 ?>
-      <div class="main-content">
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <a href="../about/about.php" class="navbar-item">
-              <button class="<?php echo ($currentPage === 'about') ? 'navbar-active' : 'navbar-link'; ?>">About</button>
-            </a>
-
-            <a href="../pinboard/pinboard.php" class="navbar-item">
-              <button class="<?php echo ($currentPage === 'pinboard') ? 'navbar-active' : 'navbar-link'; ?>">Pinboard</button>
-            </a>
-
-            <a href="../research/research-topics.php" class="navbar-item">
-              <button class="<?php echo ($currentPage === 'research') ? 'navbar-active' : 'navbar-link'; ?>">Research</button>
-            </a>
-
-            <a href="../teaching/teaching.php" class="navbar-item">
-              <button class="<?php echo ($currentPage === 'teaching') ? 'navbar-active' : 'navbar-link'; ?>">Teaching</button>
-            </a>
-
-            <a href="../vita/vita.php" class="navbar-item">
-              <button class="<?php echo ($currentPage === 'vita') ? 'navbar-active' : 'navbar-link'; ?>">Vita</button>
-            </a>
-
-            <a href="../contact/contact.php" class="navbar-item">
-              <button class="<?php echo ($currentPage === 'contact') ? 'navbar-active' : 'navbar-link'; ?>">Contact</button>
-            </a>
-
-            <label class="switch">
-              <input id="theme-toggle" type="checkbox" checked />
-              <div class="slider round">
-                <div class="sun-moon">
-                  <svg viewBox="0 0 100 100" class="moon-dot" id="moon-dot-1">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="moon-dot" id="moon-dot-2">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="moon-dot" id="moon-dot-3">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="light-ray" id="light-ray-1">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="light-ray" id="light-ray-2">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="light-ray" id="light-ray-3">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-
-                  <svg viewBox="0 0 100 100" class="cloud-dark" id="cloud-1">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="cloud-dark" id="cloud-2">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="cloud-dark" id="cloud-3">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="cloud-light" id="cloud-4">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="cloud-light" id="cloud-5">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                  <svg viewBox="0 0 100 100" class="cloud-light" id="cloud-6">
-                    <circle r="50" cy="50" cx="50"></circle>
-                  </svg>
-                </div>
-                <div class="stars">
-                  <svg viewBox="0 0 20 20" class="star" id="star-1">
-                    <path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path>
-                  </svg>
-                  <svg viewBox="0 0 20 20" class="star" id="star-2">
-                    <path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path>
-                  </svg>
-                  <svg viewBox="0 0 20 20" class="star" id="star-3">
-                    <path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path>
-                  </svg>
-                  <svg viewBox="0 0 20 20" class="star" id="star-4">
-                    <path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path>
-                  </svg>
-                </div>
-              </div>
-            </label>
-          </ul>
           <ul class="filter-list-research">
-            <a href="../../teaching.php" class="navbar-item">
+            <a href="<?php echo $backToTeachingPath; ?>teaching.php" class="navbar-item">
               <button class="navbar-link">Teaching Activities</button>
             </a>
 
-            <a href="../../teaching-courses.php" class="navbar-item">
+            <a href="<?php echo $backToTeachingPath; ?>teaching-courses.php" class="navbar-item">
               <button class="navbar-active">Courses</button>
             </a>
 
-            <a href="../../teaching-lecturenotes.php" class="navbar-item">
+            <a href="<?php echo $backToTeachingPath; ?>teaching-lecturenotes.php" class="navbar-item">
               <button class="navbar-link">Lecture Notes</button>
             </a>
 
-            <a href="../../teaching-students.php" class="navbar-item">
+            <a href="<?php echo $backToTeachingPath; ?>teaching-students.php" class="navbar-item">
               <button class="navbar-link">Students</button>
             </a>
           </ul>
+          
+          <?php if (isset($semestersList) && is_array($semestersList)): ?>
+          <!-- Optional: Navigation für verschiedene Semester -->
+          <ul class="filter-list-research" style="margin-top: 10px;">
+            <?php foreach ($semestersList as $semCode => $semData): ?>
+              <a href="<?php echo $backToTeachingPath; ?>courses/<?php echo $semData['path']; ?>" 
+                 class="<?php echo (isset($currentSemester) && $currentSemester === $semCode) ? 'research1 active' : 'research1'; ?>">
+                <?php echo $semData['title']; ?>
+              </a>
+            <?php endforeach; ?>
+          </ul>
+          <?php endif; ?>
         </nav>
-

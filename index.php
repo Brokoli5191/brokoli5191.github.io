@@ -1,6 +1,17 @@
 <?php
 $pageTitle = "About";
 $currentPage = "about";
+
+$rootPath = './';
+$assetsPath = $rootPath . 'assets/';
+$includesPath = $rootPath . 'includes/';
+
+$aboutPath = $rootPath . 'about/';
+$pinboardPath = $rootPath . 'pinboard/';
+$researchPath = $rootPath . 'research/';
+$teachingPath = $rootPath . 'teaching/';
+$vitaPath = $rootPath . 'vita/';
+$contactPath = $rootPath . 'contact/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +24,7 @@ $currentPage = "about";
     <meta name="keywords" content="Roland Steinbauer, Universität Wien, Mathematik, University of Vienna, Mathematics, Differential Geometry" />
     <meta name="author" content="Roland Steinbauer, Florian Hartmann, Joe Wang" />
     <title>Roland Steinbauer | <?php echo $pageTitle; ?></title>
-
+    
     <script>
       function getCookie(name) {
         const value = `; ${document.cookie}`;
@@ -28,12 +39,12 @@ $currentPage = "about";
       }
     </script>
 
-    <link rel="stylesheet" href="assets/css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="assets/icons/style.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $assetsPath; ?>icons/style.css" />
+    <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/style.css" />
+    <link rel="shortcut icon" href="<?php echo $assetsPath; ?>images/logo.png" type="image/x-icon" />
     <?php if (isset($customCss)): ?>
-    <link rel="stylesheet" href="<?php echo $customCss; ?>" />
+    <link rel="stylesheet" href="<?php echo $rootPath . $customCss; ?>" />
     <?php endif; ?>
   </head>
   <body>
@@ -41,11 +52,11 @@ $currentPage = "about";
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img src="assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="about/about.php" />
+            <img src="<?php echo $assetsPath; ?>images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" />
           </figure>
 
           <div class="info-content">
-            <h3 class="name" title="Roland Steinbauer"><a href="about/about.php">Roland Steinbauer</a></h3>
+            <h3 class="name" title="Roland Steinbauer"><a href="<?php echo $aboutPath; ?>about.php">Roland Steinbauer</a></h3>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
@@ -152,27 +163,27 @@ $currentPage = "about";
       <div class="main-content">
         <nav class="navbar">
           <ul class="navbar-list">
-            <a href="about/about.php" class="navbar-item">
+            <a href="<?php echo $aboutPath; ?>about.php" class="navbar-item">
               <button class="<?php echo ($currentPage === 'about') ? 'navbar-active' : 'navbar-link'; ?>">About</button>
             </a>
 
-            <a href="pinboard/pinboard.php" class="navbar-item">
+            <a href="<?php echo $pinboardPath; ?>pinboard.php" class="navbar-item">
               <button class="<?php echo ($currentPage === 'pinboard') ? 'navbar-active' : 'navbar-link'; ?>">Pinboard</button>
             </a>
 
-            <a href="research/research-topics.php" class="navbar-item">
+            <a href="<?php echo $researchPath; ?>research-topics.php" class="navbar-item">
               <button class="<?php echo ($currentPage === 'research') ? 'navbar-active' : 'navbar-link'; ?>">Research</button>
             </a>
 
-            <a href="teaching/teaching.php" class="navbar-item">
+            <a href="<?php echo $teachingPath; ?>teaching.php" class="navbar-item">
               <button class="<?php echo ($currentPage === 'teaching') ? 'navbar-active' : 'navbar-link'; ?>">Teaching</button>
             </a>
 
-            <a href="vita/vita.php" class="navbar-item">
+            <a href="<?php echo $vitaPath; ?>vita.php" class="navbar-item">
               <button class="<?php echo ($currentPage === 'vita') ? 'navbar-active' : 'navbar-link'; ?>">Vita</button>
             </a>
 
-            <a href="contact/contact.php" class="navbar-item">
+            <a href="<?php echo $contactPath; ?>contact.php" class="navbar-item">
               <button class="<?php echo ($currentPage === 'contact') ? 'navbar-active' : 'navbar-link'; ?>">Contact</button>
             </a>
 
@@ -364,7 +375,7 @@ $currentPage = "about";
            </article>
            </div>
       </main>
-    <script src="assets/js/script-index.js"></script>
+    <script src="<?php echo $assetsPath; ?>js/script-index.js"></script>
     <footer>&copy; 2025 Roland Steinbauer | Designed by Florian Hartmann & Joe Wang</footer>
   </body>
 </html>

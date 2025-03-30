@@ -1970,7 +1970,6 @@ body.menu-open .mobile-menu-toggle::after {
   margin-right: 16px;
 }
 
-/* Submenu Dropdown Arrow */
 .has-submenu::after {
   content: "";
   border-style: solid;
@@ -1980,7 +1979,7 @@ body.menu-open .mobile-menu-toggle::after {
   right: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: transform 0.3s ease, border-color 0.3s ease-in-out;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.3s ease-in-out;
 }
 
 .has-submenu:hover::after {
@@ -1992,22 +1991,20 @@ body.menu-open .mobile-menu-toggle::after {
   border-color: var(--accent-color) transparent transparent transparent;
 }
 
-/* Highlight parent menu when a child is active */
 .mobile-nav-item.has-active-child > .mobile-nav-link {
   color: var(--accent-color);
 }
 
-/* Submenu */
 .mobile-submenu {
   border-left: 2px solid var(--accent-color);
-  display: none; /* Hidden by default */
+  display: none;
   margin-bottom: 8px;
   margin-left: 20px;
   margin-top: 2px;
   opacity: 0;
   padding-left: 16px;
   transform: translateY(-10px);
-  transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  transition: opacity 0.3s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), visibility 0.3s ease;
 }
 
 .mobile-submenu.expanded {
@@ -2178,6 +2175,144 @@ body.menu-open .mobile-menu-toggle::after {
 
 .light-mode .dropdown-content a:hover {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Gemeinsamer Basis-Stil für beide Buttons */
+.mobile-menu-toggle,
+.scroll-to-top {
+  align-items: center;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  bottom: 30px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  position: fixed;
+  right: 24px;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              background-color 0.3s ease-in-out, 
+              color 0.3s ease-in-out, 
+              border-color 0.3s ease-in-out, 
+              box-shadow 0.3s ease-in-out;
+  width: 56px;
+  z-index: 99;
+  border: none;
+  color: var(--bg-body);
+}
+
+/* Positionierung für Scroll-to-Top Button */
+.scroll-to-top {
+  bottom: 100px; /* Über dem mobile-menu-toggle */
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Hover-Effekt für beide Buttons */
+.mobile-menu-toggle:hover,
+.scroll-to-top:hover {
+  background-color: var(--on-hover);
+  transform: scale(1.05);
+}
+
+/* Spezifischer Hover-Effekt für Scroll-to-Top */
+.scroll-to-top:hover i {
+  transform: rotate(360deg);
+}
+
+/* Icon im Scroll-to-Top Button */
+.scroll-to-top i {
+  font-size: 28px;
+  font-weight: bold;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Gemeinsame Pulse-Animation für beide Buttons */
+@keyframes pulse-accent-color {
+  0% {
+    box-shadow: 0 0 0 0 var(--accent-color-transparent);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+/* Hilfsvariablen für transparente Versionen der Akzentfarben */
+.dark-mode {
+  --accent-color-transparent: rgba(255, 219, 112, 0.7);
+}
+
+.light-mode {
+  --accent-color-transparent: rgba(73, 107, 217, 0.7);
+}
+
+/* Anwendung der Pulse-Animation auf beide Buttons */
+.mobile-menu-toggle.pulse-once {
+  animation: pulse-accent-color 1.5s ease-out;
+}
+
+.scroll-to-top.pulse {
+  animation: pulse-accent-color 1.5s ease-out; 
+  animation-iteration-count: 1;
+}
+
+/* Spezifische Stile für mobile-menu-toggle */
+.mobile-menu-toggle::before,
+.mobile-menu-toggle::after {
+  background-color: var(--bg-body);
+  border-radius: 2px;
+  content: "";
+  position: absolute;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 0.3s ease-in-out;
+}
+
+.mobile-menu-toggle::before {
+  height: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 3px;
+}
+
+.mobile-menu-toggle::after {
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+}
+
+body.menu-open .mobile-menu-toggle {
+  background-color: var(--on-hover);
+  transform: rotate(225deg);
+}
+
+body.menu-open .mobile-menu-toggle::before {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+body.menu-open .mobile-menu-toggle::after {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+/* Media query für Desktop-Layout */
+@media (min-width: 1024px) {
+  .mobile-menu-toggle {
+    display: none;
+  }
+  
+  .scroll-to-top {
+    bottom: 30px;
+  }
 }
 
 /*-----------------------------------*\
@@ -3395,6 +3530,14 @@ body.menu-open .mobile-menu-toggle::after {
 
   footer {
     margin-top: -60px;
+  }
+
+  .mobile-menu-toggle {
+    display: none;
+  }
+  
+  .scroll-to-top {
+    bottom: 30px;
   }
 }
 

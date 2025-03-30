@@ -166,7 +166,7 @@ include('../includes/header-teaching.php');
                 <ul>
                   <li class="list-dot">
                     250090-1 VO <b>Funktionalanalysis</b> (<a href="courses/SoSem23/S23-Funktionalanalysis.pdf">Evaluationsergebnisse</a>)<br />
-                    <a href="https://moodle.univie.ac.at/course/view.php?id=385216" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem23/fa.html">Materialienseite</a><br />
+                    <a href="https://moodle.univie.ac.at/course/view.php?id=385216" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem23/fa.php">Materialienseite</a><br />
                     Mo. 13:15--14:45, Do. 09:45--11:15 Hs 13 (OMP 1)<br />
                   </li>
 

@@ -3,7 +3,7 @@ $pageTitle = "About";
 $currentPage = "about";
 include('../includes/header.php');
 ?>
-
+        </nav>
         <article>
           <header>
             <h2 class="h2 article-title">About me</h2>

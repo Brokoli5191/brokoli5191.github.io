@@ -3,7 +3,7 @@ $pageTitle = "Pinboard";
 $currentPage = "pinboard";
 include('../includes/header.php');
 ?>
-
+</nav>
 <article>
   <section class="about-text">
     <header>

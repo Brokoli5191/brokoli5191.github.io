@@ -3,7 +3,7 @@ $pageTitle = "Contact";
 $currentPage = "contact";
 include('../includes/header.php');
 ?>
-
+</nav>
 <article>
   <header>
     <h2 class="h2 article-title">Contact</h2>
@@ -80,13 +80,10 @@ include('../includes/header.php');
         loadMapResources();
       });
       
-      // Handle theme toggle
       const themeToggle = document.getElementById('theme-toggle');
       if (themeToggle) {
         themeToggle.addEventListener('change', function() {
-          // If map is already loaded, refresh it
           if (window.mapInitialized) {
-            // Allow time for theme change to apply
             setTimeout(function() {
               refreshMapTheme();
             }, 100);
@@ -96,14 +93,11 @@ include('../includes/header.php');
     });
 
     function loadMapResources() {
-      // Hide consent banner
       document.getElementById('map-consent-banner').style.display = 'none';
       
-      // Show map container
       const mapContainer = document.getElementById('map-container');
       mapContainer.style.display = 'block';
       
-      // Load Leaflet CSS if not already loaded
       if (!document.getElementById('leaflet-css')) {
         const leafletCSS = document.createElement('link');
         leafletCSS.id = 'leaflet-css';
@@ -112,7 +106,6 @@ include('../includes/header.php');
         document.head.appendChild(leafletCSS);
       }
       
-      // Load Leaflet JS if not already loaded
       if (!document.getElementById('leaflet-js')) {
         const leafletJS = document.createElement('script');
         leafletJS.id = 'leaflet-js';
@@ -123,13 +116,11 @@ include('../includes/header.php');
         };
         document.body.appendChild(leafletJS);
       } else {
-        // If script was already loaded before
         initializeMap();
       }
     }
     
     function initializeMap() {
-      // Create map instance
       window.map = L.map('map-container', {
         center: [48.219209, 16.367185],
         zoom: 17,
@@ -137,25 +128,20 @@ include('../includes/header.php');
         attributionControl: true
       });
       
-      // Add OSM tile layer
       window.tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(window.map);
       
-      // Add marker
       const marker = L.marker([48.219209, 16.367185]).addTo(window.map);
       marker.bindPopup("<b>Faculty of Mathematics</b><br>University of Vienna<br>Oskar-Morgenstern-Platz 1").openPopup();
       
-      // Fix map container size issue after initialization
       window.map.invalidateSize();
       
-      // Flag that the map has been initialized
       window.mapInitialized = true;
     }
     
     function refreshMapTheme() {
-      // Force map to redraw with new theme
       if (window.map) {
         window.map.invalidateSize();
       }

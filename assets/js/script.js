@@ -85,6 +85,64 @@ if (select) {
   });
 }
 
+// Scroll-to-Top Button Funktionalität
+function initScrollToTopButton() {
+  // Nur initialisieren, wenn der Button noch nicht existiert
+  if (document.getElementById('scroll-to-top')) return;
+
+  // Button dynamisch erstellen
+  const scrollToTopButton = document.createElement('button');
+  scrollToTopButton.id = 'scroll-to-top';
+  scrollToTopButton.className = 'scroll-to-top';
+  scrollToTopButton.setAttribute('aria-label', 'Nach oben scrollen');
+  
+  // Pfeil-Icon hinzufügen mit phosphor-icon
+  const icon = document.createElement('i');
+  icon.className = 'ph ph-arrow-up';
+  scrollToTopButton.appendChild(icon);
+  
+  // Button zum Body hinzufügen
+  document.body.appendChild(scrollToTopButton);
+  
+  // Button anzeigen/verstecken basierend auf Scroll-Position
+  function toggleScrollButton() {
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    
+    if (scrollPosition > 300) {
+      if (!scrollToTopButton.classList.contains('visible')) {
+        scrollToTopButton.classList.add('visible');
+        
+        // Pulse-Animation jedes Mal, wenn der Button sichtbar wird
+        // Zuerst sicherstellen, dass keine alte Animation läuft
+        scrollToTopButton.classList.remove('pulse');
+        
+        // Animation im nächsten Frame starten (für Reset-Effekt)
+        requestAnimationFrame(() => {
+          scrollToTopButton.classList.add('pulse');
+        });
+      }
+    } else {
+      scrollToTopButton.classList.remove('visible');
+      scrollToTopButton.classList.remove('pulse');
+    }
+  }
+  
+  // Smooth Scroll nach oben bei Klick
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+  
+  // Event-Listener
+  window.addEventListener('scroll', toggleScrollButton);
+  scrollToTopButton.addEventListener('click', scrollToTop);
+  
+  // Initial prüfen
+  toggleScrollButton();
+}
+
 function initModernMobileMenu() {
   // Only initialize on devices below 1024px
   if (window.innerWidth >= 1024) return;
@@ -123,9 +181,13 @@ function initModernMobileMenu() {
   const menuHeader = document.createElement("div");
   menuHeader.className = "mobile-menu-header";
 
+  // Pfad zum Avatar-Bild abhängig vom aktuellen Pfad bestimmen
+  const isInRoot = !window.location.pathname.includes('/');
+  const avatarPath = isInRoot ? "assets/images/rs.jpg" : "../assets/images/rs.jpg";
+  
   const menuAvatar = document.createElement("img");
   menuAvatar.className = "mobile-menu-avatar";
-  menuAvatar.src = "../assets/images/rs.jpg";
+  menuAvatar.src = avatarPath;
   menuAvatar.alt = "Roland Steinbauer";
   menuHeader.appendChild(menuAvatar);
 
@@ -147,34 +209,37 @@ function initModernMobileMenu() {
   const navList = document.createElement("ul");
   navList.className = "mobile-nav-list";
 
+  // Pfadprefix basierend auf aktuellem Pfad
+  const prefix = isInRoot ? "" : "../";
+
   // Define navigation items with icons and submenus
   const navItems = [
-    { name: "About", path: "../about/about.php", icon: "person-outline" },
-    { name: "Pinboard", path: "../pinboard/pinboard.php", icon: "clipboard-outline" },
+    { name: "About", path: `${prefix}about/about.php`, icon: "person-outline" },
+    { name: "Pinboard", path: `${prefix}pinboard/pinboard.php`, icon: "clipboard-outline" },
     {
       name: "Research",
-      path: "../research/research.php",
+      path: `${prefix}research/research.php`,
       icon: "flask-outline",
       submenu: [
-        { name: "Research Interests", path: "../research/research-topics.php" },
-        { name: "Publications", path: "../research/research-publications.php" },
-        { name: "Projects", path: "../research/research-projects.php" },
-        { name: "Talks", path: "../research/research-talks.php" },
+        { name: "Research Interests", path: `${prefix}research/research-topics.php` },
+        { name: "Publications", path: `${prefix}research/research-publications.php` },
+        { name: "Projects", path: `${prefix}research/research-projects.php` },
+        { name: "Talks", path: `${prefix}research/research-talks.php` },
       ],
     },
     {
       name: "Teaching",
-      path: "../teaching/teaching.php",
+      path: `${prefix}teaching/teaching.php`,
       icon: "school-outline",
       submenu: [
-        { name: "Teaching activities", path: "../teaching/teaching.php" },
-        { name: "Courses", path: "../teaching/teaching-courses.php" },
-        { name: "Lecture Notes", path: "../teaching/teaching-lecturenotes.php" },
-        { name: "Students", path: "../teaching/teaching-students.php" },
+        { name: "Teaching activities", path: `${prefix}teaching/teaching.php` },
+        { name: "Courses", path: `${prefix}teaching/teaching-courses.php` },
+        { name: "Lecture Notes", path: `${prefix}teaching/teaching-lecturenotes.php` },
+        { name: "Students", path: `${prefix}teaching/teaching-students.php` },
       ],
     },
-    { name: "Vita", path: "../vita/vita.php", icon: "document-text-outline" },
-    { name: "Contact", path: "../contact/contact.php", icon: "mail-outline" },
+    { name: "Vita", path: `${prefix}vita/vita.php`, icon: "document-text-outline" },
+    { name: "Contact", path: `${prefix}contact/contact.php`, icon: "mail-outline" },
   ];
 
   // Create list items for the navigation menu
@@ -257,18 +322,39 @@ function initModernMobileMenu() {
         // Close all other submenus first
         document.querySelectorAll(".mobile-submenu.expanded").forEach((menu) => {
           if (menu !== submenu) {
-            menu.classList.remove("expanded");
-            menu.previousElementSibling.classList.remove("expanded");
+            // Sanfte Animation beim Schließen
+            menu.style.opacity = '0';
+            menu.style.transform = 'translateY(-10px)';
+            
+            // Nach der Animation verstecken
+            setTimeout(() => {
+              menu.classList.remove("expanded");
+              menu.previousElementSibling.classList.remove("expanded");
+            }, 300);
           }
         });
 
         // Toggle current submenu
         if (isExpanded) {
-          submenu.classList.remove("expanded");
-          a.classList.remove("expanded");
+          // Sanfte Animation beim Schließen
+          submenu.style.opacity = '0';
+          submenu.style.transform = 'translateY(-10px)';
+          
+          // Nach der Animation verstecken
+          setTimeout(() => {
+            submenu.classList.remove("expanded");
+            a.classList.remove("expanded");
+          }, 300);
         } else {
+          // Sofort anzeigen und dann einblenden
           submenu.classList.add("expanded");
           a.classList.add("expanded");
+          
+          // Zurücksetzen der Stil-Eigenschaften für die Einblendanimation
+          setTimeout(() => {
+            submenu.style.opacity = '';
+            submenu.style.transform = '';
+          }, 10);
         }
       });
     }
@@ -360,12 +446,27 @@ function initModernMobileMenu() {
   });
 }
 
+// Verbesserte Untermenu-Animation für das mobile Menü
+function enhanceMobileMenu() {
+  // Warte, bis das mobile Menü existiert
+  const mobileMenu = document.querySelector('.mobile-menu');
+  if (!mobileMenu) return;
+  
+  // Light Mode Text korrekt einrücken
+  const themeLabel = document.querySelector('.mobile-theme-label');
+  if (themeLabel) {
+    themeLabel.style.paddingLeft = '44px';
+  }
+}
+
 // Initialize on document load
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize modern mobile menu with a slight delay to ensure DOM is fully ready
   setTimeout(function () {
     initModernMobileMenu();
-  }, 100);
+    initScrollToTopButton();
+    enhanceMobileMenu();
+  }, 200);
 
   // Initialize other functions if they exist
   if (typeof initializeTheme === "function") {
@@ -394,6 +495,10 @@ window.addEventListener("resize", function () {
     // Initialize on mobile (below 1024px) if not already present
     if (!document.querySelector(".mobile-menu-toggle")) {
       initModernMobileMenu();
+      enhanceMobileMenu();
     }
   }
+  
+  // Immer den Scroll-Button initialisieren (wird nur angezeigt, wenn genug gescrollt wurde)
+  setTimeout(initScrollToTopButton, 200);
 });

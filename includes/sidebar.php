@@ -1,4 +1,8 @@
-<?php?>
+<?php
+if (!isset($rootPath)) {
+    include(__DIR__ . '/path-helper.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,12 +29,12 @@
       }
     </script>
 
-    <link rel="stylesheet" href="../assets/css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="../assets/icons/style.css" />
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $assetsPath; ?>icons/style.css" />
+    <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/style.css" />
+    <link rel="shortcut icon" href="<?php echo $assetsPath; ?>images/logo.png" type="image/x-icon" />
     <?php if (isset($customCss)): ?>
-    <link rel="stylesheet" href="<?php echo $customCss; ?>" />
+    <link rel="stylesheet" href="<?php echo $rootPath . $customCss; ?>" />
     <?php endif; ?>
   </head>
   <body>
@@ -38,11 +42,11 @@
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img src="../assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="../about/about.php" />
+            <img src="<?php echo $assetsPath; ?>images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="<?php echo $aboutPath; ?>about.php" />
           </figure>
 
           <div class="info-content">
-            <h3 class="name" title="Roland Steinbauer"><a href="../about/about.php">Roland Steinbauer</a></h3>
+            <h3 class="name" title="Roland Steinbauer"><a href="<?php echo $aboutPath; ?>about.php">Roland Steinbauer</a></h3>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
