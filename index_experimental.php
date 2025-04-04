@@ -41,13 +41,18 @@ $contactPath = $rootPath . 'contact/';
 
     <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $assetsPath; ?>icons/style.css" />
-    <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/style.css" />
+    <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/futuristic.css" />
+    <link rel="stylesheet" href="<?php echo $assetsPath; ?>css/style_experimental.css" />
     <link rel="shortcut icon" href="<?php echo $assetsPath; ?>images/logo.png" type="image/x-icon" />
     <?php if (isset($customCss)): ?>
     <link rel="stylesheet" href="<?php echo $rootPath . $customCss; ?>" />
     <?php endif; ?>
   </head>
+  <canvas id="fancy-background"></canvas>
   <body>
+    <div id="smooth-loader">
+      <div class="loader-bar"></div>
+    </div>
     <main>
     <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
@@ -377,6 +382,7 @@ $contactPath = $rootPath . 'contact/';
            </article>
            </div>
       </main>
+    <script src="<?php echo $assetsPath; ?>js/futuristic.js"></script>
     <script src="<?php echo $assetsPath; ?>js/script.js"></script>
     <footer>&copy; 2025 Roland Steinbauer | Designed by Florian Hartmann & Joe Wang</footer>
   </body>
