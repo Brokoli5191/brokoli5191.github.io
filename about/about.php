@@ -54,7 +54,7 @@ include('../includes/header.php');
                     <p class="service-item-text">
                      In recent years I have collaborated with
                      colleagues from the <a href="https://mathematik.univie.ac.at/en/research/subject-specific-didactics-school-mathematics/" target="_blank">Didactis Group</a> at our Faculty especially investigating 
-                     professional knowledge of teachers, and beliefs on teaching and learning mathematics.
+                     professional knowledge of teachers and beliefs on teaching and learning mathematics, in particular analysis.
                     </p>
                   </div>
                 </li>

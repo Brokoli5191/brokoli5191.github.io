@@ -178,7 +178,7 @@ include('../includes/header-teaching.php');
                         <li class="list-dot">
                             250030 VO <b>Schulmathematik Analysis</b> (gemeinsam mit Sonja Kramer)<br>
                             (<a href="courses/WS2223/W22-Schulmathematik_Analysis.pdf">Evaluationsergebnisse</a>)<br>
-                            <a href="https://moodle.univie.ac.at/course/view.php?id=343668" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem22/ana.html">Infoseite</a> (Analysis f&uuml;rs LA im SoSem 22 und WS 22/23)<br>
+                            <a href="https://moodle.univie.ac.at/course/view.php?id=343668" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem22/ana.php">Infoseite</a> (Analysis f&uuml;rs LA im SoSem 22 und WS 22/23)<br>
                             Mi 11:30-13:00 Hs 4 (OMP 1)
                         </li>
 
@@ -246,12 +246,12 @@ include('../includes/header-teaching.php');
 
                     <ul>
                         <li class="list-dot">
-                            250030 VO <a href="/teaching/courses/SoSem20/ana.php#ws2021">Schulmathematik Analysis </a> (gemeinsam mit Sonja Kramer)<br>
+                            250030 VO <a href="teaching/courses/SoSem20/ana.php#ws2021">Schulmathematik Analysis </a> (gemeinsam mit Sonja Kramer)<br>
                             Fr. 8:00--9:30 online. (<a href="courses/WS2021/W20-Schulmathematik_Analysis.pdf">Evaluationsergebnisse</a>)
                         </li>
 
                         <li class="list-dot">
-                            250050-3/4 UE <a href="https://www.mat.univie.ac.at/~stein/teaching/courses/SoSem20/ana.html#sm-ue">&Uuml;bungen: Schulmathematik Analysis</a><br>
+                            250050-3/4 UE <a href="teaching/courses/SoSem20/ana.php#sm-ue">&Uuml;bungen: Schulmathematik Analysis</a><br>
                             Gruppe 3: 09:45-10:30 online. (<a href="courses/WS2021/W20-UE_Schulmathematik_Analysis_(20W-25-250050-03).pdf">Evaluationsergebnisse</a>)<br>
                             Gruppe 4: 10:45-11:30 online. (<a href="courses/WS2021/W20-UE_Schulmathematik_Analysis_(20W-25-250050-04).pdf">Evaluationsergebnisse</a>)
                         </li>
@@ -274,12 +274,12 @@ include('../includes/header-teaching.php');
 
                     <ul>
                         <li class="list-dot">
-                            250166 VO <a href="courses/SoSem20/ana.html">Analysis in einer Variable für das Lehramt</a> (<a href="courses/SoSem20/S20-Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
+                            250166 VO <a href="courses/SoSem20/ana.php">Analysis in einer Variable für das Lehramt</a> (<a href="courses/SoSem20/S20-Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
                             Mo., Di. 9:45--11:15 Hs. 1 (OMP 1) Do. 8:00--9:30 Hs. 4 (OMP 1)
                         </li>
 
                         <li class="list-dot">
-                            250167-7 UE <a href="courses/SoSem20/ana.html#ana-ue">&Uuml;bungen: Analysis in einer Variable für das Lehramt</a> (<a href="courses/SoSem20/S20-Übungen__Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
+                            250167-7 UE <a href="courses/SoSem20/ana.php#ana-ue">&Uuml;bungen: Analysis in einer Variable für das Lehramt</a> (<a href="courses/SoSem20/S20-Übungen__Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. 13:15--14:45 Sr. 8 (OMP 1)
                         </li>
 
@@ -669,7 +669,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250009 SE Seminar f&uuml;r LAK (Analysis): <a href="courses/SoSem11/semlak.html"> Bilder der Erde: Ein mathematischer Blick auf Weltkarten</a><br>
+                            250009 SE Seminar f&uuml;r LAK (Analysis): <a href="courses/SoSem11/semlak.php"> Bilder der Erde: Ein mathematischer Blick auf Weltkarten</a><br>
                             (gem. mit <a href="http://online.univie.ac.at/pers?pkey=82770" target="_blank"> Evelyn Stepancik</a>)<br>
                             Do. 17.30-19.00 C2.09, UZA 4<br>
                         </li>

@@ -63,7 +63,6 @@ include('../../../includes/header-courses.php');
                   <th>Teilnehmer*innen</th>
                   <th>Notenschnitt(1)</th>
                   <th>Notenspiegel(1)</th>
-                  <th>Bemerkung</th>
                 </tr>
                 <tr>
                   <td align="center">1</td>
@@ -99,7 +98,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td>Die nach der Prüfung ausgeteilten Ausarbeitungen des MC-Teils enthielten leider einige Druckfehler. In der hier verfügbaren Ausarbeitung sind die entsprechenden Stellen rot markiert. Bei Aufgabe 3.3 ergaben sich dadurch 4 richtige Antwortmöglichkeiten, was aber in der Angabe ausgeschlossen wurde. Daher wurden bei dieser Aufgabe alle Studierenden mit 1 Punkt bewertet (unabhägig von den tatsächlich gekreuzten Antworten).</td>
                 </tr>
                 <tr>
                   <td align="center">2</td>
@@ -135,7 +133,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td align="center">3</td>
@@ -171,7 +168,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td align="center">4</td>
@@ -207,7 +203,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td></td>
                 </tr>
               </table>
               
@@ -222,7 +217,6 @@ include('../../../includes/header-courses.php');
                   <th>Teilnehmer*innen</th>
                   <th>Notenschnitt(1)</th>
                   <th>Notenspiegel(1)</th>
-                  <th>Bemerkung</th>
                 </tr>
                 <tr>
                   <td align="center">1</td>
@@ -258,7 +252,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td align="center">2</td>
@@ -294,7 +287,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td align="center">3</td>
@@ -330,7 +322,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td align="center">4</td>
@@ -366,7 +357,6 @@ include('../../../includes/header-courses.php');
                       </tr>
                     </table>
                   </td>
-                  <td></td>
                 </tr>
               </table>
             </article>
