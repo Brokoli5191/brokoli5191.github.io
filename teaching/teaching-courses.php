@@ -44,7 +44,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             250030 VO <b>Schulmathematik Analysis</b> (gemeinsam mit <a href="https://ufind.univie.ac.at/de/person.html?id=112596&teaching=true" target="_blank">Sonja Kramer</a>)<br>
-                            <a href="https://moodle.univie.ac.at/course/view.php?id=437129" target="_blank">Moodle Kurs</a>, <a href="" target="_blank">Infoseite</a>,
+                            <a href="https://moodle.univie.ac.at/course/view.php?id=437129" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem24/ana.php" target="_blank">Infoseite</a>,
                             <a href="courses/WS2425/W24-Schulmathematik_Analysis.pdf" target="_blank">Evaluationsergebnisse</a><br>
                             Di. 11:30--13:00 Hs 1 (OMP 1)<br>
                             Beginn: 1.10.2024<br><br>
