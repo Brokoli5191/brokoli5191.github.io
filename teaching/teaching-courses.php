@@ -44,7 +44,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             250030 VO <b>Schulmathematik Analysis</b> (gemeinsam mit <a href="https://ufind.univie.ac.at/de/person.html?id=112596&teaching=true" target="_blank">Sonja Kramer</a>)<br>
-                            <a href="https://moodle.univie.ac.at/course/view.php?id=437129" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem24/ana.php" target="_blank">Infoseite</a>,
+                            <a href="https://moodle.univie.ac.at/course/view.php?id=437129" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem24/ana.php">Infoseite</a>,
                             <a href="courses/WS2425/W24-Schulmathematik_Analysis.pdf" target="_blank">Evaluationsergebnisse</a><br>
                             Di. 11:30--13:00 Hs 1 (OMP 1)<br>
                             Beginn: 1.10.2024<br><br>
@@ -53,7 +53,7 @@ include('../includes/header-teaching.php');
                         <li class="list-dot">
                             250050 UE <a href="https://ufind.univie.ac.at/de/course.html?lv=250050&semester=2024W" target="_blank">Schulmathematik Analysis</a> (<a href="courses/WS2425/W24-UE_Schulmathematik_Analysis.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             <a href="https://moodle.univie.ac.at/course/view.php?id=437725" target="_blank">Moodle Kurs</a>,
-                            <a href="https://ucloud.univie.ac.at/index.php/s/6qRsScg7GJi2Tdf" target="_blank">Aufgabensammlung</a><br>
+                            <a href="https://ucloud.univie.ac.at/index.php/s/E8GC46Q8npTECKy" target="_blank">Aufgabensammlung</a><br>
                             Di 15:00--16:30, jede zweite Woche, Sr 10 (OMP 1)<br>
                             Beginn: 1.10.2024<br><br>
                         </li>
@@ -203,7 +203,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             250166 VO <b>Analysis in einer Variable für das Lehramt</b> (<a href="courses/SoSem22/S22-Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
-                            <a href="https://moodle.univie.ac.at/course/view.php?id=299071" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem22/ana.php" target="_blank">Infoseite</a> (Analysis f&uuml;rs LA im SoSem 22 und WS 22/23)<br>
+                            <a href="https://moodle.univie.ac.at/course/view.php?id=299071" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem22/ana.php">Infoseite</a> (Analysis f&uuml;rs LA im SoSem 22 und WS 22/23)<br>
                             Mo, Di, 9:45-11:15, jeden 2. Mi. 8:00-9:30, jeweils Hs. 1 (OMP 1)
                         </li>
 
