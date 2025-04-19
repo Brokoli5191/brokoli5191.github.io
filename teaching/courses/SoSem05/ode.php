@@ -98,7 +98,7 @@ include('../../../includes/header-courses.php');
       </p>
 
       <p>
-        Gruppe 1, Di 18:00-18:45 Geozentrum, Hs. 1 (Roland Steinbauer)<br />
+        Gruppe 1, Di 18:00-18:45 Geozentrum, Hs. 1 (Roland Steinbauer)<br>
         Gruppe 2, Mi 12:15-13:00 Geozentrum, Hs. 2 (Michael Kunzinger)
       </p>
     </article>

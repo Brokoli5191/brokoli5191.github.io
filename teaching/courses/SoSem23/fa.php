@@ -15,24 +15,24 @@ include('../../../includes/header-courses.php');
       <section class="about-text">
         <p>
           <center>
-            <h2>Funktionalanalysis 2023<br />Materialienseite</h2>
+            <h2>Funktionalanalysis 2023<br>Materialienseite</h2>
           </center>
         </p>
 
         <p>
           <b>LVA Nummer:</b> 250090-1
-          <br />
+          <br>
           <b>LVA Typ:</b> VO
-          <br />
+          <br>
           <b>Semesterwochenst./ECTS:</b> 3/5
-          <br />
-          <b>Zeit und Ort:</b> Mo. 13:15 -- 14:45 und Do. 09:45 -- 11:15 H&ouml;rsaal 13, (OMP 1)<br />
-          <b>Beginn:</b> 2.3.2019<br />
-          <br /><br />
+          <br>
+          <b>Zeit und Ort:</b> Mo. 13:15 -- 14:45 und Do. 09:45 -- 11:15 H&ouml;rsaal 13, (OMP 1)<br>
+          <b>Beginn:</b> 2.3.2019<br>
+          <br><br>
 
           Auf dieser Seite stelle ich Materialien zu Vorlesung und &Uuml;bungen zur Verf&uuml;gung, die absichtlich au&szlig;erhalb der Moodle-Seite der Vorlesung also &ouml;ffentlich einsehbar sein
           sollen. Alle weiteren Informationen zur Vorlesung befinden sich in Moodle unter
-          <a href="https://moodle.univie.ac.at/course/view.php?id=385216" target="_blank">https://moodle.univie.ac.at/course/view.php?id=385216</a>. <br /><br />
+          <a href="https://moodle.univie.ac.at/course/view.php?id=385216" target="_blank">https://moodle.univie.ac.at/course/view.php?id=385216</a>. <br><br>
         </p>
 
         <ul>
@@ -42,7 +42,7 @@ include('../../../includes/header-courses.php');
         </ul>
 
         Pr&uuml;fungsmaterialien und -statistik
-        <br /><br />
+        <br><br>
         <table border="3">
           <tr>
             <th>Termin</th>

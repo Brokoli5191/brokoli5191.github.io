@@ -20,104 +20,104 @@ include('../includes/header-teaching.php');
 
 		 <li>
                   <b>Ines Vega Gaonzalez</b>
-                  <br />
+                  <br>
                   Analytic and synthetic extensions of the singularity theorems
-                  <br />
+                  <br>
                   Ph.D. (co-supervisor Michael Kunzinger)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
 
                 <li>
                   <b>Sebastian Gieger</b>
-                  <br />
+                  <br>
                   Foundational topics in Metric Geometry and Lorentzian Length Spaces
-                  <br />
+                  <br>
                   Ph.D. (co-supervisor R. Perales)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Miguel Prados Abad</b>
-                  <br />
+                  <br>
                   Topics in Non-Smooth Lorentzian Geometry
-                  <br />
+                  <br>
                   Ph.D. (co-supervisors R. Perales, C. Rigoni)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Marta Salamo Candal</b>
-                  <br />
+                  <br>
                   Synthetic singularity theorems in General Relativity
-                  <br />
+                  <br>
                   Ph.D. (co-supervisor M. Kunzinger)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Luca Mrini</b>
-                  <br />
+                  <br>
                   QG in nonsmooth Lorentzian spaces
-                  <br />
+                  <br>
                   Ph.D. (co-supervisor C. S&auml;mann)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Carl Rossdeutscher</b>
-                  <br />
+                  <br>
                   Marginally outer trapped tubes
-                  <br />
+                  <br>
                   Ph.D. (co-supervisor W. Simon)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Matteo Calisti</b>
-                  <br />
+                  <br>
                   Metric geometry in the Lorentzian setting
-                  <br />
+                  <br>
                   Ph.D.
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
 		<li>
                   <b>Tatjana Punz</b>
-                  <br />
+                  <br>
                   Der Effekt von Vorlesungsaufzeichnungen
-                  <br />
+                  <br>
                   M.Ed.
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
 
                 <li>
                   <b>Paul-Aaron Haberger</b>
-                  <br />
+                  <br>
                   The Geometry of Null surfaces
-                  <br />
+                  <br>
                   M.Sc.
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Gunter Wirthumer</b>
-                  <br />
+                  <br>
                   Conformal and causal boundaries
-                  <br />
+                  <br>
                   M.Sc. (co-supervisor M. Kunzinger)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
               </ul>
 
@@ -126,405 +126,405 @@ include('../includes/header-teaching.php');
               <ul>
                 <li>
                   <b>Argam Ohanyan</b>
-                  <br />
+                  <br>
                   Singularity theorems and extensions of spacetime in low regularity
-                  <br />
+                  <br>
                   Ph.D. 2024 (co-supervisor M. Kunzinger)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Tobias Beran</b>
-                  <br />
+                  <br>
                   Low regularity extensions of spacetimes, Lorentzian length spaces
-                  <br />
+                  <br>
                   Ph.D. 2024 (co-supervisor M. Kunzinger)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Sebastian Gieger</b>
-                  <br />
+                  <br>
                   Volume comparison and singularities in General Relativity
-                  <br />
+                  <br>
                   M.Sc. 2024 (co-supervisor M. Kunzinger)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Lisa Paradeisz</b>
-                  <br />
+                  <br>
                   Grundvorstellungen von LA-Studierenden zu Kernbegriffen der Analysis
-                  <br />
+                  <br>
                   M.Ed. 2024
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Katharina Steinau</b>
-                  <br />
+                  <br>
                   Unterrichtsmomente
-                  <br />
+                  <br>
                   M.Ed. 2024 (co-supervisor C. Ableitinger)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Simon Reif</b>
-                  <br />
+                  <br>
                   Completeness of particle trajectories
-                  <br />
+                  <br>
                   M.Sc. 2024
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Moriz Lothar Frauenberger</b>
-                  <br />
+                  <br>
                   The Ehlers-Kundt conjecture
-                  <br />
+                  <br>
                   M.Sc. 2024
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Roman Brem</b>
-                  <br />
+                  <br>
                   Visibility of MOTs
-                  <br />
+                  <br>
                   M.Sc. Physics 2023 (co-supervisor with W. Simon)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Benedict Schinnerl</b>
-                  <br />
+                  <br>
                   Non-regular spacetime geometry
-                  <br />
+                  <br>
                   Ph.D. 2022
-                  <br />
-                  <br />
+                  <br>
+                  <br>
 
                   Geodesics in low regularity
-                  <br />
+                  <br>
                   M.Sc. 2018
-                  <br />
-                  <br />
+                  <br>
+                  <br>
 
                   Konvergenz in topologischen R&auml;umen (Convergence in topological spaces)
-                  <br />
+                  <br>
                   B.Sc. 2016
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Michaela Achleitner</b>
-                  <br />
+                  <br>
                   Grundvorstellungen zum Integralbegriff bei Lehramststudierenden
-                  <br />
+                  <br>
                   M.Ed. 2022
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Argam Ohanyan</b>
-                  <br />
+                  <br>
                   Geometric Foundations of the Classical Singularity Theorems
-                  <br />
+                  <br>
                   M.Sc. (Physics, co-supervised by Stefan Palenta), 2022
-                  <br />
-                  <br />
+                  <br>
+                  <br>
 
                   Splitting Theorems in Riemannian and Lorentzian geometry
-                  <br />
+                  <br>
                   M.Sc. (Mathematics), 2020
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Judith Painsi</b>
-                  <br />
+                  <br>
                   Surfing an impulsuive gravitational wave
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2020
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Carina Aschauer</b>
-                  <br />
+                  <br>
                   Der Satz von Gau&szlig;-Bonnet (The Gau&szlig;-Bonnet Theorem)
-                  <br />
+                  <br>
                   Diploma (teacher's curriculumi), 2020
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Dorian Cantele</b>
-                  <br />
+                  <br>
                   Mittelwerts&auml;tze
-                  <br />
+                  <br>
                   B.Ed. 2020
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>David Binder</b>
-                  <br />
+                  <br>
                   Ausflug zu den &auml;u&szlig;eren Planeten
-                  <br />
+                  <br>
                   B.Ed. 2019
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Lukas B&auml;cker</b>
-                  <br />
+                  <br>
                   Unterrichtsmomente in der Lehramtsausbildung
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2019
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Arthur Sedivy</b>
-                  <br />
+                  <br>
                   Mathematische Grundlagen der Allgemeinen Relativitätstheorie (Mathematical Basics of General Relativity)
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2017
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Ronny Fischer</b>
-                  <br />
+                  <br>
                   Qualitative Theorie für planare dynamische Systeme (Qualitative theory for planar dynamical systems)
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2017
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Roman P&ouml;ll</b>
-                  <br />
+                  <br>
                   Ebene Kurven (Plane curves)
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2017
-                  <br />
+                  <br>
                   <a href="http://www.marywardschulen.com/kremsorg/" target="_blank">Privat-ORG Krems</a>
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Lukas Palme</b>
-                  <br />
+                  <br>
                   &Uuml;berlagerungen (Coverings)
-                  <br />
+                  <br>
                   B.Sc. 2017
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Kathrin Peticzka</b>
-                  <br />
+                  <br>
                   Der Satz von Gau&szlig;-Bonnet (The Gau&szlig;-Bonnet Theorem)
-                  <br />
+                  <br>
                   B.Sc., 2017
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>David Christa</b>
-                  <br />
+                  <br>
                   Geodesics on 2-manifolds
-                  <br />
+                  <br>
                   B.Sc., 2016
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Heyde Ye</b>
-                  <br />
+                  <br>
                   Unstetige Dynamische Systeme (Discontinuous dynamical systems)
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2016
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Daniela Huber</b>
-                  <br />
+                  <br>
                   Schnittstellenmodule in der Analysisausbildung (Interface modules in the Analysis curriculum)
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2016
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Helmut Geyer</b>
-                  <br />
+                  <br>
                   Totalkr&uuml;mmung von Kurven (Total curvature of spacecurves)
-                  <br />
+                  <br>
                   B.Sc. 2016
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Josua Gruber</b>
-                  <br />
+                  <br>
                   Elementare Fl&auml;chentheorie --- von den Grundlagen zur Kr&uuml;mmung (Classical Surfaces)
-                  <br />
+                  <br>
                   Diploma (teacher's curriculum), 2013
-                  <br />
+                  <br>
                   <a href="https://kundmanngasse.at/index.php/startseite" taregt="_blank">GRG3 Kundmanngasse</a>
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Rizwan Ahmad</b>
-                  <br />
+                  <br>
                   Multiplication of distributions
-                  <br />
+                  <br>
                   Diploma, 2012
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <!--<a href="http://www.hcl.li/english/Welcome.html" target="_blank">-->
                   <b>Clemens Hanel</b>
-                  <br />
+                  <br>
                   <a href="http://othes.univie.ac.at/17240/" target="_blank">On singular wave equations</a>
-                  <br />
+                  <br>
                   Ph.D. 2011
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                   <a href="http://othes.univie.ac.at/393/" target="_blank">Linear hyperbolic second order partial differential equations on space time</a>
-                  <br />
+                  <br>
                   Diploma, 2006
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b><a href="http://www.math.uni-konstanz.de/~treude/" target="_blank">Jan-Hendrik Treude</a></b>
-                  <br />
+                  <br>
                   <a href="http://www.freidok.uni-freiburg.de/volltexte/8405/" target="_blank">Ricci curvature comparison in Riemannian and Lorentzian geometry</a>
-                  <br />
+                  <br>
                   Diploma in Theoretical Physics at University of Freiburg, Germany, 2011
-                  <br />
+                  <br>
                   Ph.D. with
                   <a href="http://www.uni-regensburg.de/mathematik/mathematik-1/index.html" target="_blank">Felix Finster</a>
                   at
                   <a href="http://www.uni-regensburg.de/" target="_blank">University of Regensburg</a>
-                  <br />
+                  <br>
                   Fachbereich Mathematik und Statistik, University Konstanz (Germany).
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Stefan F&uuml;rd&ouml;s</b>
-                  <br />
+                  <br>
                   <a href="http://othes.univie.ac.at/11356/" target="_blank">Local Solvability of Pseudodifferential Equations</a>
-                  <br />
+                  <br>
                   Diploma, 2010
-                  <br />
+                  <br>
                   Ph.D. at Vienna University with
                   <a href="http://www.univie.ac.at/complexanalysis/people/BernhardLamel.php" target="_blank">Bernhard Lamel</a>
-                  <br />
+                  <br>
                   University Brno (Czech Republic)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Nastasia Grubic</b>
-                  <br />
+                  <br>
                   <a href="http://othes.univie.ac.at/10552/" target="_blank">Semi-Riemannian metrics of low differentiability</a>
-                  <br />
+                  <br>
                   Diploma in Mathematics and Theoretical Physics, 2010
-                  <br />
+                  <br>
                   Ph.D. at Paris VI with Philipe LeFloch
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>David Rottensteiner</b>
-                  <br />
+                  <br>
                   <a href="http://othes.univie.ac.at/9198/" target="_blank">Foundations of Harmonic Analysis on the Heisenberg group</a>
-                  <br />
+                  <br>
                   Diploma, 2010
-                  <br />
+                  <br>
                   Ph.D at Imperial College with
                   <a href="http://wwwf.imperial.ac.uk/~ruzh/" taregt="_blank">Michael Ruzhansky</a>
-                  <br />
+                  <br>
                   PostDoc at University of Vienna with
                   <a href="http://homepage.univie.ac.at/karlheinz.groechenig/" target="_blank">Charly Gr&ouml;chenig</a>
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Christina Schmidt</b>
-                  <br />
+                  <br>
                   On the sharp topology in algebras of generalized functions
-                  <br />
+                  <br>
                   Diploma, 2008
-                  <br />
+                  <br>
                   Business Analyst, Umweltbundesamt
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Herwig Spornberger</b>
-                  <br />
+                  <br>
                   ODEs in a non-smooth setting
-                  <br />
+                  <br>
                   Diploma, 2007
-                  <br />
+                  <br>
                   Software developper
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <a href="http://www.eberhard-mayerhofer.eu" target="_blank">Eberhard Mayerhofer</a>
-                  <br />
+                  <br>
                   <a href="http://arxiv.org/abs/0802.1616" target="_blank">The wave equation on singular space times</a>
-                  <br />
+                  <br>
                   Ph.D, 2006 (co-advised with
                   <a href="http://www.mat.univie.ac.at/~mike" target="_blank">Michael Kunzinger</a>
                   )
-                  <br />
+                  <br>
                   Mathematical Finance group, Dublin City University, Irland
                 </li>
               </ul>

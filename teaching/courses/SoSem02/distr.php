@@ -7,7 +7,7 @@ include('../../../includes/header-courses.php');
 <article>
     <section class="about-text">
         <header>
-            <h2 class="h2 article-title">Distributionentheorie</h2>
+            <h2 class="h2 article-title">Courses</h2>
         </header>
         
         <article class="article-second">

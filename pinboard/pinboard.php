@@ -162,7 +162,7 @@ include('../includes/header.php');
             , and
             <a target="_blank" href="https://www.mat.univie.ac.at/~stein/">myself</a>
             .
-            <br />
+            <br>
             See the press releases of
             <a target="_blank" href="https://www.fwf.ac.at/aktuelles/detail/emerging-fields-hochinnovative-forschungsvorhaben-mit-revolutionspotenzial"> FWF </a>
             , the

@@ -17,92 +17,92 @@ include('../includes/header-teaching.php');
               <ul>
                 <li>
                   <a href="https://www.springer.com/de/book/9783662568057" target="_blank">Einf&uuml;hrung in das mathematische Arbeiten</a>
-                  <br />
+                  <br>
                   Springer Spektrum, 3. Auflage, Berlin, 2018
-                  <br />
+                  <br>
                   gemeinsam mit Hermann Schichl
-                  <br />
+                  <br>
                   <a href="http://www.mat.univie.ac.at/~einfbuch" target="_blank">Webseite</a>
                   zum Buch
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Analysis f&uuml;r das Lehramt: Eine Einladung</b>
-                  <br />
+                  <br>
                   Sommersemester 2022
-                  <br />
+                  <br>
                   <a href="SoSem22/ana-lak-2022-06-17">Korrigierte Version 17-Juni-2022</a>
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Schulmathematik Analysis</b>
-                  <br />
+                  <br>
                   gemeinsam mit S. Kramer, E.S&uuml;ss-Stepancik, Wintersemester 2022/23
-                  <br />
+                  <br>
                   <a href="SoSem22/smana-gesamt-2023-01-17.pdf" target="_blank">Version 17-Jan-2023</a>
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Alexandrov spaces</b>
-                  <br />
+                  <br>
                   jointly with Michael Kunzinger, Spring term 2018
-                  <br />
+                  <br>
                   <a href="skripten/as.pdf">Version 1.0</a>
                   (2021-01-25)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Riemannian Geometry</b>
-                  <br />
+                  <br>
                   jointly with Michael Kunzinger, Fall term 2020
-                  <br />
+                  <br>
                   <a href="skripten/rg.pdf">Version 1.0</a>
                   (2021-04-16)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Lorentzian Geometry</b>
-                  <br />
+                  <br>
                   jointly with Michael Kunzinger, Spring term 2017 and 2021
-                  <br />
+                  <br>
                   <a href="skripten/lorentzian.pdf">Version 1.0</a>
                   (2024-04-22)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Grundbegriffe der Topologie</b>
-                  <br />
+                  <br>
                   <a href="http://www.mat.univie.ac.at/~stein/teaching/SoSem15/Topologie_gesamt_2015-06-23.pdf">Vorlesungsausarbeitung</a>
                   (SoSem 2015)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Analysiszyklus f&uuml;r LAK</b>
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung (SoSem 2011--SoSem 2012)
                   <ul>
                     <li>
                       <a href="http://www.mat.univie.ac.at/~stein/teaching/SoSem12/EidA_Vo_2013-02-07_incl_index.pdf">Einf&uuml;hrung in die Analysis</a>
-                      <br />
+                      <br>
                     </li>
 
                     <li>
                       <a href="http://www.mat.univie.ac.at/~stein/teaching/WS1213/AieVfLAK_Vo_2013-02-08_incl_index.pdf">Analysis in einer Variable für LAK</a>
-                      <br />
+                      <br>
                     </li>
 
                     <li>
@@ -112,137 +112,137 @@ include('../includes/header-teaching.php');
                     </li>
                   </ul>
 
-                  <br />
+                  <br>
                 </li>
 
                 <li>
                   <b>Partielle Differentialgleichungen</b>
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (SoSem 2010)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Theory of Distributions</b>
-                  <br />
+                  <br>
                   Lecture Notes, joint with G&uuml;ther H&ouml;rmann (SoSem 2009)
-                  <br />
+                  <br>
                   <a href="SoSem09/distrvo.pdf" target="_blank">Draft Version (July 10, 2009)</a>
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Lokalkonvexe Vektorr&auml;ume</b>
-                  <br />
+                  <br>
                   (Ausgew&auml;hlte Kapitel aus Funktionalanalysis)
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (WS 2008/09)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Funktionalanalysis, Teil 2</b>
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (SoSem 2008)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Funktionalanalysis, Teil 1</b>
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (WS 2007/08)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Pseudo-Differentialoperatoren und mikrolokale Analysis</b>
-                  <br />
+                  <br>
                   (Ausgew&auml;hlte Kapitel aus Partielle Differentialgleichungen)
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (WS 2006/07)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Distributionentheorie</b>
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (SoSem 2006)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Grundbegriffe der Topologie</b>
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung und Ausarbeitung der Proseminaraufgaben (
                   <a href="#kopieren">*</a>
                   ) (WS 2005/06)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Gew&ouml;hnliche Differentialgleichungen, Teil 1</b>
-                  <br />
+                  <br>
                   Vorlesungsausarbeitung und Ausarbeitung der Proseminaraufgaben (
                   <a href="#kopieren">*</a>
                   ) (SoSem 2005)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>EDV und Mathematik</b>
-                  <br />
+                  <br>
                   Seminarausarbeitung (
                   <a href="#kopieren">*</a>
                   )(SoSem 2004)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Kinetische Theorie</b>
                   (Existenztheorie des Vlasov-Poisson Systems)
-                  <br />
+                  <br>
                   Seminarausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (WS 2004/05)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Der Satz &uuml;ber implizite Funktionen</b>
-                  <br />
+                  <br>
                   Seminarausarbeitung (
                   <a href="#kopieren">*</a>
                   ) (WS 2004/05)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
                 </li>
 
                 <li>
                   <b>Technische Praxis der Computersysteme</b>
-                  <br />
+                  <br>
                   Vorlesungsskriptum
                   <a href="skripten/praxis1_ws0506.pdf">Teil 1</a>
                   (WS 2005/06),
@@ -250,16 +250,16 @@ include('../includes/header-teaching.php');
                   (SoSem 2005)
                   <a href="skripten/praxis2-2_sosem05.pdf">Teil 2-2</a>
                   (SoSem 2005)
-                  <br />
+                  <br>
                   (Fr&uuml;here Versionen
                   <a href="skripten/praxis1_ws0102.pdf">Teil 1</a>
                   (WS 2001/02)
                   <a href="skripten/praxis2-_sosem02.pdf">Teil 2</a>
                   (SoSem 2002)
-                  <br />
-                  <br />
+                  <br>
+                  <br>
 
-                  <br />
+                  <br>
                   <a id="kopieren">(*)</a>
                   Per E-mail von den Autoren (Available via E-mail from the authors).
                 </li>

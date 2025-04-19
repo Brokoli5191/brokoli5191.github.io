@@ -27,7 +27,7 @@ include('../../../includes/header-courses.php');
           <strong>Achtung:</strong> Anmeldung erforderlich; bis 15:00 des Vortags in C606 bei Cony Bauer.
         </li>
         <li class="list-dot">
-          <strong>mündliche Prüfungen</strong> Nach dem 3. Termin sind nur mehr mündliche Prüfungen (mit individueller Terminvereinbarungen) möglich. <br /><strong
+          <strong>mündliche Prüfungen</strong> Nach dem 3. Termin sind nur mehr mündliche Prüfungen (mit individueller Terminvereinbarungen) möglich. <br><strong
             >Ab Oktober 2006 sind keine Prüfungen mehr möglich!</strong
           >
         </li>

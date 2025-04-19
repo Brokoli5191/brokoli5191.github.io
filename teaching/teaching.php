@@ -16,27 +16,27 @@ include('../includes/header-teaching.php');
       <p>
         My teaching activities cover a broad range of courses in mathematics as well as mathematical physics on all levels of the curriculum. Prevoiusly I have also been teaching courses in
         computer system administration and IT security.
-        <br />
-        <br />
+        <br>
+        <br>
         In mathematics I have been teaching many undergraduate courses on all kinds of topics while my graduate teaching predominantly is concerned with analysis and geometry, in particular,
         the theory of PDE, generalized functions, global analysis and differential geometry.
       </p>
-      <br />
+      <br>
       <p>
         I have coauthored with
         <a href="http://www.mat.univie.ac.at/~herman" target="_blank">Hermann Schichl</a>
         the beginners' textbook:
       </p>
-      <br />
+      <br>
       <center>
         <a href="https://www.springer.com/de/book/9783662568057" target="_blank">Einführung in das mathematische Arbeiten</a>
         <p>
           (Introduction into mathematical methodology)
-          <br />
+          <br>
           Springer Spektrum (Berlin, 2009, 2012, 2018)
         </p>
       </center>
-      <br />
+      <br>
       <p>
         For the book and the corresponding project introducting an inductory phase for the mathematics curriculum, Hermann and I have been awarded the
         <a href="http://intern.newsletter.univie.ac.at/interner-newsletter-neu/april-2013/" target="_blank">UNIVIE Teaching Award 2013</a>
@@ -45,7 +45,7 @@ include('../includes/header-teaching.php');
           Ars Docendi 2016, the Austrian National Award in University Teaching.
         </a>
       </p>
-      <br />
+      <br>
       <p>For related information you can have a look at</p>
       <ul>
         <li class="list-dot">
@@ -56,7 +56,7 @@ include('../includes/header-teaching.php');
 
         <li class="list-dot">
           The acompanying series of explanatory videos including and extending the ones accessible form the book
-          <br />
+          <br>
           (soon to come)
         </li>
 
@@ -96,8 +96,8 @@ include('../includes/header-teaching.php');
           <figure>
             <img width="150" alt="EMA 3rd Edition" src="../assets/images/book.jpg" />
           </figure>
-          <br />
-          <br />
+          <br>
+          <br>
 
           To learn more on my teaching activities you can have a look at
           <ul>

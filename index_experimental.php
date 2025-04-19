@@ -270,8 +270,8 @@ $contactPath = $rootPath . 'contact/';
                 <h4><a href="https://ef-geometry.univie.ac.at/" target="_blank">A new geometry for Einstein's Theory of Relativity and Beyond</a></h4>
               </div>
 
-              <br />
-              <br />
+              <br>
+              <br>
             </section>
 
             <section class="service">

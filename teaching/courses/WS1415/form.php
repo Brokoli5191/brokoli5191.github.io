@@ -525,15 +525,15 @@ ende kopie-->
 
     if (@mail("roland.steinbauer@univie.ac.at",
          $subject , $eMail, $headers)) {
-      echo "Vielen Dank f&uuml;r die Anmeldung.<br />"; 
+      echo "Vielen Dank f&uuml;r die Anmeldung.<br>"; 
     } else {
-      echo "E-Mail-Verkehr funktioniert zur Zeit nicht<br />";
+      echo "E-Mail-Verkehr funktioniert zur Zeit nicht<br>";
     }
    if ( true ) {
       if (@mail($_POST['eMail'],
            "Kopie Seminaranmeldung",
            $eMail, $headers)) {
-        echo "Eine Kopie der Anmeldung wurde an die angegeben eMail Adresse versendet.<br />";
+        echo "Eine Kopie der Anmeldung wurde an die angegeben eMail Adresse versendet.<br>";
       }
     }
 }

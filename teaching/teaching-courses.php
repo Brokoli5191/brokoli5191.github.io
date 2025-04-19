@@ -568,13 +568,13 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250057 VO <a href="courses/SoSem12/ana.html#sosem13">Reelle Analysis in mehreren und komplexe Analysis in einer Variable f&uuml;r LAK</a> (<a href="SoSem13/eval_RAimukAieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
+                            250057 VO <a href="courses/SoSem12/ana.php#sosem13">Reelle Analysis in mehreren und komplexe Analysis in einer Variable f&uuml;r LAK</a> (<a href="SoSem13/eval_RAimukAieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. 10.05-11.55, Mi. 10.05-10.55, Do. 10.05-11.55 Hs. 3, UZA 2
                         </li>
                         <li class="list-dot">
-                            250058 UE <a href="courses/SoSem12/ana.html#ue3">&Uuml;bung: Reelle Analysis in mehreren und komplexe Analysis in einer Variable f&uuml;r LAK</a>(Gruppe 1) (<a href="courses/SoSem13/eval_ue_RAimukAieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
+                            250058 UE <a href="courses/SoSem12/ana.php#ue3">&Uuml;bung: Reelle Analysis in mehreren und komplexe Analysis in einer Variable f&uuml;r LAK</a>(Gruppe 1) (<a href="courses/SoSem13/eval_ue_RAimukAieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. 12.15-13.45 D1.01, UZA 4
-                            <a href="courses/SoSem13/ue_info.html">Info zum 1. Termin</a>
+                            <a href="courses/SoSem13/ue_info.php">Info zum 1. Termin</a>
                         </li>
                         <li class="list-dot">
                             250105 PJ+SE Projektseminar (Analysis): Verallgemeinerte Funktionen<br>
@@ -617,21 +617,21 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250011 VO <a href="courses/SoSem12/ana.html">Einführung in die Analysis</a> (<a href="courses/SoSem12/eval/EidA.pdf">Evaluationsergebnisse</a>)<br>
+                            250011 VO <a href="courses/SoSem12/ana.php">Einführung in die Analysis</a> (<a href="courses/SoSem12/eval/EidA.pdf">Evaluationsergebnisse</a>)<br>
                             geblockt im Zeitraum Mo.-Do. 8:00-10:00, Hs. 3, UZA 2
                         </li>
 
                         <li class="list-dot">
-                            250014 UE <a href="courses/SoSem12/ana.html#ue1">Übungen zu "Einführung in die Analysis" (Gruppe 5)</a> (<a href="courses/SoSem12/eval/Ue_EidA.pdf">Evaluationsergebnisse</a>)<br>
+                            250014 UE <a href="courses/SoSem12/ana.php#ue1">Übungen zu "Einführung in die Analysis" (Gruppe 5)</a> (<a href="courses/SoSem12/eval/Ue_EidA.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. 10-12, C2.09, UZA 4
                         </li>
 
                         <li class="list-dot">
-                            250010 UE <a href="courses/SoSem12/ana.html#rep1">Repetitorium zu "Einführung in die Analysis"</a> (gemeinsam mit Gudrun Szewieczek) (<a href="courses/SoSem12/eval/Rep_EidA.pdf">Evaluationsergebnisse</a>)<br>
+                            250010 UE <a href="courses/SoSem12/ana.php#rep1">Repetitorium zu "Einführung in die Analysis"</a> (gemeinsam mit Gudrun Szewieczek) (<a href="courses/SoSem12/eval/Rep_EidA.pdf">Evaluationsergebnisse</a>)<br>
                             Mi. 13-15, Hs. 3, UZA 2
                         </li>
                         <li class="list-dot">
-                            250080 KO <a href="courses/SoSem12/wth.html">Wissenschaftstheorie der Naturwissenschaften</a> (gemeinsam mit
+                            250080 KO <a href="courses/SoSem12/wth.php">Wissenschaftstheorie der Naturwissenschaften</a> (gemeinsam mit
                             <a href="http://www.mat.univie.ac.at/~mike" target="_blank">Michael Kunzinger</a>) (<a href="courses/SoSem12/eval/Wth.pdf">Evaluationsergebnisse</a>)<br>
                             Mi. 17:15-18:45, Hs. 3, UZA 2
                         </li>
@@ -707,7 +707,7 @@ include('../includes/header-teaching.php');
                     (<a href="courses/SoSem10/eval.pdf">Evaluationsergebnisse</a>)<br>
                     <ul>
                         <li class="list-dot">
-                            250026 VO <a href="courses/SoSem10/pde.html">Partielle Differentialgleichungen</a><br>
+                            250026 VO <a href="courses/SoSem10/pde.php">Partielle Differentialgleichungen</a><br>
                             Mo 13:15-14:45 Hs. 2, UZA2 <br>
                             Do 13:15-14:45 Hs. 1, UZA2 <br>
                         </li>
@@ -719,7 +719,7 @@ include('../includes/header-teaching.php');
                             <a href="courses/SoSem10/top_ue.pdf" target="_blank">Aufgabensammlung</a>
                         </li>
                         <li class="list-dot">
-                            250083 SE <a href="courses/SoSem10/semlak.html">Seminar f&uuml;r LAK (Analysis): Bilder der Erde: Ein mathematischer Blick auf Weltkarten</a><br>
+                            250083 SE <a href="courses/SoSem10/semlak.php">Seminar f&uuml;r LAK (Analysis): Bilder der Erde: Ein mathematischer Blick auf Weltkarten</a><br>
                             Mo 17.00-18.30 C 2.07, UZA 4<br>
                         </li>
                     </ul>
@@ -755,7 +755,7 @@ include('../includes/header-teaching.php');
                     (<a href="courses/SoSem09/eval.pdf">Evaluationsergebnisse</a>)<br>
                     <ul>
                         <li class="list-dot">
-                            250067 VO <a href="courses/SoSem09/distr.html">Distributionentheorie</a> (gem. mit <a target="_blank" href="http://www.mat.univie.ac.at/~gue">G&uuml;nther H&ouml;rmann</a>)<br>
+                            250067 VO <a href="courses/SoSem09/distr.php">Distributionentheorie</a> (gem. mit <a target="_blank" href="http://www.mat.univie.ac.at/~gue">G&uuml;nther H&ouml;rmann</a>)<br>
                             Mo 13:15-14:45 Seminarraum 2A310, UZA 2<br>
                             Mi 14:30-16:00 Seminarraum C2.07, UZA 4<br>
                         </li>
@@ -797,11 +797,11 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250381 VO <a href="courses/SoSem08/fa2.html">Funktionalanalysis 2</a><br>
+                            250381 VO <a href="courses/SoSem08/fa2.php">Funktionalanalysis 2</a><br>
                             Mo, Di, Do 12:00-13:00 Seminarraum 2A310, UZA 2<br>
                         </li>
                         <li class="list-dot">
-                            250382 PS <a href="courses/SoSem08/faps2.html">Proseminar zu Funktionalanalysis 2</a><br>
+                            250382 PS <a href="courses/SoSem08/faps2.php">Proseminar zu Funktionalanalysis 2</a><br>
                             Di 17:00-18:30 D1.03 (Mathematik) UZA 4<br>
                         </li>
                         <li class="list-dot">
@@ -852,7 +852,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250378 VO <a href="courses/SoSem07/einfuehrung.html">Einf&uuml;hrung in das mathematische Arbeiten</a><br>
+                            250378 VO <a href="courses/SoSem07/einfuehrung.php">Einf&uuml;hrung in das mathematische Arbeiten</a><br>
                             Blocklehrveranstaltung 5.-22.3.2007<br>
                             Mo-Do. 17:00-19:00 Mo, Mi H&ouml;rsaal 3 UZA 2 Geo-Zentrum; Di, Do H&ouml;rsaal 2 UZA 2 Geo-Zentrum<br>
                         </li>
@@ -907,7 +907,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            <a href="courses/SoSem06/distr.html">250376 VO Distributionentheorie</a><br>
+                            <a href="courses/SoSem06/distr.php">250376 VO Distributionentheorie</a><br>
                             Mo 13:15--15:00, C 2.09 (UZA 4); Mi 13:15--15:00 Seminarraum 2A310 (UZA 2)<br>
                         </li>
                         <li class="list-dot">
@@ -960,7 +960,7 @@ include('../includes/header-teaching.php');
 
                     <li>
                         <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2005" target="_blank"><b>Sommersemester 2005</b></a>
-                        (<a href="courses/SoSem05/eval/sosem05.html">Evaluationsergebnisse</a>)
+                        (<a href="courses/SoSem05/eval/sosem05.php">Evaluationsergebnisse</a>)
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -1054,7 +1054,7 @@ include('../includes/header-teaching.php');
                     <br>
                     <li>
                         <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2004" target="_blank"><b>Sommersemester 2004</b></a>
-                        (<a href="courses/SoSem04/eval/sosem04.html">Evaluationsergebnisse</a>)
+                        (<a href="courses/SoSem04/eval/sosem04.php">Evaluationsergebnisse</a>)
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -1197,13 +1197,13 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            <a href="courses/SoSem02/distr.html"> 800515 VO Distributionentheorie</a>
+                            <a href="courses/SoSem02/distr.php"> 800515 VO Distributionentheorie</a>
                             (gemeinsam mit
                             <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)<br>
                             Mi. 13:15-14:45, Hs. 5.
                         </li>
                         <li class="list-dot">
-                            <a href="courses/SoSem02/distr.html#sem">802398 SE Seminar (Analysis): Verallgemeinerte Funktionen</a>
+                            <a href="courses/SoSem02/distr.php#sem">802398 SE Seminar (Analysis): Verallgemeinerte Funktionen</a>
                             (gemeinsam mit
                             <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)<br>
                             Mi. 15:00-16:30, Hs. 5.
