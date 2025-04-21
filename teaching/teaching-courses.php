@@ -177,8 +177,9 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             250030 VO <b>Schulmathematik Analysis</b> (gemeinsam mit Sonja Kramer)<br>
-                            (<a href="courses/WS2223/W22-Schulmathematik_Analysis.pdf">Evaluationsergebnisse</a>)<br>
-                            <a href="https://moodle.univie.ac.at/course/view.php?id=343668" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem22/ana.php">Infoseite</a> (Analysis f&uuml;rs LA im SoSem 22 und WS 22/23)<br>
+			    <a href="https://moodle.univie.ac.at/course/view.php?id=343668" target="_blank">Moodle Kurs</a>, 
+			    <a href="courses/SoSem22/ana.php">Infoseite</a>,
+                            <a href="courses/WS2223/W22-Schulmathematik_Analysis.pdf" target="_blank">Evaluationsergebnisse</a><br>
                             Mi 11:30-13:00 Hs 4 (OMP 1)
                         </li>
 
@@ -238,7 +239,7 @@ include('../includes/header-teaching.php');
                             Fr. 10:15--11:45 online<br>
                         </li>
                     </ul>
-                    <br><br>
+                    <br>
 
                     <li>
                         <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2020W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2020/21</b></a>
@@ -246,12 +247,12 @@ include('../includes/header-teaching.php');
 
                     <ul>
                         <li class="list-dot">
-                            250030 VO <a href="teaching/courses/SoSem20/ana.php#ws2021">Schulmathematik Analysis </a> (gemeinsam mit Sonja Kramer)<br>
+                            250030 VO <a href="courses/SoSem20/ana.php#ws2021">Schulmathematik Analysis </a> (gemeinsam mit Sonja Kramer)<br>
                             Fr. 8:00--9:30 online. (<a href="courses/WS2021/W20-Schulmathematik_Analysis.pdf">Evaluationsergebnisse</a>)
                         </li>
 
                         <li class="list-dot">
-                            250050-3/4 UE <a href="teaching/courses/SoSem20/ana.php#sm-ue">&Uuml;bungen: Schulmathematik Analysis</a><br>
+                            250050-3/4 UE <a href="courses/SoSem20/ana.php#sm-ue">&Uuml;bungen: Schulmathematik Analysis</a><br>
                             Gruppe 3: 09:45-10:30 online. (<a href="courses/WS2021/W20-UE_Schulmathematik_Analysis_(20W-25-250050-03).pdf">Evaluationsergebnisse</a>)<br>
                             Gruppe 4: 10:45-11:30 online. (<a href="courses/WS2021/W20-UE_Schulmathematik_Analysis_(20W-25-250050-04).pdf">Evaluationsergebnisse</a>)
                         </li>
@@ -266,7 +267,6 @@ include('../includes/header-teaching.php');
                             Fr. 10:15--11:45 online.<br><br>
                         </li>
                     </ul>
-                    <br>
 
                     <li>
                         <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2020S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2020</b></a>
@@ -274,12 +274,14 @@ include('../includes/header-teaching.php');
 
                     <ul>
                         <li class="list-dot">
-                            250166 VO <a href="courses/SoSem20/ana.php">Analysis in einer Variable für das Lehramt</a> (<a href="courses/SoSem20/S20-Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
+                            250166 VO <a href="courses/SoSem20/ana.php">Analysis in einer Variable für das Lehramt</a> 
+			    (<a href="courses/SoSem20/S20-Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
                             Mo., Di. 9:45--11:15 Hs. 1 (OMP 1) Do. 8:00--9:30 Hs. 4 (OMP 1)
                         </li>
 
                         <li class="list-dot">
-                            250167-7 UE <a href="courses/SoSem20/ana.php#ana-ue">&Uuml;bungen: Analysis in einer Variable für das Lehramt</a> (<a href="courses/SoSem20/S20-Übungen__Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
+                            250167-7 UE <a href="courses/SoSem20/ana.php#ana-ue">&Uuml;bungen: Analysis in einer Variable für das Lehramt</a> 
+			    (<a href="courses/SoSem20/S20-Übungen__Analysis_in_einer_Variable_für_das_Lehramt.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. 13:15--14:45 Sr. 8 (OMP 1)
                         </li>
 
@@ -289,7 +291,6 @@ include('../includes/header-teaching.php');
                             Fr. 09:45--13:00 Sr. 8 (OMP1)<br><br>
                         </li>
                     </ul>
-                    <br>
 
                     <li>
                         <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2019W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2019/20</b></a><br>
@@ -305,7 +306,6 @@ include('../includes/header-teaching.php');
                             442502 SE Seminar (Analysis): <a href="https://www.mat.univie.ac.at/~berant14/diana/term9.html" target="_blank">Generalized Functions (Diana Seminar)</a><br>
                             (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, <a href="http://www.mat.univie.ac.at/~nigsch/" target="_blank">Eduard Nigsch</a>, Michael Grosser)<br>
                             Fri. 11:30-13:00 Hörsaal 2 (OMP1)<br>
-                            Scheduling meeting: 4.10.2019<br><br>
                         </li>
                     </ul>
                     <br>
@@ -357,7 +357,7 @@ include('../includes/header-teaching.php');
                         <li class="list-dot">
                             250045 SE Seminar (Analysis): <a href="https://www.mat.univie.ac.at/~berant14/diana/term7.html" target="_blank">Generalized Functions (Diana Seminar)</a><br>
                             (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, <a href="http://www.mat.univie.ac.at/~nigsch/" target="_blank">Eduard Nigsch</a>, Michael Grosser)<br>
-                            Fr 9.45-12.00 SR 11 (OMP 1) (<a href="courses/WS1819/eval/W18-Seminar_(Analysis)__Generalized_functions_(18W-25-250045-01).pdf">Evaluationsergebnisse</a>)<br><br>
+                            Fr 9.45-12.00 SR 11 (OMP 1) (<a href="courses/WS1819/eval/W18-Seminar_(Analysis)__Generalized_functions_(18W-25-250045-01).pdf">Evaluationsergebnisse</a>)<br>
                         </li>
                     </ul>
                     <br>
@@ -399,7 +399,6 @@ include('../includes/header-teaching.php');
 
                             Gruppe 5: Di. 09:45-11:15, Hs. 11(OMP 1)
                             (<a href="courses/WS1718/W17-Prüfungsvorbereitende_Übung_zu__STEOP__Einführung_in_die_Mathematik__(17W-25-250056-05).pdf" target="_blank">Evaluationsergebnisse</a>)<br>
-                            <a href="http://www.mat.univie.ac.at/~greschg/emue_17.pdf" target="_blank">Aufgabensammlung</a><br>
                         </li>
 
                         <li class="list-dot">
