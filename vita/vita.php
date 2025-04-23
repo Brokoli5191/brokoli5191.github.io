@@ -14,7 +14,7 @@ $pdf_path = "vita.pdf";
               <div class="pdf-container" style="width:100%; margin-bottom:20px;">
                 <object data="<?php echo $pdf_path; ?>" type="application/pdf" width="100%" height="800px">
                   <p>Your browser can't display PDFs.
-                  <a href="<?php echo $pdf_path; ?>">Click here to download the PDF.</a>.</p>
+                  <a href="<?php echo $pdf_path; ?>">Click here to download the PDF</a>.</p>
                 </object>
               </div>
             
