@@ -47,7 +47,7 @@ include('../includes/header.php');
                     <div class="service-icon-box">
                       <i class="ph ph-chalkboard-teacher ph-size"></i>
                     </div>
-                    <h4 class="h4 service-item-title">Mathematics Education Research</h4>
+                    <h4 class="h4 service-item-title">Maths Education Research</h4>
                   </div>
   
                   <div class="service-content-box">
@@ -97,7 +97,7 @@ include('../includes/header.php');
                     <div class="service-icon-box">
                       <i class="ph ph-user-check ph-size"></i>
                     </div>
-                    <h4 class="h4 service-item-title">Supervisor in MCMP and VSM</h4>
+                    <h4 class="h4 service-item-title">Supervisor in MCMP & VSM</h4>
                   </div>
 
                   <div class="service-content-box">

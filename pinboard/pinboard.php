@@ -20,7 +20,16 @@ include('../includes/header.php');
       </div>
 
       <ol class="timeline-list">
-        <li class="timeline-item">
+
+       <li class="timeline-item">
+          <span>April 2025</span>
+          <h4 class="h4 timeline-item-title">Professorship</h4>
+          <p class="timeline-text">
+            I received and accepted a call from the University of Vienna for a full professorship in Mathematical General Relativity.
+          </p>
+        </li>
+
+       <li class="timeline-item">
           <span>24/02/2025</span>
           <h4 class="h4 timeline-item-title">Kick-off workshop</h4>
           <p class="timeline-text">
