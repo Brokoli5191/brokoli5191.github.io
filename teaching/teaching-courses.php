@@ -338,7 +338,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250030 VO<a href="courses/WS1819/sma.html"> Schulmathematik Analysis</a> (gemeinsam mit <a href="https://lernzukunft.jimdo.com/" target="_blank">Evelyn Süss-Stepancik</a>)<br>
+                            250030 VO<a href="courses/WS1819/sma.php"> Schulmathematik Analysis</a> (gemeinsam mit <a href="https://lernzukunft.jimdo.com/" target="_blank">Evelyn Süss-Stepancik</a>)<br>
                             Mi. 11:30-13:00 Hs 4 (OMP 1) (<a href="courses/WS1819/eval/W18-Schulmathematik_Analysis.pdf">Evaluationsergebnisse</a>)
                         </li>
 
@@ -402,7 +402,7 @@ include('../includes/header-teaching.php');
                         </li>
 
                         <li class="list-dot">
-                            250149-1 VO <a href="courses/WS1718/dp.html">Theory of distributions</a> (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>) (<a href="courses/WS1718/W17-Theory_of_distributions.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
+                            250149-1 VO <a href="courses/WS1718/dp.php">Theory of distributions</a> (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>) (<a href="courses/WS1718/W17-Theory_of_distributions.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             Mo. 13:15-14:45 SR. 11 (OMP 1)<br>
                             Do. 12:30-14:00 SR. 12 (OMP 1)<br>
                         </li>
@@ -492,7 +492,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             250048 SE Seminar für LAK (Analysis/angewandte Mathematik):
-                            <a href="courses/WS1516/semlak.html">Elementare Differentialgeometrie</a>
+                            <a href="courses/WS1516/semlak.php">Elementare Differentialgeometrie</a>
                         </li>
                         <li class="list-dot">
                             250034 UE Schulmathematik 1 (Arithmetik/algebra) <br>

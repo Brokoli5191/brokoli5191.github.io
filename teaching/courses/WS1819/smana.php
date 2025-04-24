@@ -1,126 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Your description goes here." />
-    <meta name="keywords" content="your,keywords,goes,here" />
-    <meta name="author" content="Your Name / Original design by Andreas Viklund - http://andreasviklund.com" />
-    <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-    <link rel="stylesheet" href="../../default.css" type="text/css" media="screen" />
-    <title>Roland Steinbauer - Smana</title>
-  </head>
-
-  <body>
-<!--   <script src="../../jsMath/easy/load.js"></script>
-   <noscript>
-    <div style="color:#CC0000; text-align:center">
-     <b>Warning: <a href="http://www.math.union.edu/locate/jsMath">jsMath</a>
-     requires JavaScript to process the mathematics on this page.<br>
-     If your browser supports JavaScript, be sure it is enabled.</b>
-    </div>
-   <hr>
-   </noscript>
--->   
+<?php
+$pageTitle = "Analysis";
+$currentPage = "courses";
+include('../../../includes/header-courses.php');
+?>
 
 
-    <div id="container">
-
-      <div id="sitename">
-        <h1>Home Page of Roland Steinbauer</h1>
-        <!--<h2>This page is still under construction</h2>-->
-      </div>
-
-      <div id="mainmenu">
-        <ul><li class="webgen-menu-level1"><a href="../../index.html">Home</a></li><li class="webgen-menu-level1 webgen-menu-submenu"><a href="../../research/index.html">Research</a></li><li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="../index.html">Teaching</a></li><li class="webgen-menu-level1"><a href="../../vita.html">Vita</a></li></ul>
-      </div>
-
-      <div id="wrap">
-        <div id="leftside"><br><br><br>
-<!--	  <h2>Smana</h2>
-          <div id="pagemenu"><br><br>
-	  </div>
--->         
-        <h2>Smana</h2>
-        
-         
-         <div id="pagemenu"><br><br></div>
-         
-        
-	</div>
-
-        </div>
-
-        <div id="rightside"><br><br><br>
-         <h1>Links</h1>
-          <ul class="linklist">
-	    <li><a href="http://www.mat.univie.ac.at/~iagf" 
-	           target="_blank">IAGF</a>   
-		<img width="80" border="0" alt="A mollifier" 
-		     src="../../images/molli.gif"><br></li>
-	    <li><a href="http://mathisaac.org/c/serverisaac/" 
-	           target="_blank">ISAAC</a></li>
-	    <li><a href="http://www.mat.univie.ac.at/~diana" 
-	           target="_blank">DIANA</a></li>
-            <li><a href="http://www.mat.univie.ac.at/~nigsch/diana/" 
-	                      target="_blank">Diana Seminar</a></li>
-          <br><br>	            
-	    <li><a href="http://www.mat.univie.ac.at/~einfbuch"
-	           target="_blank">EMA-Buch</a></li>
-
-	    <li><a href="http://bibliothek.univie.ac.at/fb-mathematik_statistik/" 
-	           target="_blank">Math Library</a></li>
-            <li><a href="http://mathematik.univie.ac.at" 
-	           target="_blank">Math Faculty</a></li>
-            <li><a href="http://www.univie.ac.at" 
-	           target="_blank">Vienna University</a></li>
-	    <li><a href="https://uspace.univie.ac.at/web/gast/home" 
-	           target="_blank">u:space</a></li>
-            <li><a href="https://ufind.univie.ac.at/en/index.html" 
-	           target="_blank">u:find</a></li>
-            <br><br>
+        <article>
+          <section class="about-text">
+            <header>
+              <h2 class="h2 article-title">Courses</h2>
+            </header>
+            <article class="article-second">
+              <h2 class="h3 article-title">Schulmathematik Analysis</h2>
+              <h3>Wintersemester 2018 - 2019</h3>
+              <h4>Roland Steinbauer, Evelyn S&uuml;ss-Stepancik</h4>
               
-	    
-	    
-	    <li><a href="http://lisamission.org" 
-	           target="_blank">LISA</a></li>
-            <!--<li><a href="http://www.oeaw.ac.at/gravitation2015/gravitation-2015/"
-	           target="_blank">Gravitation 2015</a></li>-->
-	    <li><a href="http://gravity.univie.ac.at/"
-	           target="_blank">Gravitational Physics</a></li>
-          
-	    <br><br><br><br><br><br><br>
-
-
-            <li><a href="http://www.skeptiker.at/" 
-	                        target="_blank">GWUP</a>
-	    <li><a href="http://www.asyl-in-not.org/"  
-	           target="_blank">Asyl in Not</a>
-            <li><a href="http://www.konfessionsfrei.at/" target="_blank">
-	     <img src="../../images/laizitaet_fisch.gif" 
-	          width="80" border="0"></a>
-          <br><br><br>
-          <li><a href="https://www.linuxfoundation.org/" target="_blank">
-            <img align="bottom" alt="100% M$ free" 
-	         src="../../images/msfree.gif" border="0">
-            </a>
-          </div>
-
-        <div id="navbar" class="content">
-          <span class="leftbox">Location: <a href="../../index.html">Home</a> / <a href="../index.html">Teaching</a> / <a href="./">Ws1819</a> / <span>Smana</span></span>
-          <!--<span class="rightbox">Language: <span>en</span></span>-->
-          <div class="clearingdiv">&nbsp;</div>
-        </div>
-
-        <div id="content">
-          <p align="justify">
-<center>
-<h2>Schulmathematik Analysis</h2>
-<h4>Wintersemester 2018<h4>
-<h4>Roland Steinbauer, Evelyn S&uuml;ss-Stepancik</h4>
-</center>
-
-<b>Lehrveranstaltungsnummer:</b>250030<br>
+              <b>Lehrveranstaltungsnummer:</b>250030<br>
 <b>Lehrveranstaltungstyp:</b> VO<br>
 <b>Semesterwochenstunden/ECTS:</b> 2/2<br>
 <b>Zeit und Ort:</b> Mi 11:30-13:00, Hs. 4, OMP1<br>
@@ -237,25 +132,13 @@ Die Pr&uuml;fungstermine sind bereits in u:space ver&ouml;ffentlicht.
 
 
 
-<br><br><br><br><br><br>
+<br>
+              
+            </section>
+          </article>
+        </section>
+      </article>
 
-
-
-
-
-
-        </div>
-        <div class="clearingdiv">&nbsp;</div>
-
-      </div>
-    </div>
-
-    <div id="footer">&copy; 2009-2017 Roland Steinbauer | Generated by <a href="http://webgen.rubyforge.org" target="_blank">webgen</a> | Design by <a href="http://andreasviklund.com" target="_blank">Andreas Viklund</a>  | Mathematics by <a href="http://www.math.union.edu/~dpvc/jsMath/welcome.html">jsMath</a></div>
-
- <script>
-  jsMath.Process(document);
-  </script>
-
-
-  </body>
-</html>
+<?php
+include('../../../includes/footer-courses.php');
+?>
