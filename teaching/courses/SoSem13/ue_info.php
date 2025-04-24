@@ -23,7 +23,7 @@ Stattdessen werden wir im Rahmen einer Gruppenarbeit die wichtigsten
 Inhalte der ,,Analysis in einer Variable f&uuml;r LAK'' aus dem 
 Wintersemester rekapitulieren.<br><br>
 Die Gruppenarbeit ist analog zur 
-Gruppenarbeit <a href="http://www.mat.univie.ac.at/~stein/teaching/WS1213/top-five.pdf" target="_blank">EidA's Top-Three</a> aus dem
+Gruppenarbeit <a href="../WS1213/top-five.pdf" target="_blank">EidA's Top-Three</a> aus dem
 Repetitorium vom Wintersemster gestaltet; die Angabe befindet 
 sich <a href="top-three.pdf" target="_blank">hier</a>.
 <br><br><br><br><br>

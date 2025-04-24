@@ -1,143 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Your description goes here." />
-    <meta name="keywords" content="your,keywords,goes,here" />
-    <meta name="author" content="Your Name / Original design by Andreas Viklund - http://andreasviklund.com" />
-    <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-    <link rel="stylesheet" href="../../default.css" type="text/css" media="screen" />
-    <title>Roland Steinbauer - Differentialgeometrie Zyklus 2016--2017</title>
-  </head>
-
-  <body>
-<!--   <script src="../../jsMath/easy/load.js"></script>
-   <noscript>
-    <div style="color:#CC0000; text-align:center">
-     <b>Warning: <a href="http://www.math.union.edu/locate/jsMath">jsMath</a>
-     requires JavaScript to process the mathematics on this page.<br>
-     If your browser supports JavaScript, be sure it is enabled.</b>
-    </div>
-   <hr>
-   </noscript>
--->   
+<?php
+$pageTitle = "Analysis";
+$currentPage = "courses";
+include('../../../includes/header-courses.php');
+?>
 
 
-    <div id="container">
-
-      <div id="sitename">
-        <h1>Home Page of Roland Steinbauer</h1>
-        <!--<h2>This page is still under construction</h2>-->
-      </div>
-
-      <div id="mainmenu">
-        <ul><li class="webgen-menu-level1"><a href="../../index.html">Home</a></li><li class="webgen-menu-level1 webgen-menu-submenu"><a href="../../research/index.html">Research</a></li><li class="webgen-menu-level1 webgen-menu-submenu webgen-menu-submenu-inhierarchy"><a href="../index.html">Teaching</a></li><li class="webgen-menu-level1"><a href="../../vita.html">Vita</a></li></ul>
-      </div>
-
-      <div id="wrap">
-        <div id="leftside"><br><br><br>
-<!--	  <h2>Differentialgeometrie Zyklus 2016--2017</h2>
-          <div id="pagemenu"><br><br>
-	  </div>
--->         
-        <h2>Differentialgeometrie Zyklus 2016--2017</h2>
-        
-         
-         <div id="pagemenu"><br><br></div>
-         
-        
-	</div>
-
-        </div>
-
-        <div id="rightside"><br><br><br>
-         <h1>Links</h1>
-          <ul class="linklist">
-	     <img width="120" border="0" class="center" 
-	          alt="A Lorentzian length space" 
-		  src="../../images/vision.jpg"><br>
-	     <li><a href="https://ef-geometry.univie.ac.at/" 
-	           target="_blank">A new Geometry</a>   
-	     </li>
-	      <li><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Research Seminar</a><br><br><br></li>
-	    <li><a href="https://iagf.pmf.uns.ac.rs/" 
-	           target="_blank">IAGF</a>   
-		<img width="80" border="0" alt="A mollifier" 
-		     src="../../images/molli.gif"><br></li>
-	    <li><a href="http://mathisaac.org/c/serverisaac/" 
-	           target="_blank">ISAAC</a></li>
-	   <br>
-	  <table>
-	   <tr>
-	   <td><a href="https://www.mat.univie.ac.at/~einfbuch" target="_blank">                 <img width="45" border="0" alt="EMA Book" 
-	            src="../../images/ema3_cover.jpg"></a>
-           </td>
-           <td><ul class="linklist">
-	     <br><br>
-	     <li><a href="https://www.springer.com/de/book/9783662568057"
-	           target="_blank">Book</a></li>
-             <li><a href="http://www.mat.univie.ac.at/~einfbuch/Videos" target="_blank">
-	           Videos</a></li>
-	     <li><a href="https://www.mat.univie.ac.at/~einfbuch" target="_blank">
-	           Service Page</a></li>
-	    </ul>
-	   </td>
-	   </tr>
-	   </table>
-	   <li><a href="https://mathx.univie.ac.at/" 
-	           target="_blank">MaThX</a></li>
-           <br><br>
-           <li><a href="http://bibliothek.univie.ac.at/fb-mathematik_statistik/" 
-	           target="_blank">Math Library</a></li>
-            <li><a href="http://mathematik.univie.ac.at" 
-	           target="_blank">Math Faculty</a></li>
-            <li><a href="http://www.univie.ac.at" 
-	           target="_blank">Vienna University</a></li>
-	    <li><a href="https://uspace.univie.ac.at/web/gast/home" 
-	           target="_blank">u:space</a></li>
-            <li><a href="https://ufind.univie.ac.at/en/index.html" 
-	           target="_blank">u:find</a></li>
-            <li><a href="https://mcmp.univie.ac.at/" 
-	           target="_blank">MCMP</a></li>
-            <li><a href="https://www.vsmath.at/"
-	           target="_blank">VSM</a></li>
-            <br><br>
+        <article>
+          <section class="about-text">
+            <header>
+              <h2 class="h2 article-title">Courses</h2>
+            </header>
+            <article class="article-second">
+              <h2 class="h3 article-title">Differentialgeometrie Zyklus 2016--2017</h2>
+              <h3>Sommersemester 2016 - 2017</h3>
               
-	    
-	    
-	    <li><a href="http://lisamission.org" 
-	           target="_blank">LISA</a></li>
-            <!--<li><a href="http://www.oeaw.ac.at/gravitation2015/gravitation-2015/"
-	           target="_blank">Gravitation 2015</a></li>-->
-	    <li><a href="http://gravity.univie.ac.at/"
-	           target="_blank">Gravitational Physics</a></li>
-          
-	    <br><br><br>
-
-            <li><a href="http://www.skeptiker.at/" 
-	                        target="_blank">GWUP</a>
-	   <!-- <li><a href="http://www.asyl-in-not.org/"  
-	           target="_blank">Asyl in Not</a>
-            <li><a href="http://www.konfessionsfrei.at/" target="_blank">
-	     <img src="../../images/laizitaet_fisch.gif" 
-	          width="80" border="0"></a>
-           -->
-          <br><br><br>
-	  <li><a href="https://www.linuxfoundation.org/" target="_blank">
-            <img align="bottom" alt="100% M$ free" 
-	         src="../../images/msfree.gif" border="0">
-            </a>
-          </div>
-
-        <div id="navbar" class="content">
-          <span class="leftbox">Location: <a href="../../index.html">Home</a> / <a href="../index.html">Teaching</a> / <a href="./">Sosem16</a> / <span>Differentialgeometrie Zyklus 2016--2017</span></span>
-          <!--<span class="rightbox">Language: <span>en</span></span>-->
-          <div class="clearingdiv">&nbsp;</div>
-        </div>
-
-        <div id="content">
-          <center>
+              <center>
  <h1>Differential geometry</h1>
  <h2>Lecture cycle 2016/2017</h2>
  <h4>Roland Steinbauer</h4>
@@ -455,25 +332,13 @@ Die <b>Anmeldung</b> erfolgt in der ersten Vorlesungseinheit am 1.3.2016.
 <br><br>
 
 <b>Beurteilung:</b> Das Proseminar ist pr&uuml;fungsimmanente Lehrveranstaltung im Sinne des Curriculums. Die Leistung wird anhand von Tafelpräsentationen und der Mitarbeit bei Aufgabenlösungen sowie dem Ankreuzen der vorbereiteten Lösungen zu wöchentlichen Aufgaben beurteilt.
-<br><br><br><br><br><br>
+<br>
+              
+            </section>
+          </article>
+        </section>
+      </article>
 
-
-
-
-
-
-        </div>
-        <div class="clearingdiv">&nbsp;</div>
-
-      </div>
-    </div>
-
-    <div id="footer">&copy; 2009-2023 Roland Steinbauer | Generated by <a href="http://webgen.rubyforge.org" target="_blank">webgen</a> | Design by <a href="http://andreasviklund.com" target="_blank">Andreas Viklund</a>  | Mathematics by <a href="http://www.math.union.edu/~dpvc/jsMath/welcome.html">jsMath</a></div>
-
- <script>
-  jsMath.Process(document);
-  </script>
-
-
-  </body>
-</html>
+<?php
+include('../../../includes/footer-courses.php');
+?>

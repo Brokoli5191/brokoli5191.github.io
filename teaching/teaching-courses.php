@@ -315,12 +315,12 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250090 VO <a href="courses/SoSem19/fa.html">Funktionalanalysis</a><br>
+                            250090 VO <a href="courses/SoSem19/fa.php">Funktionalanalysis</a><br>
                             Mo. u. Mi. 11:30-13:00 Hs 13 (OMP 1) (<a href="courses/SoSem19/eval-S19-Funktionalanalysis.pdf">Evaluationsergebnisse</a>)
                         </li>
 
                         <li class="list-dot">
-                            250075 UE <a href="courses/SoSem19/fa.html#ue">&Uuml;bungen zu Funktionalanalysis</a><br>
+                            250075 UE <a href="courses/SoSem19/fa.php#ue">&Uuml;bungen zu Funktionalanalysis</a><br>
                             Gruppe 1: Do. 09:45-10:30 Sr 12 (OMP 1) (<a href="courses/SoSem19/eval-S19-Übungen_Funktionalanalysis_1.pdf">Evaluationsergebnisse</a>)<br>
                             Gruppe 2: Do. 10:30-11:15 Sr 12 (OMP 1) (<a href="courses/SoSem19/eval-S19-Übungen_Funktionalanalysis_2.pdf">Evaluationsergebnisse</a>)
                         </li>
@@ -422,7 +422,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250099 VO <a href="courses/SoSem16/dg.html#lg">Lorentzian Geometry</a> (<a href="courses/SoSem17/S17-Lorentzian_Geometry.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
+                            250099 VO <a href="courses/SoSem16/dg.php#lg">Lorentzian Geometry</a> (<a href="courses/SoSem17/S17-Lorentzian_Geometry.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             Mo. 12.15-13.45 SR 11 (OMP 1)<br>
                             Do. 11.30-13.00 SR 11 (OMP 1)<br>
                         </li>
@@ -444,7 +444,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250070 VO <a href="courses/SoSem16/dg.html#rg">Riemannian Geometry</a> (<a href="courses/WS1617/W16-Riemannian_geometry.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
+                            250070 VO <a href="courses/SoSem16/dg.php#rg">Riemannian Geometry</a> (<a href="courses/WS1617/W16-Riemannian_geometry.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             Tue. 10:00-11:30 SR 11 (OMP 1)<br>
                         </li>
 
@@ -468,12 +468,12 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250079 VO <a href="courses/SoSem16/dg.html">Analysis auf Mannigfaltigkeiten</a> (<a href="courses/SoSem16/S16-Analysis_auf_Mannigfaltigkeiten.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
+                            250079 VO <a href="courses/SoSem16/dg.php">Analysis auf Mannigfaltigkeiten</a> (<a href="courses/SoSem16/S16-Analysis_auf_Mannigfaltigkeiten.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             Di. 11:30-13:00, Mi. 9:45-11:15, Hs. 2 (OMP 1)<br>
                         </li>
 
                         <li class="list-dot">
-                            250081 PS <a href="courses/SoSem16/dg.html#ps">Proseminar zu "Analysis auf Mannigfaltigkeiten"</a> (<a href="courses/SoSem16/S16-Proseminar_zu__Analysis_auf_Mannigfaltigkeiten_.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
+                            250081 PS <a href="courses/SoSem16/dg.php#ps">Proseminar zu "Analysis auf Mannigfaltigkeiten"</a> (<a href="courses/SoSem16/S16-Proseminar_zu__Analysis_auf_Mannigfaltigkeiten_.pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             Mi. 12:00-12:45, SR 09 (OMP 1)<br>
                         </li>
 
@@ -520,13 +520,13 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250047 VO <a href="courses/SoSem15/top.html">Grundbegriffe der Topologie</a><br>
+                            250047 VO <a href="courses/SoSem15/top.php">Grundbegriffe der Topologie</a><br>
                             Mo. Mi. 9:45-10:40 Hs. 13 OMP1
                             (<a href="courses/SoSem15/SS15-Grundbegriffe_der_Topologie.pdf" target="_blank">Evaluationsergebnisse</a>)
                         </li>
 
                         <li class="list-dot">
-                            250048 UE <a href="courses/SoSem15/top.html#ue">Übungen zu "Grundbegriffe der Topologie"</a><br>
+                            250048 UE <a href="courses/SoSem15/top.php#ue">Übungen zu "Grundbegriffe der Topologie"</a><br>
                             Gruppe 1: Mo. 10:45-11:40 Hs. 13 OPM1
                             (<a href="courses/SoSem15/SS15-Übungen_zu__Grundbegriffe_der_Topologie__(15S-25-250048-01).pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             Gruppe 2: Mi. 10:45-11:40 Hs. 13 OPM1
@@ -1269,7 +1269,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             802378 UE Proseminar zu Analysis II
-                            <a href="courses/SS00/eval-sosem00" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
+                            <a href="courses/SS00/eval-sosem00.pdf" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                         </li>
                         <li class="list-dot">802398 SE Seminar (Analysis): Verallgemeinerte Funktionen (gemeinsam mit <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)</li>
                         <li class="list-dot">
