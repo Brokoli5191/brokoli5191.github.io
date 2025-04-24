@@ -171,7 +171,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2022W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Winterersemester 2022/23</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2022W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2022/23</b></a>
                     </li>
 
                     <ul>
@@ -229,7 +229,7 @@ include('../includes/header-teaching.php');
 
                     <ul>
                         <li class="list-dot">
-                            250047 VO <a href="courses/WS2021/rg.html#lg">Lorentzian geometry</a> (<a href="courses/SoSem21/S21-Lorentzian_Geometry.pdf">Evaluationsergebnisse</a>)<br>
+                            250047 VO <a href="courses/WS2021/rg.php#lg">Lorentzian geometry</a> (<a href="courses/SoSem21/S21-Lorentzian_Geometry.pdf">Evaluationsergebnisse</a>)<br>
                             Tue. 9:45-11:15, Thu. 9:00-10:30 online<br>
                         </li>
 
