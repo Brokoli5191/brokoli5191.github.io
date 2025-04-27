@@ -102,7 +102,7 @@ include('../../../includes/header-courses.php');
                 Studierende geprüft. Bitte kontaktiert mich also paarweise. Bevorzugter
                 Termin meinerseits ist Montag Nachmittag.<br><br>
                 <b>ACHTUNG:</b> Für Termine in den Sommerferien siehe 
-                "News" auf der <a href="../SoSem08/fa2.html">Funktionalanalysis 2</a>-Seite.</li>
+                "News" auf der <a href="../SoSem08/fa2.php">Funktionalanalysis 2</a>-Seite.</li>
               </ul>
               
               <h3>Fortsetzung:</h3>
