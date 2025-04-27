@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Analysiszyklus";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -12,7 +12,7 @@ include('../../../includes/header-courses.php');
             </header>
             <article class="article-second">
               <h2 class="h3 article-title">Analysiszyklus</h2>
-              <h3>Sommersemester 2012 - 13</h3>
+              <h3>Sommersemester 2012/2013</h3>
 
               
               <br><br>

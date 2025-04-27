@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "PS Lineare Algebra 1";
 $currentPage = "courses";
-include('../../../includes/header-courses.php');
+include('../../../../includes/header-courses.php');
 ?>
 
 
@@ -12,7 +12,7 @@ include('../../../includes/header-courses.php');
             </header>
             <article class="article-second">
               <h2 class="h3 article-title">PS Lineare Algebra 1</h2>
-              <h3>Wintersemester 2002 - 2003</h3>
+              <h3>Wintersemester 2002/2003</h3>
 
               <br>
 <ul>
@@ -38,5 +38,5 @@ include('../../../includes/header-courses.php');
       </article>
 
 <?php
-include('../../../includes/footer-courses.php');
+include('../../../../includes/footer-courses.php');
 ?>

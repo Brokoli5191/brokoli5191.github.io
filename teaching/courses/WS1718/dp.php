@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Theory of Distributions 2017";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -12,7 +12,7 @@ include('../../../includes/header-courses.php');
             </header>
             <article class="article-second">
               <h2 class="h3 article-title">Theory of Distributions 2017</h2>
-              <h3>Wintersemester 2017 - 2018</h3>
+              <h3>Wintersemester 2017/2018</h3>
               <h4>Michael Kunzinger, Roland Steinbauer</h4>
               
               <b>Lecture course:</b> Theory of Distributions<br>

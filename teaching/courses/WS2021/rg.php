@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Riemannian Geometry";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -134,7 +134,7 @@ Further hints on literature will be given during the course. I have prepared han
 <br><br>
 
 <b>Exams</b> will exclusively be oral and by personal appointment starting at the end of the semester. Please drop me an email approxiamtely 2 weeks prior to your desired date. In view of current university wide regulations exams will probably have to be online but changes might be possible. The duration of the exam is 45-60 minutes.
-<br><br><br><br><br><br>
+<br>
               
               
               

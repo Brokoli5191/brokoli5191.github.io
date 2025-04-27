@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Elementare Differentialgeometrie";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -12,7 +12,7 @@ include('../../../includes/header-courses.php');
             </header>
             <article class="article-second">
               <h2 class="h3 article-title">Elementare Differentialgeometrie</h2>
-              <h3>Seminar f&uuml;r LAK (Analysis/Angewandte Mathematik); Wintersemeseter 2015 - 2016</h3>
+              <h3>Seminar f&uuml;r LAK (Analysis/Angewandte Mathematik); Wintersemeseter 2015/2016</h3>
               
               <b>LVA Leiter:</b> Roland Steinbauer
 <br>
@@ -29,8 +29,8 @@ include('../../../includes/header-courses.php');
 <br>
 </td>
 <td width="25%">
-<img align="right" width="70%" border="0" title="Kleinsche Flasche" 
-src="../../images/KleinBottle-01.png">
+<img align="right" width="200px" border="0" title="Kleinsche Flasche" 
+src="../../../assets/images/KleinBottle-01.png">
 <br><br>
 <!--
 <img align="bottom" src="../../images/hyperbolic_triangle.png" border="0" width="120">
@@ -66,7 +66,7 @@ Die konkreten Inhalte sind nahe am Seminar <a href="../WS1415/semlak.html">"Die 
 
 <td width="20%">
 <img align="right" width="80%" border="" title="Geod&auml;te am Torus" 
-src="../../images/geodesics.png">
+src="../../../assets/images/geodesics.png">
 <br><br>
 <!--
 <img align="bottom" src="../../images/hyperbolic_triangle.png" border="0" width="120">

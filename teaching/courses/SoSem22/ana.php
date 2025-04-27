@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Analysisausbildung im Lehramt";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>

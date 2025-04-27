@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Bilder der Erde: Ein mathematischer Blick auf Weltkarten";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>

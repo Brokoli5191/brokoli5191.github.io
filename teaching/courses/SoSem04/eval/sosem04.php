@@ -16,21 +16,21 @@ include('../../../../includes/header-courses.php');
               <h4>R. Steinbauer</h4>
               
               <a name="psanalysis2">
-              <p><img src="sosem04_1.gif" width="877" height="620"></p>
-              <p><img src="sosem04_2.gif" width="877" height="620"></p>
-              <p><img src="sosem04_3.gif" width="877" height="620"></p>
+              <p><img src="sosem04_1.gif" width="850" height="620"></p>
+              <p><img src="sosem04_2.gif" width="850" height="620"></p>
+              <p><img src="sosem04_3.gif" width="850" height="620"></p>
               <br><br><br>
 
               <a name="edv+math">
-              <p><img src="sosem04_4.gif" width="877" height="620"></p>
-              <p><img src="sosem04_5.gif" width="877" height="620"></p>
-              <p><img src="sosem04_6.gif" width="877" height="620"></p>
+              <p><img src="sosem04_4.gif" width="850" height="620"></p>
+              <p><img src="sosem04_5.gif" width="850" height="620"></p>
+              <p><img src="sosem04_6.gif" width="850" height="620"></p>
               <br><br><br>
 
               <a name="tensoren">
-              <p><img src="sosem04_7.gif" width="877" height="620"></p>
-              <p><img src="sosem04_8.gif" width="877" height="620"></p>
-              <p><img src="sosem04_9.gif" width="877" height="620"></p>
+              <p><img src="sosem04_7.gif" width="850" height="620"></p>
+              <p><img src="sosem04_8.gif" width="850" height="620"></p>
+              <p><img src="sosem04_9.gif" width="850" height="620"></p>
               
             </section>
           </article>

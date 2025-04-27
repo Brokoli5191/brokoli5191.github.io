@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Prüfungen zu Gewöhnliche Differentialgleichungen 1";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -37,95 +37,97 @@ include('../../../includes/header-courses.php');
         <li class="list-dot"><strong>Prüfungsangaben:</strong> <a href="ode_angabe_1.pdf">1. Termin</a>, <a href="ode_angabe_2.pdf">2. Termin</a>, <a href="ode_angabe_3.pdf">3. Termin</a>.</li>
         <li class="list-dot">
           <strong>Prüfungsstatistik:</strong>
-          <table border="3">
-            <tr>
-              <th></th>
-              <th align="center"><strong>1. Termin</strong></th>
-              <th align="center"><strong>2. Termin</strong></th>
-              <th align="center"><strong>3. Termin</strong></th>
-            </tr>
-            <tr>
-              <td><strong>Datum</strong></td>
-              <td align="center">30.06.2005</td>
-              <td align="center">30.09.2005</td>
-              <td align="center">25.11.2005</td>
-            </tr>
-            <tr>
-              <td><strong>TeilnehmerInnen</strong></td>
-              <td align="center">24</td>
-              <td align="center">5</td>
-              <td align="center">10</td>
-            </tr>
-            <tr>
-              <td><strong>Notenduchschnitt&nbsp;</strong></td>
-              <td align="center">3.0</td>
-              <td align="center">3.0</td>
-              <td align="center">3.5</td>
-            </tr>
-            <tr>
-              <td><strong>Notenspiegel</strong></td>
-              <td align="center">
-                <table border="3">
-                  <tr>
-                    <td><strong>Note</strong></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td><strong>#</strong></td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>5</td>
-                    <td>7</td>
-                    <td>3</td>
-                  </tr>
-                </table>
-              </td>
-              <td align="center">
-                <table border="3">
-                  <tr>
-                    <td><strong>Note</strong></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td><strong>#</strong></td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>2</td>
-                  </tr>
-                </table>
-              </td>
-              <td align="center">
-                <table border="3">
-                  <tr>
-                    <td><strong>Note</strong></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td><strong>#</strong></td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>3</td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
+          <div style="width: 100%; overflow-x: auto;">
+            <table border="3">
+              <tr>
+                <th></th>
+                <th align="center"><strong>1. Termin</strong></th>
+                <th align="center"><strong>2. Termin</strong></th>
+                <th align="center"><strong>3. Termin</strong></th>
+              </tr>
+              <tr>
+                <td><strong>Datum</strong></td>
+                <td align="center">30.06.2005</td>
+                <td align="center">30.09.2005</td>
+                <td align="center">25.11.2005</td>
+              </tr>
+              <tr>
+                <td><strong>TeilnehmerInnen</strong></td>
+                <td align="center">24</td>
+                <td align="center">5</td>
+                <td align="center">10</td>
+              </tr>
+              <tr>
+                <td><strong>Notenduchschnitt&nbsp;</strong></td>
+                <td align="center">3.0</td>
+                <td align="center">3.0</td>
+                <td align="center">3.5</td>
+              </tr>
+              <tr>
+                <td><strong>Notenspiegel</strong></td>
+                <td align="center">
+                  <table border="3">
+                    <tr>
+                      <td><strong>Note</strong></td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td><strong>#</strong></td>
+                      <td>4</td>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>7</td>
+                      <td>3</td>
+                    </tr>
+                  </table>
+                </td>
+                <td align="center">
+                  <table border="3">
+                    <tr>
+                      <td><strong>Note</strong></td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td><strong>#</strong></td>
+                      <td>2</td>
+                      <td>0</td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>2</td>
+                    </tr>
+                  </table>
+                </td>
+                <td align="center">
+                  <table border="3">
+                    <tr>
+                      <td><strong>Note</strong></td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td><strong>#</strong></td>
+                      <td>0</td>
+                      <td>3</td>
+                      <td>2</td>
+                      <td>2</td>
+                      <td>3</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
         </li>
       </ul>
     </article>

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Studienjahr 2024/25";
+$pageTitle = "Funktionalanalysis";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>

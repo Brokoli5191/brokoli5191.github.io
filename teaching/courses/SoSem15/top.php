@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Grundbegriffe der Topologie";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>

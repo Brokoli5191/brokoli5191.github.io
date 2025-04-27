@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Schulmathematik Analysis";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -12,7 +12,7 @@ include('../../../includes/header-courses.php');
             </header>
             <article class="article-second">
               <h2 class="h3 article-title">Schulmathematik Analysis</h2>
-              <h3>Wintersemester 2018 - 2019</h3>
+              <h3>Wintersemester 2018/2019</h3>
               <h4>Roland Steinbauer, Evelyn S&uuml;ss-Stepancik</h4>
               
               <b>Lehrveranstaltungsnummer:</b>250030<br>

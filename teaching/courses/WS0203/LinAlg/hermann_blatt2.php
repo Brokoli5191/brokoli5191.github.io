@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "linalg2v";
 $currentPage = "courses";
-include('../../../includes/header-courses.php');
+include('../../../../includes/header-courses.php');
 ?>
 
 
@@ -12,7 +12,7 @@ include('../../../includes/header-courses.php');
             </header>
             <article class="article-second">
               <h2 class="h3 article-title">linalg2v</h2>
-              <h3>Wintersemester 2002 - 2003</h3>
+              <h3>Wintersemester 2002/2003</h3>
               
               <p><img src="linalg2v1.gif" width="620" height="877"></p>
 
@@ -48,5 +48,5 @@ include('../../../includes/header-courses.php');
       </article>
 
 <?php
-include('../../../includes/footer-courses.php');
+include('../../../../includes/footer-courses.php');
 ?>

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Gewöhnliche Differentialgleichungen 1 - Vorlesung";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -82,7 +82,7 @@ include('../../../includes/header-courses.php');
 
       <h3>Prüfungen:</h3>
       <p>
-        <a href="ode_pruefung.html"><strong>Prüfungen</strong></a>
+        <a href="ode_pruefung.php"><strong>Prüfungen</strong></a>
       </p>
 
       <h3>Proseminar:</h3>

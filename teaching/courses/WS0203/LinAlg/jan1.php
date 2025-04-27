@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Analysis";
 $currentPage = "courses";
-include('../../../includes/header-courses.php');
+include('../../../../includes/header-courses.php');
 ?>
 
 
@@ -12,7 +12,7 @@ include('../../../includes/header-courses.php');
             </header>
             <article class="article-second">
               <h2 class="h3 article-title">jan1</h2>
-              <h3>Wintersemester 2002 - 2003</h3>
+              <h3>Wintersemester 2002/2003</h3>
               
               <p><img src="jan11.gif" width="620" height="877"></p>
               <p><img src="jan12.gif" width="620" height="877"></p>
@@ -29,5 +29,5 @@ include('../../../includes/header-courses.php');
       </article>
 
 <?php
-include('../../../includes/footer-courses.php');
+include('../../../../includes/footer-courses.php');
 ?>

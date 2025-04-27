@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Informationen zum ersten Termin, Gruppe 1 (Roland Steinbauer)";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Partielle Differentialgleichungen";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>

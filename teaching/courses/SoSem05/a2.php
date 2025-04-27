@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Analysis 2 Proseminar - Materialien";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>

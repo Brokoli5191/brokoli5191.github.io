@@ -257,7 +257,7 @@ include('../includes/header-teaching.php');
                             Gruppe 4: 10:45-11:30 online. (<a href="courses/WS2021/W20-UE_Schulmathematik_Analysis_(20W-25-250050-04).pdf">Evaluationsergebnisse</a>)
                         </li>
                         <li class="list-dot">
-                            250070 VO <a href="WS2021/rg.html">Riemannian geometry</a> (<a href="courses/WS2021/W20-Riemannian_geometry.pdf">Evaluationsergebnisse</a>)<br>
+                            250070 VO <a href="courses/WS2021/rg.php">Riemannian geometry</a> (<a href="courses/WS2021/W20-Riemannian_geometry.pdf">Evaluationsergebnisse</a>)<br>
                             Tue. 13:15-14:45 online.
                         </li>
 
@@ -298,7 +298,7 @@ include('../includes/header-teaching.php');
 
                     <ul>
                         <li class="list-dot">
-                            250043 VO <a href="courses/WS1920/cg.html">Lecture course: Comparison Geometry</a><br>
+                            250043 VO <a href="courses/WS1920/cg.php">Lecture course: Comparison Geometry</a><br>
                             Wed/Thur. 11:30-13:00 SR. 9/8 (OMP 1) (<a href="courses/WS1920/W19-Comparison_Geometry.pdf">Evaluationsergebnisse</a>)<br>
                         </li>
 
@@ -546,7 +546,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250054/55 SE Seminar für LAK (Analysis/angewandte Mathematik): <a href="courses/WS1415/semlak.html">Die Geometrie von Kurven und Fächen</a><br>
+                            250054/55 SE Seminar für LAK (Analysis/angewandte Mathematik): <a href="courses/WS1415/semlak.php">Die Geometrie von Kurven und Fächen</a><br>
                             Gruppe 1: Mi. 11.05-12.35 SR 12 (OMP 1) (<a href="courses/WS1415/WS14_15-Seminar_fuer_LAK_(Analysis).pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                             Gruppe 2: Mi. 14.30-16.00 SR 10 (OMP 1) (<a href="courses/WS1415/WS14_15-Seminar_fuer_LAK_(Angewandte_Mathematik).pdf" target="_blank">Evaluationsergebnisse</a>)<br>
                         </li>
@@ -567,7 +567,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250057 VO <a href="courses/SoSem12/ana.php#sosem13">Reelle Analysis in mehreren und komplexe Analysis in einer Variable f&uuml;r LAK</a> (<a href="SoSem13/eval_RAimukAieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
+                            250057 VO <a href="courses/SoSem12/ana.php#sosem13">Reelle Analysis in mehreren und komplexe Analysis in einer Variable f&uuml;r LAK</a> (<a href="courses/SoSem13/eval_RAimukAieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. 10.05-11.55, Mi. 10.05-10.55, Do. 10.05-11.55 Hs. 3, UZA 2
                         </li>
                         <li class="list-dot">
@@ -588,15 +588,15 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250014 VO <a href="courses/SoSem12/ana.html#ws12/13">Analysis in einer Variable für LAK</a>(<a href="courses/WS1213/eval_AieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
+                            250014 VO <a href="courses/SoSem12/ana.php#ws12/13">Analysis in einer Variable für LAK</a>(<a href="courses/WS1213/eval_AieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. und Mi. 10:00-11:00 Hs. 3, UZA 2
                         </li>
                         <li class="list-dot">
-                            250016 UE <a href="courses/SoSem12/ana.html#ue2">&Uuml;bung: Analysis in einer Variable für LAK</a> (Gruppe 4) (<a href="courses/WS1213/eval_Ue_AieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
+                            250016 UE <a href="courses/SoSem12/ana.php#ue2">&Uuml;bung: Analysis in einer Variable für LAK</a> (Gruppe 4) (<a href="courses/WS1213/eval_Ue_AieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
                             Mo. 15.00-17.00 D1.01, UZA 4
                         </li>
                         <li class="list-dot">
-                            250015 UE <a href="courses/SoSem12/ana.html#rep2">Repetitorium zu Analysis in einer Variable für LAK</a> (gemeinsam mit Ronald Quirchmayr) (<a href="courses/WS1213/eval_Rep_AieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
+                            250015 UE <a href="courses/SoSem12/ana.php#rep2">Repetitorium zu Analysis in einer Variable für LAK</a> (gemeinsam mit Ronald Quirchmayr) (<a href="courses/WS1213/eval_Rep_AieVfLAK.pdf">Evaluationsergebnisse</a>)<br>
                             Mi. 13.00-15.00 Ort: Hs. 1, UZA 2
                         </li>
                         <li class="list-dot">
@@ -647,10 +647,10 @@ include('../includes/header-teaching.php');
                                 <li class="list-dot">Gruppe 2: Mi. 11.00-12.30 C2.07, UZA 4 Beginn: 12.10.2011</li>
                                 <li class="list-dot">Gruppe 3: Mo. 9.30-11.00 C2.09, UZA 4 Beginn: 10.10.2011</li>
                             </ul>
-                            <a href="courses/WS1112/uea3lak.html">Materialien</a>
+                            <a href="courses/WS1112/uea3lak.php">Materialien</a>
                         </li>
                         <li class="list-dot">
-                            250043 SE Seminar für LAK (Analysis): <a href="courses/WS1112/semlak.html">Die Geometrie von Kurven und Fächen</a><br>
+                            250043 SE Seminar für LAK (Analysis): <a href="courses/WS1112/semlak.php">Die Geometrie von Kurven und Fächen</a><br>
                             Mi. 17.00-18.30 C2.07, UZA 4
                         </li>
                         <li class="list-dot">
@@ -731,7 +731,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             250085 VO Ausgew&auml;hlte Kapitel aus Partielle Differentialgleichungen:<br>
-                            <a href="courses/WS0910/pseudo.html">Pseudodifferentialoperatoren und Mikrolokale Analysis</a><br>
+                            <a href="courses/WS0910/pseudo.php">Pseudodifferentialoperatoren und Mikrolokale Analysis</a><br>
                             Mo 13:15-14:45 Seminarraum 2A310, UZA2 <br>
                             Do 13:15-14:45 Seminarraum 2A310, UZA2 <br>
                         </li>
@@ -780,7 +780,7 @@ include('../includes/header-teaching.php');
 
                     <ul>
                         <li class="list-dot">
-                            250074 VO <a href="courses/WS0809/fa3.html">Ausgew&auml;hlte Kapitel aus Funktionalanalysis: Lokalkonvexe Vektorr&auml;ume</a><br>
+                            250074 VO <a href="courses/WS0809/fa3.php">Ausgew&auml;hlte Kapitel aus Funktionalanalysis: Lokalkonvexe Vektorr&auml;ume</a><br>
                             Mo, Di, Do 12:00-13:00 Seminarraum 2A310, UZA 2<br>
                         </li>
                         <li class="list-dot">
@@ -817,15 +817,15 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2007" target="_Blank"><b>Wintersemester 2007/08</b></a> (<a href="WS0708/eval.pdf">Evaluationsergebnisse</a>)<br>
+                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2007" target="_Blank"><b>Wintersemester 2007/08</b></a> (<a href="courses/WS0708/eval.pdf">Evaluationsergebnisse</a>)<br>
                     </li>
                     <ul>
                         <li class="list-dot">
-                            250207 VO <a href="courses/WS0708/fa.html">Funktionalanalysis 1</a><br>
+                            250207 VO <a href="courses/WS0708/fa.php">Funktionalanalysis 1</a><br>
                             Mo, Di, Do 11:00-12:00 H&ouml;rsaal 2 UZA 2 Geo-Zentrum<br>
                         </li>
                         <li class="list-dot">
-                            250208 UE <a href="courses/WS0708/fa.html#ue"> &Uuml;bungen zu Funktionalanalysis 1</a> (Gruppe 1)<br>
+                            250208 UE <a href="courses/WS0708/fa.php#ue"> &Uuml;bungen zu Funktionalanalysis 1</a> (Gruppe 1)<br>
                             Do 12:15-13:00 H&ouml;rsaal 2 UZA 2 Geo-Zentrum<br>
                         </li>
                         <li class="list-dot">
@@ -878,7 +878,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li class="list-dot">
                             250503 VO
-                            <a href="courses/WS0607/pseudo.html">Ausgew&auml;hlte Kapitel aus Partielle Differentialgleichungen:<br>
+                            <a href="courses/WS0607/pseudo.php">Ausgew&auml;hlte Kapitel aus Partielle Differentialgleichungen:<br>
                                 Pseudo-Differentialoperatoren und mikrolokale Analysis</a><br>
                             Mo 13:15
 
@@ -927,14 +927,14 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            <a href="courses/WS0506/top.html">250040 VO Grundbegriffe der Topologie</a><br>
+                            <a href="courses/WS0506/top.php">250040 VO Grundbegriffe der Topologie</a><br>
                             Mo., Di. 10:10-10:55, H&ouml;rsaal 2 (UZA 2)<br>
                             <a href="courses/WS0506/top_pruefung.php">Pr&uuml;fungen</a><br>
                         </li>
                         <li class="list-dot">
-                            <a href="courses/WS0506/top.html#ps">250077 PS Proseminar zu Grundbegriffe der Topologie</a><br>
+                            <a href="courses/WS0506/top.php#ps">250077 PS Proseminar zu Grundbegriffe der Topologie</a><br>
                             Di. 17-17:45, H&ouml;rsaal 2 (UZA 2)<br>
-                            <a href="courses/WS0506/top_ps.pdf">Aufgabensammlung</a>, english translation of problems <a href="WS0506/top_ps_eng.pdf">31,33,36--38</a><br>
+                            <a href="courses/WS0506/top_ps.pdf">Aufgabensammlung</a>, english translation of problems <a href="courses/WS0506/top_ps_eng.pdf">31,33,36--38</a><br>
                         </li>
                         <li class="list-dot">
                             250073 UE Repetitorium zu Analysis 1 (gemeinsam mit <a href="mailto:evelina.erlacher.univie.ac.at">Evelina Erlacher</a>)<br>
@@ -944,14 +944,12 @@ include('../includes/header-teaching.php');
                         <li class="list-dot">
                             250081 PS Proseminar zu Analysis 1 (Gruppe 1)<br>
                             Mo. 17:15-18:45, C209 (UZA 4)<br>
-                            <a href="hcourses/WS0506/einf_ue_0506.pdf"> Aufgabensammlung</a>,
                             <a href="courses/WS0506/ps_a1_fotos/">Fotos</a><br>
                         </li>
                         <li class="list-dot">
                             050102 UE &Uuml;bungen zur technischen Praxis der Computersysteme 1<br>
                             (gemeinsam mit <a href="http://www.mat.univie.ac.at/~gerald" target="_blank">Gerald Teschl</a>) <br>
-                            Blocklehrveranstaltung, pers&ouml;nliche Anmeldung<br>
-                            Termine siehe <a href="http://www.mat.univie.ac.at/praxis" target="_blank">http://www.mat.univie.ac.at/praxis</a><br>
+                            Blocklehrveranstaltung.
                         </li>
                     </ul>
 
@@ -989,7 +987,7 @@ include('../includes/header-teaching.php');
                         <li class="list-dot">
                             877770 UE &Uuml;bungen zur Technischen Praxis der Computersysteme 2<br>
                             (gemeinsam mit <a href="http://www.mat.univie.ac.at/~gerald" target="_blank">Gerald Teschl</a>) <br>
-                            Blockveranstaltung, Termine siehe <a href="http://www.mat.univie.ac.at/praxis" target="_blank">http://www.mat.univie.ac.at/praxis</a><br>
+                            Blockveranstaltung.<br>
                         </li>
                     </ul>
 
@@ -997,24 +995,21 @@ include('../includes/header-teaching.php');
 
                     <li>
                         <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2004" target="_blank"><b>Wintersemester 2004/05</b></a>
-                        (<a href="courses/WS0405/eval/ws0405.html">Evaluationsergebnisse</a>)
+                        (<a href="courses/WS0405/eval/ws0405.php">Evaluationsergebnisse</a>)
                     </li>
                     <br>
                     <ul>
                         <li class="list-dot">
-                            <a href="courses/WS0405/einfuehrung.html"> 803809 VO Einf&uuml;hrung in das mathematische Arbeiten</a><br>
+                            <a href="courses/WS0405/einfuehrung.php"> 803809 VO Einf&uuml;hrung in das mathematische Arbeiten</a><br>
                             Blocklehrveranstaltung 4.-21.10.2003<br>
                             Mo-Do 7:55-10:00 H&ouml;rsaal 3 (UZA 2)
-                            <a href="courses/WS0405/einf_pruef/ergebnisse.html" target="_blank">Pr&uuml;fungsstatistik</a><br>
+                            Pr&uuml;fungsstatistik<br>
                         </li>
                         <li class="list-dot">
-                            <a href="http://www.mat.univie.ac.at/~ws0405/workshops.php" target="_blank">xxxxxx KO Workshops zur Aufarbeitung des Schulstoffs</a><br>
+                            xxxxxx KO Workshops zur Aufarbeitung des Schulstoffs<br>
                             (begleitende Veranstaltung zu
-                            <a href="courses/WS0405/einfuehrung.html">Einf&uuml;hrung in das mathematische Arbeiten</a>)<br>
-                            gemeinsam mit
-                            <a href="mailto:a9505503@unet.univie.ac.at">J&ouml;rg Arnberger</a>, <a href="mailto:verena.beller@gmx.at">Verena Beller</a>,
-                            <a href="mailto:a0001130@unet.univie.ac.at">Petra Grell</a>, <a href="mailto:Christoph.Marx@telering.at">Christoph Marx</a>,
-                            <a href="mailto:a9445100@unet.univie.ac.at">Christian R&ouml;dl</a> und <a href="mailto:a9806298@unet.univie.ac.at">Claudia Steinwender</a>,<br>
+                            <a href="courses/WS0405/einfuehrung.php">Einf&uuml;hrung in das mathematische Arbeiten</a>)<br>
+                            gemeinsam mit J&ouml;rg Arnberger, Verena Beller, Petra Grell, Christoph Marx, Christian R&ouml;dl und Claudia Steinwender.<br>
                             Blocklehrveranstaltung 4.-27.10.2003.<br>
                         </li>
                         <li class="list-dot">
@@ -1024,7 +1019,7 @@ include('../includes/header-teaching.php');
                         <li class="list-dot">
                             878178 PS Proseminar zu Grundbegriffe der Topologie<br>
                             Gruppe 2, Mo 12:10-12:55 H&ouml;rsaal 3 (UZA 2)<br>
-                            Angaben zum <a href="courses/WS0405/pstop.html">Download</a><br>
+                            Angaben zum <a href="courses/WS0405/pstop.php">Download</a><br>
                         </li>
                         <li class="list-dot">
                             878206 SE Seminar (Analysis): Kinetische Theorie<br>
@@ -1046,7 +1041,7 @@ include('../includes/header-teaching.php');
                             878196 UE zu Technische Praxis der Computersysteme 1<br>
                             (gemeinsam mit
                             <a href="http://www.mat.univie.ac.at/~gerald" target="_blank">Gerald Teschl</a>, <a href="mailto:gernot.greschonig@univie.ac.at">Gernot Greschonig</a>) <br>
-                            Blockveranstaltung, (n.&Uuml;.), n&auml;here Informationen unter <a href="http://www.mat.univie.ac.at/praxis" target="_blank">http://www.mat.univie.ac.at/praxis</a>.
+                            Blockveranstaltung.
                         </li>
                     </ul>
 
@@ -1090,24 +1085,24 @@ include('../includes/header-teaching.php');
           
                     <li>
                         <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2003"><b>Wintersemester 2003/04</b></a>
-                        (<a href="courses/WS0304/eval/gesamt.html">Evaluationsergebnisse</a>)
+                        (<a href="courses/WS0304/eval/eval.pdf">Evaluationsergebnisse</a>)
                     </li>
                     <ul>
                         <li class="list-dot">
-                            <a href="courses/WS0304/einfuehrung.html">803809 VO Einf&uuml;hrung in das mathematische Arbeiten</a><br>
+                            <a href="courses/WS0304/einfuehrung.php">803809 VO Einf&uuml;hrung in das mathematische Arbeiten</a><br>
                             Blocklehrveranstaltung 1.-21.10.2003<br>
                             Mo-Do 7:55-9:45 Gr. Hs. des Instituts f&uuml;r Experimentalphysik.
-                            <a href="courses/WS0304/einf_pruef/ergebnisse.html" target="_blank">Pr&uuml;fungsstatistik</a>
+                            <a href="courses/WS0304/einf_pruef/ergebnisse.php" target="_blank">Pr&uuml;fungsstatistik</a>
                         </li>
                         <li class="list-dot">
-                            <a href="courses/WS0304/workshops.html">xxxxxx KO Workshops zur Aufarbeitung des Schulstoffs</a> <br>
+                            <a href="courses/WS0304/workshops.php">xxxxxx KO Workshops zur Aufarbeitung des Schulstoffs</a> <br>
                             (begleitende Veranstaltung zu
                             <a href="courses/WS0304/einfuehrung.php">Einf&uuml;hrung in das mathematische Arbeiten</a>)<br>
                             gemeinsam mit
-                            <a href="mailto:simon.haller@gmx.net">Simon Haller</a>, <a href="mailto:andreas.nemeth@univie.ac.at">Andreas Nemeth</a>,
-                            <a href="mailto:a9806298@unet.univie.ac.at">Claudia Steinwender</a>, <a href="mailto:Christoph.Marx@telering.at">Christoph Marx</a>,
-                            <a href="mailto:a9445100@unet.univie.ac.at">Christian R&ouml;dl</a> und <a href="mailto:karin.schnass@aon.at">Karin Schnass</a> <br>
-                            Blocklehrveranstaltung 1.-24.10.2003.<br>
+                            Simon Haller, Andreas Nemeth,
+                            Claudia Steinwender, Christoph Marx, 
+                            Christian R&ouml;dl und Karin Schnass <br>
+                            Blocklehrveranstaltung 1.-24.10.2003.
                         </li>
                         <li class="list-dot">
                             803773 PS Proseminar zu Analysis 1<br>
@@ -1115,16 +1110,15 @@ include('../includes/header-teaching.php');
                             <a href="courses/WS0304/ps_analysis/">(Fotos)</a><br>
                             Gruppe 5, Fr. 10:15-11:45 Hs. 6 <a href="courses/WS0304/ps_analysis/">(Fotos)</a><br>
                             Materialien:
-                            <a href="courses/WS0304/mathematica" target="blank">Mathematica</a>, <a href="courses/WS0304/ps_info_0304.pdf" target="_blank">Infoblatt</a>,
-                            <a href="courses/WS0304/ps_analysis/scan/ps_analysis.html" target="blank">Ausarbeitung Aufgaben 1--20 (Einf&uuml;hrungsphase)</a>
+                            <a href="courses/WS0304/ps_analysis/scan/ps_analysis.php" target="_blank">Ausarbeitung Aufgaben 1--20 (Einf&uuml;hrungsphase)</a>
                         </li>
                         <li class="list-dot">
-                            <a href="courses/WS0304/verallg_fkt.html">803795 SE Seminar (Analysis): Verallgemeinerte Funktionen</a> (gemeinsam m.
+                            <a href="courses/WS0304/verallg_fkt.php">803795 SE Seminar (Analysis): Verallgemeinerte Funktionen</a> (gemeinsam m.
                             <a href="http://www.mat.univie.ac.at/~mike" target="_blank">Michael Kunzinger</a>)<br>
                             Fr 13:15-14:45 Hs. 4.
                         </li>
                         <li class="list-dot">
-                            <a href="courses/WS0304/mat_phys.html">877623 SE Seminar (Analysis): Partielle Differentialgleichungen der Mathematischen Physik</a> <br>
+                            <a href="courses/WS0304/mat_phys.php">877623 SE Seminar (Analysis): Partielle Differentialgleichungen der Mathematischen Physik</a> <br>
                             Mi 17:00-18:30, Hs. 5.
                         </li>
                         <li class="list-dot">
@@ -1140,7 +1134,7 @@ include('../includes/header-teaching.php');
                     </li>
                     <ul>
                         <li class="list-dot">
-                            <a href="http://www.mat.univie.ac.at/~rein/courses/skin4.html" target="_blank"> 800531 SE Seminar (Mathematischen Physik)</a> (gemeinsam mit
+                            800531 SE Seminar (Mathematischen Physik) (gemeinsam mit
                             <a href="http://www.mat.univie.ac.at/~rein">Gerhard Rein</a>)<br>
                             Mi 17:00-18:30 Hs. 5.
                         </li>
@@ -1148,7 +1142,6 @@ include('../includes/header-teaching.php');
                             803 378 PS Proseminar zu Lineare Algebra und Geometrie 2<br>
                             Gruppe 2: Fr 8:30-10:00 Hs. 6. <br>
                             Gruppe 3: Fr 10:15-11:45 Hs. 6. <br>
-                            <a href="courses/SoSem03/LinAlg2/">Materialien</a>
                         </li>
                         <li class="list-dot">
                             803380 UE &Uuml;bung zu Technische Praxis der Computersysteme 2<br>
@@ -1191,8 +1184,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2002">Sommersemester 2002</a>
-                        (<a href="courses/SoSem02/eval/eval-sosem-02.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
+                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2002">Sommersemester 2002</a> (<a href="courses/SoSem02/eval/eval-sosem-02.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -1209,76 +1201,65 @@ include('../includes/header-teaching.php');
                         </li>
                         <li class="list-dot">
                             800 433 PS Proseminar zu Analysis f&uuml;r Physik 2<br>
-                            Di. 15 - 17, Hs. 6 <a href="courses/SoSem02/notebooks">(Mathematica Notebooks)</a>
+                            Di. 15 - 17, Hs. 6
                         </li>
-                        <li class="list-dot"><a href="http://www.mat.univie.ac.at/praxis" target="_blank">VO 802462 Technische Praxis der Computersysteme, Teil 2</a></li>
+                        <li class="list-dot">VO 802462 Technische Praxis der Computersysteme, Teil 2</li>
                     </ul>
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2001">Wintersemester 2001/02</a>
-                        (<a href="courses/WS0102/eval/eval-ws0102.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
+                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2001">Wintersemester 2001/02</a> (<a href="courses/WS0102/eval/eval-ws0102.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
                     </li>
                     <ul>
                         <li class="list-dot">822010 PS Proseminar zur Analysis III, Fr. 10-11:30, Hs. 6</li>
                         <li class="list-dot">822045 PS Proseminar zu Funktionalanalysis I, Do. 17-18, Hs. 2</li>
                         <li class="list-dot">822047 PS Proseminar zu Ausgew&auml;hlte Kapitel aus Funktionalanalysis, Do. 18-19, Hs. 2</li>
-                        <li class="list-dot"><a href="http://www.mat.univie.ac.at/praxis" target="_blank">802454 VO Technische Praxis der Computersysteme Teil I </a></li>
+                        <li class="list-dot">802454 VO Technische Praxis der Computersysteme Teil I</li>
                     </ul>
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2001">Sommersemester 2001</a></li>
+                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2001">Sommersemester 2001</a> (<a href="courses/SoSem01/eval/eval-sosem01.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                     <ul>
                         <li class="list-dot">
                             802985 UE Proseminar zur Analysis II
-                            <a href="courses/SoSem01/eval/eval-sosem01.pdf" target="_blank">(Ergebnisse der LVA Evaluation)</a>
                         </li>
-                        <li class="list-dot">802398 SE Seminar (Analysis): Verallgemeinerte Funktionen (gemeinsam mit <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)</li>
-                        <li class="list-dot">
-                            <a href="courses/SoSem01/eval/s.php" target="_blank">(Ergebnisse der LVA Evaluation)</a>
+                        <li class="list-dot">802398 SE Seminar (Analysis): Verallgemeinerte Funktionen (gemeinsam mit <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)
                         </li>
                         <li class="list-dot">
-                            <a href="http://www.mat.univie.ac.at/praxis" target="_blank"> 802462 VO Praxis der Computersysteme, Teil 2</a>
-                            <a href="courses/SoSem01/eval/p2.php" target="_blank">(Ergebnisse der LVA Evaluation)</a>
+                            802462 VO Praxis der Computersysteme, Teil 2
                         </li>
                         <li class="list-dot">
-                            <a href="http://www.mat.univie.ac.at/praxis" target="_blank"> 802465 UE &Uuml;bungen zur Praxis der Computersysteme, Teil 2 </a> (gemeinsam mit
-                            <a href="http://diana.mat.univie.ac.at/~gerald" target="_blank">Gerald Teschl</a>) <a href="courses/SoSem01/eval/p-ue2.php" target="_blank">(Ergebnisse der LVA Evaluation)</a>
+                            802465 UE &Uuml;bungen zur Praxis der Computersysteme, Teil 2 (gemeinsam mit
+                            <a href="http://diana.mat.univie.ac.at/~gerald" target="_blank">Gerald Teschl</a>)
                         </li>
                     </ul>
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2000">Wintersemester 2000/01</a></li>
+                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2000">Wintersemester 2000/01</a> (<a href="courses/WS0001/eval/eval-ws0001.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                     <ul>
                         <li class="list-dot">
                             802471 UE Proseminar zur Analysis I
-                            <a href="courses/WS0001/eval/eval-ws0001.pdf" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                         </li>
                         <li class="list-dot">
                             802615 UE Proseminar zur Analysis III
-                            <a href="courses/WS0001/eval/a3.php" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                         </li>
                         <li class="list-dot">
-                            <a href="http://www.mat.univie.ac.at/praxis" target="_blank">802454 VO Praxis der Computersysteme, Teil 1</a>
-                            <a href="courses/WS0001/eval/p.php" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
+                            802454 VO Praxis der Computersysteme, Teil 1
                         </li>
                     </ul>
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2000">Sommersemester 2000</a></li>
+                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2000">Sommersemester 2000</a> (<a href="courses/SS00/eval-sosem00.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                     <ul>
                         <li class="list-dot">
                             802378 UE Proseminar zu Analysis II
-                            <a href="courses/SS00/eval-sosem00.pdf" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                         </li>
-                        <li class="list-dot">802398 SE Seminar (Analysis): Verallgemeinerte Funktionen (gemeinsam mit <a href="http://diana.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)</li>
+                        <li class="list-dot">802398 SE Seminar (Analysis): Verallgemeinerte Funktionen (gemeinsam mit <a href="http://mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)</li>
                         <li class="list-dot">
                             802462 VO Praxis der Computersysteme, Teil 2
-                            <a href="http://www.mat.univie.ac.at/praxis" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                         </li>
                         <li class="list-dot">
                             802465 UE &Uuml;bungen zur Praxis der Computersysteme, Teil 2
-                            <a href="http://www.mat.univie.ac.at/praxis" target="_blank"> (Ergebnisse der LVA Evaluation)</a>
                         </li>
                     </ul>
 
@@ -1330,7 +1311,7 @@ include('../includes/header-teaching.php');
                     <ul>
                         <li>
                             <b>Linux System- und Netzwerkadministration</b><br>
-                            <a href="http://www-5.ibm.com/services/learning/at/ta-iris.nsf/External/X-08?OpenView&Start=1&Count=30&Expand=1.4#1.4" target="_blank">diverse Kurse</a><br>
+                            diverse Kurse<br>
                             2000-2006 f&uuml;r IBM &Ouml;sterreich
                             <br><br>
                         </li>
@@ -1349,7 +1330,7 @@ include('../includes/header-teaching.php');
                             <a href="http://www.icl-workshop.org">International Workshop on Interactive Computer aided Learning (ICL 2001)</a><br>
                             (Villach, September 2001).
                             <br>
-                            Votragsfolien <a href="extern/icl_2001_slides.tgz">icl_2001_slides.tgz</a>
+                            Votragsfolien <a href="courses/extern/icl_2001_slides.tgz">icl_2001_slides.tgz</a>
                             (Tarball enth&auml;lt 2 Postscript-Dateien)
                         </li>
                     </ul>

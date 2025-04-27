@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Differentialgeometrie Zyklus 2016 - 2017";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
@@ -11,8 +11,8 @@ include('../../../includes/header-courses.php');
               <h2 class="h2 article-title">Courses</h2>
             </header>
             <article class="article-second">
-              <h2 class="h3 article-title">Differentialgeometrie Zyklus 2016--2017</h2>
-              <h3>Sommersemester 2016 - 2017</h3>
+              <h2 class="h3 article-title">Differentialgeometrie Zyklus 2016 - 2017</h2>
+              <h3>Sommersemester 2016/2017</h3>
               
               <center>
  <h1>Differential geometry</h1>

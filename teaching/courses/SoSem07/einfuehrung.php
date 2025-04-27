@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Analysis";
+$pageTitle = "Einf&uuml;hrung in das mathematische Arbeiten";
 $currentPage = "courses";
 include('../../../includes/header-courses.php');
 ?>
