@@ -563,7 +563,7 @@ include('../includes/header-teaching.php');
                     <li><b>Wintersemester 2013/14:</b> V&auml;terkarenz (paternal leave)<br><br></li>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=S2013" target="_Blank"><b>Sommersemester 2013</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2013S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2013</b></a>
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -584,7 +584,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2012" target="_Blank"><b>Wintersemester 2012/13</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2012W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2012/13</b></a>
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -612,7 +612,7 @@ include('../includes/header-teaching.php');
                     </ul>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=S2012" target="_Blank"><b>Sommersemester 2012</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2012S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2012</b></a>
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -638,7 +638,7 @@ include('../includes/header-teaching.php');
                     </ul>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2011" target="_Blank"><b>Wintersemester 2011/12</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2011W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2011/12</b></a>
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -664,7 +664,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=S2011" target="_Blank"><b>Sommersemester 2011</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2011S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2011</b></a>
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -682,9 +682,9 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2010" target="_Blank"><b>Wintersemester 2010/11</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2010W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2010/11</b></a>
+			   (<a href="courses/WS1011/ema_eval.pdf" target="_blank">Evaluationsergebnisse</a>)
                     </li>
-                    (<a href="courses/WS1011/ema_eval.pdf" target="_blank">Evaluationsergebnisse</a>)
                     <ul>
                         <li class="list-dot">
                             250057 VO <a href="courses/WS1011/einfuehrung.html">Einf&uuml;hrung in das mathematische Arbeiten</a><br>
@@ -701,9 +701,9 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=S2010" target="_Blank"><b>Sommersemester 2010</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2010S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2010</b></a>
+			 (<a href="courses/SoSem10/eval.pdf">Evaluationsergebnisse</a>)
                     </li>
-                    (<a href="courses/SoSem10/eval.pdf">Evaluationsergebnisse</a>)<br>
                     <ul>
                         <li class="list-dot">
                             250026 VO <a href="courses/SoSem10/pde.php">Partielle Differentialgleichungen</a><br>
@@ -725,9 +725,9 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2009" target="_Blank"><b>Wintersemester 2009/10</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2009W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2009/10</b></a>
+			  (<a href="courses/WS0910/eval.pdf">Evaluationsergebnisse</a>)
                     </li>
-                    (<a href="courses/WS0910/eval.pdf">Evaluationsergebnisse</a>)<br>
                     <ul>
                         <li class="list-dot">
                             250085 VO Ausgew&auml;hlte Kapitel aus Partielle Differentialgleichungen:<br>
@@ -749,9 +749,9 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=S2009" target="_Blank"><b>Sommersemester 2009</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2009W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2009</b></a>
+			 (<a href="courses/SoSem09/eval.pdf">Evaluationsergebnisse</a>)
                     </li>
-                    (<a href="courses/SoSem09/eval.pdf">Evaluationsergebnisse</a>)<br>
                     <ul>
                         <li class="list-dot">
                             250067 VO <a href="courses/SoSem09/distr.php">Distributionentheorie</a> (gem. mit <a target="_blank" href="http://www.mat.univie.ac.at/~gue">G&uuml;nther H&ouml;rmann</a>)<br>
@@ -774,7 +774,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2008" target="_Blank"><b>Wintersemester 2008/09</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2008S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2008/09</b></a>
                         (<a href="courses/WS0809/eval.pdf">Evaluationsergebnisse</a>)<br>
                     </li>
 
@@ -792,7 +792,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=S2008" target="_Blank"><b>Sommersemester 2008</b></a> (<a href="courses/SoSem08/eval.pdf">Evaluationsergebnisse</a>)<br>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2008S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2008</b></a> (<a href="courses/SoSem08/eval.pdf">Evaluationsergebnisse</a>)<br>
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -817,7 +817,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2007" target="_Blank"><b>Wintersemester 2007/08</b></a> (<a href="courses/WS0708/eval.pdf">Evaluationsergebnisse</a>)<br>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2007W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2007/08</b></a> (<a href="courses/WS0708/eval.pdf">Evaluationsergebnisse</a>)<br>
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -846,7 +846,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=S2007" target="_Blank"><b>Sommersemester 2007</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2007S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2007</b></a>
                         (<a href="courses/SoSem07/eval_sosem07.pdf">Evaluationsergebnisse</a>)<br>
                     </li>
                     <ul>
@@ -872,7 +872,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://online.univie.ac.at/vlvz?lang=de&pkey=5458&semester=W2006" target="_Blank"><b>Wintersemester 2006/07</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2006W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2006/07</b></a>
                         (<a href="courses/WS0607/eval_ws0607.pdf">Evaluationsergebnisse</a>)<br>
                     </li>
                     <ul>
@@ -901,7 +901,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2006" target="_Blank"><b>Sommersemester 2006</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2006S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2006</b></a>
                         (<a href="courses/SoSem06/eval_sosem06.pdf">Evaluationsergebnisse</a>)<br>
                     </li>
                     <ul>
@@ -922,7 +922,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2005" target="_blank"> <b>Wintersemester 2005/06</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2005W&filter=courses&query=Roland%20Steinbauer%20" target="_blank"> <b>Wintersemester 2005/06</b></a>
                         (<a href="courses/WS0506/eval.pdf">Evaluationsergebnisse</a>)
                     </li>
                     <ul>
@@ -956,7 +956,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2005" target="_blank"><b>Sommersemester 2005</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2005S&filter=courses&query=Roland%20Steinbauer%20" target="_blank"><b>Sommersemester 2005</b></a>
                         (<a href="courses/SoSem05/eval/sosem05.php">Evaluationsergebnisse</a>)
                     </li>
                     <ul>
@@ -994,10 +994,9 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2004" target="_blank"><b>Wintersemester 2004/05</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2004W&filter=courses&query=Roland%20Steinbauer%20" target="_blank"><b>Wintersemester 2004/05</b></a>
                         (<a href="courses/WS0405/eval/ws0405.php">Evaluationsergebnisse</a>)
                     </li>
-                    <br>
                     <ul>
                         <li class="list-dot">
                             <a href="courses/WS0405/einfuehrung.php"> 803809 VO Einf&uuml;hrung in das mathematische Arbeiten</a><br>
@@ -1047,7 +1046,7 @@ include('../includes/header-teaching.php');
 
                     <br>
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2004" target="_blank"><b>Sommersemester 2004</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2004S&filter=courses&query=Roland%20Steinbauer%20" target="_blank"><b>Sommersemester 2004</b></a>
                         (<a href="courses/SoSem04/eval/sosem04.php">Evaluationsergebnisse</a>)
                     </li>
                     <ul>
@@ -1084,7 +1083,7 @@ include('../includes/header-teaching.php');
                     <br>
           
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2003"><b>Wintersemester 2003/04</b></a>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2003W&filter=courses&query=Roland%20Steinbauer%20"><b>Wintersemester 2003/04</b></a>
                         (<a href="courses/WS0304/eval/eval.pdf">Evaluationsergebnisse</a>)
                     </li>
                     <ul>
@@ -1130,7 +1129,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2003" target="_blank">Sommersemester 2003</a> (<a href="courses/SoSem03/eval-sosem03.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2003S&filter=courses&query=Roland%20Steinbauer%20" target="_blank">Sommersemester 2003</a> (<a href="courses/SoSem03/eval-sosem03.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -1151,7 +1150,7 @@ include('../includes/header-teaching.php');
                     </ul>
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2002">Wintersemester 2002/03</a> (<a href="courses/WS0203/eval/eval-ws0203.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
+                    <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2002W&filter=courses&query=Roland%20Steinbauer%20">Wintersemester 2002/03</a> (<a href="courses/WS0203/eval/eval-ws0203.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                     <ul>
                         <li class="list-dot">
                             <a href="http://www.mat.univie.ac.at/~mike/teaching/ws0203/distvoundsem.html#vo" target="_blank">801139 VO Distributionentheorie 2</a>
@@ -1184,7 +1183,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2002">Sommersemester 2002</a> (<a href="courses/SoSem02/eval/eval-sosem-02.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2002S&filter=courses&query=Roland%20Steinbauer%20">Sommersemester 2002</a> (<a href="courses/SoSem02/eval/eval-sosem-02.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
                     </li>
                     <ul>
                         <li class="list-dot">
@@ -1208,7 +1207,7 @@ include('../includes/header-teaching.php');
                     <br>
 
                     <li>
-                        <a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2001">Wintersemester 2001/02</a> (<a href="courses/WS0102/eval/eval-ws0102.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2001W&filter=courses&query=Roland%20Steinbauer%20">Wintersemester 2001/02</a> (<a href="courses/WS0102/eval/eval-ws0102.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)
                     </li>
                     <ul>
                         <li class="list-dot">822010 PS Proseminar zur Analysis III, Fr. 10-11:30, Hs. 6</li>
@@ -1218,7 +1217,7 @@ include('../includes/header-teaching.php');
                     </ul>
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2001">Sommersemester 2001</a> (<a href="courses/SoSem01/eval/eval-sosem01.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
+                    <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2001S&filter=courses&query=Roland%20Steinbauer%20">Sommersemester 2001</a> (<a href="courses/SoSem01/eval/eval-sosem01.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                     <ul>
                         <li class="list-dot">
                             802985 UE Proseminar zur Analysis II
@@ -1235,7 +1234,7 @@ include('../includes/header-teaching.php');
                     </ul>
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W2000">Wintersemester 2000/01</a> (<a href="courses/WS0001/eval/eval-ws0001.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
+                    <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2000W&filter=courses&query=Roland%20Steinbauer%20">Wintersemester 2000/01</a> (<a href="courses/WS0001/eval/eval-ws0001.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                     <ul>
                         <li class="list-dot">
                             802471 UE Proseminar zur Analysis I
@@ -1249,7 +1248,7 @@ include('../includes/header-teaching.php');
                     </ul>
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=S2000">Sommersemester 2000</a> (<a href="courses/SS00/eval-sosem00.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
+                    <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2000S&filter=courses&query=Roland%20Steinbauer%20">Sommersemester 2000</a> (<a href="courses/SS00/eval-sosem00.pdf" target="_blank">Ergebnisse der LVA Evaluation</a>)</li>
                     <ul>
                         <li class="list-dot">
                             802378 UE Proseminar zu Analysis II
@@ -1265,7 +1264,7 @@ include('../includes/header-teaching.php');
 
                     <br>
 
-                    <li><a href="http://data.univie.ac.at/vlvz?pkey=5458&semester=W1999">Wintersemester 1999/2000</a></li>
+                    <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=1999W&filter=courses&query=Roland%20Steinbauer%20" target="_blank">Wintersemester 1999/2000</a></li>
                     <ul>
                         <li class="list-dot">802050 UE Proseminar zu Analysis I (zwei Gruppen)</li>
                         <li class="list-dot">802454 VO Praxis der Computersysteme Teil 1</li>
@@ -1320,14 +1319,13 @@ include('../includes/header-teaching.php');
                             Lehrerfortbildungskurs, 3 t&auml;gig<br>
                             26-28.11.2001 P&auml;dagogisches Institut Hollabrunn<br>
                             10-12.12.2001 Bundesgymnasium Amstetten<br>
-                            <a href="extern/pi_2001">Kursmaterialien</a>
-                            <br><br>
+                           <br>
                         </li>
 
                         <li>
                             <b>Linux als Alternative? Ein Praxisbericht.</b><br>
                             Vortag im Rahmen des "Special Track - School and IT" auf dem
-                            <a href="http://www.icl-workshop.org">International Workshop on Interactive Computer aided Learning (ICL 2001)</a><br>
+                            International Workshop on Interactive Computer aided Learning (ICL 2001)<br>
                             (Villach, September 2001).
                             <br>
                             Votragsfolien <a href="courses/extern/icl_2001_slides.tgz">icl_2001_slides.tgz</a>

@@ -31,9 +31,9 @@ include('../includes/header-teaching.php');
                 <li>
                   <b>Analysis f&uuml;r das Lehramt: Eine Einladung</b>
                   <br>
-                  Sommersemester 2022
+                  Sommersemester 2000--2024
                   <br>
-                  <a href="SoSem22/ana-lak-2022-06-17">Korrigierte Version 17-Juni-2022</a>
+                  <a href="courses/SoSem24/ana-lak-gesamt-2024-03-24.pdf">Version 2024-03-24</a>
                   <br>
                   <br>
                 </li>
@@ -41,20 +41,19 @@ include('../includes/header-teaching.php');
                 <li>
                   <b>Schulmathematik Analysis</b>
                   <br>
-                  gemeinsam mit S. Kramer, E.S&uuml;ss-Stepancik, Wintersemester 2022/23
+                  gemeinsam mit Sonja Kramer, Evelyn S&uuml;ss-Stepancik, Wintersemester 2018/19--2024/25
                   <br>
-                  <a href="SoSem22/smana-gesamt-2023-01-17.pdf" target="_blank">Version 17-Jan-2023</a>
+                  <a href="courses/SoSem24/SMANA_24_Skript-2025-01-20-gesamt.pdf" target="_blank">Version 2025-01-20</a>
                   <br>
                   <br>
                 </li>
 
                 <li>
-                  <b>Alexandrov spaces</b>
+                  <b>Metric Geometry</b>
                   <br>
-                  jointly with Michael Kunzinger, Spring term 2018
+                  jointly with Michael Kunzinger, Spring term 2018--2025
                   <br>
-                  <a href="skripten/as.pdf">Version 1.0</a>
-                  (2021-01-25)
+                  <a href="skripten/Metric_Geometry_Lecture_Notes-2025-04-27.pdf">Version 2025-04-27</a>
                   <br>
                   <br>
                 </li>
@@ -62,10 +61,9 @@ include('../includes/header-teaching.php');
                 <li>
                   <b>Riemannian Geometry</b>
                   <br>
-                  jointly with Michael Kunzinger, Fall term 2020
+                  jointly with Michael Kunzinger, Fall term 2016--2024
                   <br>
-                  <a href="skripten/rg.pdf">Version 1.0</a>
-                  (2021-04-16)
+                  <a href="skripten/rg-2021-04-16.pdf">Version 2021-04-16</a>
                   <br>
                   <br>
                 </li>
@@ -73,9 +71,9 @@ include('../includes/header-teaching.php');
                 <li>
                   <b>Lorentzian Geometry</b>
                   <br>
-                  jointly with Michael Kunzinger, Spring term 2017 and 2021
+                  jointly with Michael Kunzinger, Spring term 2017--23
                   <br>
-                  <a href="skripten/lorentzian.pdf">Version 1.0</a>
+                  <a href="http://www.mat.univie.ac.at/~mike/teaching/ss23/lorentzian.pdf">Version Spring term 2023</a>
                   (2024-04-22)
                   <br>
                   <br>
@@ -84,7 +82,7 @@ include('../includes/header-teaching.php');
                 <li>
                   <b>Grundbegriffe der Topologie</b>
                   <br>
-                  <a href="http://www.mat.univie.ac.at/~stein/teaching/SoSem15/Topologie_gesamt_2015-06-23.pdf">Vorlesungsausarbeitung</a>
+                  <a href="http://www.mat.univie.ac.at/~stein/teaching/courses/SoSem15/Topologie_gesamt_2015-06-23.pdf">Vorlesungsausarbeitung</a>
                   (SoSem 2015)
                   <br>
                   <br>
@@ -96,17 +94,17 @@ include('../includes/header-teaching.php');
                   Vorlesungsausarbeitung (SoSem 2011--SoSem 2012)
                   <ul>
                     <li>
-                      <a href="http://www.mat.univie.ac.at/~stein/teaching/SoSem12/EidA_Vo_2013-02-07_incl_index.pdf">Einf&uuml;hrung in die Analysis</a>
+                      <a href="http://www.mat.univie.ac.at/~stein/teaching/courses/SoSem12/EidA_Vo_2013-02-07_incl_index.pdf">Einf&uuml;hrung in die Analysis</a>
                       <br>
                     </li>
 
                     <li>
-                      <a href="http://www.mat.univie.ac.at/~stein/teaching/WS1213/AieVfLAK_Vo_2013-02-08_incl_index.pdf">Analysis in einer Variable für LAK</a>
+                      <a href="http://www.mat.univie.ac.at/~stein/teaching/courses/WS1213/AieVfLAK_Vo_2013-02-08_incl_index.pdf">Analysis in einer Variable für LAK</a>
                       <br>
                     </li>
 
                     <li>
-                      <a href="http://www.mat.univie.ac.at/~stein/teaching/SoSem13/VoRAimukAieVfLAK_2013-06-28.pdf">
+                      <a href="http://www.mat.univie.ac.at/~stein/teaching/courses/SoSem13/VoRAimukAieVfLAK_2013-06-28.pdf">
                         Reelle Analysis in mehreren und komplexe Analysis in einer Variable für LAK
                       </a>
                     </li>
@@ -130,7 +128,7 @@ include('../includes/header-teaching.php');
                   <br>
                   Lecture Notes, joint with G&uuml;ther H&ouml;rmann (SoSem 2009)
                   <br>
-                  <a href="SoSem09/distrvo.pdf" target="_blank">Draft Version (July 10, 2009)</a>
+                  <a href="courses/SoSem09/distrvo.pdf" target="_blank">Draft Version (July 10, 2009)</a>
                   <br>
                   <br>
                 </li>
@@ -240,7 +238,7 @@ include('../includes/header-teaching.php');
                   <br>
                 </li>
 
-                <li>
+              <!--  <li>
                   <b>Technische Praxis der Computersysteme</b>
                   <br>
                   Vorlesungsskriptum
@@ -262,7 +260,7 @@ include('../includes/header-teaching.php');
                   <br>
                   <a id="kopieren">(*)</a>
                   Per E-mail von den Autoren (Available via E-mail from the authors).
-                </li>
+                </li>-->
               </ul>
             </article>
             
