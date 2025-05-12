@@ -1372,7 +1372,7 @@ include('../includes/header-research.php');
         <i>Ref:</i> Ph.D. thesis at the University of Vienna, 2000.
         <br>
         <i>Download:</i>
-        <a href="PhD/PhD.html">here</a>
+        <a href="PhD/PhD.php">here</a>
         <br>
       </p>
 

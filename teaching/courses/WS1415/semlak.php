@@ -52,9 +52,9 @@ include('../../../includes/header-courses.php');
             </p>
           </td>
           <td width="20%">
-            <img align="top" src="../../images/spherical_triangle.png" border="0" width="120">
+            <img align="top" src="../../../assets/images/spherical_triangle.png" border="0" width="120">
             <br><br>
-            <img align="bottom" src="../../images/hyperbolic_triangle.png" border="0" width="120">
+            <img align="bottom" src="../../../assets/images/hyperbolic_triangle.png" border="0" width="120">
           </td>
         </tr>
       </table>
