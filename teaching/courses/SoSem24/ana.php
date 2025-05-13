@@ -243,6 +243,44 @@ include('../../../includes/header-courses.php');
                     </table>
                   </td>
                 </tr>
+		<tr>
+                  <td align="center">2</td>
+                  <td align="center"><a href="smana_prfg-2024-termin-2_GESAMT-Angabe.pdf">pdf</a></td>
+                  <td align="center"><a href="smana_prfg-2024-termin-2_GESAMT-Ausarbeitung.pdf">pdf</a></td>
+                  <td align="center">74</td>
+                  <td align="center">3.47</td>
+                  <td>
+                    <table align="center" border="3">
+                      <tr>
+                        <td><b>Note</b></td>
+                        <td align="center">1</td>
+                        <td align="center">2</td>
+                        <td align="center">3</td>
+                        <td align="center">4</td>
+                        <td align="center">5</td>
+                      </tr>
+                      <tr>
+                        <td><b>#</b></td>
+                        <td align="right">2</td>
+                        <td align="right">8</td>
+                        <td align="right">27</td>
+                        <td align="right">27</td>
+                        <td align="right">10</td>
+                      </tr>
+                      <tr>
+                        <td><b>%</b></td>
+                        <td align="right">2.7</td>
+                        <td align="right">10.8</td>
+                        <td align="right">36.5</td>
+                        <td align="right">36.5</td>
+                        <td align="right">13.5</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+
+
               </table>
             </article>
           </section>

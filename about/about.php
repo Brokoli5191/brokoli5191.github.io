@@ -13,15 +13,17 @@ include('../includes/header.php');
             <section>
               <p>
                 I am a mathematician and mathematical physicist and a researcher in mathematics education at the <a href="https://mathematik.univie.ac.at/en/" target="_blank">Faculty of
-                Mathematics</a> of the <a href="https://www.univie.ac.at/en" target="_blank">University of Vienna</a>. Also I am the coordinator of the Austrian Science Fund's (FWF) Emerging Fields project
+                Mathematics</a> of the <a href="https://www.univie.ac.at/en" target="_blank">University of Vienna</a>. I have recently been appointed 
+	      </p>
+	      
+	      <div style="text-align: center">Professor of Mathematical General Relativity.</div> 
+	      <p>Also I am the coordinator of the Austrian Science Fund's (FWF) Emerging Fields project
               </p>
 
               <div style="text-align: center">
-                <h4><a href="https://ef-geometry.univie.ac.at/" target="_blank">A new Geometry for Einstein's Theory of Relativity and Beyond</a></h4>
+                <h4><a href="https://ef-geometry.univie.ac.at/" target="_blank">A new Geometry for Einstein's Theory of Relativity and Beyond</a>.</h4>
               </div>
-
-              <br>
-              <br>
+              <br>	      
             </section>
 
             <section class="service">

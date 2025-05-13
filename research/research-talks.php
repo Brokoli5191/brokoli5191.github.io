@@ -13,6 +13,10 @@ include('../includes/header-research.php');
 
     <article class="article-second">
       <h2 class="h3 article-title">Talks</h2>
+      2025-05-06: <a href="talks/birs-imag-steinbauer.pdf">Notions of curvature for non-smooth spacetimes.</a> (Invited lecture) <a href="https://wpd.ugr.es/~imag/birs-imag/" target="_blank">BIRS-IMAG</a> workshop
+      <a href="https://wpd.ugr.es/~imag/events/event/geometry-analysis-and-physics-in-lorentzian-signature/"  target="_blank">Geometry, Analysis, and Physics in Lorentzian Signature</a>, Granada, Spain.
+      <br>
+      <br>
 
       2025-02-27: Impulsive gravitational waves: past and future. <a href="https://ef-geometry.univie.ac.at/kick-off-workshop-a-new-geometry-for-einsteins-theory-of-relativity-and-beyond/" 
       target="_blank">Kick-off Workshop: A new geometry for Einstein’s theory of relativity and beyond</a>, University of Vienna.
@@ -20,19 +24,19 @@ include('../includes/header-research.php');
       <br>
       <br>
       2024-12-10: <a href="talks/eps-steinbauer.pdf" target="_blank">Synthetic curvature for GR and beyond.</a> (Invited main lecture) 
-      <a href="https://indico.imapp.ru.nl/event/248/" target="_blank">5th EPS Conference on Gravitation</a>, Czech Academy of Sciences, Prague
+      <a href="https://indico.imapp.ru.nl/event/248/" target="_blank">5th EPS Conference on Gravitation</a>, Czech Academy of Sciences, Prague.
 
       <br>
       <br>
       2024-09-23:
       <a href="talks/steinbauer-TMF-2024.pdf" target="_blank">The singularity theorems of General Relativity and their low regularity extensions.</a> (Invited main lecture)
-      <a href="https://indico.ict.inaf.it/event/751/" target="_blank">TMF2024</a> , Turin, Italy
+      <a href="https://indico.ict.inaf.it/event/751/" target="_blank">TMF2024</a> , Turin, Italy.
 
       <br>
       <br>
       2024-09-19:
       <a href="talks/steinbauer-GF-2024.pdf" target="_blank">The focusing of geodesics under distributional curvature bounds.</a>
-      <a href="https://www.gf2024.unito.it/" target="_blank">GF2024</a> , Turin, Italy
+      <a href="https://www.gf2024.unito.it/" target="_blank">GF2024</a> , Turin, Italy.
 
       <br>
       <br>
