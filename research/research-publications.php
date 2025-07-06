@@ -1410,7 +1410,7 @@ include('../includes/header-research.php');
         <i>Ref:</i> Master's thesis at the University of Vienna, 1995.
         <br>
         <i>Download:</i>
-        <a href="diplom/diplom.html">here</a>
+        <a href="diplom/diplom.php">here</a>
         <br>
 
         <br>

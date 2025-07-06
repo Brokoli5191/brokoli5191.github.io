@@ -1,13 +1,13 @@
 <?php
-$pageTitle = "Analysis";
-$currentPage = "courses";
+$pageTitle = "PhD";
+$currentPage = "research";
 include('../../includes/header-courses.php');
 ?>
 
 <article>
   <section class="about-text">
     <header>
-      <h2 class="h2 article-title">Courses</h2>
+      <h2 class="h2 article-title">PhD</h2>
     </header>
     <article class="article-second">
       <h2 class="h3 article-title">Distributional Methods in General Relativity</h2>

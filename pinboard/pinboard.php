@@ -22,9 +22,9 @@ include('../includes/header.php');
       <ol class="timeline-list">
 
         <li class="timeline-item">
-          <span>31/5/2025</span>
-          <h4 class="h4 timeline-item-title">Popular outreach</h4>
-          <p class="timeline-text">
+        <span>31/5/2025</span>
+         <h4 class="h4 timeline-item-title">Popular outreach</h4>
+         <p class="timeline-text">
             I have been inerviewed by Sebastian Deiber for UV's Research 
 	    Magazine <a href="https://rudolphina.univie.ac.at/en/" 
 	    target="_blank">Rudolphina</a>. Here you find his article 
@@ -60,7 +60,7 @@ include('../includes/header.php');
           </p>
         </li>
 
-       <li class="timeline-item">
+        <li class="timeline-item">
           <span>24/02/2025</span>
           <h4 class="h4 timeline-item-title">Kick-off workshop</h4>
           <p class="timeline-text">
