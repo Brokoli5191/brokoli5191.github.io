@@ -19,7 +19,7 @@ include('../includes/header-teaching.php');
               <ul>
 
 		 <li>
-                  <b>Ines Vega Gaonzalez</b>
+                  <b>Ines Vega Gonzalez</b>
                   <br>
                   Analytic and synthetic extensions of the singularity theorems
                   <br>
@@ -79,17 +79,7 @@ include('../includes/header-teaching.php');
                   <br>
                 </li>
 
-                <li>
-                  <b>Matteo Calisti</b>
-                  <br>
-                  Metric geometry in the Lorentzian setting
-                  <br>
-                  Ph.D.
-                  <br>
-                  <br>
-                </li>
-
-		<li>
+               	<li>
                   <b>Tatjana Punz</b>
                   <br>
                   Der Effekt von Vorlesungsaufzeichnungen
@@ -124,6 +114,18 @@ include('../includes/header-teaching.php');
               <h4>Former students</h4>
 
               <ul>
+	       <li>
+                  <b>Matteo Calisti</b>
+                  <br>
+                  Ricci curvature bounds and singularities 
+		  in non-smooth spacetimes                  
+		  <br>
+                  Ph.D. 2025 (co-supervisors M. Kunzinger, C. S&auml;mann)
+                  <br>
+                  <br>
+                </li>
+
+
                 <li>
                   <b>Argam Ohanyan</b>
                   <br>

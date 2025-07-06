@@ -21,7 +21,38 @@ include('../includes/header.php');
 
       <ol class="timeline-list">
 
-       <li class="timeline-item">
+        <li class="timeline-item">
+          <span>31/5/2025</span>
+          <h4 class="h4 timeline-item-title">Popular outreach</h4>
+          <p class="timeline-text">
+            I have been inerviewed by Sebastian Deiber for UV's Research 
+	    Magazine <a href="https://rudolphina.univie.ac.at/en/" 
+	    target="_blank">Rudolphina</a>. Here you find his article 
+	    <a href="https://rudolphina.univie.ac.at/en/mysteries-of-physics-from-dark-matter-to-quantum-gravity" target="_blank">From the Vast to the Tiny</a>.
+          </p>
+        </li>
+	
+	<li class="timeline-item">
+          <span>22/5/2025</span>
+          <h4 class="h4 timeline-item-title">Matteo Calisti defends Ph.D. thesis</h4>
+          <p class="timeline-text">
+           My student Matteo Calisti (co-supervised by Michael Kunzinger and Clemens S&auml;mann) 
+	   today defended his thesis "Ricci curvature bounds and singularities 
+	   in non-smooth spacetimes" and earned his Ph.D. with top marks.
+          </p>
+        </li>
+	
+	<li class="timeline-item">
+          <span>6/5/2025</span>
+          <h4 class="h4 timeline-item-title">BIRS-IMAG worksop</h4>
+          <p class="timeline-text">
+	   I gave the invited main lecture <a target ="_blank" href="https://www.mat.univie.ac.at/~stein/research/talks/birs-imag-steinbauer.pdf">Notions of curvature for non-smooth spacetimes</a> at the 
+           <a target="_blank" href="https://wpd.ugr.es/~imag/birs-imag/">BIRS-IMAG</a> workshop 
+	   <a target="_blank" href="https://www.birs.ca/events/2025/5-day-workshops/25w5397">Geometry, Analysis, and Physics in Lorentzian Signature </a>in Granada, Spain.
+          </p>
+	</li>
+
+	<li class="timeline-item">
           <span>April 2025</span>
           <h4 class="h4 timeline-item-title">Professorship</h4>
           <p class="timeline-text">
@@ -75,7 +106,7 @@ include('../includes/header.php');
 
         <li class="timeline-item">
           <span>29/10/2024</span>
-          <h4 class="h4 timeline-item-title">Argam Ohanyan Defends Ph.D. Thesis</h4>
+          <h4 class="h4 timeline-item-title">Argam Ohanyan defends Ph.D. thesis</h4>
           <p class="timeline-text">
             My student
             <a target="_blank" href="https://inspirehep.net/literature?sort=mostrecent&q=a%20A.Ohanyan.1"> Argam Ohanyan </a>
