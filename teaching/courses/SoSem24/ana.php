@@ -210,8 +210,8 @@ include('../../../includes/header-courses.php');
                 </tr>
                 <tr>
                   <td align="center">1</td>
-                  <td align="center"><a href="smana_prfg-2024-termin-1_GESAMT-Angabe.pdf">pdf</a></td>
-                  <td align="center"><a href="smana_prfg-2024-termin-1_GESAMT-Ausarbeitung.pdf">pdf</a></td>
+                  <td align="center"><a href="smana_prfg-2024-termin-1_GESAMT-Angabe.pdf" target="_blank">pdf</a></td>
+                  <td align="center"><a href="smana_prfg-2024-termin-1_GESAMT-Ausarbeitung.pdf" target="_blank">pdf</a></td>
                   <td align="center">94</td>
                   <td align="center">3.23</td>
                   <td>
@@ -245,8 +245,8 @@ include('../../../includes/header-courses.php');
                 </tr>
 		<tr>
                   <td align="center">2</td>
-                  <td align="center"><a href="smana_prfg-2024-termin-2_GESAMT-Angabe.pdf">pdf</a></td>
-                  <td align="center"><a href="smana_prfg-2024-termin-2_GESAMT-Ausarbeitung.pdf">pdf</a></td>
+                  <td align="center"><a href="smana_prfg-2024-termin-2_GESAMT-Angabe.pdf" target="_blank">pdf</a></td>
+                  <td align="center"><a href="smana_prfg-2024-termin-2_GESAMT-Ausarbeitung.pdf" target="_blank">pdf</a></td>
                   <td align="center">74</td>
                   <td align="center">3.47</td>
                   <td>
@@ -274,6 +274,40 @@ include('../../../includes/header-courses.php');
                         <td align="right">36.5</td>
                         <td align="right">36.5</td>
                         <td align="right">13.5</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+		  <td align="center">3</td>
+                  <td align="center"><a href="smana_prfg-2024-termin-3_GESAMT-Angabe.pdf" target="_blank">pdf</a></td>
+                  <td align="center"><a href="smana_prfg-2024-termin-3_GESAMT-Ausarbeitung.pdf" target="_blank">pdf</a></td>
+                  <td align="center">11</td>
+                  <td align="center">3.36</td>
+                  <td>
+                    <table align="center" border="3">
+                      <tr>
+                        <td><b>Note</b></td>
+                        <td align="center">1</td>
+                        <td align="center">2</td>
+                        <td align="center">3</td>
+                        <td align="center">4</td>
+                        <td align="center">5</td>
+                      </tr>
+                      <tr>
+                        <td><b>#</b></td>
+                        <td align="right">0</td>
+                        <td align="right">3</td>
+                        <td align="right">4</td>
+                        <td align="right">1</td>
+                        <td align="right">3</td>
+                      </tr>
+                      <tr>
+                        <td><b>%</b></td>
+                        <td align="right">0</td>
+                        <td align="right">27.3</td>
+                        <td align="right">36.4</td>
+                        <td align="right">9.1</td>
+                        <td align="right">27.3</td>
                       </tr>
                     </table>
                   </td>

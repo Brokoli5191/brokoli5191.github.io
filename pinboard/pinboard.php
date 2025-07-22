@@ -21,6 +21,23 @@ include('../includes/header.php');
 
       <ol class="timeline-list">
 
+	 <li class="timeline-item">
+        <span>16/7/2025</span>
+         <h4 class="h4 timeline-item-title">Popular outreach, II</h4>
+         <p class="timeline-text">
+	 The popular science magazine <a href="https://www.quantamagazine.org/" target="_blank">Quanta</a> has published <a href="https://www.quantamagazine.org/a-new-geometry-for-einsteins-theory-of-relativity-20250716/" target="_blank">A New Geometry for Einstein’s Theory of Relativity</a> an article, which tells the story of how our research group hast started working on synthetic Lorentzian geometry.
+         </p>
+        </li>
+
+	 <li class="timeline-item">
+        <span>7--11/7/2025</span>
+         <h4 class="h4 timeline-item-title">Workshop</h4>
+         <p class="timeline-text">
+	 This week we have organised the <a href="https://ef-geometry.univie.ac.at/2nd-workshop-a-new-geometry-for-einsteins-theory-of-relativity-and-beyond/" target="_blank">2nd Workshop “A new geometry for Einstein’s theory of relativity and beyond”</a> at the Maths Department in Vienna.
+         </p>
+        </li>
+
+
         <li class="timeline-item">
         <span>31/5/2025</span>
          <h4 class="h4 timeline-item-title">Popular outreach</h4>
