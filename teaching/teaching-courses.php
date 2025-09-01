@@ -14,23 +14,64 @@ include('../includes/header-teaching.php');
         <article class="article-second">
             <h2 class="h3 article-title">Lehrveranstaltungen an der Uni Wien/Lectures at U Vienna</h2>
 
-            <h4 id="lehruni_aktuell">Aktuelle Lehrveranstaltungen (Recent courses)</h4>
+            <h4 id="lehruni_aktuell">Recent courses / Aktuelle Lehrveranstaltungen</h4>
             
+
+<!-- ############ Winter 25/26 ###############-->
+
             <ul>
+	    <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2025W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Fall term 2025/26</b></a><br><br>
+            </li>
+            <ul>
+              <li class="list-dot">
+                250081 VO <A href="courses/WS2526/rg.php">Riemannian Geometry</a> <br>
+                Wed. 13:15-14:45 SR 10 (OMP 1)<br>
+                 Start: Oct. 1 <br><br>
+               </li>
+
+               <li class="list-dot">
+                250105 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250105&semester=2025W" target="blank">Synthetic Geometry</a><br>
+                 (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, 
+                        and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
+		Mo. 06.10. 09:45-11:15 SR. 10 (OMP 1)<br>
+		Start and scheduling meeting: Oct. 6<br><br>
+	       </li>	
+
+
+	    <li class="list-dot">
+               250107 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
+                        (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, 
+                        and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
+                        Fr. 9:45--11:15 Sr. 7 (OMP 1)<br>
+                        Start and scheduling meeting: Oct. 3<br><br>
+                    </li>
+
+              <li class="list-dot">
+                            250144 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250144&semester=2024W" target="_blank">Mathematikunterricht zwischen Theorie und Praxis</a> <br>
+                            (gemeinsam mit <a href="https://ufind.univie.ac.at/de/person.html?id=20728" target="_blank">Christoph Ableitinger</a>,
+                            <a href="https://homepage.univie.ac.at/stefan.goetz/" target="_blank">Stefan G&ouml;tz</a> und
+                            <a href="https://ufind.univie.ac.at/de/person.html?id=30783" target="_blank">Christian Spreitzer</a>)<br>
+                            Di. 13:15--14:45 SR. 8 und Mi. 11:30-13:00, SR. 9 (OMP 1)<br>
+                            Diese Lehrveranstaltung ist Teil des Lehrprojekts <a href="https://mathx.univie.ac.at/" target="_blank">MaThX – Mathematik zwischen Theorie und Praxis</a> der Fakultät<br>
+                            Beginn: 1.10.2025<br><br>
+                        </li>
+
+<br>
+
+
                 <li>
                     <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2025S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Spring term 2025</b></a><br><br>
                 </li>
 
                 <ul>
                     <li class="list-dot">
-                        250130 VO <b>Metric Geometry</b><br>
-                        <a href="https://ufind.univie.ac.at/en/course.html?lv=250130&semester=2025S" target="_blank">Course description</a><br>
+                        250130 VO <a href="https://ufind.univie.ac.at/en/course.html?lv=250130&semester=2025S" target="_blank">Metric Geometry</a><br>
                         Mon. 11:30--13:00, Sr 7, Thu. 13:15--14:45 Hs. 7 (OMP 1)<br>
                         Start: March 6<br><br>
                     </li>
 
                     <li class="list-dot">
-                        250034 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
+                        250034 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/term36.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
                         (jointly with <a href="https://sites.google.com/view/chiararigoni/home" target="_blank">Chiara Rigoni</a>, <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, 
                         and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
                         Fr. 9:45--11:15 Sr. 7 (OMP 1)<br>
@@ -86,8 +127,15 @@ include('../includes/header-teaching.php');
                     </ul>
                     <br>
 
+ </ul>
+                    <br>
+                    <hr>
+                    <br>
+                </ul>
+                <h4 id="lehruni_alt"i>Past courses / Fr&uuml;here Lehrveranstaltungen</h4>
+                <ul>
                     <li>
-                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2024S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2024</b></a> <br><br>
+                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2024S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2024</b></a> <br>
                     </li>
 
                     <ul>
@@ -96,29 +144,24 @@ include('../includes/header-teaching.php');
                             <a href="https://moodle.univie.ac.at/course/view.php?id=424916" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem24/ana.php">Infoseite</a>,
                             <a href="courses/SoSem24/S24-Analysis_in_einer_Variable_für_das_Lehramt_24S-25-250166-01.pdf" target="_blank">Evaluationsergebnisse</a><br>
                             Mo., Di. 9:45--11:15, Di. 09:45--11:15, jeden 2. Mi. 8:00-9:30, jeweils Hs 1 (OMP 1)<br>
-                            Beginn: 04.3.2024<br><br>
+                            <!--Beginn: 04.3.2024<br><br>-->
                         </li>
 
                         <li class="list-dot">
                             250167-2 UE <b>&Uuml;bungen zur Analysis in einer Variable für das Lehramt</b><br>
                             Di. 11:30--13:00 Sr 11 (OMP 1)<br>
-                            Beginn: 5.3.2024<br><br>
+                            <!-- Beginn: 5.3.2024<br><br>-->
                         </li>
 
                         <li class="list-dot">
                             250034-1 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
                             (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)<br>
                             Fr. 9:45--11:15 Sr 7 (OMP 1)<br>
-                            Start and scheduling meeting 8.3.2024<br><br>
-                        </li>
-                    </ul>
-                    <br>
-                    <hr>
-                    <br>
-                </ul>
-                <h4 id="lehruni_alt">Fr&uuml;here Lehrveranstaltungen (Past courses)</h4>
-                <ul>
-                    <li>
+                            <!-- Start and scheduling meeting 8.3.2024<br><br>-->
+                        </li><br>
+        
+
+			<li>
                         <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2023W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2023/24</b></a>
                     </li>
 
