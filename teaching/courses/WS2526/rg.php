@@ -14,7 +14,7 @@ include('../../../includes/header-courses.php');
               <h2 class="h3 article-title">Riemannian Geometry</h2>
  <b>Course number:</b> 250081 (Fall Term 29025/26)<br>
 <b>Hours/ECTS credits:</b> 2/3<br>
-<b>Time and Place:</b> Wed. 13:15-14:45 SR. 10 (OMP) <br>
+<b>Time and Place:</b> Wed. 13:15-14:45 SR. 10 (OMP 1) <br>
 <b>Start:</b> 1.10.2025<br>
 <br>
 

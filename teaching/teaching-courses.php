@@ -33,7 +33,7 @@ include('../includes/header-teaching.php');
                 250105 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250105&semester=2025W" target="blank">Synthetic Geometry</a><br>
                  (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, 
                         and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
-		Mo. 06.10. 09:45-11:15 SR. 10 (OMP 1)<br>
+		Mo. 09:45-11:15 SR. 10 (OMP 1)<br>
 		Start and scheduling meeting: Oct. 6<br><br>
 	       </li>	
 
