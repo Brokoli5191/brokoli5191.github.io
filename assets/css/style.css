@@ -2060,8 +2060,7 @@ body.menu-open .mobile-menu-toggle::after {
   left: 50%;
   transform: translateX(-50%) translateY(-10px);
   background: var(--background-navbar);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(44, 44, 44, 0.9);
   min-width: 240px;
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-2);
