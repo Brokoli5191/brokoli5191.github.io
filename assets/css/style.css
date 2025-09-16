@@ -561,6 +561,7 @@ main {
   width: 100%;
   background: var(--background-navbar);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border-color);
   border-radius: 12px 12px 0 0;
   z-index: 5;
@@ -609,6 +610,7 @@ main {
   padding: 0 20px;
   background: var(--background-navbar);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--border-color);
   border-radius: 0 0 0 20px;
   box-shadow: var(--shadow-2);
@@ -1944,6 +1946,7 @@ body.menu-open .mobile-menu-toggle::after {
 .mobile-menu-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   bottom: 0;
   display: block;
   left: 0;
@@ -1959,6 +1962,7 @@ body.menu-open .mobile-menu-toggle::after {
 .light-mode .mobile-menu-overlay {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .mobile-menu-overlay.active {
@@ -2057,6 +2061,7 @@ body.menu-open .mobile-menu-toggle::after {
   transform: translateX(-50%) translateY(-10px);
   background: var(--background-navbar);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   min-width: 240px;
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-2);
