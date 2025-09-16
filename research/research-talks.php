@@ -13,8 +13,15 @@ include('../includes/header-research.php');
 
     <article class="article-second">
       <h2 class="h3 article-title">Talks</h2>
-      2025-05-06: <a href="talks/birs-imag-steinbauer.pdf">Notions of curvature for non-smooth spacetimes.</a> (Invited lecture) <a href="https://wpd.ugr.es/~imag/birs-imag/" target="_blank">BIRS-IMAG</a> workshop
-      <a href="https://wpd.ugr.es/~imag/events/event/geometry-analysis-and-physics-in-lorentzian-signature/"  target="_blank">Geometry, Analysis, and Physics in Lorentzian Signature</a>, Granada, Spain.
+
+2025-09-09: <a href="talks/scgp-steinbauer.pdf">Generalizing the Penrose Cut-and-Paste Method: Null Shells with Pressure and Energy Flux.</a> <a href="https://scgp.stonybrook.edu" target="_blank">Simons Center for Geometry and Physics</a>-Programme
+      <a href="https://scgp.stonybrook.edu/archives/44979"  target="_blank">Geometry and Convergence in Mathematical General Relativity</a>, Stony Brook, NY.
+      <br>
+      <br>
+
+
+2025-05-06: <a href="talks/birs-imag-steinbauer.pdf">Notions of curvature for non-smooth spacetimes.</a> (Invited lecture) <a href="https://wpd.ugr.es/~imag/birs-imag/" target="_blank">BIRS-IMAG</a> workshop
+      <a href="https://wpd.ugr.es/~imag/events/event/geometry-analysis-and-physics-in-lorentzian-signature/"  target="_blank">Geometry, Analysis, and Physics in Lorentzian Signature</a>, Granada, Spain. Watch <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5397/videos/watch/202505060200-Steinbauer.html" traget="_blank">presentation</a> at <a href="https://www.birs.ca/index.php" target="_blank">BIRS</a> website.
       <br>
       <br>
 

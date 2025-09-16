@@ -85,29 +85,10 @@ include('../includes/header-research.php');
         <i>Status:</i> in preparation
         <br>
       </p>
-     
-      <p id="diff">
-        <b>[Pre3] Nulls shells with pressure in Minkowski space</b>
-        <br>
-        <i>Authors:</i> Miguel Manzano, Argam Ohanyan, Roland Steinbauer
-        <br>
-        <i>Status:</i> in preparation
-        <br>
-      </p>
 
-      <p id="sing-top">
-        <b>[Pre2] Rigidity aspects of a result on topology and singularities in cosmological spacetimes</b>
-        <br>
-        <i>Authors:</i> Eric Ling, Carl Rossdeutscher, Walter Simon, Roland Steinbauer
-        <br>
-        <i>MSC-class:</i> 83C75, 53C24, 53C80<br>
-        <i>Status:</i> in preparation.
-        <br>
-      </p>
-
-
+      
       <p id="conj-pts">
-        <b>[Pre1] Conjugate points in Lorentzian length spaces</b>
+        <b>[Pre3] Conjugate points in Lorentzian length spaces</b>
         <br>
         <i>Authors:</i> James Grant, Michael Kunzinger, Argam Ohanyan, Roland Steinbauer
         <br>
@@ -117,18 +98,40 @@ include('../includes/header-research.php');
         <br>
       </p>
 
+     
+      <p id="matching">
+        <b>[Pre2] Generalizing the Penrose cut-and-paste method: Null shells with pressure and energy flux </b>
+        <br>
+        <i>Authors:</i> Miguel Manzano, Argam Ohanyan, Roland Steinbauer
+        <br>
+	<i>MSC-class:</i> 83C15, 83C35, 46F10
+        <br>
+        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00231" target="_blank">arXiv:2508.00231[math-dg]</a><br>
+      </p>
+
+
+      <p id="sing-top">
+        <b>[Pre1] Rigidity aspects of a cosmological singularity theorem</b>
+        <br>
+        <i>Authors:</i> Eric Ling, Carl Rossdeutscher, Walter Simon, Roland Steinbauer
+        <br>
+        <i>MSC-class:</i> 83C75, 53C24, 53C80<br>
+        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00524" target="_blank">arXiv:2508.00524[gr-qc]</a><br>
+      </p>
+
+
          
       <h4 id="articles">Peer-reviewed Research Articles</h4>
        
   
       <p id="h-lip">
-        <b>[P59] Hawking's singularity theorem for Lipschitz Lorentzian metrics</b>
+        <b>[P59] <a href="https://link.springer.com/article/10.1007/s00220-025-05380-9" traget="_blank">Hawking's singularity theorem for Lipschitz Lorentzian metrics</a></b>
 	<br>
 	<i>Authors:</i> Matteo Calisti, Melaini Graf, Eduardo Hafemann, Michael Kunzinger, Roland Steinbauer
 	<br>
 	<i>MSC-class:</i> 83C75, 53C50, 46T30
 	<br>
-	<i>Ref:</i>  Commun. Math. Phys. to appear 2025.<br>
+	<i>Ref:</i>  Commun. Math. Phys. <b>406</b>, 207 (2025)<br>
 	ArXiv:</i> <a href="https://arxiv.org/abs/2501.18450" target="_blank"> arXiv:2501.18450 [math.dg]</a>
 	<br>
       </p>
