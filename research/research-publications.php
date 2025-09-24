@@ -88,17 +88,17 @@ include('../includes/header-research.php');
 
       
       <p id="conj-pts">
-        <b>[Pre3] Conjugate points in Lorentzian length spaces</b>
+        <b>[Pre3]Timelike conjugate points in Lorentzian length spaces</b>
         <br>
-        <i>Authors:</i> James Grant, Michael Kunzinger, Argam Ohanyan, Roland Steinbauer
+        <i>Authors:</i> James D. E. Grant, Michael Kunzinger, Argam Ohanyan, Benedict Schinnerl, Roland Steinbauer
         <br>
-        <i>MSC-class:</i> 52C23, 53C50, 53B30, 51K10, 53C80
+        <i>MSC-class:</i> 53B30, 53C22, 53C23
         <br>
-        <i>Status:</i> in preparation.
+        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2509.12855" target="_blank">arXiv:2509.12855[math.DG math.MG]</a> 
         <br>
       </p>
 
-     
+
       <p id="matching">
         <b>[Pre2] Generalizing the Penrose cut-and-paste method: Null shells with pressure and energy flux </b>
         <br>

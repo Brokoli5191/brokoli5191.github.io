@@ -47,7 +47,7 @@ include('../includes/header-teaching.php');
                     </li>
 
               <li class="list-dot">
-                            250144 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250144&semester=2024W" target="_blank">Mathematikunterricht zwischen Theorie und Praxis</a> <br>
+                            250144 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250144&semester=2025W" target="_blank">Mathematikunterricht zwischen Theorie und Praxis</a> <br>
                             (gemeinsam mit <a href="https://ufind.univie.ac.at/de/person.html?id=20728" target="_blank">Christoph Ableitinger</a>,
                             <a href="https://homepage.univie.ac.at/stefan.goetz/" target="_blank">Stefan G&ouml;tz</a> und
                             <a href="https://ufind.univie.ac.at/de/person.html?id=30783" target="_blank">Christian Spreitzer</a>)<br>
