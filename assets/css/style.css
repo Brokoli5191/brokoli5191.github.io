@@ -19,6 +19,7 @@
   --border-gradient-onyx: #303030;
   --avatar-box: #3f3f40 3%;
   --service-header: rgba(40, 40, 45, 0.3);
+  --dropdown-content: rgba(44, 44, 44, 0.9);
 }
 
 .light-mode {
@@ -41,6 +42,7 @@
   --border-gradient-onyx: #a9d0f0c7 0%;
   --avatar-box: #b6d5ee 3%;
   --service-header: rgba(127, 163, 232, 0.3);
+  --dropdown-content: rgba(214, 214, 214, 0.958);
 }
 
 :root {
@@ -2060,7 +2062,7 @@ body.menu-open .mobile-menu-toggle::after {
   left: 50%;
   transform: translateX(-50%) translateY(-10px);
   background: var(--background-navbar);
-  background-color: rgba(44, 44, 44, 0.9);
+  background-color: var(--dropdown-content);
   min-width: 240px;
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-2);
