@@ -125,7 +125,7 @@ include('../includes/header.php');
                       I am a lifetime-member of <a href="https://isaacmath.org/" target="_blank">ISAAC</a> (The International Society for Analysis, its Applications and Computation), a member and former treasurer of 
                       the <a href="https://iagf.pmf.uns.ac.rs/" target="_blank">IAGF</a> (The International Association for Generalized Functions), and a member of the 
                       <a href="https://didaktik-der-mathematik.de/" target="_blank">GDM</a> (The German Society of Didactics of Mathematics) and its
-                      <a href="https://mathematik.univie.ac.at/forschung/fachdidaktikschulmathematik/gdm-arbeitskreis-mathematikunterricht-und-mathematikdidaktik-in-oesterreich/" target="_blank">Austria working group</a>. 
+                      <a href="https://akoe.didaktik-der-mathematik.de/" target="_blank">Austria working group</a>. 
                     </p>
                   </div>
                 </li>

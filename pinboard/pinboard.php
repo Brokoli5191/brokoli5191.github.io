@@ -322,7 +322,7 @@ include('../includes/header.php');
             </li>
             <li class="list-dot">July: My student Benedict Schinnerl defended his Ph.D. thesis with best marks</li>
             <li class="list-dot">
-              June: My Ph.D. student<a target="_blank" href="https://www.mat.univie.ac.at/~aohanyan/index.html">Argam Ohanyan</a> received a DOC-grant from the Austrian Academy of Science. He
+              June: My Ph.D. student <a target="_blank" href="https://www.mat.univie.ac.at/~aohanyan/index.html">Argam Ohanyan</a> received a DOC-grant from the Austrian Academy of Science. He
               also successfully defended his master thesis in Pysics.
             </li>
             <li class="list-dot">

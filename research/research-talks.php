@@ -14,6 +14,13 @@ include('../includes/header-research.php');
     <article class="article-second">
       <h2 class="h3 article-title">Talks</h2>
 
+2025-10-09: <a href="talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a> (Invited talk, jointly with <a href="" target=_blank">Clemens S&auml;mann</a>) <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
+      <a href="https://www.uni-regensburg.de"  target="_blank">University of Regensburg</a>, Germany.
+      <br>
+      <br>
+
+
+
 2025-09-09: <a href="talks/scgp-steinbauer.pdf">Generalizing the Penrose Cut-and-Paste Method: Null Shells with Pressure and Energy Flux.</a> <a href="https://scgp.stonybrook.edu" target="_blank">Simons Center for Geometry and Physics</a>-Programme
       <a href="https://scgp.stonybrook.edu/archives/44979"  target="_blank">Geometry and Convergence in Mathematical General Relativity</a>, Stony Brook, NY.
       <br>
@@ -25,7 +32,7 @@ include('../includes/header-research.php');
       <br>
       <br>
 
-      2025-02-27: Impulsive gravitational waves: past and future. <a href="https://ef-geometry.univie.ac.at/kick-off-workshop-a-new-geometry-for-einsteins-theory-of-relativity-and-beyond/" 
+      2025-02-27: Impulsive gravitational waves: past and future. (Jointly with <a href="https://utf.mff.cuni.cz/~podolsky/" target="_blank">Jiri Podolsky</a>), <a href="https://ef-geometry.univie.ac.at/kick-off-workshop-a-new-geometry-for-einsteins-theory-of-relativity-and-beyond/" 
       target="_blank">Kick-off Workshop: A new geometry for Einstein’s theory of relativity and beyond</a>, University of Vienna.
 
       <br>

@@ -80,9 +80,10 @@ include('../includes/header-research.php');
       <p id="diff">
         <b>[Pre4] The failure of the Ehlers-Kundt conjecture in the impulsive case</b>
         <br>
-        <i>Authors:</i> Moriz Lothar Frauenberger, James Grant, Roland Steinbauer
-        <br>
-        <i>Status:</i> in preparation
+        <i>Authors:</i> Moriz L. Frauenberger, James Grant, Roland Steinbauer <br>
+	<i>MSC-class:</i> 83C15, 83C35, 46F30, 83C10, 34A36
+	<br>
+        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2509.24989" target="_blank">arXiv:2509.24989[math-ph]</a>
         <br>
       </p>
 
@@ -94,7 +95,7 @@ include('../includes/header-research.php');
         <br>
         <i>MSC-class:</i> 53B30, 53C22, 53C23
         <br>
-        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2509.12855" target="_blank">arXiv:2509.12855[math.DG math.MG]</a> 
+        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2509.12855" target="_blank">arXiv:2509.12855[math.DG]</a> 
         <br>
       </p>
 
@@ -106,7 +107,7 @@ include('../includes/header-research.php');
         <br>
 	<i>MSC-class:</i> 83C15, 83C35, 46F10
         <br>
-        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00231" target="_blank">arXiv:2508.00231[math-dg]</a><br>
+        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00231" target="_blank">arXiv:2508.00231[math.DG]</a><br>
       </p>
 
 
