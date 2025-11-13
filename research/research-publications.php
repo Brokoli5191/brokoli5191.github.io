@@ -78,7 +78,7 @@ include('../includes/header-research.php');
       <h4 id="Preprints">Preprints</h4>
 
       <p id="diff">
-        <b>[Pre4] The failure of the Ehlers-Kundt conjecture in the impulsive case</b>
+        <b>[Pre3] The failure of the Ehlers-Kundt conjecture in the impulsive case</b>
         <br>
         <i>Authors:</i> Moriz L. Frauenberger, James Grant, Roland Steinbauer <br>
 	<i>MSC-class:</i> 83C15, 83C35, 46F30, 83C10, 34A36
@@ -89,7 +89,7 @@ include('../includes/header-research.php');
 
       
       <p id="conj-pts">
-        <b>[Pre3]Timelike conjugate points in Lorentzian length spaces</b>
+        <b>[Pre2]Timelike conjugate points in Lorentzian length spaces</b>
         <br>
         <i>Authors:</i> James D. E. Grant, Michael Kunzinger, Argam Ohanyan, Benedict Schinnerl, Roland Steinbauer
         <br>
@@ -99,16 +99,6 @@ include('../includes/header-research.php');
         <br>
       </p>
 
-
-      <p id="matching">
-        <b>[Pre2] Generalizing the Penrose cut-and-paste method: Null shells with pressure and energy flux </b>
-        <br>
-        <i>Authors:</i> Miguel Manzano, Argam Ohanyan, Roland Steinbauer
-        <br>
-	<i>MSC-class:</i> 83C15, 83C35, 46F10
-        <br>
-        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00231" target="_blank">arXiv:2508.00231[math.DG]</a><br>
-      </p>
 
 
       <p id="sing-top">
@@ -123,7 +113,21 @@ include('../includes/header-research.php');
 
          
       <h4 id="articles">Peer-reviewed Research Articles</h4>
-       
+      
+
+      <p id="matching">
+        <b>[P60] <a href="https://www.sciencedirect.com/science/article/pii/S0393044025002669?via%3Dihub" target="_blank">Generalizing the Penrose cut-and-paste method: Null shells with pressure and energy flux </a></b>
+        <br>
+        <i>Authors:</i> Miguel Manzano, Argam Ohanyan, Roland Steinbauer
+        <br>
+        <i>MSC-class:</i> 83C15, 83C35, 46F10
+        <br>
+	<i>Ref:</i> J. Geom. Phys. <b>218</b>, 105681 (2025) <br>
+        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00231" target="_blank">arXiv:2508.00231[math.DG]</a><br>
+      </p>
+
+
+
   
       <p id="h-lip">
         <b>[P59] <a href="https://link.springer.com/article/10.1007/s00220-025-05380-9" traget="_blank">Hawking's singularity theorem for Lipschitz Lorentzian metrics</a></b>
@@ -133,7 +137,7 @@ include('../includes/header-research.php');
 	<i>MSC-class:</i> 83C75, 53C50, 46T30
 	<br>
 	<i>Ref:</i>  Commun. Math. Phys. <b>406</b>, 207 (2025)<br>
-	ArXiv:</i> <a href="https://arxiv.org/abs/2501.18450" target="_blank"> arXiv:2501.18450 [math.dg]</a>
+	ArXiv:</i> <a href="https://arxiv.org/abs/2501.18450" target="_blank"> arXiv:2501.18450 [math.DG]</a>
 	<br>
       </p>
 

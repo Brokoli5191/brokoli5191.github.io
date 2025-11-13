@@ -14,7 +14,9 @@ include('../includes/header-research.php');
     <article class="article-second">
       <h2 class="h3 article-title">Talks</h2>
 
-2025-10-09: <a href="talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a> (Invited talk, jointly with <a href="" target=_blank">Clemens S&auml;mann</a>) <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
+2025-11-12: <a href="talks/mathkoll-25.pdf" target="_blank">A new Lorentzian geometry</a>. Mathematisches Kolloquium (Inaugural lecture),  <a href="http:mat.univie.ac.at/" target="_blank">Faculty of Mathematics</a>, <a href="http://univie.ac.at/" target="_blank">University of Vienna</a>.<br><br>
+
+2025-10-09: <a href="talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a>. (Invited talk, jointly with <a href="" target=_blank">Clemens S&auml;mann</a>) <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
       <a href="https://www.uni-regensburg.de"  target="_blank">University of Regensburg</a>, Germany.
       <br>
       <br>

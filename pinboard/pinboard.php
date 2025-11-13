@@ -21,6 +21,13 @@ include('../includes/header.php');
 
       <ol class="timeline-list">
 
+      <li class="timeline-item">
+        <span>12/11/2025</span>
+         <h4 class="h4 timeline-item-title">Inaugural lecture</h4>
+         <p class="timeline-text">
+         I held my inaugural lecture <a href="../research/talks/mathkoll-25.pdf" target="_blank">A New Lorentzian Geometry</a> as Professor of Mathematical Physics at the Faculty's Mathematische Kolloquium.</p>
+        </li>
+
 	 <li class="timeline-item">
         <span>16/7/2025</span>
          <h4 class="h4 timeline-item-title">Popular outreach, II</h4>
