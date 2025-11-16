@@ -89,17 +89,6 @@ include('../includes/header-teaching.php');
                   <br>
                 </li>
 
-
-                <li>
-                  <b>Paul-Aaron Haberger</b>
-                  <br>
-                  The Geometry of Null surfaces
-                  <br>
-                  M.Sc.
-                  <br>
-                  <br>
-                </li>
-
                 <li>
                   <b>Gunter Wirthumer</b>
                   <br>
@@ -114,6 +103,17 @@ include('../includes/header-teaching.php');
               <h4>Former students</h4>
 
               <ul>
+
+                <li>
+                  <b>Paul-Aaron Haberger</b>
+                  <br>
+                  Null Geometry and the Penrose Incompleteness Theorem<br>
+                  M.Sc. Physics 2025
+                  <br>
+                  <br>
+                </li>
+
+
 	       <li>
                   <b>Matteo Calisti</b>
                   <br>
