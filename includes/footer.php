@@ -6,6 +6,6 @@ if (!isset($rootPath)) {
       </div>
     </main>
     <script src="<?php echo $assetsPath; ?>js/script.js"></script>
-    <footer>&copy; 2025 Roland Steinbauer | Designed by Florian Hartmann & Joe Wang</footer>
+    <footer>&copy; 2026 Roland Steinbauer | Designed by Florian Hartmann & Joe Wang</footer>
   </body>
 </html>
