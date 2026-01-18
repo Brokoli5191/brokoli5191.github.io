@@ -21,14 +21,60 @@ include('../includes/header.php');
 
       <ol class="timeline-list">
 
+
+      
+       <li class="timeline-item">
+        <span>25/11/2025</span>
+	<h4 class="h4 timeline-item-title"> Carl Rossdeutscher defends Ph.D. thesis</h4>
+        <p class="timeline-text">
+        My student Carl Rossdeutscher (co-supervised with Walter Simon) 
+        defended his thesis "Marginally outer trapped surfaces in cosmological spacetimes: Examples and singularity theorems" and earned his Ph.D. with best marks.     </p>
+        </li>
+
+
+      <li class="timeline-item">
+      <span>19/11/2025</span>
+         <h4 class="h4 timeline-item-title">Lecture at Gravity Group</h4>
+         <p class="timeline-text">
+         I gave the lecture <a href="../research/talks/gravity-vienna-25.pdf" target="_blank">Synthetic Lorentzian geometry</a> in the Gravity Seminar at the  <a href="https://physik.univie.ac.at/" target="_blank">Faculty of Physics</a>, <a href="https://univie.ac.at/" target="_blank">University of Vienna</a>.
+	</p>
+        </li>
+
       <li class="timeline-item">
         <span>12/11/2025</span>
          <h4 class="h4 timeline-item-title">Inaugural lecture</h4>
          <p class="timeline-text">
-         I held my inaugural lecture <a href="../research/talks/mathkoll-25.pdf" target="_blank">A New Lorentzian Geometry</a> as Professor of Mathematical Physics at the Faculty's Mathematische Kolloquium.</p>
+         I held my inaugural lecture <a href="../research/talks/mathkoll-25.pdf" target="_blank">A New Lorentzian Geometry</a> as Professor of Mathematical Relativity at the Faculty's Mathematische Kolloquium.</p>
         </li>
 
-	 <li class="timeline-item">
+	<li class="timeline-item">
+        <span>27/10/2025</span> 
+	<h4 class="h4 timeline-item-title"> Paul-Aaron Haberger defends master thesis </h4>
+        <p class="timeline-text">
+        My student Paul-Aaron Haberger defended his thesis <a href="https://utheses.univie.ac.at/detail/77671/" target="_blank">Null geometry and the Penrose incompleteness theorem</a> and thereby finished his master studies in physics in the framework of the <haref="https://mcmp.univie.ac.at/" target="_blank">MCMP</a> with distinction.    
+	</p>
+        </li>
+	
+	<li class="timeline-item">
+          <span>9/10/2025</span>
+          <h4 class="h4 timeline-item-title">Talk at Regensburg</h4>
+          <p class="timeline-text">
+	  I gave the invited talk at the <a href="../research/talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a> jointly with <a href="" target=_blank">Clemens S&auml;mann</a> at <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
+      <a href="https://www.uni-regensburg.de"  target="_blank">University of Regensburg</a>, Germany.
+        </p>
+	</li>
+
+	<li class="timeline-item">
+          <span>9/9/2025</span>
+          <h4 class="h4 timeline-item-title">Talk at Stony Brook</h4>
+          <p class="timeline-text">
+          I gave the talk <a href="../reserach/talks/scgp-steinbauer.pdf">Generalizing the Penrose Cut-and-Paste Method: Null Shells with Pressure and Energy Flux</a> at the <a href="https://scgp.stonybrook.edu" target="_blank">Simons Center for Geometry and Physics</a>-Programme
+      <a href="https://scgp.stonybrook.edu/archives/44979"  target="_blank">Geometry and Convergence in Mathematical General Relativity</a>, Stony Brook, NY.
+        </p>
+	</li>
+
+
+	<li class="timeline-item">
         <span>16/7/2025</span>
          <h4 class="h4 timeline-item-title">Popular outreach, II</h4>
          <p class="timeline-text">
@@ -61,8 +107,8 @@ include('../includes/header.php');
           <h4 class="h4 timeline-item-title">Matteo Calisti defends Ph.D. thesis</h4>
           <p class="timeline-text">
            My student Matteo Calisti (co-supervised by Michael Kunzinger and Clemens S&auml;mann) 
-	   today defended his thesis "Ricci curvature bounds and singularities 
-	   in non-smooth spacetimes" and earned his Ph.D. with top marks.
+	   today defended his thesis <a href="https://utheses.univie.ac.at/detail/75550/" target="_blank">Ricci curvature bounds and singularities 
+	   in non-smooth spacetimes</a> and earned his Ph.D. with top marks.
           </p>
         </li>
 	
@@ -95,117 +141,54 @@ include('../includes/header.php');
         </li>
 
         <li class="timeline-item">
-          <span>10/12/2024</span>
-          <h4 class="h4 timeline-item-title">EPS Conference on Gravitation</h4>
-          <p class="timeline-text">
-            I gave the invited main lecture <i>Synthetic curvature for GR and beyond</i> at the
+         <span>2024: Selected events</span>
+          <ul>
+           <li class="list-dot"> Dec: I gave the invited lecture
+	    <i>Synthetic curvature for GR and beyond</i> at the
             <a target="_blank" href="https://indico.imapp.ru.nl/event/248/overview">EPS Conference on Gravitation: Unlocking Gravity Through Computation </a> at the Czech Academy of Sciences
             in Prague.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>03/12/2024</span>
-          <h4 class="h4 timeline-item-title">Argam Ohanyan receives Erwin Schrödinger grant</h4>
-          <p class="timeline-text">
-            My former student
-            <a target="_blank" href="https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a%20A.Ohanyan.1"> Argam Ohanyan </a>
-            was awarded an Erwin Schr&ouml;dinger grant by the Austrian Science Fund FWF. He will pursue his project
-            <a target="_blank" href="https://www.fwf.ac.at/en/research-radar/10.55776/J4913"> Singularities and rigidity in non-smooth spacetimes </a>
-            with
-            <a target="_blank" href="https://www.math.toronto.edu/mccann/">Robert McCann</a>
-            in Toronto for two years before returning to our group for another year.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>29/11/2024</span>
-          <h4 class="h4 timeline-item-title">Sonja Kramer wins UNIVIE Teaching Award</h4>
-          <p class="timeline-text">
-            My collaborator Sonja Kramer was awarded the
+	    </li>
+	    
+	    <li class="list-dot"> Nov: 
+	     My collaborator Sonja Kramer was awarded the
             <a target="_blank" href="https://ctl.univie.ac.at/angebote-fuer-lehrende/teaching-awards/lehre-inspiriert-2024/"> UNIVIE Teaching Award </a>
             for our joint lecture and exercise classes "Schulmathematik Analysis" (school mathematics analysis).
-          </p>
-        </li>
+            </li>
+ 
 
-        <li class="timeline-item">
-          <span>29/10/2024</span>
-          <h4 class="h4 timeline-item-title">Argam Ohanyan defends Ph.D. thesis</h4>
-          <p class="timeline-text">
-            My student
+	    <li class="list-dot"> Oct: My student
             <a target="_blank" href="https://inspirehep.net/literature?sort=mostrecent&q=a%20A.Ohanyan.1"> Argam Ohanyan </a>
             defended his
             <a target="_blank" href="https://mathematik.univie.ac.at/fileadmin/user_upload/f_mathematik/Events_News/Vortraege_Events/2023-24/Defensio_Einladung_Ohanyan.pdf"> Ph.D. thesis </a>
-            entiteled Singularities and rigidity in smooth and non-smooth spacetimes with flying colours.
-          </p>
+            entiteled Singularities and rigidity in smooth and non-smooth spacetimes with flying colours and shortly after received an Erwin Schr&ouml;dinger grant by the Austrian Science Fund FWF. His project
+            <a target="_blank" href="https://www.fwf.ac.at/en/research-radar/10.55776/J4913"> Singularities and rigidity in non-smooth spacetimes </a>
+            is mentored by  <a target="_blank" href="https://www.math.toronto.edu/mccann/">Robert McCann</a> in Toronto.
+	    </li>
+
+	<li class="list-dot"> Oct: The Emerging Fields Project <a target="_blank" href="https://ef-geometry.univie.ac.at/">A new Geoemtry for Einstein's theory of Relativity and beyond</a> officially starts.
         </li>
 
-        <li class="timeline-item">
-          <span>01/10/2024</span>
-          <h4 class="h4 timeline-item-title">Emerging Fields project starts</h4>
-          <p class="timeline-text">
-            Today the FWF-funded Emerging Fields Project <a target="_blank" href="https://ef-geometry.univie.ac.at/">A new Geoemtry for Einstein's theory of Relativity and beyond</a> has
-            officially started.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>Sept. 2024</span>
-          <h4 class="h4 timeline-item-title">Talks in Turin</h4>
-          <p class="timeline-text">
-            I gave an invited talk at the
+        <li class="list-dot"> Sept: I gave an invited talk at the
             <a target="_blank" href="https://indico.ict.inaf.it/event/751/overview">Time Machine Factory conference </a>
             and a contributed talk at the International Conference on Generalized Functions
             <a target="_blank" href="https://www.gf2024.unito.it/">GF2024</a>, both in Turin, Italy.
-          </p>
         </li>
 
-        <li class="timeline-item">
-          <span>19/06/2024</span>
-          <h4 class="h4 timeline-item-title">Invited talk at Queen Mary</h4>
-          <p class="timeline-text">
-            I gave the invited talk <i>The Hawking theorem in Lipschitz regularity</i>
-            at Queen Mary University of London, U.K.
-          </p>
+	<li class="list-dot"> Sept: I gave the invited talk <i>The Hawking theorem in Lipschitz regularity</i> at Queen Mary University of London, U.K.
+        </li>
+        <li class="list-dot"> April: The University of Vienna funds the Faculty's teaching project <a target="_blank" href="https://mathx.univie.ac.at/">MaThX</a> (Mathematikunterricht zwischen Theorie und Praxis; Teaching mathematics beteen theory and pratice), where I am a co-organiser.
         </li>
 
-        <li class="timeline-item">
-          <span>05/2024</span>
-          <h4 class="h4 timeline-item-title">Invitations</h4>
-          <p class="timeline-text">
-            I have been invited as a speaker to the
-            <a target="_blank" href="https://indico.imapp.ru.nl/event/248/overview"> EPS Conference on Gravitation: Unlocking Gravity Through Computation </a>
-            in Prague in December 2024, as well as to the
-            <a target="_blank" href="https://wpd.ugr.es/~imag/birs-imag/">BIRS-IMAG</a>
-            workshop
-            <a target="_blank" href="https://www.birs.ca/events/2025/5-day-workshops/25w5397"> Geometry, Analysis, and Physics in Lorentzian Signature </a>
-            in Granada in May 2025.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>04/2024</span>
-          <h4 class="h4 timeline-item-title">The new teaching project MaThX</h4>
-          <p class="timeline-text">
-            The University of Vienna has announced to fund the Faculty's teaching project
-            <a target="_blank" href="https://mathx.univie.ac.at/">MaThX</a>
-            (Mathematikunterricht zwischen Theorie und Praxis; Teaching mathematics beteen theory and pratice), where I am a team memeber.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>05/04/2024</span>
-          <h4 class="h4 timeline-item-title">Mathematics education talk</h4>
-          <p class="timeline-text">
-            Together with
+	<li class="list-dot"> April: 
+         Together with
             <a target="_blank" href="https://homepage.univie.ac.at/ilse.fischer/?page_id=21">Ilse Fischer</a>
             I gave a talk at the
             <a target="_blank" href="https://mathematikdidaktik.univie.ac.at/veranstaltungen/ostertagung-2024/"> Austrian Mathematical Society's Teacher Training Day </a>
             entiteled
             <a target="_blank" href="research/talks/lft-24.pdf">Neue Mathematik für die Schule</a>
-            (New Mtahs for the School).
-          </p>
+            (New Maths for School).
         </li>
+	</ul>
 
         <li class="timeline-item">
           <span>12/03/2024</span>
@@ -244,81 +227,52 @@ include('../includes/header.php');
           </p>
         </li>
 
-        <li class="timeline-item">
-          <span>22/09/2023</span>
-          <h4 class="h4 timeline-item-title">Invited mathematics education lecture</h4>
-          <p class="timeline-text">
-            Together with
-            <a target="_blank" href="https://www.mat.univie.ac.at/~ifischer/">Ilse Fischer</a>
+ <li class="timeline-item">
+          <span>2023: Selected events</span>
+          <ul>
+            <li class="list-dot">Sept:  Together with  
+	    <a target="_blank" href="https://www.mat.univie.ac.at/~ifischer/">Ilse Fischer</a>
             I gave an invited
             <a target="_blank" href="research/talks/Fischer-Steinbauer.pdf">lecture</a>
             at the Teacher's Day of the Austrian Mathematical Society.
-          </p>
+	  </li>
+
+	  <li class="list-dot">June: <a target="_blank" 
+	  href="https://clemenssaemann.wordpress.com/">Clemens Sämann</a>, 
+	  graduate from our research group and my frequent co-author was 
+	  arwarded the <a target="_blank" href="https://scilog.fwf.ac.at/en/environment-and-technology/18156/a-new-math-approach-may-help-us-understand-black-holes-better"> START-prize </a> of the Austrian Science fund.
+          </li>
+
+	 <li class="list-dot"> I served in the scientific board of
+            <a target="_blank" 
+	    href="https://www.gelomer2024.net/home">GeLoMer</a>
+            the XI International Meeting on Lorentzian Geometry, 
+	    held in Merida, Mexico, Jan. 29--Feb. 2, 2024.
+         </li>
+
+         <li class="list-dot"> April: I gave the popular talk "Von Schwarzen Löchern und dem Urknall" (On black holes and the big bang) explaining some of my recent research at Vienna Planetarium.
         </li>
 
-        <li class="timeline-item">
-          <span>06/2023</span>
-          <h4 class="h4 timeline-item-title">Clemens Sämann receives START-prize of the Austrian Science Fund</h4>
-          <p class="timeline-text">
-            <a target="_blank" href="https://clemenssaemann.wordpress.com/">Clemens Sämann</a>
-            , graduate from our research group and my frequent co-author was arwarded the
-            <a target="_blank" href="https://scilog.fwf.ac.at/en/environment-and-technology/18156/a-new-math-approach-may-help-us-understand-black-holes-better"> START-prize </a>
-            of the Austrian Science fund.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>04/2023</span>
-          <h4 class="h4 timeline-item-title">Scientific board of GeLoMer</h4>
-          <p class="timeline-text">
-            I was invited to join the scientific board of
-            <a target="_blank" href="https://www.gelomer2024.net/home">GeLoMer</a>
-            the XI International Meeting on Lorentzian Geometry, to be held in Merida, Mexico, Jan. 29--Feb. 2, 2024.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>26/4/2023</span>
-          <h4 class="h4 timeline-item-title">Popuar talk</h4>
-          <p class="timeline-text">
-            I gave the popular talk "Von Schwarzen Löchern und dem Urknall" (On black holes and the big bang) explaining some of my recent research at Vienna Planetarium.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <span>21/04/2023</span>
-          <h4 class="h4 timeline-item-title">Conference in Novi Sad</h4>
-          <p class="timeline-text">
-            I gave an invited main lecture entiteled
+        <li class="list-dot"> April: I gave an invited main lecture entiteled
             <a target="_blank" href="research/talks/novi-sad-23.pdf"> Impulsive gravitational waves (From particle motion to geometry) </a>
             at the
             <a target="_blank" href="https://sites.google.com/view/hasop2023/home">HASOP2023</a>
             conference in Novi Sad, Serbia.
-          </p>
         </li>
 
-        <li class="timeline-item">
-          <span>13-24/03/2023</span>
-          <h4 class="h4 timeline-item-title">Non-regular Spacetime Geometry at ESI</h4>
-          <p class="timeline-text">
-            The
+       <li class="list-dot"> March: The
             <a target="_blank" href="https://www.esi.ac.at/">ESI</a>
             hosted our workshop
             <a target="_blank" href="https://www.esi.ac.at/events/e460/">Non-regular Spacetime Geometry</a>
             , co-organised with Piotr Chrusciel, Melanie Graf, Ettore Minguzzi, and Mike Kunzinger.
-          </p>
-        </li>
+       </li>
 
-        <li class="timeline-item">
-          <span>16/02/2023</span>
-          <h4 class="h4 timeline-item-title">SCRI21 Proceedings</h4>
-          <p class="timeline-text">
-            The
+        <li class="list-dot"> Feb: The
             <a target="_bank" href="https://www.springer.com/journal/10714/updates/24034438"> Topical Collection "Singularity theorems, causality, and all that (SCRI21)" </a>
-            , which I was co-editing appeared topday in
-            <a target="_blank" href="https://link.springer.com/collections/hjjgajaagg"> General Relativity and Gravitation. </a>
-          </p>
+            , which I was co-editing appeared in 
+	    <a target="_blank" href="https://link.springer.com/collections/hjjgajaagg"> General Relativity and Gravitation. </a>
         </li>
+	</ul>
 
         <li class="timeline-item">
           <span>2022: Selected events</span>

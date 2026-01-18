@@ -69,17 +69,7 @@ include('../includes/header-teaching.php');
                   <br>
                 </li>
 
-                <li>
-                  <b>Carl Rossdeutscher</b>
-                  <br>
-                  Marginally outer trapped tubes
-                  <br>
-                  Ph.D. (co-supervisor W. Simon)
-                  <br>
-                  <br>
-                </li>
-
-               	<li>
+		<li>
                   <b>Tatjana Punz</b>
                   <br>
                   Der Effekt von Vorlesungsaufzeichnungen
@@ -103,6 +93,19 @@ include('../includes/header-teaching.php');
               <h4>Former students</h4>
 
               <ul>
+
+	       
+                <li>
+                  <b>Carl Rossdeutscher</b>
+                  <br>
+                 Marginally outer trapped surfaces in cosmological spacetimes: Examples and singularity theorems
+		 <br>
+                  Ph.D. 2025 (co-supervisor W. Simon)
+                  <br>
+                  <br>
+                </li>
+
+
 
                 <li>
                   <b>Paul-Aaron Haberger</b>
