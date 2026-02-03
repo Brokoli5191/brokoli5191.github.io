@@ -15,7 +15,36 @@ include('../includes/header-teaching.php');
             <h2 class="h3 article-title">Lehrveranstaltungen an der Uni Wien/Lectures at U Vienna</h2>
 
             <h4 id="lehruni_aktuell">Recent courses / Aktuelle Lehrveranstaltungen</h4>
-            
+
+
+<!-- ############ Sommer 26 ###############-->
+
+<ul>
+            <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2026S&xcl=lang%3Aen&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Spring term 2026</b></a><br><br>
+            </li>
+            <ul>
+              <li class="list-dot">
+                250069-1 VO <A href="courses/SoSem26/cg.php">Comparison Geometry</a> <br>
+                Mon. &amp; Thu. 11:30-13:00 SR 7 (OMP 1)<br>
+                 Start: March 2 <br><br>
+               </li>
+
+               <li class="list-dot">
+                250105-1 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250105&semester=2026S" target="blank">Synthetic Geometry</a><br>
+                 (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)<br>
+                Thu. 13:15-14:45 SR. 9 (OMP 1)<br>
+                Start and scheduling meeting: March 5<br><br>
+               </li>
+
+
+            <li class="list-dot">
+               250107 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
+                        (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>,
+                        and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
+                        Fr. 9:45-11:15 Hs. 11 (OMP 1)<br>
+                        Start and scheduling meeting: March 6<br><br>
+                    </li>
+
 
 <!-- ############ Winter 25/26 ###############-->
 
@@ -56,39 +85,56 @@ include('../includes/header-teaching.php');
                             Beginn: 1.10.2025<br><br>
                         </li>
 
-<br>
+                    <br>
+                    <hr>
+                    <br>
+                </ul>
+                
+
+
+
+
+
+
+
+
+		<h4 id="lehruni_alt"i>Past courses / Fr&uuml;here Lehrveranstaltungen</h4>
+                <ul>
+
+
+<!-- #####################   Sommer 2025   ####################-->
+
 
 
                 <li>
-                    <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2025S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Spring term 2025</b></a><br><br>
+                    <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2025S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Spring term 2025</b></a>
                 </li>
 
                 <ul>
                     <li class="list-dot">
                         250130 VO <a href="https://ufind.univie.ac.at/en/course.html?lv=250130&semester=2025S" target="_blank">Metric Geometry</a><br>
                         Mon. 11:30--13:00, Sr 7, Thu. 13:15--14:45 Hs. 7 (OMP 1)<br>
-                        Start: March 6<br><br>
                     </li>
 
                     <li class="list-dot">
                         250034 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/term36.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
-                        (jointly with <a href="https://sites.google.com/view/chiararigoni/home" target="_blank">Chiara Rigoni</a>, <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, 
+                        (jointly with <a href="https://sites.google.com/view/chiararigoni/home" target="_blank">Chiara Rigoni</a>, <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>,
                         and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
-                        Fr. 9:45--11:15 Sr. 7 (OMP 1)<br>
-                        Start and scheduling meeting: March 7<br><br>
+                        Fr. 9:45--11:15 Sr. 7 (OMP 1)<br><br>
                     </li>
 
-                    <li>
-                        <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2024W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2024/25</b></a> <br><br>
-                    </li>
 
-                    <ul>
+
+
+ 		 <li><a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2024W&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Wintersemester 2024/25</b></a>
+                 </li>
+
+                 <ul>
                         <li class="list-dot">
                             250030 VO <b>Schulmathematik Analysis</b> (gemeinsam mit <a href="https://ufind.univie.ac.at/de/person.html?id=112596&teaching=true" target="_blank">Sonja Kramer</a>)<br>
                             <a href="https://moodle.univie.ac.at/course/view.php?id=437129" target="_blank">Moodle Kurs</a>, <a href="courses/SoSem24/ana.php">Infoseite</a>,
                             <a href="courses/WS2425/W24-Schulmathematik_Analysis.pdf" target="_blank">Evaluationsergebnisse</a><br>
                             Di. 11:30--13:00 Hs 1 (OMP 1)<br>
-                            Beginn: 1.10.2024<br><br>
                         </li>
 
                         <li class="list-dot">
@@ -96,7 +142,6 @@ include('../includes/header-teaching.php');
                             <a href="https://moodle.univie.ac.at/course/view.php?id=437725" target="_blank">Moodle Kurs</a>,
                             <a href="https://ucloud.univie.ac.at/index.php/s/E8GC46Q8npTECKy" target="_blank">Aufgabensammlung</a><br>
                             Di 15:00--16:30, jede zweite Woche, Sr 10 (OMP 1)<br>
-                            Beginn: 1.10.2024<br><br>
                         </li>
 
                         <li class="list-dot">
@@ -106,7 +151,6 @@ include('../includes/header-teaching.php');
                             <a href="https://ufind.univie.ac.at/de/person.html?id=30783" target="_blank">Christian Spreitzer</a>)<br>
                             Di. 13:15--14:45, Hs. 7 (OMP 1) und Mi. 11:30-13:00, Br. 9 (OMP 1)<br>
                             Diese Lehrveranstaltung ist Teil des Lehrprojekts <a href="https://mathx.univie.ac.at/" target="_blank">MaThX – Mathematik zwischen Theorie und Praxis</a> der Fakultät<br>
-                            Beginn: 1.10.2024<br><br>
                         </li>
 
                         <li class="list-dot">
@@ -115,25 +159,19 @@ include('../includes/header-teaching.php');
                             <a href="https://sites.google.com/view/chiararigoni/home" target="_blank">Chiara Rigoni</a> and
                             <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
                             Mo. 09:45--11:15 Sr. 10 (OMP 1)<br>
-                            Start 7.10.2024<br><br>
                         </li>
 
                         <li class="list-dot">
                             250049 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
                             (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>)<br>
                             Fr. 9:45--11:15 Sr. 7 (OMP 1)<br>
-                            Start and scheduling meeting 4.10.2024 at <b>10:30</b> <br><br>
                         </li>
                     </ul>
                     <br>
 
- </ul>
-                    <br>
-                    <hr>
-                    <br>
-                </ul>
-                <h4 id="lehruni_alt"i>Past courses / Fr&uuml;here Lehrveranstaltungen</h4>
-                <ul>
+
+
+
                     <li>
                         <a href="https://ufind.univie.ac.at/de/search.html?xct=xct_t&xct_t=2024S&filter=courses&query=Roland%20Steinbauer%20" target="_Blank"><b>Sommersemester 2024</b></a> <br>
                     </li>
