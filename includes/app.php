@@ -11,6 +11,47 @@ function e(?string $value): string
 }
 
 /**
+ * Build a stable root-relative URL ("/assets/..."), with optional cache-busting.
+ *
+ * Requires:
+ * - server must serve the site from web root, or have correct document root.
+ */
+function asset_url(string $path, bool $cacheBust = true): string
+{
+    $path = '/' . ltrim($path, '/');
+
+    if (!$cacheBust) {
+        return $path;
+    }
+
+    $fsPath = rtrim($_SERVER['DOCUMENT_ROOT'] ?? '', '/') . $path;
+    if (is_file($fsPath)) {
+        return $path . '?v=' . filemtime($fsPath);
+    }
+
+    return $path;
+}
+
+/**
+ * Security + caching headers for HTML responses.
+ */
+function send_default_headers(): void
+{
+    if (headers_sent()) {
+        return;
+    }
+
+    header('Content-Type: text/html; charset=UTF-8');
+    header('X-Content-Type-Options: nosniff');
+    header('X-Frame-Options: SAMEORIGIN');
+    header('Referrer-Policy: strict-origin-when-cross-origin');
+    header('Permissions-Policy: geolocation=(), microphone=(), camera=()');
+
+    // Keep conservative defaults; tune per-page if needed.
+    header('Cache-Control: no-store');
+}
+
+/**
  * Renders a page by composing header + content + footer.
  *
  * Expected options:
@@ -23,6 +64,8 @@ function e(?string $value): string
  */
 function render_page(array $opts): void
 {
+    send_default_headers();
+
     $pageTitle = (string)($opts['title'] ?? '');
     $currentPage = (string)($opts['currentPage'] ?? '');
     $currentSubPage = (string)($opts['currentSubPage'] ?? '');
