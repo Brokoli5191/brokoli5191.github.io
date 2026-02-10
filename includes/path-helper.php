@@ -1,8 +1,10 @@
 <?php
-$scriptPath = $_SERVER['SCRIPT_NAME'];
-$pathSegments = explode('/', ltrim($scriptPath, '/'));
+$scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
+$pathSegments = array_values(array_filter(explode('/', ltrim($scriptName, '/')), 'strlen'));
 
-$depth = count($pathSegments) - 2;
+// Depth = number of directories from document root to the current script.
+// Example: /contact/contact.php -> depth 1 (need "../" once to reach root)
+$depth = max(count($pathSegments) - 1, 0);
 
 $rootPath = '';
 for ($i = 0; $i < $depth; $i++) {
@@ -22,10 +24,9 @@ $contactPath = $rootPath . 'contact/';
 $scriptPath = $assetsPath . 'js/script.js';
 
 $inCourseSemester = false;
-if (strpos($scriptPath, 'teaching/courses/') !== false && $depth >= 3) {
+if (strpos($scriptName, 'teaching/courses/') !== false && $depth >= 2) {
     $inCourseSemester = true;
     $teachingCoursesPath = $rootPath . 'teaching/courses/';
-    
     $backToTeachingPath = $rootPath . 'teaching/';
 }
 ?>
