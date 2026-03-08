@@ -21,7 +21,31 @@ include('../includes/header.php');
 
       <ol class="timeline-list">
 
+       <li class="timeline-item">
+        <span>9/2/2026</span>
+        <h4 class="h4 timeline-item-title">Marie Curie fellowships</h4>
+        <p class="timeline-text">
+        Karim Mosani (mentors Clemens Sämann and myself) and Samuel Borca (mentor Michael Kunzinger) received a Marie Sklodowska-Curie fellowship 
+	of the EU.</p>
+        </li>
 
+      <li class="timeline-item">
+        <span>Jan/Feb 2026</span>
+        <h4 class="h4 timeline-item-title">Popular outreach in highschools</h4>
+        <p class="timeline-text">
+        I gave a lecture on the infinite at AHS Wien West and delivered
+	a <a href="https://www.grg3.at/2026/02/15/geometrie-am-rand-des-universums/" target="_blank"> Hagenm&uuml;llervorlesung</a> 
+	<a href="https://www.grg3.at/2026/02/20/einblicke-in-die-geometrie-am-rande-des-universums/" 
+	target="_blank">Geometrie am Rande des Universums</a> 
+	(Geometry at the edge of the universe) at GRG III.</p>
+        </li>
+
+       <li class="timeline-item">
+        <span>15/1/2026</span>
+        <h4 class="h4 timeline-item-title">Sabine Waschnig presents her BA-thesis</h4>
+        <p class="timeline-text">
+        My student Sabine Waschnig (co-supervised with Leonardo Garcia Heveling)        successfuly presented her BA-thesis in the B.Ed. curriculum.</p>
+        </li>
       
        <li class="timeline-item">
         <span>25/11/2025</span>
