@@ -17,17 +17,7 @@ include('../includes/header-teaching.php');
               <h4>Current students</h4>
 
               <ul>
-	         <li>
-                  <b>Sabine Waschnig</b>
-                  <br>
-                  Rund um den Mittelwertsatz der Differentialrechnung<br>
-		  (Exploring the Mean Value Theorem in Differential Calculus)
-                  <br>
-                  B.Ed. (co-supervisor eonardo Garcia-Heveling)
-                  <br>
-                  <br>
-                </li>
-
+	         
 
 		 <li>
                   <b>Ines Vega Gonzalez</b>
@@ -105,7 +95,17 @@ include('../includes/header-teaching.php');
 
               <ul>
 
-	       
+	      <li>
+                  <b>Sabine Waschnig</b>
+                  <br>
+                  Rund um den Mittelwertsatz der Differentialrechnung<br>
+		  (Exploring the Mean Value Theorem in Differential Calculus)
+                  <br>
+                  B.Ed. (co-supervisor Leonardo Garcia-Heveling)
+                  <br>
+                  <br>
+                </li>
+ 
                 <li>
                   <b>Carl Rossdeutscher</b>
                   <br>

@@ -38,12 +38,15 @@ include('../includes/header-teaching.php');
 
 
             <li class="list-dot">
-               250107 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
+               250107 SE <b><a href="https://ef-geometry-seminar.univie.ac.at/?period=Summer+2026" target="_blank">Topics in Analysis and Geometry (Logos Seminar)</a></b><br>
                         (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>,
                         and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
                         Fr. 9:45-11:15 Hs. 11 (OMP 1)<br>
                         Start and scheduling meeting: March 6<br><br>
                     </li>
+
+<br><br>
+<h4 id="lehruni_alt"i>Past courses / Fr&uuml;here Lehrveranstaltungen</h4>
 
 
 <!-- ############ Winter 25/26 ###############-->
@@ -53,26 +56,25 @@ include('../includes/header-teaching.php');
             </li>
             <ul>
               <li class="list-dot">
-                250081 VO <A href="courses/WS2526/rg.php">Riemannian Geometry</a> <br>
+                250081 VO <A href="courses/WS2526/rg.php">Riemannian Geometry</a> (<a href="courses/WS2526/W25-Riemannian_Geometry.pdf" target="_blank">Evaluation results</a>) <br>
                 Wed. 13:15-14:45 SR 10 (OMP 1)<br>
-                 Start: Oct. 1 <br><br>
-               </li>
+              </li>
 
                <li class="list-dot">
-                250105 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250105&semester=2025W" target="blank">Synthetic Geometry</a><br>
+                250105 SE <a href="https://ufind.univie.ac.at/de/course.html?lv=250105&semester=2025W" target="blank">Synthetic Geometry</a>
+		(<a href="courses/WS2526/W25-Synthetic_Geometry_(25W-25-250105-01).pdf" target="_blank">Evaluation results)<br>
                  (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, 
                         and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
 		Mo. 09:45-11:15 SR. 10 (OMP 1)<br>
-		Start and scheduling meeting: Oct. 6<br><br>
-	       </li>	
+	      </li>
 
 
 	    <li class="list-dot">
                250107 SE <b><a href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" target="_blank">Topics in Analysis and Geometry (Diana Seminar)</a></b><br>
                         (jointly with <a href="http://www.mat.univie.ac.at/~mike" target="_blank"> Michael Kunzinger</a>, 
                         and <a href="https://clemenssaemann.wordpress.com/" target="_blank">Clemens S&auml;mann</a>)<br>
-                        Fr. 9:45--11:15 Sr. 7 (OMP 1)<br>
-                        Start and scheduling meeting: Oct. 3<br><br>
+                        Fr. 9:45--11:15 Sr. 7 (OMP 1) 
+			(<a href="courses/WS2526/W25-Topics_in_Analysis_and_Geometry_(25W-25-250107-01).pdf" target="_blank">Evaluation results)<br>
                     </li>
 
               <li class="list-dot">
@@ -81,26 +83,9 @@ include('../includes/header-teaching.php');
                             <a href="https://homepage.univie.ac.at/stefan.goetz/" target="_blank">Stefan G&ouml;tz</a> und
                             <a href="https://ufind.univie.ac.at/de/person.html?id=30783" target="_blank">Christian Spreitzer</a>)<br>
                             Di. 13:15--14:45 SR. 8 und Mi. 11:30-13:00, SR. 9 (OMP 1)<br>
-                            Diese Lehrveranstaltung ist Teil des Lehrprojekts <a href="https://mathx.univie.ac.at/" target="_blank">MaThX – Mathematik zwischen Theorie und Praxis</a> der Fakultät<br>
-                            Beginn: 1.10.2025<br><br>
+                            Diese Lehrveranstaltung ist Teil des Lehrprojekts <a href="https://mathx.univie.ac.at/" target="_blank">MaThX – Mathematik zwischen Theorie und Praxis</a> der Fakultät. <a href="https://mathx.univie.ac.at/evaluierung/" target="_blank">Evaluationsergebnisse</a><br>
                         </li>
-
-                    <br>
-                    <hr>
-                    <br>
-                </ul>
-                
-
-
-
-
-
-
-
-
-		<h4 id="lehruni_alt"i>Past courses / Fr&uuml;here Lehrveranstaltungen</h4>
-                <ul>
-
+<br>
 
 <!-- #####################   Sommer 2025   ####################-->
 
@@ -150,7 +135,7 @@ include('../includes/header-teaching.php');
                             <a href="https://homepage.univie.ac.at/stefan.goetz/" target="_blank">Stefan G&ouml;tz</a> und
                             <a href="https://ufind.univie.ac.at/de/person.html?id=30783" target="_blank">Christian Spreitzer</a>)<br>
                             Di. 13:15--14:45, Hs. 7 (OMP 1) und Mi. 11:30-13:00, Br. 9 (OMP 1)<br>
-                            Diese Lehrveranstaltung ist Teil des Lehrprojekts <a href="https://mathx.univie.ac.at/" target="_blank">MaThX – Mathematik zwischen Theorie und Praxis</a> der Fakultät<br>
+                            Diese Lehrveranstaltung ist Teil des Lehrprojekts <a href="https://mathx.univie.ac.at/" target="_blank">MaThX – Mathematik zwischen Theorie und Praxis</a> der Fakultät. <a href="https://mathx.univie.ac.at/evaluierung/" target="_blank">Evaluationsergebnisse</a><br>
                         </li>
 
                         <li class="list-dot">

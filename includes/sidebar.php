@@ -76,7 +76,7 @@ if (!isset($rootPath)) {
               </div>
 
               <div class="contact-info">
-                <a target="_blank" href="https://www.mat.univie.ac.at/~berant14/diana/latest.html" class="contact-link">Research Seminar</a>
+                <a target="_blank" href="https://ef-geometry-seminar.univie.ac.at/" class="contact-link">Research Seminar</a>
               </div>
             </li>
           </ul>
