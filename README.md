@@ -1,6 +1,6 @@
 # Roland Steinbauer — Personal Academic Website
 
-Personal website of [Roland Steinbauer](https://mathematik.univie.ac.at/), mathematician and mathematical physicist at the University of Vienna.
+Personal website of [Roland Steinbauer](https://mathematik.univie.ac.at/~stein), mathematician and mathematical physicist at the University of Vienna.
 
 ## Tech stack
 
