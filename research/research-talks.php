@@ -19,7 +19,7 @@ include('../includes/header-research.php');
 
 2025-11-12: <a href="talks/mathkoll-25.pdf" target="_blank">A new Lorentzian geometry</a>. Mathematisches Kolloquium (Inaugural lecture),  <a href="https://mat.univie.ac.at/" target="_blank">Faculty of Mathematics</a>, <a href="https://univie.ac.at/" target="_blank">University of Vienna</a>.<br><br>
 
-2025-10-09: <a href="talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a>. (Invited talk, jointly with <a href="" target=_blank">Clemens S&auml;mann</a>) <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
+2025-10-09: <a href="talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a>. (Invited talk, jointly with <a href="" target="_blank">Clemens S&auml;mann</a>) <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
       <a href="https://www.uni-regensburg.de"  target="_blank">University of Regensburg</a>, Germany.
       <br>
       <br>
@@ -33,7 +33,7 @@ include('../includes/header-research.php');
 
 
 2025-05-06: <a href="talks/birs-imag-steinbauer.pdf">Notions of curvature for non-smooth spacetimes.</a> (Invited lecture) <a href="https://wpd.ugr.es/~imag/birs-imag/" target="_blank">BIRS-IMAG</a> workshop
-      <a href="https://wpd.ugr.es/~imag/events/event/geometry-analysis-and-physics-in-lorentzian-signature/"  target="_blank">Geometry, Analysis, and Physics in Lorentzian Signature</a>, Granada, Spain. Watch <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5397/videos/watch/202505060200-Steinbauer.html" traget="_blank">presentation</a> at <a href="https://www.birs.ca/index.php" target="_blank">BIRS</a> website.
+      <a href="https://wpd.ugr.es/~imag/events/event/geometry-analysis-and-physics-in-lorentzian-signature/"  target="_blank">Geometry, Analysis, and Physics in Lorentzian Signature</a>, Granada, Spain. Watch <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5397/videos/watch/202505060200-Steinbauer.html" target="_blank">presentation</a> at <a href="https://www.birs.ca/index.php" target="_blank">BIRS</a> website.
       <br>
       <br>
 
@@ -377,7 +377,7 @@ include('../includes/header-research.php');
       <br>
       <br>
       2023-07-18:
-      <a tergate="_blank" href="talks/limits.pptx">Conceptions of student teachers on the limit concept.</a>
+      <a target="_blank" href="talks/limits.pptx">Conceptions of student teachers on the limit concept.</a>
       <a target="_blank" href="https://cerme13.renyi.hu/">CERME13</a> , Budapest, Hungary.
 
       <br>

@@ -19,8 +19,6 @@ $teachingPath = $rootPath . 'teaching/';
 $vitaPath = $rootPath . 'vita/';
 $contactPath = $rootPath . 'contact/';
 
-$scriptPath = $assetsPath . 'js/script.js';
-
 $inCourseSemester = false;
 if (strpos($scriptPath, 'teaching/courses/') !== false && $depth >= 3) {
     $inCourseSemester = true;

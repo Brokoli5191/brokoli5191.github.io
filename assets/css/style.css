@@ -3307,3 +3307,12 @@ body.menu-open .mobile-menu-toggle::after {
     max-width: 700px;
   }
 }
+
+/* ============================
+   UTILITY CLASSES
+   ============================ */
+
+.text-center,
+.aligncenter {
+  text-align: center;
+}

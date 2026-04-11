@@ -318,9 +318,9 @@ untersuchen.
 </p>
 
 <p align="justify"><b>Literatur:</b> Inhaltlich werde ich mich eng an das 
-<a target=_blank" 
+<a target="_blank" 
 href="http://www.mat.univie.ac.at/~gue/lehre/08einan/einfanalysis.pdf" >gleichnamige Skriptum</a> von
-<a target=_blank" 
+<a target="_blank" 
 href="http://www.mat.univie.ac.at/~gue/">G&uuml;nther H&ouml;rmann</a> halten. Dieses ist wiederum stark 
 an [Otto Forster, Analysis 1, Vieweg+Teubner, 10. Auflage, 2011] orientiert, einem Buch, das durch seinen
 knappen und pr&auml;gnanten Stil hervorsticht. Weitere B&uuml;cher an denen ich mich orientiere sind
@@ -333,7 +333,7 @@ In der <a href="http://bibliothek.univie.ac.at/fb-mathematik_statistik_informati
 zur Vorlesung eingerichtet in der obige 4 Werke sowie zwei weitere B&uuml;cher, die eine historische Darstellung der Analysis geben zusammengestellt sind. Alle diese
 B&uuml;cher habe ich in einer kurzen <a href="Literatur.pdf">Literaturliste</a> kommentiet. Die Titel von Behrends, Deiser und Forster sind auch als Online-Ressource verf&uuml;gbar.
 
-<!--Alle diese B&uuml;cher sind in der <a target=_blank" 
+<!--Alle diese B&uuml;cher sind in der <a target="_blank" 
 href="http://bibliothek.univie.ac.at/fb-mathematik_statistik_informatik/">
 Fachbereichsbibliothek Mathematik, Statistik, Informatik</a> erh&auml;ltlich
 -->
@@ -646,9 +646,9 @@ und Mobilkommunikation.
 
 
 <p align="justify"><b>Literatur:</b> Die Vorlesung orientiert sich weiterhin
-an den Skripten von <a target=_blank" 
+an den Skripten von <a target="_blank" 
 href="http://www.mat.univie.ac.at/~gue/">G&uuml;nther H&ouml;rmann</a> 
-(<a target=_blank" href="http://www.mat.univie.ac.at/~gue/lehre/08einan/einfanalysis.pdf" >Einf&uuml;hrung in die Analysis</a> ab Kap. III, 
+(<a target="_blank" href="http://www.mat.univie.ac.at/~gue/lehre/08einan/einfanalysis.pdf" >Einf&uuml;hrung in die Analysis</a> ab Kap. III, 
 <a href="http://www.mat.univie.ac.at/~gue/lehre/0809an/modul_analysis.pdf" target="_blank">Analysis</a> Kap. VI,V) bzw. dem Buch Analysis 1 von Otto Forster. 
 Darüberhinaus decken alle Werke der <a target="_blannk" href="Literatur.pdf">
 der Literaturliste aus dem Sommersemester</a> auch die Inhalte dieser
@@ -860,7 +860,7 @@ Wir schlie&szlig;en die Vorlesung mit einem Abri&szlig und Ausblick auf die
 </p>
 
 <p align="justify"><b>Literatur:</b> Die Vorlesung orientiert sich weiterhin
-an den Skripten von <a target=_blank" 
+an den Skripten von <a target="_blank" 
 href="http://www.mat.univie.ac.at/~gue/">G&uuml;nther H&ouml;rmann</a> 
 (<a href="http://www.mat.univie.ac.at/~gue/lehre/0809an/modul_analysis.pdf" target="_blank">Analysis</a> ab Kap. V und dem handschriftlichen <a href="http://www.mat.univie.ac.at/~gue/lehre/1112ana2varlak/analakvo.html" target="_blank">VO-Manuskript zur
 Analysis für LAK in mehreren reellen und einer komplexen Veränderlichen</a>) 

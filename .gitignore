@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# XAMPP / PHP
+*.log
+php_error.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

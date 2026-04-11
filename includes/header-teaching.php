@@ -10,7 +10,7 @@ include($includesPath . 'header.php');
             </a>
 
             <div class="dropdown navbar-item">
-              <button onclick="window.location.href='<?php echo $teachingPath; ?>teaching-courses.php';" class="<?php echo ($currentSubPage === 'teaching-courses') ? 'navbar-active' : 'navbar-link'; ?>">Courses</button>
+              <a href="<?php echo $teachingPath; ?>teaching-courses.php" class="<?php echo ($currentSubPage === 'teaching-courses') ? 'navbar-active' : 'navbar-link'; ?>">Courses</a>
               <div class="dropdown-content">
                 <a href="<?php echo $teachingPath; ?>teaching-courses.php#lehruni">UniVie</a>
                 <a href="<?php echo $teachingPath; ?>teaching-courses.php#lehruni_aktuell">Recent Courses</a>

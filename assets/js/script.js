@@ -2,38 +2,35 @@
 
 /**
  * Universelles JavaScript für die Website
- * Einfache Version mit harten Pfaden
  */
 
 // ============================
-// PFADE - HART CODIERT
+// PFADE - aus PHP meta-Tag
 // ============================
 
-// Prüfen, ob wir auf der Root-Seite sind
-const isRootPage = window.location.pathname.endsWith('/index.php') || 
-                   window.location.pathname === '/' || 
-                   window.location.pathname.endsWith('/');
+// Root-Pfad wird von PHP via <meta name="root-path"> gesetzt (path-helper.php)
+const rootPath = document.querySelector('meta[name="root-path"]')?.content ?? '';
 
 // Pfade entsprechend setzen
-const avatarPath = isRootPage ? 'assets/images/rs.jpg' : '../assets/images/rs.jpg';
-const aboutPath = isRootPage ? 'about/about.php' : '../about/about.php';
-const pinboardPath = isRootPage ? 'pinboard/pinboard.php' : '../pinboard/pinboard.php';
-const researchPath = isRootPage ? 'research/research-topics.php' : '../research/research-topics.php';
-const teachingPath = isRootPage ? 'teaching/teaching.php' : '../teaching/teaching.php';
-const vitaPath = isRootPage ? 'vita/vita.php' : '../vita/vita.php';
-const contactPath = isRootPage ? 'contact/contact.php' : '../contact/contact.php';
+const avatarPath = rootPath + 'assets/images/rs.jpg';
+const aboutPath = rootPath + 'about/about.php';
+const pinboardPath = rootPath + 'pinboard/pinboard.php';
+const researchPath = rootPath + 'research/research-topics.php';
+const teachingPath = rootPath + 'teaching/teaching.php';
+const vitaPath = rootPath + 'vita/vita.php';
+const contactPath = rootPath + 'contact/contact.php';
 
 // Untermenüs für Research
-const researchTopicsPath = isRootPage ? 'research/research-topics.php' : '../research/research-topics.php';
-const researchPublicationsPath = isRootPage ? 'research/research-publications.php' : '../research/research-publications.php';
-const researchProjectsPath = isRootPage ? 'research/research-projects.php' : '../research/research-projects.php';
-const researchTalksPath = isRootPage ? 'research/research-talks.php' : '../research/research-talks.php';
+const researchTopicsPath = rootPath + 'research/research-topics.php';
+const researchPublicationsPath = rootPath + 'research/research-publications.php';
+const researchProjectsPath = rootPath + 'research/research-projects.php';
+const researchTalksPath = rootPath + 'research/research-talks.php';
 
 // Untermenüs für Teaching
-const teachingActivitiesPath = isRootPage ? 'teaching/teaching.php' : '../teaching/teaching.php';
-const teachingCoursesPath = isRootPage ? 'teaching/teaching-courses.php' : '../teaching/teaching-courses.php';
-const teachingLecturenotesPath = isRootPage ? 'teaching/teaching-lecturenotes.php' : '../teaching/teaching-lecturenotes.php';
-const teachingStudentsPath = isRootPage ? 'teaching/teaching-students.php' : '../teaching/teaching-students.php';
+const teachingActivitiesPath = rootPath + 'teaching/teaching.php';
+const teachingCoursesPath = rootPath + 'teaching/teaching-courses.php';
+const teachingLecturenotesPath = rootPath + 'teaching/teaching-lecturenotes.php';
+const teachingStudentsPath = rootPath + 'teaching/teaching-students.php';
 
 // ============================
 // COOKIE-FUNKTIONEN
@@ -72,28 +69,21 @@ function initializeTheme() {
   const toggleSwitch = document.getElementById("theme-toggle");
   if (!toggleSwitch) return;
 
-  // Funktion zum Aktualisieren des Themes
-  function updateTheme(isDark) {
+  // Klassen werden bereits im <head> gesetzt (kein Flash).
+  // Hier nur Checkbox-Zustand synchronisieren und Listener anhaengen.
+  toggleSwitch.checked = getCookie("darkMode") === "enabled";
+
+  toggleSwitch.addEventListener("change", () => {
+    const isDark = toggleSwitch.checked;
     if (isDark) {
       document.documentElement.classList.add("dark-mode");
       document.documentElement.classList.remove("light-mode");
-      toggleSwitch.checked = true;
-      setCookie("darkMode", "enabled", 365); // Cookie für 1 Jahr
+      setCookie("darkMode", "enabled", 365);
     } else {
       document.documentElement.classList.add("light-mode");
       document.documentElement.classList.remove("dark-mode");
-      toggleSwitch.checked = false;
-      setCookie("darkMode", "disabled", 365); // Cookie für 1 Jahr
+      setCookie("darkMode", "disabled", 365);
     }
-  }
-
-  // Initial theme setzen
-  const savedTheme = getCookie("darkMode");
-  updateTheme(savedTheme === "enabled");
-
-  // Event Listener für Theme-Toggle
-  toggleSwitch.addEventListener("change", () => {
-    updateTheme(toggleSwitch.checked);
   });
 }
 
@@ -211,306 +201,263 @@ function initScrollToTopButton() {
 // MOBILES MENÜ
 // ============================
 
-/**
- * Initialisiert das mobile Menü
- */
-function initModernMobileMenu() {
-  // Nur auf Geräten unter 1024px initialisieren
-  if (window.innerWidth >= 1024) return;
+/** Navigationselemente mit Pfaden und Icons */
+const NAV_ITEMS = [
+  { name: "About", path: aboutPath, icon: "person-outline" },
+  { name: "Pinboard", path: pinboardPath, icon: "clipboard-outline" },
+  {
+    name: "Research",
+    path: researchPath,
+    icon: "flask-outline",
+    submenu: [
+      { name: "Research Interests", path: researchTopicsPath },
+      { name: "Publications", path: researchPublicationsPath },
+      { name: "Projects", path: researchProjectsPath },
+      { name: "Talks", path: researchTalksPath },
+    ],
+  },
+  {
+    name: "Teaching",
+    path: teachingPath,
+    icon: "school-outline",
+    submenu: [
+      { name: "Teaching activities", path: teachingActivitiesPath },
+      { name: "Courses", path: teachingCoursesPath },
+      { name: "Lecture Notes", path: teachingLecturenotesPath },
+      { name: "Students", path: teachingStudentsPath },
+    ],
+  },
+  { name: "Vita", path: vitaPath, icon: "document-text-outline" },
+  { name: "Contact", path: contactPath, icon: "mail-outline" },
+];
 
-  // Prüfen, ob das mobile Menü bereits existiert
-  if (document.querySelector(".mobile-menu-toggle")) return;
+/** Öffnet das mobile Menü */
+function openMenu(mobileMenu, overlay) {
+  mobileMenu.classList.add("active");
+  overlay.classList.add("active");
+  document.body.classList.add("menu-open");
+}
 
-  // Mobile Menu Toggle Button erstellen
+/** Schließt das mobile Menü */
+function closeMenu(mobileMenu, overlay) {
+  mobileMenu.classList.remove("active");
+  overlay.classList.remove("active");
+  document.body.classList.remove("menu-open");
+}
+
+/** Blendet ein Untermenü aus (mit Animation) */
+function collapseSubmenu(submenu, triggerLink) {
+  submenu.style.opacity = '0';
+  submenu.style.transform = 'translateY(-10px)';
+  setTimeout(() => {
+    submenu.classList.remove("expanded");
+    triggerLink.classList.remove("expanded");
+  }, 300);
+}
+
+/** Blendet ein Untermenü ein */
+function expandSubmenu(submenu, triggerLink) {
+  submenu.classList.add("expanded");
+  triggerLink.classList.add("expanded");
+  setTimeout(() => {
+    submenu.style.opacity = '';
+    submenu.style.transform = '';
+  }, 10);
+}
+
+/** Erstellt einen einzelnen Nav-Listeneintrag (inkl. optionalem Untermenü) */
+function buildNavItem(item, currentPath) {
+  const li = document.createElement("li");
+  li.className = "mobile-nav-item";
+
+  const a = document.createElement("a");
+  a.className = "mobile-nav-link";
+  a.href = item.submenu ? "javascript:void(0)" : item.path;
+  if (item.submenu) a.classList.add("has-submenu");
+
+  if (item.icon) {
+    const iconSpan = document.createElement("span");
+    iconSpan.className = "mobile-nav-icon";
+    iconSpan.innerHTML = `<ion-icon name="${item.icon}"></ion-icon>`;
+    a.appendChild(iconSpan);
+  }
+
+  const textSpan = document.createElement("span");
+  textSpan.textContent = item.name;
+  a.appendChild(textSpan);
+
+  if (!item.submenu && currentPath.includes(item.path.split("/").pop())) {
+    a.classList.add("mobile-nav-active");
+  }
+
+  li.appendChild(a);
+
+  if (item.submenu) {
+    const subUl = document.createElement("ul");
+    subUl.className = "mobile-submenu";
+    let hasActiveChild = false;
+
+    item.submenu.forEach((subItem) => {
+      const subLi = document.createElement("li");
+      subLi.className = "mobile-nav-item";
+
+      const subA = document.createElement("a");
+      subA.className = "mobile-nav-link";
+      subA.href = subItem.path;
+      subA.textContent = subItem.name;
+
+      if (currentPath.includes(subItem.path.split("/").pop())) {
+        subA.classList.add("mobile-nav-active");
+        hasActiveChild = true;
+      }
+
+      subLi.appendChild(subA);
+      subUl.appendChild(subLi);
+    });
+
+    if (hasActiveChild) {
+      subUl.classList.add("expanded");
+      a.classList.add("expanded");
+      li.classList.add("has-active-child");
+    }
+
+    li.appendChild(subUl);
+
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      const submenu = a.nextElementSibling;
+      const isExpanded = submenu.classList.contains("expanded");
+
+      document.querySelectorAll(".mobile-submenu.expanded").forEach((menu) => {
+        if (menu !== submenu) collapseSubmenu(menu, menu.previousElementSibling);
+      });
+
+      if (isExpanded) {
+        collapseSubmenu(submenu, a);
+      } else {
+        expandSubmenu(submenu, a);
+      }
+    });
+  }
+
+  return li;
+}
+
+/** Erstellt die vollständige Nav-Liste */
+function buildNavList(currentPath) {
+  const navList = document.createElement("ul");
+  navList.className = "mobile-nav-list";
+  NAV_ITEMS.forEach((item) => navList.appendChild(buildNavItem(item, currentPath)));
+  return navList;
+}
+
+/** Erstellt den Theme-Toggle-Bereich für das mobile Menü */
+function buildMobileThemeToggle() {
+  const themeToggle = document.querySelector(".switch");
+  if (!themeToggle) return null;
+
+  const themeContainer = document.createElement("div");
+  themeContainer.className = "mobile-theme-toggle";
+
+  const themeLabel = document.createElement("div");
+  themeLabel.className = "mobile-theme-label";
+  themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
+  themeContainer.appendChild(themeLabel);
+
+  const mobileThemeToggle = themeToggle.cloneNode(true);
+  themeContainer.appendChild(mobileThemeToggle);
+
+  const originalInput = themeToggle.querySelector("input");
+  const mobileInput = mobileThemeToggle.querySelector("input");
+
+  if (originalInput && mobileInput) {
+    mobileInput.checked = originalInput.checked;
+
+    mobileInput.addEventListener("change", () => {
+      originalInput.checked = mobileInput.checked;
+      originalInput.dispatchEvent(new Event("change"));
+      setTimeout(() => {
+        themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
+      }, 50);
+    });
+
+    originalInput.addEventListener("change", () => {
+      mobileInput.checked = originalInput.checked;
+      setTimeout(() => {
+        themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
+      }, 50);
+    });
+  }
+
+  return themeContainer;
+}
+
+/** Erstellt das komplette Menü-DOM und hängt es an body */
+function createMenuMarkup() {
   const toggleBtn = document.createElement("div");
   toggleBtn.className = "mobile-menu-toggle";
   toggleBtn.setAttribute("aria-label", "Open menu");
   document.body.appendChild(toggleBtn);
+  setTimeout(() => toggleBtn.classList.add("pulse-once"), 500);
 
-  // Pulse-Animation hinzufügen
-  setTimeout(() => {
-    toggleBtn.classList.add("pulse-once");
-  }, 500);
-
-  // Overlay erstellen
   const overlay = document.createElement("div");
   overlay.className = "mobile-menu-overlay";
   document.body.appendChild(overlay);
 
-  // Mobile Menü Container erstellen
   const mobileMenu = document.createElement("div");
   mobileMenu.className = "mobile-menu";
 
-  // Schließen-Button erstellen
   const closeBtn = document.createElement("div");
   closeBtn.className = "mobile-menu-close";
   closeBtn.innerHTML = "×";
   closeBtn.setAttribute("aria-label", "Close menu");
   mobileMenu.appendChild(closeBtn);
 
-  // Header mit Avatar erstellen
   const menuHeader = document.createElement("div");
   menuHeader.className = "mobile-menu-header";
-
   const menuAvatar = document.createElement("img");
   menuAvatar.className = "mobile-menu-avatar";
   menuAvatar.src = avatarPath;
   menuAvatar.alt = "Roland Steinbauer";
   menuHeader.appendChild(menuAvatar);
-
   const menuTitle = document.createElement("div");
   menuTitle.className = "mobile-menu-title";
   menuTitle.textContent = "Roland Steinbauer";
   menuHeader.appendChild(menuTitle);
-
   mobileMenu.appendChild(menuHeader);
 
-  // Navigation erstellen
   const mobileNav = document.createElement("nav");
   mobileNav.className = "mobile-nav";
-
-  // Aktuellen Pfad für aktive Links ermitteln
-  const currentPath = window.location.pathname;
-
-  // Navigationsliste erstellen
-  const navList = document.createElement("ul");
-  navList.className = "mobile-nav-list";
-
-  // Navigationselemente mit festen Pfaden definieren
-  const navItems = [
-    { name: "About", path: aboutPath, icon: "person-outline" },
-    { name: "Pinboard", path: pinboardPath, icon: "clipboard-outline" },
-    {
-      name: "Research",
-      path: researchPath,
-      icon: "flask-outline",
-      submenu: [
-        { name: "Research Interests", path: researchTopicsPath },
-        { name: "Publications", path: researchPublicationsPath },
-        { name: "Projects", path: researchProjectsPath },
-        { name: "Talks", path: researchTalksPath },
-      ],
-    },
-    {
-      name: "Teaching",
-      path: teachingPath,
-      icon: "school-outline",
-      submenu: [
-        { name: "Teaching activities", path: teachingActivitiesPath },
-        { name: "Courses", path: teachingCoursesPath },
-        { name: "Lecture Notes", path: teachingLecturenotesPath },
-        { name: "Students", path: teachingStudentsPath },
-      ],
-    },
-    { name: "Vita", path: vitaPath, icon: "document-text-outline" },
-    { name: "Contact", path: contactPath, icon: "mail-outline" },
-  ];
-
-  // Listenelemente für das Menü erstellen
-  navItems.forEach((item) => {
-    const li = document.createElement("li");
-    li.className = "mobile-nav-item";
-
-    const a = document.createElement("a");
-    a.className = "mobile-nav-link";
-    if (item.submenu) {
-      a.classList.add("has-submenu");
-      // Verhindern, dass der Link navigiert, wenn er ein Untermenü hat
-      a.href = "javascript:void(0)";
-    } else {
-      a.href = item.path;
-    }
-
-    // Icon hinzufügen, wenn verfügbar
-    if (item.icon) {
-      const iconSpan = document.createElement("span");
-      iconSpan.className = "mobile-nav-icon";
-      iconSpan.innerHTML = `<ion-icon name="${item.icon}"></ion-icon>`;
-      a.appendChild(iconSpan);
-    }
-
-    const textSpan = document.createElement("span");
-    textSpan.textContent = item.name;
-    a.appendChild(textSpan);
-
-    // Prüfen, ob dies die aktive Seite ist (nur für Elemente ohne Untermenü)
-    if (!item.submenu && currentPath.includes(item.path.split("/").pop())) {
-      a.classList.add("mobile-nav-active");
-    }
-
-    li.appendChild(a);
-
-    // Untermenü hinzufügen, wenn vorhanden
-    if (item.submenu) {
-      const subUl = document.createElement("ul");
-      subUl.className = "mobile-submenu";
-
-      // Variable, um zu verfolgen, ob ein Unterelement aktiv ist
-      let hasActiveChild = false;
-
-      item.submenu.forEach((subItem) => {
-        const subLi = document.createElement("li");
-        subLi.className = "mobile-nav-item";
-
-        const subA = document.createElement("a");
-        subA.className = "mobile-nav-link";
-        subA.href = subItem.path;
-        subA.textContent = subItem.name;
-
-        // Prüfen, ob dies die aktive Seite ist
-        const isActive = currentPath.includes(subItem.path.split("/").pop());
-        if (isActive) {
-          subA.classList.add("mobile-nav-active");
-          hasActiveChild = true;
-        }
-
-        subLi.appendChild(subA);
-        subUl.appendChild(subLi);
-      });
-
-      // Wenn ein Kind aktiv ist, Untermenü expandieren und Elternelement als "hat aktives Kind" markieren
-      if (hasActiveChild) {
-        subUl.classList.add("expanded");
-        a.classList.add("expanded");
-        li.classList.add("has-active-child");
-      }
-
-      li.appendChild(subUl);
-
-      // Klick-Event zum Umschalten des Untermenüs hinzufügen
-      a.addEventListener("click", (e) => {
-        e.preventDefault();
-        const submenu = a.nextElementSibling;
-        const isExpanded = submenu.classList.contains("expanded");
-
-        // Zuerst alle anderen Untermenüs schließen
-        document.querySelectorAll(".mobile-submenu.expanded").forEach((menu) => {
-          if (menu !== submenu) {
-            // Sanfte Animation beim Schließen
-            menu.style.opacity = '0';
-            menu.style.transform = 'translateY(-10px)';
-            
-            // Nach der Animation verstecken
-            setTimeout(() => {
-              menu.classList.remove("expanded");
-              menu.previousElementSibling.classList.remove("expanded");
-            }, 300);
-          }
-        });
-
-        // Aktuelles Untermenü umschalten
-        if (isExpanded) {
-          // Sanfte Animation beim Schließen
-          submenu.style.opacity = '0';
-          submenu.style.transform = 'translateY(-10px)';
-          
-          // Nach der Animation verstecken
-          setTimeout(() => {
-            submenu.classList.remove("expanded");
-            a.classList.remove("expanded");
-          }, 300);
-        } else {
-          // Sofort anzeigen und dann einblenden
-          submenu.classList.add("expanded");
-          a.classList.add("expanded");
-          
-          // Stil-Eigenschaften für die Einblendanimation zurücksetzen
-          setTimeout(() => {
-            submenu.style.opacity = '';
-            submenu.style.transform = '';
-          }, 10);
-        }
-      });
-    }
-
-    navList.appendChild(li);
-  });
-
-  // Navigationsliste zum Menü hinzufügen
-  mobileNav.appendChild(navList);
+  mobileNav.appendChild(buildNavList(window.location.pathname));
   mobileMenu.appendChild(mobileNav);
 
-  // Theme-Toggle-Switch zum mobilen Menü hinzufügen, wenn er existiert
-  const themeToggle = document.querySelector(".switch");
-  if (themeToggle) {
-    const themeContainer = document.createElement("div");
-    themeContainer.className = "mobile-theme-toggle";
-
-    const themeLabel = document.createElement("div");
-    themeLabel.className = "mobile-theme-label";
-    themeLabel.style.paddingLeft = '44px'; // Einrückung anpassen
-    themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
-    themeContainer.appendChild(themeLabel);
-
-    const mobileThemeToggle = themeToggle.cloneNode(true);
-    themeContainer.appendChild(mobileThemeToggle);
-    mobileMenu.appendChild(themeContainer);
-
-    // Status mit dem Original-Toggle synchronisieren
-    const originalInput = themeToggle.querySelector("input");
-    const mobileInput = mobileThemeToggle.querySelector("input");
-
-    if (originalInput && mobileInput) {
-      mobileInput.checked = originalInput.checked;
-
-      // Toggles synchron halten und Label aktualisieren
-      mobileInput.addEventListener("change", () => {
-        originalInput.checked = mobileInput.checked;
-        originalInput.dispatchEvent(new Event("change"));
-
-        // Label-Text basierend auf Modus aktualisieren
-        setTimeout(() => {
-          themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
-        }, 50);
-      });
-    }
-
-    // Auf Theme-Änderungen vom Haupt-Toggle hören
-    if (originalInput) {
-      originalInput.addEventListener("change", () => {
-        if (mobileInput) {
-          mobileInput.checked = originalInput.checked;
-  
-          // Label-Text basierend auf Modus aktualisieren
-          setTimeout(() => {
-            themeLabel.textContent = document.documentElement.classList.contains("light-mode") ? "Light Mode" : "Dark Mode";
-          }, 50);
-        }
-      });
-    }
-  }
+  const themeSection = buildMobileThemeToggle();
+  if (themeSection) mobileMenu.appendChild(themeSection);
 
   document.body.appendChild(mobileMenu);
 
-  // Menü öffnen, wenn auf den Toggle-Button geklickt wird
-  toggleBtn.addEventListener("click", () => {
-    mobileMenu.classList.add("active");
-    overlay.classList.add("active");
-    document.body.classList.add("menu-open");
-  });
+  return { toggleBtn, overlay, mobileMenu, closeBtn };
+}
 
-  // Menü schließen, wenn auf den X-Button geklickt wird
-  closeBtn.addEventListener("click", () => {
-    mobileMenu.classList.remove("active");
-    overlay.classList.remove("active");
-    document.body.classList.remove("menu-open");
-  });
-
-  // Schließen, wenn auf das Overlay geklickt wird
-  overlay.addEventListener("click", () => {
-    mobileMenu.classList.remove("active");
-    overlay.classList.remove("active");
-    document.body.classList.remove("menu-open");
-  });
-
-  // ESC-Taste behandeln, um das Menü zu schließen
+/** Bindet alle Menü-Events (öffnen, schließen, ESC) */
+function bindMenuEvents(toggleBtn, closeBtn, overlay, mobileMenu) {
+  toggleBtn.addEventListener("click", () => openMenu(mobileMenu, overlay));
+  closeBtn.addEventListener("click", () => closeMenu(mobileMenu, overlay));
+  overlay.addEventListener("click", () => closeMenu(mobileMenu, overlay));
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && mobileMenu.classList.contains("active")) {
-      mobileMenu.classList.remove("active");
-      overlay.classList.remove("active");
-      document.body.classList.remove("menu-open");
+      closeMenu(mobileMenu, overlay);
     }
   });
+}
+
+/** Initialisiert das mobile Menü (nur unter 1024px) */
+function initModernMobileMenu() {
+  if (window.innerWidth >= 1024) return;
+  if (document.querySelector(".mobile-menu-toggle")) return;
+
+  const { toggleBtn, overlay, mobileMenu, closeBtn } = createMenuMarkup();
+  bindMenuEvents(toggleBtn, closeBtn, overlay, mobileMenu);
 }
 
 // ============================

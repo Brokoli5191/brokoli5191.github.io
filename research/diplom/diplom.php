@@ -13,7 +13,7 @@ include('../../includes/header-research.php');
       <h2 class="h3 article-title">Colombeau Theorie und Ultrarelativistischer Limes</h2>
       <h3>Roland Steinbauer</h3>
 
-Master's Thesis at the <a href="http://www.thp.univie.ac.at/" traget="_blank"> 
+Master's Thesis at the <a href="http://www.thp.univie.ac.at/" target="_blank"> 
 Institute for Theoretical Physics</a> of the University of Vienna.<br> 
 Supervised by 
 <a href="https://de.wikipedia.org/wiki/Helmuth_Urbantke" target="_blank">Prof H. Urbantke</a>; November 1995.<br> 109 pages; <b>GERMAN 

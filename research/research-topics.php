@@ -43,7 +43,7 @@ include('../includes/header-research.php');
       </p>
       
       <p class="aligncenter">
-        <img width='200' src='../assets/images/EFP6_Steinbauer.jpg' />
+        <img width='200' src='../assets/images/EFP6_Steinbauer.jpg' loading="lazy" />
      </p>            
               
      <p class="research-paragraph-container">

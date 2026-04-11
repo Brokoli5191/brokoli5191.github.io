@@ -103,14 +103,18 @@ include('../includes/header.php');
         leafletCSS.id = 'leaflet-css';
         leafletCSS.rel = 'stylesheet';
         leafletCSS.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+        leafletCSS.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+        leafletCSS.crossOrigin = 'anonymous';
         document.head.appendChild(leafletCSS);
       }
-      
+
       if (!document.getElementById('leaflet-js')) {
         const leafletJS = document.createElement('script');
         leafletJS.id = 'leaflet-js';
         leafletJS.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-        
+        leafletJS.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+        leafletJS.crossOrigin = 'anonymous';
+
         leafletJS.onload = function() {
           initializeMap();
         };
@@ -120,20 +124,23 @@ include('../includes/header.php');
       }
     }
     
+    const OFFICE_LAT = 48.219209;
+    const OFFICE_LNG = 16.367185;
+
     function initializeMap() {
       window.map = L.map('map-container', {
-        center: [48.219209, 16.367185],
+        center: [OFFICE_LAT, OFFICE_LNG],
         zoom: 17,
         zoomControl: true,
         attributionControl: true
       });
-      
+
       window.tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(window.map);
-      
-      const marker = L.marker([48.219209, 16.367185]).addTo(window.map);
+
+      const marker = L.marker([OFFICE_LAT, OFFICE_LNG]).addTo(window.map);
       marker.bindPopup("<b>Faculty of Mathematics</b><br>University of Vienna<br>Oskar-Morgenstern-Platz 1").openPopup();
       
       window.map.invalidateSize();

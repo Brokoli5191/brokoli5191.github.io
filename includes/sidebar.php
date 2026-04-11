@@ -36,13 +36,14 @@ if (!isset($rootPath)) {
     <?php if (isset($customCss)): ?>
     <link rel="stylesheet" href="<?php echo $rootPath . $customCss; ?>" />
     <?php endif; ?>
+    <meta name="root-path" content="<?php echo htmlspecialchars($rootPath, ENT_QUOTES, 'UTF-8'); ?>" />
   </head>
   <body>
     <main>
       <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
           <figure class="avatar-box">
-            <img src="<?php echo $assetsPath; ?>images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" href="<?php echo $aboutPath; ?>about.php" />
+            <img src="<?php echo $assetsPath; ?>images/rs.jpg" alt="Roland Steinbauer" class="rounded-image" />
           </figure>
 
           <div class="info-content">
@@ -111,7 +112,7 @@ if (!isset($rootPath)) {
              </div>
 
              <div class="contact-info">
-               <a target="_blank" href=" https://gravity.univie.ac.at/" class="contact-link">Gravity @ U Vienna</a>
+               <a target="_blank" href="https://gravity.univie.ac.at/" class="contact-link">Gravity @ U Vienna</a>
              </div>
             </li>
 

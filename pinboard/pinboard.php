@@ -75,7 +75,7 @@ include('../includes/header.php');
         <span>27/10/2025</span> 
 	<h4 class="h4 timeline-item-title"> Paul-Aaron Haberger defends master thesis </h4>
         <p class="timeline-text">
-        My student Paul-Aaron Haberger defended his thesis <a href="https://utheses.univie.ac.at/detail/77671/" target="_blank">Null geometry and the Penrose incompleteness theorem</a> and thereby finished his master studies in physics in the framework of the <haref="https://mcmp.univie.ac.at/" target="_blank">MCMP</a> with distinction.    
+        My student Paul-Aaron Haberger defended his thesis <a href="https://utheses.univie.ac.at/detail/77671/" target="_blank">Null geometry and the Penrose incompleteness theorem</a> and thereby finished his master studies in physics in the framework of the <a href="https://mcmp.univie.ac.at/" target="_blank">MCMP</a> with distinction.    
 	</p>
         </li>
 	
@@ -83,7 +83,7 @@ include('../includes/header.php');
           <span>9/10/2025</span>
           <h4 class="h4 timeline-item-title">Talk at Regensburg</h4>
           <p class="timeline-text">
-	  I gave the invited talk at the <a href="../research/talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a> jointly with <a href="" target=_blank">Clemens S&auml;mann</a> at <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
+	  I gave the invited talk at the <a href="../research/talks/regensburg.pdf" target="_blank">Non-smooth spacetimes and Lorentzian length spaces</a> jointly with <a href="" target="_blank">Clemens S&auml;mann</a> at <a href="https://causal-fermion-system.com/conference2025/" target="_blank">CFS 2025</a> (New Perspectives in Mathematics and Physics), 
       <a href="https://www.uni-regensburg.de"  target="_blank">University of Regensburg</a>, Germany.
         </p>
 	</li>
@@ -92,7 +92,7 @@ include('../includes/header.php');
           <span>9/9/2025</span>
           <h4 class="h4 timeline-item-title">Talk at Stony Brook</h4>
           <p class="timeline-text">
-          I gave the talk <a href="../reserach/talks/scgp-steinbauer.pdf">Generalizing the Penrose Cut-and-Paste Method: Null Shells with Pressure and Energy Flux</a> at the <a href="https://scgp.stonybrook.edu" target="_blank">Simons Center for Geometry and Physics</a>-Programme
+          I gave the talk <a href="../research/talks/scgp-steinbauer.pdf">Generalizing the Penrose Cut-and-Paste Method: Null Shells with Pressure and Energy Flux</a> at the <a href="https://scgp.stonybrook.edu" target="_blank">Simons Center for Geometry and Physics</a>-Programme
       <a href="https://scgp.stonybrook.edu/archives/44979"  target="_blank">Geometry and Convergence in Mathematical General Relativity</a>, Stony Brook, NY.
         </p>
 	</li>
@@ -119,7 +119,7 @@ include('../includes/header.php');
         <span>31/5/2025</span>
          <h4 class="h4 timeline-item-title">Popular outreach</h4>
          <p class="timeline-text">
-            I have been inerviewed by Sebastian Deiber for UV's Research 
+            I have been interviewed by Sebastian Deiber for UV's Research 
 	    Magazine <a href="https://rudolphina.univie.ac.at/en/" 
 	    target="_blank">Rudolphina</a>. Here you find his article 
 	    <a href="https://rudolphina.univie.ac.at/en/mysteries-of-physics-from-dark-matter-to-quantum-gravity" target="_blank">From the Vast to the Tiny</a>.

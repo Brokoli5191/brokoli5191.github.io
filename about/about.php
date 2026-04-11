@@ -16,11 +16,11 @@ include('../includes/header.php');
                 Mathematics</a> of the <a href="https://www.univie.ac.at/en" target="_blank">University of Vienna</a>. I have recently been appointed 
 	      </p>
 	      
-	      <div style="text-align: center">Professor of Mathematical General Relativity.</div> 
+	      <div class="text-center">Professor of Mathematical General Relativity.</div>
 	      <p>Also I am the coordinator of the Austrian Science Fund's (FWF) Emerging Fields project
               </p>
 
-              <div style="text-align: center">
+              <div class="text-center">
                 <h4><a href="https://ef-geometry.univie.ac.at/" target="_blank">A new Geometry for Einstein's Theory of Relativity and Beyond</a>.</h4>
               </div>
               <br>	      
@@ -72,7 +72,7 @@ include('../includes/header.php');
                   <div class="service-content-box">
                     <p class="service-item-text">
                       I regularly teach a variety of courses in several areas of mathematics, from general first-year-courses to specialized courses and seminars in analysis, PDE and
-                      geometry. I have recently redesigned the analysis courses (subject-matter and dicdactical) in our teacher training programme jointly with <a href="https://ufind.univie.ac.at/de/person.html?id=112596" target="_blank">Sonja Kramer</a> from the <a href="https://kphvie.ac.at/en/home.html" target="_blank">University College of teacher education</a>. For her contribution she received the <a href="https://ctl.univie.ac.at/angebote-fuer-lehrende/teaching-awards/lehre-inspiriert-2024/lehre-als-gemeinschaftsaufgabe/#c1163718" target="_blank">UNIVIE Teaching Award 2024</a>. I am also co-leading the Faculty's teaching project <a href="https://mathx.univie.ac.at/" target="_blank">MaThX</a> (Mathematik zwischen Theorie und Praxis).
+                      geometry. I have recently redesigned the analysis courses (subject-matter and didactical) in our teacher training programme jointly with <a href="https://ufind.univie.ac.at/de/person.html?id=112596" target="_blank">Sonja Kramer</a> from the <a href="https://kphvie.ac.at/en/home.html" target="_blank">University College of teacher education</a>. For her contribution she received the <a href="https://ctl.univie.ac.at/angebote-fuer-lehrende/teaching-awards/lehre-inspiriert-2024/lehre-als-gemeinschaftsaufgabe/#c1163718" target="_blank">UNIVIE Teaching Award 2024</a>. I am also co-leading the Faculty's teaching project <a href="https://mathx.univie.ac.at/" target="_blank">MaThX</a> (Mathematik zwischen Theorie und Praxis).
                     </p>
                   </div>
                 </li>

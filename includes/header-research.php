@@ -10,7 +10,7 @@ include($includesPath . 'header.php');
             </a>
 
             <div class="dropdown navbar-item">
-              <button onclick="window.location.href='<?php echo $researchPath; ?>research-publications.php';" class="<?php echo ($currentSubPage === 'research-publications') ? 'navbar-active' : 'navbar-link'; ?>">Publications</button>
+              <a href="<?php echo $researchPath; ?>research-publications.php" class="<?php echo ($currentSubPage === 'research-publications') ? 'navbar-active' : 'navbar-link'; ?>">Publications</a>
               <div class="dropdown-content">
                 <a href="<?php echo $researchPath; ?>research-publications.php#Monographs">Research Monographs</a>
                 <a href="<?php echo $researchPath; ?>research-publications.php#Textbook">Textbook</a>
@@ -29,7 +29,7 @@ include($includesPath . 'header.php');
             </a>
 
             <div class="dropdown navbar-item">
-              <button onclick="window.location.href='<?php echo $researchPath; ?>research-talks.php';" class="<?php echo ($currentSubPage === 'research-talks') ? 'navbar-active' : 'navbar-link'; ?>">Talks</button>
+              <a href="<?php echo $researchPath; ?>research-talks.php" class="<?php echo ($currentSubPage === 'research-talks') ? 'navbar-active' : 'navbar-link'; ?>">Talks</a>
               <div class="dropdown-content">
                 <a href="<?php echo $researchPath; ?>research-talks.php">Mathematics</a>
                 <a href="<?php echo $researchPath; ?>research-talks.php#me">Maths Education</a>

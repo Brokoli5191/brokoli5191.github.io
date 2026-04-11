@@ -49,7 +49,7 @@ include('../includes/header-research.php');
       <br>
       <i>Ref:</i> Mem. Amer. Math. Soc. <b>729</b> , 153, 2001.
       <br>
-      <i>ArXiv:</i>
+      <i>arXiv:</i>
       <a href="http://arxiv.org/abs/math.FA/9912214" target="_blank">math.FA/9912214</a>
       <br>
 
@@ -83,7 +83,7 @@ include('../includes/header-research.php');
         <i>Authors:</i> Moriz L. Frauenberger, James Grant, Roland Steinbauer <br>
 	<i>MSC-class:</i> 83C15, 83C35, 46F30, 83C10, 34A36
 	<br>
-        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2509.24989" target="_blank">arXiv:2509.24989[math-ph]</a>
+        <i>arXiv:</i> <a href="https://arxiv.org/abs/2509.24989" target="_blank">arXiv:2509.24989[math-ph]</a>
         <br>
       </p>
 
@@ -95,7 +95,7 @@ include('../includes/header-research.php');
         <br>
         <i>MSC-class:</i> 53B30, 53C22, 53C23
         <br>
-        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2509.12855" target="_blank">arXiv:2509.12855[math.DG]</a> 
+        <i>arXiv:</i> <a href="https://arxiv.org/abs/2509.12855" target="_blank">arXiv:2509.12855[math.DG]</a> 
         <br>
       </p>
 
@@ -107,7 +107,7 @@ include('../includes/header-research.php');
         <i>Authors:</i> Eric Ling, Carl Rossdeutscher, Walter Simon, Roland Steinbauer
         <br>
         <i>MSC-class:</i> 83C75, 53C24, 53C80<br>
-        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00524" target="_blank">arXiv:2508.00524[gr-qc]</a><br>
+        <i>arXiv:</i> <a href="https://arxiv.org/abs/2508.00524" target="_blank">arXiv:2508.00524[gr-qc]</a><br>
       </p>
 
 
@@ -123,21 +123,21 @@ include('../includes/header-research.php');
         <i>MSC-class:</i> 83C15, 83C35, 46F10
         <br>
 	<i>Ref:</i> J. Geom. Phys. <b>218</b>, 105681 (2025) <br>
-        <i>Arxiv:</i> <a href="https://arxiv.org/abs/2508.00231" target="_blank">arXiv:2508.00231[math.DG]</a><br>
+        <i>arXiv:</i> <a href="https://arxiv.org/abs/2508.00231" target="_blank">arXiv:2508.00231[math.DG]</a><br>
       </p>
 
 
 
   
       <p id="h-lip">
-        <b>[P59] <a href="https://link.springer.com/article/10.1007/s00220-025-05380-9" traget="_blank">Hawking's singularity theorem for Lipschitz Lorentzian metrics</a></b>
+        <b>[P59] <a href="https://link.springer.com/article/10.1007/s00220-025-05380-9" target="_blank">Hawking's singularity theorem for Lipschitz Lorentzian metrics</a></b>
 	<br>
 	<i>Authors:</i> Matteo Calisti, Melaini Graf, Eduardo Hafemann, Michael Kunzinger, Roland Steinbauer
 	<br>
 	<i>MSC-class:</i> 83C75, 53C50, 46T30
 	<br>
 	<i>Ref:</i>  Commun. Math. Phys. <b>406</b>, 207 (2025)<br>
-	ArXiv:</i> <a href="https://arxiv.org/abs/2501.18450" target="_blank"> arXiv:2501.18450 [math.DG]</a>
+	<i>arXiv:</i> <a href="https://arxiv.org/abs/2501.18450" target="_blank"> arXiv:2501.18450 [math.DG]</a>
 	<br>
       </p>
 
@@ -154,7 +154,7 @@ include('../includes/header-research.php');
 	<br>
 	<i>Ref:</i>  Lett. Math. Phys. <b>114</b>, 141, 17pp. (2024)
 	<br>
-	ArXiv:</i> <a href="https://arxiv.org/abs/2407.10602" target="_blank">arXiv:2407.10602 [gr-qc]</a>
+	<i>arXiv:</i> <a href="https://arxiv.org/abs/2407.10602" target="_blank">arXiv:2407.10602 [gr-qc]</a>
 	<br>
        </p>	
 
@@ -170,7 +170,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Lett. Math. Phys. <b>114</b> , 58, 31pp. (2024)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="https://arxiv.org/abs/2312.01980" target="_blank">arXiv:2312.01980[gr-qc]</a>
         <br>
       </p>
@@ -191,7 +191,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Jahresber. Dtsch. Math.-Ver. <b>125</b> (2), 73–119 (2023)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/2206.05939" target="_blank">arXiv:2206.05939 [math-ph]</a>
         <br>
       </p>
@@ -210,7 +210,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Gen. Relativ. Gravit. <b>54</b> , 96 (2022).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/2205.07254" target="_blank">arXiv:2205.07254 [gr-qc]</a>
         <br>
       </p>
@@ -227,7 +227,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Ann. Henri Poincare, <b>23</b> , 4319--4342 (2022)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/2106.05393" target="_blank">arXiv:2106.05393 [math.DG]</a>
         <br>
       </p>
@@ -244,7 +244,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Commun. Math. Phys. <b>391</b> , 1143--1179 (2022)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/2110.09176" target="_blank">arXiv:2110.09176 [math-ph]</a>
         <br>
       </p>
@@ -261,7 +261,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Lett. Math. Phys. <b>111</b> (142), 17pp. (2021)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/2101.04007" target="_blank">arXiv:2101.04007 [math-ph]</a>
         <br>
       </p>
@@ -276,7 +276,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>38</b> (22), 227002, 13pp. (2021)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/2105.08998" target="_blank">arXiv:2105.08998 [gr-qc]</a>
         <br>
       </p>
@@ -293,7 +293,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Lett. Math. Phys, <b>110</b> (1), 83–103, (2020)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1901.07996" target="_blank">arXiv:1901.07996 [math.DG]</a>
         <br>
       </p>
@@ -310,7 +310,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Phys. Rev. D <b>100</b> (2), 024040, 8, (2019)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1905.00225" target="_blank">arXiv:1905.00225 [gr-qc]</a>
         <br>
       </p>
@@ -327,7 +327,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>36</b> (9) 098001, 14, (2019)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1811.10940" target="_blank">arXiv:1811.10940 [gr-qc]</a>
         <br>
       </p>
@@ -344,7 +344,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Journal of Physics: Conference Series <b>968</b> , 012010, 14, (2018)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1710.10887" target="_blank">arXiv:1710.10887 [math-ph]</a>
         <br>
       </p>
@@ -389,7 +389,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> J. Math. Phys. <b>58</b> (11), 112503, 18, (2017)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1704.05383" target="_blank">arXiv:1704.05383</a>
         <br>
       </p>
@@ -406,7 +406,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Phys. Rev. D <b>96</b> 064043, 11 (2017)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1704.08570" target="_blank">arXiv:1704.08570</a>
         <br>
       </p>
@@ -423,7 +423,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>33</b> (21) 215006, 27 (2016)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1607.01934" target="_blank">arXiv:1607.01934</a>
         <br>
       </p>
@@ -442,7 +442,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>33</b> (19) 195010, 23 (2016)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1602.05020" target="_blank">arXiv:1602.05020</a>
         <br>
       </p>
@@ -459,7 +459,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>33</b> (11) 115002, 33 (2016)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1509.04914" target="_blank">arXiv:1509.04914</a>
         <br>
       </p>
@@ -482,7 +482,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>32</b> (15) 155010, 12 (2015)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1502.00287" target="_blank">arXiv:1502.00287</a>
         <br>
       </p>
@@ -497,7 +497,7 @@ include('../includes/header-research.php');
         <i>Ref:</i> in Pseudo-differential operators and generalized functions. <br>
         Pilipovic, S., Toft, J. (eds) Operator Theory: Advances and Applications vol. <b>245</b> . Birkh&auml;user/Springer, 243--253, 2015.
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1310.2362" target="_blank">arXiv:1310.2362</a>
         <br>
       </p>
@@ -520,7 +520,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>32</b> (7) 075012, 19 (2015)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1411.4689" target="_blank">arXiv:1411.4689</a>
         <br>
       </p>
@@ -539,7 +539,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>32</b> 025003, 23 (2015)
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1409.1782" target="_blank">arXiv:1409.1782</a>
         <br>
       </p>
@@ -556,7 +556,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Phys. Rev. D <b>90</b> , 044050, 15 (2014).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1406.3227" target="_blank">arXiv:1406.3227</a>
         <br>
       </p>
@@ -573,7 +573,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Gen. Relativ. Gravit. <b>46</b> , 1738, 18 (2014).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1310.4404 " target="_blank">arXiv:1310.4404</a>
         <br>
       </p>
@@ -590,7 +590,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Differential Geom. Appl. <b>34</b> , 14-24 (2014).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1306.4776" target="_blank">arXiv:1306.4776</a>
         <br>
       </p>
@@ -607,7 +607,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>31</b> 057001 (2014).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1311.0300" target="_blank">arXiv:1311.0300</a>
         <br>
       </p>
@@ -624,7 +624,7 @@ include('../includes/header-research.php');
         <br>
         <i>Status:</i> Gen. Relativ. Gravit. <b>46</b> 1648 (2014).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1310.1322" target="_blank">arXiv:1310.1322</a>
         <br>
       </p>
@@ -645,7 +645,7 @@ include('../includes/header-research.php');
         <br>
         Molahajloo, S. et al., (eds) Operator Theory: Advances and Applications vol. <b>231</b> . Birkh&auml;user/Springer, 283--296, 2013.
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1202.0406" target="_blank">arXiv:1202.0406</a>
         <br>
       </p>
@@ -662,7 +662,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>29</b> , 245011 (2012).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1207.2633" target="_blank">arXiv:1207.2633</a>
         <br>
       </p>
@@ -677,7 +677,7 @@ include('../includes/header-research.php');
         <i>Ref:</i> in Asymptotic Properties of Solutions to Hyperbolic Equations, M.~Ruzhansky and J.~Wirth, (eds.) <br>
         Progress in Mathematics <b>301</b> . Birkh&auml;user, 162--186, (2012).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/1107.0014" target="_blank">arXiv:1107.0014</a>
         <br>
       </p>
@@ -694,7 +694,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> New York J. Math. <b>18</b> , 139--199, (2012).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/arXiv:0902.1865v1" target="_blank">arXiv:0902.1865</a>
         <br>
       </p>
@@ -708,7 +708,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Banach Center Publ. <b>88</b> , 267--272 (2010).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/arXiv:0710.2096" target="_blank">arXiv:0710.2096</a>
         <br>
       </p>
@@ -725,7 +725,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. <b>26</b> , 065001, (2009).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/arXiv:0811.1376" target="_blank">arXiv:0811.1376</a>
         <br>
       </p>
@@ -742,7 +742,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Commun. Math. Phys. <b>285</b> (2), 399--420, (2009).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/arXiv:0710.2007" target="_blank">arXiv:0710.2007</a>
         <br>
       </p>
@@ -763,7 +763,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Trans. Amer. Math. Soc. <b>361</b> , 5177-5192, (2009).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/0609358" target="_blank">math.FA/0609358</a>
         <br>
       </p>
@@ -780,7 +780,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Novi Sad J. Math. 38 (3), 189-199 (2008).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/arXiv:0812.0173" target="_blank">arXiv:0812.0173</a>
         <br>
       </p>
@@ -794,7 +794,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> J. Math. Anal. Appl. 340, 575-587, (2008).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.AP/0601552" target="_blank">math.AP/0601552</a>
         <br>
       </p>
@@ -813,7 +813,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quantum Grav. 23(10), R91-R114, (2006).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/0603078" target="_blank">gr-qc/0603078</a>
         <br>
       </p>
@@ -827,7 +827,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Rev. Mat. Complut., 19(1), 133-137, (2006).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.DG/0412045" target="_blank">math.DG/0412045</a>
         <br>
       </p>
@@ -844,7 +844,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> EJDE, Vol. 2005(1), 1-17, (2005).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.AP/0407028" target="_blank">math.AP/0407028</a>
         <br>
       </p>
@@ -858,7 +858,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Math. Proc. Cambridge Philos. Soc. 139(3), 497--521, (2005).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/0403040" target="_blank">math.FA/0403040</a>
         <br>
       </p>
@@ -872,7 +872,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Acta Appl. Math, <b>80</b> , 221-241, (2004).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/0304131" target="_blank">math.FA/0304131</a>
         <br>
       </p>
@@ -887,7 +887,7 @@ include('../includes/header-research.php');
         <i>Ref:</i> Nonlinear Algebraic Analysis and Applications, Proceedings of the International Conference on Generalized Functions (ICGF 2000), <br>
         edited by A. Delcroix, M. Hasler, J.-A. Marti and V. Valmorin, Cottenham, Cambridge, Cambridge Scientific Publishers 2004, 333-344 (2004).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/0104269" target="_blank">math.FA/0104269</a>
         <br>
       </p>
@@ -902,7 +902,7 @@ include('../includes/header-research.php');
         <i>Ref:</i> Nonlinear Algebraic Analysis and Applications, Proceedings of the International Conference on Generalized Functions (ICGF 2000), <br>
         edited by A. Delcroix, M. Hasler, J.-A. Marti and V. Valmorin, Cottenham, Cambridge, Cambridge Scientific Publishers 2004, 345-356 (2004).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math-ph/0104041" target="_blank">math-ph/0104041</a>
         <br>
       </p>
@@ -918,7 +918,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Phys. Rev. D, <b>67</b> , 0604013, (2003).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/0210007" target="_blank">gr-qc/0210007</a>
         <br>
       </p>
@@ -932,7 +932,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Commun. Math. Phys., <b>238</b> , 367-378 (2003).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.AP/0209303" target="_blank">math.AP/0209303</a>
         <br>
       </p>
@@ -946,7 +946,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Proc. London Math. Soc., <b>87</b> (2), 451-470 (2003).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/0107057" target="_blank">math.FA/0107057</a>
         <br>
       </p>
@@ -960,7 +960,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Trans. Amer. Math. Soc. <b>354</b> (10), 4179-4199 (2002).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/0107057" target="_blank">math.FA/0107057</a>
         <br>
       </p>
@@ -977,7 +977,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> J. Math. Phys. <b>43</b> (3), 1493-1508 (2002).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/0112047" target="_blank">gr-qc/0112047</a>
         <br>
       </p>
@@ -991,7 +991,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Acta Appl. Math. <b>71</b> , 179-206, (2002).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/0102019" target="_blank">math.FA/0102019</a>
         <br>
       </p>
@@ -1005,7 +1005,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Adv. Math., <b>166</b> , 50-72 (2002).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/math.FA/9912216" target="_blank">math.FA/9912216</a>
         <br>
       </p>
@@ -1064,7 +1064,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> Class. Quant. Grav, <b>16</b> , 1255-1264 (1999).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/9811007" target="_blank">gr-qc/9811007</a>
         <br>
       </p>
@@ -1083,7 +1083,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> J. Math. Phys, <b>40</b> , 1479-1489 (1999).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/9806009" target="_blank">gr-qc/9806009</a>
         <br>
       </p>
@@ -1100,7 +1100,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> J. Math. Phys. <b>39</b> , 2201-2212 (1998).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/9710119" target="_blank">gr-qc/9710119</a>
         <br>
       </p>
@@ -1117,7 +1117,7 @@ include('../includes/header-research.php');
         <br>
         <i>Ref:</i> J. Math. Phys. <b>38</b> , 1614-1622 (1997).
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/9606059" target="_blank">gr-qc/9606059</a>
         <br>
 
@@ -1163,7 +1163,7 @@ include('../includes/header-research.php');
         <i>Ref:</i> Prepared for "Proceedings of the 8-th National Romaninan Conference on GRG, Bistritza, June 1998", <br>
         which to my best konwledge never appeared
         <br>
-        <i>ArXiv:</i>
+        <i>arXiv:</i>
         <a href="http://arxiv.org/abs/gr-qc/9809054" target="_blank">gr-qc/9809054</a>
         <br>
       </p>

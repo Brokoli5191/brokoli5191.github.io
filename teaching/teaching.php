@@ -14,7 +14,7 @@ include('../includes/header-teaching.php');
     <article class="article-second">
       <h2 class="h3 article-title">Teaching Activities</h2>
       <p>
-        My teaching activities cover a broad range of courses in mathematics as well as mathematical physics on all levels of the curriculum. Prevoiusly I have also been teaching courses in
+        My teaching activities cover a broad range of courses in mathematics as well as mathematical physics on all levels of the curriculum. Previously I have also been teaching courses in
         computer system administration and IT security.
         <br>
         <br>
@@ -94,7 +94,7 @@ include('../includes/header-teaching.php');
           on the philosophy of the book and the corresponding course at University Konstanz.
 
           <figure>
-            <img width="150" alt="EMA 3rd Edition" src="../assets/images/book.jpg" />
+            <img width="150" alt="EMA 3rd Edition" src="../assets/images/book.jpg" loading="lazy" />
           </figure>
           <br>
           <br>
